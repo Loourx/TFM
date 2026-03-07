@@ -3071,7 +3071,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">TFM-ML-referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">SAE_J3016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

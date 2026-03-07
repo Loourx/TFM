@@ -21,7 +21,7 @@
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{enumitem}
-\usepackage{tcolorbox}
+% \usepackage{tcolorbox}  % DESACTIVADO en modo redacción — reactivar para versión final impresa
 \usepackage{hyperref}
 \usepackage[style=apa, backend=biber]{biblatex}
 \usepackage{titlesec}
@@ -29,12 +29,27 @@
 % --- BIBLIOGRAFÍA ---
 \addbibresource{TFM-ML-referencias.bib}
 
-% --- ENTORNOS ESPECIALES (Definiciones básicas) ---
-\newenvironment{pendiente}{\begin{tcolorbox}[colback=gray!10,colframe=gray!50,title=PENDIENTE]}{\end{tcolorbox}}
-\newenvironment{claimS}{\begin{tcolorbox}[colback=green!5,colframe=green!40!black,title=CLAIM SUPPORTED]}{\end{tcolorbox}}
-\newenvironment{claimC}{\begin{tcolorbox}[colback=red!5,colframe=red!40!black,title=CLAIM CONTESTED]}{\end{tcolorbox}}
-\newenvironment{claimU}{\begin{tcolorbox}[colback=orange!5,colframe=orange!40!black,title=CLAIM UNDETERMINED]}{\end{tcolorbox}}
-\newenvironment{notametod}{\begin{tcolorbox}[colback=blue!5,colframe=blue!40!black,title=NOTA METODOLÓGICA]}{\end{tcolorbox}}
+% --- ENTORNOS ESPECIALES (versión ligera para compilación rápida) ---
+% NOTA: tcolorbox comentado durante redacción activa. Reactivar para versión final de impresión.
+\newenvironment{pendiente}
+  {\par\vspace{4pt}\noindent\textcolor{gray}{\textbf{[PENDIENTE]}}\par\begingroup\color{gray}\small}
+  {\endgroup\par\vspace{4pt}}
+
+\newenvironment{claimS}
+  {\par\vspace{4pt}\noindent\textcolor{green!60!black}{\textbf{[CLAIM SUPPORTED]}}\par\begingroup}
+  {\endgroup\par\vspace{4pt}}
+
+\newenvironment{claimC}
+  {\par\vspace{4pt}\noindent\textcolor{red!70!black}{\textbf{[CLAIM CONTESTED]}}\par\begingroup}
+  {\endgroup\par\vspace{4pt}}
+
+\newenvironment{claimU}
+  {\par\vspace{4pt}\noindent\textcolor{orange!80!black}{\textbf{[CLAIM UNDETERMINED]}}\par\begingroup}
+  {\endgroup\par\vspace{4pt}}
+
+\newenvironment{notametod}
+  {\par\vspace{4pt}\noindent\textcolor{blue!70!black}{\textbf{[NOTA METODOLÓGICA]}}\par\begingroup}
+  {\endgroup\par\vspace{4pt}}
 
 \newcommand{\fuentependiente}[1]{\textcolor{red}{[FUENTE PENDIENTE: #1]}}
 
@@ -50,23 +65,252 @@
 
 \maketitle
 
+% ============================================================
+% PÁGINAS PRELIMINARES (maquetación en InDesign, no numeradas)
+% - Portada institucional (según formato EUDI)
+% - Resumen / Abstract
+% - Índice general
+% - Índice de figuras y tablas
+% - Glosario de términos y acrónimos
+% ============================================================
+
+
+% ============================================================
+% CAPÍTULO 1 — INTRODUCCIÓN
+% ============================================================
+
 \section{Introducción}
-Este documento sirve como repositorio de texto verificado y bibliografía para el TFM.
 
-\section{Ejemplo de Uso de Sistemas}
-
-\begin{claimS}
-La normativa SAE J3016 define los niveles de automatización en la conducción \parencite{SAE_J3016}.
-\end{claimS}
-
+\subsection{Presentación del proyecto}
 \begin{pendiente}
-Aquí irá el análisis del London Night Tube \fuentependiente{Verificar impacto en Zhang2022}.
 \end{pendiente}
 
-\begin{notametod}
-Se utiliza Biber como backend de bibliografía y estilo APA 7.
-\end{notametod}
+\subsection{Motivación y justificación}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Objetivos}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Alcance y limitaciones}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Metodología}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Estructura de la memoria}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% CAPÍTULO 2 — MARCO CONTEXTUAL
+% ============================================================
+
+\section{Marco Contextual}
+
+\subsection{La ciudad de 24 horas: evolución del concepto}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Análisis PESTEL del transporte nocturno en Europa}
+
+\subsubsection{Político}
+\begin{pendiente}
+\end{pendiente}
+
+\subsubsection{Económico}
+\begin{pendiente}
+\end{pendiente}
+
+\subsubsection{Social}
+\begin{pendiente}
+\end{pendiente}
+
+\subsubsection{Tecnológico}
+\begin{pendiente}
+\end{pendiente}
+
+\subsubsection{Ecológico}
+\begin{pendiente}
+\end{pendiente}
+
+\subsubsection{Legal}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Mapa de stakeholders}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% CAPÍTULO 3 — INVESTIGACIÓN DE USUARIO Y MERCADO
+% ============================================================
+
+\section{Investigación de Usuario y Mercado}
+
+\subsection{Definición y segmentación de usuarios}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Necesidades, barreras y expectativas por segmento}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Benchmarking de sistemas existentes}
+
+\subsubsection{Vertical A --- Transporte nocturno urbano}
+\begin{pendiente}
+\end{pendiente}
+
+\subsubsection{Vertical B --- Trenes nocturnos interurbanos}
+\begin{pendiente}
+\end{pendiente}
+
+\subsubsection{Vertical C --- Conducción autónoma nocturna}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Vigilancia tecnológica}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% CAPÍTULO 4 — ESTRATEGIAS DE DISEÑO
+% ============================================================
+
+\section{Estrategias de Diseño}
+
+\subsection{Valores del sistema}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Requisitos de diseño (QFD)}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Priorización MoSCoW}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{DAFO por vertical}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Decisión de scope}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% CAPÍTULO 5 — CONCEPTO DE SISTEMA
+% ============================================================
+
+\section{Concepto de Sistema}
+
+\subsection{Descripción del concepto}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Modelo de negocio}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Gobernanza del sistema}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Journey map del usuario}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Interacción humano-sistema}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% CAPÍTULO 6 — EVALUACIÓN DEL CONCEPTO
+% ============================================================
+
+\section{Evaluación del Concepto}
+
+\subsection{Pliego de condiciones del sistema}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Matriz de afirmaciones-evidencia}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Valor diferencial de la propuesta}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Viabilidad y riesgos}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% CAPÍTULO 7 — CONCLUSIONES
+% ============================================================
+
+\section{Conclusiones}
+
+\subsection{Síntesis de hallazgos}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Limitaciones del trabajo}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Líneas futuras}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% CAPÍTULO 8 — PRESUPUESTO DEL PROYECTO
+% ============================================================
+
+\section{Presupuesto del Proyecto}
+\begin{pendiente}
+\end{pendiente}
+
+
+% ============================================================
+% BIBLIOGRAFÍA
+% ============================================================
 
 \printbibliography
+
+
+% ============================================================
+% ANEXOS (no numerados)
+% ============================================================
+
+\section*{Anexo A: Fichas completas de benchmarking}
+\begin{pendiente}
+\end{pendiente}
+
+\section*{Anexo B: Datos brutos de fuentes primarias}
+\begin{pendiente}
+\end{pendiente}
+
+\section*{Anexo C: Glosario extendido}
+\begin{pendiente}
+\end{pendiente}
+
+\section*{Anexo D: Registro de horas del proyecto}
+\begin{pendiente}
+\end{pendiente}
+
 
 \end{document}
