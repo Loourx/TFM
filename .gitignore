@@ -1,0 +1,30 @@
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+# these rules might exclude image files for packages like GRF pastes
+# They should be enclosed in a folder like `figures/`
+*.ps
+*.eps
+*.pdf
+
+## Generated if any packages are used:
+*.gz
+*.pdfsync
+
+## Case-specific files (compile targets):
+# *.pdf

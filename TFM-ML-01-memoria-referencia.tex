@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper]{article}
+
+% --- PAQUETES ACTIVOS ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{hyperref}
+\usepackage[style=apa, backend=biber]{biblatex}
+\usepackage{titlesec}
+
+% --- BIBLIOGRAFÍA ---
+\addbibresource{TFM-ML-referencias.bib}
+
+% --- ENTORNOS ESPECIALES (Definiciones básicas) ---
+\newenvironment{pendiente}{\begin{tcolorbox}[colback=gray!10,colframe=gray!50,title=PENDIENTE]}{\end{tcolorbox}}
+\newenvironment{claimS}{\begin{tcolorbox}[colback=green!5,colframe=green!40!black,title=CLAIM SUPPORTED]}{\end{tcolorbox}}
+\newenvironment{claimC}{\begin{tcolorbox}[colback=red!5,colframe=red!40!black,title=CLAIM CONTESTED]}{\end{tcolorbox}}
+\newenvironment{claimU}{\begin{tcolorbox}[colback=orange!5,colframe=orange!40!black,title=CLAIM UNDETERMINED]}{\end{tcolorbox}}
+\newenvironment{notametod}{\begin{tcolorbox}[colback=blue!5,colframe=blue!40!black,title=NOTA METODOLÓGICA]}{\end{tcolorbox}}
+
+\newcommand{\fuentependiente}[1]{\textcolor{red}{[FUENTE PENDIENTE: #1]}}
+
+% --- CONFIGURACIÓN ---
+\geometry{left=3cm,right=2.5cm,top=3cm,bottom=3cm}
+\onehalfspacing
+
+\title{TFM: Sistemas de Transporte Continuo}
+\author{Mario Lourido Regueira}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introducción}
+Este documento sirve como repositorio de texto verificado y bibliografía para el TFM.
+
+\section{Ejemplo de Uso de Sistemas}
+
+\begin{claimS}
+La normativa SAE J3016 define los niveles de automatización en la conducción \parencite{SAE_J3016}.
+\end{claimS}
+
+\begin{pendiente}
+Aquí irá el análisis del London Night Tube \fuentependiente{Verificar impacto en Zhang2022}.
+\end{pendiente}
+
+\begin{notametod}
+Se utiliza Biber como backend de bibliografía y estilo APA 7.
+\end{notametod}
+
+\printbibliography
+
+\end{document}
