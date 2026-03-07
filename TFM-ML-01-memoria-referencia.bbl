@@ -40,8 +40,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{SAE International}
-      \field{note}{Versión de abril 2021. Acceso libre en web SAE.}
+      \field{howpublished}{SAE International Standard}
+      \field{month}{4}
+      \field{note}{Versión abril 2021. Define los 6 niveles de automatización (L0--L5). Estándar de referencia universal para sistemas de conducción autónoma.}
       \field{title}{{SAE J3016}: Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}
       \field{year}{2021}
       \verb{urlraw}
@@ -74,8 +75,9 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{SAE International}
-      \field{note}{Versión de abril 2021. Acceso libre en web SAE.}
+      \field{howpublished}{SAE International Standard}
+      \field{month}{4}
+      \field{note}{Versión abril 2021. Define los 6 niveles de automatización (L0--L5). Estándar de referencia universal para sistemas de conducción autónoma.}
       \field{title}{{SAE J3016}: Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}
       \field{year}{2021}
       \verb{urlraw}
