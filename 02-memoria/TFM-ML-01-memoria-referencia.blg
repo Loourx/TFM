@@ -1,5 +1,14 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is '02-memoria/TFM-ML-01-memoria-referencia.blg'
-[103] biber-MSWIN64:342> INFO - === 
-[462] Utils.pm:479> ERROR - Cannot find '02-memoria/TFM-ML-01-memoria-referencia.bcf'!
-[462] Biber.pm:137> INFO - ERRORS: 1
+[0] Config.pm:331> INFO - Logfile is 'TFM-ML-01-memoria-referencia.blg'
+[97] biber-MSWIN64:342> INFO - === 
+[135] Biber.pm:421> INFO - Reading 'TFM-ML-01-memoria-referencia.bcf'
+[233] Biber.pm:1002> INFO - Found 7 citekeys in bib section 0
+[245] Biber.pm:4487> INFO - Processing section 0
+[255] Biber.pm:4678> INFO - Looking for bibtex file '../01-bibliografia/TFM-ML-referencias.bib' for section 0
+[306] bibtex.pm:1713> INFO - LaTeX decoding ...
+[324] bibtex.pm:1519> INFO - Found BibTeX data source '../01-bibliografia/TFM-ML-referencias.bib'
+[375] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[375] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[375] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[384] bbl.pm:676> INFO - Writing 'TFM-ML-01-memoria-referencia.bbl' with encoding 'UTF-8'
+[388] bbl.pm:779> INFO - Output to TFM-ML-01-memoria-referencia.bbl

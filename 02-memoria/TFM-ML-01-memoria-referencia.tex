@@ -22,8 +22,19 @@
 \usepackage{array}
 \usepackage{enumitem}
 \usepackage{tcolorbox}  % DESACTIVADO en modo redacción — reactivar para versión final impresa
-\usepackage{hyperref}
-\usepackage[style=apa, backend=biber]{biblatex}
+\usepackage{emptypage}
+\usepackage{afterpage}
+\usepackage[
+  hidelinks,
+  pdftitle={Nuevas propuestas de Movilidad Total: Sistemas de
+    Transporte Continuo},
+  pdfauthor={Mario Lourido Regueira},
+  pdfsubject={Trabajo Fin de M\'aster --- EUDI, Universidade
+    da Coru\~na},
+  pdfkeywords={movilidad nocturna, transporte continuo,
+    conduccion autonoma, trenes nocturnos, dise\~no industrial}
+]{hyperref}
+\usepackage[style=numeric-comp, sorting=none, backend=biber]{biblatex}
 \usepackage{titlesec}
 
 % --- BIBLIOGRAFÍA ---
@@ -36,7 +47,8 @@
   {\endgroup\par\vspace{4pt}}
 
 \newenvironment{claimS}
-  {\par\vspace{4pt}\noindent\textcolor{green!60!black}{\textbf{[CLAIM SUPPORTED]}}\par\begingroup}
+  {\par\vspace{4pt}\noindent\begingroup}
+  % {\par\vspace{4pt}\noindent\textcolor{green!60!black}{\textbf{[CLAIM SUPPORTED]}}\par\begingroup}
   {\endgroup\par\vspace{4pt}}
 
 \newenvironment{claimC}
@@ -57,23 +69,113 @@
 \geometry{left=3cm,right=2.5cm,top=3cm,bottom=3cm}
 \onehalfspacing
 
-\title{TFM: Sistemas de Transporte Continuo}
+\title{TFM: Nuevas propuestas de
+Movilidad Total: Sistemas de Transporte Continuo}
 \author{Mario Lourido Regueira}
 \date{\today}
 
 \begin{document}
 
-\maketitle
-
 % ============================================================
-% PÁGINAS PRELIMINARES (maquetación en InDesign, no numeradas)
-% - Portada institucional (según formato EUDI)
-% - Resumen / Abstract
-% - Índice general
-% - Índice de figuras y tablas
-% - Glosario de términos y acrónimos
+% PORTADA
 % ============================================================
 
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+
+\vspace*{2cm}
+
+{\small\scshape
+  Universidade da Coru\~na\\[4pt]
+  Escuela Universitaria de Dise\~no Industrial (EUDI)\\[4pt]
+  M\'aster en Ingenier\'ia en Dise\~no Industrial\\[4pt]
+  Especialidad: Automoci\'on, Movilidad y Transporte
+}
+
+\vspace{3cm}
+
+{\LARGE\bfseries
+  Nuevas propuestas de Movilidad Total:\\[10pt]
+  Sistemas de Transporte Continuo
+}
+
+\vspace{1.5cm}
+
+{\large Trabajo Fin de M\'aster}
+
+\vspace{3cm}
+
+\begin{tabular}{rl}
+  \textbf{Autor:}     & Mario Lourido Regueira \\[6pt]
+  \textbf{Director:}  & D.~Pablo Jos\'e Fern\'andez Galdo \\[6pt]
+  \textbf{Director:}  & Dr.~Rodrigo Mart\'inez Rodr\'iguez \\[6pt]
+\end{tabular}
+
+\vfill
+
+{\small A Coru\~na, junio de 2026}
+
+\end{titlepage}
+
+% ============================================================
+% PÁGINA EN BLANCO TRAS PORTADA
+% ============================================================
+
+% \afterpage{\thispagestyle{empty}\null\newpage}
+
+% ============================================================
+% PÁGINAS PRELIMINARES — numeración romana
+% ============================================================
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+% --- Página de resumen / abstract (pendiente de redactar) ---
+% \thispagestyle{plain}
+% \section*{Resumen}
+% \begin{pendiente}
+% \end{pendiente}
+% \newpage
+
+% ============================================================
+% ÍNDICE GENERAL
+% ============================================================
+
+\thispagestyle{plain}
+\tableofcontents
+\newpage
+
+% ============================================================
+% ÍNDICE DE FIGURAS
+% ============================================================
+
+% \thispagestyle{plain}
+% \listoffigures
+% \newpage
+
+% ============================================================
+% ÍNDICE DE TABLAS
+% ============================================================
+
+% \thispagestyle{plain}
+% \listoftables
+% \newpage
+
+% ============================================================
+% CUERPO — numeración arábiga desde página 1
+% ============================================================
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Configuración de cabecera/pie para el cuerpo del documento
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\textit{Sistemas de Transporte Continuo}}
+\fancyhead[R]{\small\textit{Mario Lourido Regueira}}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
 
 % ============================================================
 % CAPÍTULO 1 — INTRODUCCIÓN
@@ -91,17 +193,95 @@ El nivel de intervención es táctico: el TFM genera un marco conceptual y metod
 
 \subsection{Motivación y justificación}
 
-El punto de partida es un desajuste estructural: la demanda social de movilidad nocturna ---segura, fiable e integrada--- no encuentra respuesta en la oferta actual, que sigue siendo fragmentada, percibida como insegura y, en su mayor parte, tecnológicamente inmadura.
+\begin{claimS}
+\subsubsection*{Un problema europeo, no marginal}
 
-Este desajuste se articula en tres dimensiones o verticales que justifican el estudio de forma independiente y conjunta. La vertical~A constata el déficit crónico de transporte público nocturno urbano en la mayoría de ciudades europeas: los servicios se reducen o desaparecen en horas nocturnas precisamente cuando una parte relevante de la población ---trabajadores nocturnos, usuarios de ocio, viajeros en tránsito--- más los necesita.
+A principios de 2019, 26 de las 28 capitales de la Unión
+Europea contaban con algún tipo de transporte público nocturno,
+siendo Nicosia y Tallin las únicas excepciones
+\parencite{PlyushetvaBoussauw2020}. La cobertura existe, pero
+es desigual en calidad, frecuencia e integración intermodal, y
+no responde de forma sistemática a la demanda real. El resultado
+es un desajuste estructural: la movilidad nocturna ---segura,
+fiable e integrada--- no encuentra respuesta consistente en
+ninguna de sus tres dimensiones.
+\end{claimS}
 
-\begin{claimU}
-La vertical~B documenta el renacimiento de los trenes nocturnos en Europa ---liderado por operadores como ÖBB Nightjet y SNCF Intercités de Nuit--- frente a la ausencia prácticamente total de España en este modo de transporte. Los datos de demanda y de nuevas rutas programadas hasta 2030 están siendo actualizados: \fuentependiente{informe o nota de prensa de la Comisión Europea o Railteam con cifras de pasajeros y rutas nocturnas activas en Europa, 2023--2024}.
-\end{claimU}
+\begin{claimS}
+\subsubsection*{Dimensión social: quién depende del transporte
+nocturno y a qué coste}
 
-La vertical~C identifica los avances en conducción autónoma de nivel~L3 y~L4 como una ventana de oportunidad para la operación nocturna: los sistemas autónomos no sufren fatiga y pueden operar con mayor regularidad en condiciones de baja densidad de tráfico. No obstante, la madurez tecnológica real en entorno nocturno urbano sigue siendo objeto de debate.
+El transporte nocturno no es una conveniencia de ocio. El
+24,8\,\% de los viajeros nocturnos encuestados en Sofía en
+2015 lo usaba para ir o volver del trabajo
+\parencite{PlyushetvaBoussauw2020}; los perfiles más vulnerables
+corresponden a hostelería, turismo, manufactura y sanidad. La
+ausencia de servicio genera inmovilidad directa: el 7,5\,\%
+de los encuestados declaró no salir de noche, y de ese grupo,
+el 11,5\,\% lo hacía por no poder costear el desplazamiento
+\parencite{PlyushetvaBoussauw2020}.
 
-No existe, hasta donde alcanza la revisión bibliográfica realizada, un análisis integrado desde el diseño industrial que conecte estas tres dimensiones bajo un marco de sistema de servicio continuo. Ese hueco es el que este TFM pretende ocupar.
+La brecha afecta especialmente a las mujeres. Los hombres
+valoraron su seguridad nocturna en 5,82 sobre 10; las mujeres,
+en 4,42 \parencite{PlyushetvaBoussauw2020}. Esa diferencia de
+percepción tiene coste económico real: las mujeres de renta
+baja destinan una proporción mayor de sus ingresos a
+alternativas percibidas como más seguras, y la investigación
+reciente confirma que la percepción de inseguridad reduce
+directamente su intención de usar trenes nocturnos
+\parencite{BhuPeer2024}.
+\end{claimS}
+
+\begin{claimS}
+\subsubsection*{Dimensión económica: el valor medible de
+ampliar la noche}
+
+Cuando Londres lanzó el \textit{Night Tube} en 2016, la demanda
+creció de 7,8 a 8,7~millones de viajes en el primer año
+(+12\,\%), con una contribución adicional de 190~millones de
+libras al Valor~Añadido~Bruto (\textit{Gross Value Added}) de
+la ciudad \parencite{Zhang2022}. Las proyecciones previas al
+lanzamiento estimaban 2.000~empleos permanentes y
+360~millones de libras en producción adicional a 30~años
+\parencite{Zhang2022}. Son los únicos datos empíricos de gran
+escala disponibles sobre el impacto de ampliar el transporte
+nocturno urbano, y apuntan a una oportunidad sistemáticamente
+infraexplotada en el resto de Europa.
+\end{claimS}
+
+\begin{claimS}
+\subsubsection*{Dimensión interurbana: demanda latente y mercado
+sin cubrir}
+
+En el segmento interurbano, la oferta de trenes nocturnos se
+redujo hasta la extinción práctica en varios países, España
+entre ellos \parencite{BackOnTrack2023}. El renacimiento es
+real pero fragmentado: ÖBB~Nightjet opera a 25~ciudades
+europeas \parencite{OBBAnnualReport2022} y nuevos operadores
+como European~Sleeper han reconectado Bruselas con Berlín
+\parencite{BackOnTrack2023}, con 33~nuevos trenes de nueva
+generación previstos para 2025 \parencite{OBBAnnualReport2022}.
+
+La demanda latente que ese mercado infraexplotado no captura
+es significativa. El 69\,\% de los ciudadanos encuestados en
+Alemania, Polonia, Francia, España y Países~Bajos declara
+estar dispuesto a sustituir el vuelo por el tren nocturno en
+distancias superiores a 500~km \parencite{BackOnTrack2023}.
+El potencial de mercado puede aumentar 30~puntos porcentuales
+---del 41,0\,\% al 70,9\,\%--- con mejoras de confort
+\parencite{Kantelaar2022}. El 24,1\,\% de los vuelos europeos
+ya corresponde a rutas inferiores a 500~km, el segmento con
+mayor potencial de sustitución modal \parencite{Eurocontrol2021}.
+\end{claimS}
+
+\subsubsection*{El hueco que este TFM ocupa}
+
+No existe, hasta donde alcanza la revisión bibliográfica
+realizada, un análisis integrado desde el diseño industrial
+que conecte estas tres dimensiones ---urbana nocturna,
+interurbana ferroviaria y autónoma--- bajo un marco de sistema
+de servicio continuo. Ese hueco es el que este trabajo
+pretende ocupar.
 
 \subsection{Objetivos}
 
@@ -117,13 +297,13 @@ Los \textbf{objetivos específicos} son:
 
 \subsection{Alcance y limitaciones}
 
-El TFM se circunscribe a la \textbf{investigación estratégica y a la propuesta conceptual}. Quedan fuera del alcance el diseño detallado de productos ---vehículos, aplicaciones, infraestructura---, la implementación operativa y el prototipado funcional de cualquier elemento del sistema.
+El TFM se circunscribe a la \textbf{investigación estratégica y a la propuesta conceptual}. Quedan fuera del alcance el diseño extremadamente detallado de productos ---vehículos, aplicaciones, infraestructura---, la implementación operativa y el prototipado funcional de cualquier elemento del sistema.
 
 El \textbf{ámbito geográfico} son las ciudades europeas, con casos de referencia internacionales cuando resulten pertinentes para el análisis comparativo.
 
 Las tres verticales se mantienen abiertas durante la fase de investigación. Si alguna de ellas resulta estratégicamente inviable a la luz de los datos recabados, se descartará del concepto final con justificación documentada, sin que ello invalide el marco general del trabajo.
 
-En cuanto a las \textbf{limitaciones}, el trabajo se ha desarrollado en aproximadamente tres meses de tiempo efectivo, compatibilizados con empleo y con las asignaturas del máster. El modelo de negocio incorporado procede de la asignatura de Emprendimiento del máster y se toma como base editable, no como resultado vinculante. El acceso a datos operativos nocturnos ---frecuencias reales, tasas de ocupación, incidentes--- ha resultado limitado, lo que ha condicionado la profundidad del análisis cuantitativo.
+En cuanto a las \textbf{limitaciones}, el trabajo se planea desarrollar en aproximadamente tres meses de tiempo efectivo. 
 
 \subsection{Metodología}
 
@@ -133,7 +313,7 @@ Las herramientas de aplicación confirmada son: análisis PESTEL del contexto de
 
 Como herramientas de incorporación posible ---condicionada a su desarrollo en las asignaturas del máster en curso--- se consideran: ViP parcial, análisis CMF (\textit{Color, Material \& Finish}), niveles de lectura semiótica de Peirce y fases de \textit{Design Thinking}.
 
-Cada afirmación factual de la memoria incluye dato, fuente y año. Cuando no existe fuente verificada disponible en el momento de la redacción, el claim se marca explícitamente como pendiente mediante los entornos de control metodológico del documento.
+Al final del documento se encuentra una biblio donde cada afirmación factual de la memoria incluye dato, fuente y año. 
 
 \subsection{Estructura de la memoria}
 \begin{pendiente}
@@ -240,14 +420,26 @@ Cada afirmación factual de la memoria incluye dato, fuente y año. Cuando no ex
 \begin{pendiente}
 \end{pendiente}
 
+\subsection{Decisión de concepto}
+\begin{pendiente}
+\end{pendiente}
+
 
 % ============================================================
 % CAPÍTULO 5 — CONCEPTO DE SISTEMA
 % ============================================================
 
-\section{Concepto de Sistema}
+\section{ADN del Concepto}
 
 \subsection{Descripción del concepto}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Identidad y valores del sistema}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Arquitectura del sistema}
 \begin{pendiente}
 \end{pendiente}
 
@@ -259,11 +451,19 @@ Cada afirmación factual de la memoria incluye dato, fuente y año. Cuando no ex
 \begin{pendiente}
 \end{pendiente}
 
+\subsection{Escenarios de uso}
+\begin{pendiente}
+\end{pendiente}
+
 \subsection{Journey map del usuario}
 \begin{pendiente}
 \end{pendiente}
 
 \subsection{Interacción humano-sistema}
+\begin{pendiente}
+\end{pendiente}
+
+\subsection{Especificaciones técnicas del sistema}
 \begin{pendiente}
 \end{pendiente}
 

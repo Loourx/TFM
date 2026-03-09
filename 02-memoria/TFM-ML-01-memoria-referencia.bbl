@@ -1,0 +1,257 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{PlyushetvaBoussauw2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=945486c244d43c1a6e89405042e59c55}{%
+           family={Plyushteva},
+           familyi={P\bibinitperiod},
+           given={Aneta},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3786ef52b0727203ff2132ccde2b9c33}{%
+           family={Boussauw},
+           familyi={B\bibinitperiod},
+           given={Kobe},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \strng{fullhash}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \strng{fullhashraw}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \strng{bibnamehash}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \strng{authorbibnamehash}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \strng{authornamehash}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \strng{authorfullhash}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \strng{authorfullhashraw}{f54a46fceb7dcc25c383c81f7aaa2749}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transport Policy}
+      \field{note}{Nivel: ALTA. Estudio de caso Sofía (Bulgaria), encuesta 2015, n=6.276. No generalizable a EU sin matiz geográfico explícito.}
+      \field{title}{Night-time public transport and the 24-hour city: Governance, sustainability and the mobilities of night travellers in Sofia}
+      \field{volume}{99}
+      \field{year}{2020}
+      \field{pages}{52\bibrangedash 60}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.tranpol.2020.08.010
+      \endverb
+    \endentry
+    \entry{BhuPeer2024}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=17f4025b8a6ff6d7c58223169a04d639}{%
+           family={Bhu},
+           familyi={B\bibinitperiod},
+           given={TODO},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c7178905c03074884a221e1a61abfade}{%
+           family={Peer},
+           familyi={P\bibinitperiod},
+           given={TODO},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{d79cff32cac1721b3d3923d99103a2ad}
+      \strng{fullhash}{d79cff32cac1721b3d3923d99103a2ad}
+      \strng{fullhashraw}{d79cff32cac1721b3d3923d99103a2ad}
+      \strng{bibnamehash}{d79cff32cac1721b3d3923d99103a2ad}
+      \strng{authorbibnamehash}{d79cff32cac1721b3d3923d99103a2ad}
+      \strng{authornamehash}{d79cff32cac1721b3d3923d99103a2ad}
+      \strng{authorfullhash}{d79cff32cac1721b3d3923d99103a2ad}
+      \strng{authorfullhashraw}{d79cff32cac1721b3d3923d99103a2ad}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Travel Behaviour and Society}
+      \field{note}{VERIFICAR: Autoría completa imprescindible. Nivel provisional: MEDIA hasta verificación. Dato: mujeres menos propensas a usar trenes nocturnos cuando perciben inseguridad.}
+      \field{title}{TODO: Título completo del artículo sobre comportamiento viajero y trenes nocturnos}
+      \field{year}{2024}
+      \verb{doi}
+      \verb TODO
+      \endverb
+    \endentry
+    \entry{Zhang2022}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=3820974e0d994f2bdb3e9c3919496dcc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yingheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=519c47e1ac25bb285467c3358b7901cb}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haojie},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cf3949e723ada24eadfa04e2e1d2fc14}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{86754f058ff785209ca5a434b14d54e4}
+      \strng{fullhash}{86754f058ff785209ca5a434b14d54e4}
+      \strng{fullhashraw}{86754f058ff785209ca5a434b14d54e4}
+      \strng{bibnamehash}{86754f058ff785209ca5a434b14d54e4}
+      \strng{authorbibnamehash}{86754f058ff785209ca5a434b14d54e4}
+      \strng{authornamehash}{86754f058ff785209ca5a434b14d54e4}
+      \strng{authorfullhash}{86754f058ff785209ca5a434b14d54e4}
+      \strng{authorfullhashraw}{86754f058ff785209ca5a434b14d54e4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transport Policy}
+      \field{note}{Nivel: ALTA. Afiliación: School of Transportation, Southeast University, China. Fuente verificada por Mario desde el PDF original. PENDIENTE: añadir volume, pages y DOI cuando se localicen en el PDF.}
+      \field{title}{Quantifying the social impacts of the {London Night Tube} with a double/debiased machine learning based difference-in-differences approach}
+      \field{year}{2022}
+    \endentry
+    \entry{BackOnTrack2023}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=b680dd12f372f25b08f468a4a77fcc69}{%
+           family={{Back-on-Track Europe}},
+           familyi={B\bibinitperiod}}}%
+        {{hash=ea027a477d343c2756a0d797c18736f4}{%
+           family={{Transport \& Environment}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Back-on-Track Europe}%
+        {Transport \& Environment}%
+      }
+      \strng{namehash}{dd7af20b4edd41d7d01385372dd2b702}
+      \strng{fullhash}{dd7af20b4edd41d7d01385372dd2b702}
+      \strng{fullhashraw}{dd7af20b4edd41d7d01385372dd2b702}
+      \strng{bibnamehash}{dd7af20b4edd41d7d01385372dd2b702}
+      \strng{authorbibnamehash}{dd7af20b4edd41d7d01385372dd2b702}
+      \strng{authornamehash}{dd7af20b4edd41d7d01385372dd2b702}
+      \strng{authorfullhash}{dd7af20b4edd41d7d01385372dd2b702}
+      \strng{authorfullhashraw}{dd7af20b4edd41d7d01385372dd2b702}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{note}{Nivel: ALTA. Fuente verificada. Datos de España y European Sleeper en sección~1.1, pág.~3. Dato adicional verificado: impacto climático tren nocturno = 28 veces menor que vuelo (media UE).}
+      \field{title}{All aboard -- travelling {Europe} by night: Towards cheaper night train tickets for people}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://back-on-track.eu/wp-content/uploads/2024/07/230608_Night_Trains_Briefing_FINAL.pdf
+      \endverb
+      \verb{url}
+      \verb https://back-on-track.eu/wp-content/uploads/2024/07/230608_Night_Trains_Briefing_FINAL.pdf
+      \endverb
+    \endentry
+    \entry{OBBAnnualReport2022}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=a92e3db3be33560e4f63fda5b40b3d0d}{%
+           family={{ÖBB-Holding AG}},
+           familyi={Ö\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Österreichische Bundesbahnen (ÖBB)}%
+      }
+      \strng{namehash}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \strng{fullhash}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \strng{fullhashraw}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \strng{bibnamehash}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \strng{authorbibnamehash}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \strng{authornamehash}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \strng{authorfullhash}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \strng{authorfullhashraw}{a92e3db3be33560e4f63fda5b40b3d0d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA. Datos ejercicio 2022, publicado 2023}
+      \field{title}{Annual Report 2022}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://presse.oebb.at/en/dam/jcr:b484aad9-76bb-4359-a7d6-08733e9887ff/OEBB_GB2022_EN.pdf
+      \endverb
+      \verb{url}
+      \verb https://presse.oebb.at/en/dam/jcr:b484aad9-76bb-4359-a7d6-08733e9887ff/OEBB_GB2022_EN.pdf
+      \endverb
+    \endentry
+    \entry{Kantelaar2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=8a79d3634b0600197a64ad7ee6236705}{%
+           family={Kantelaar},
+           familyi={K\bibinitperiod},
+           given={Martijn\bibnamedelima Heufke},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{555dfa07226332a321d0f56099cb9eae}
+      \strng{fullhash}{555dfa07226332a321d0f56099cb9eae}
+      \strng{fullhashraw}{555dfa07226332a321d0f56099cb9eae}
+      \strng{bibnamehash}{555dfa07226332a321d0f56099cb9eae}
+      \strng{authorbibnamehash}{555dfa07226332a321d0f56099cb9eae}
+      \strng{authornamehash}{555dfa07226332a321d0f56099cb9eae}
+      \strng{authorfullhash}{555dfa07226332a321d0f56099cb9eae}
+      \strng{authorfullhashraw}{555dfa07226332a321d0f56099cb9eae}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{TODO: Nombre de la revista}
+      \field{note}{VERIFICAR: Autoría y datos completos. Nivel provisional: MEDIA. Dato clave: potencial de mercado tren nocturno sube de 41,0\% a 70,9\% con mejora de confort de 1 a 5 estrellas.}
+      \field{title}{TODO: Título completo del artículo sobre preferencias de confort en trenes de larga distancia}
+      \field{year}{2022}
+      \verb{doi}
+      \verb TODO
+      \endverb
+    \endentry
+    \entry{Eurocontrol2021}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=4fda1ae1d8b330e0abf0735548ea3eb7}{%
+           family={{EUROCONTROL}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {EUROCONTROL}%
+      }
+      \strng{namehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{fullhash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{fullhashraw}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{bibnamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authorbibnamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authornamehash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authorfullhash}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \strng{authorfullhashraw}{4fda1ae1d8b330e0abf0735548ea3eb7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA. Dato verificado: 24,1\% de vuelos europeos son rutas <500km. Fuente primaria oficial. Verificar URL exacta antes de compilar.}
+      \field{title}{Plane and Train: A Europe-Wide Comparison}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb TODO: URL directa al informe en eurocontrol.int
+      \endverb
+      \verb{url}
+      \verb TODO:%20URL%20directa%20al%20informe%20en%20eurocontrol.int
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
