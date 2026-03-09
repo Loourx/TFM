@@ -81,7 +81,7 @@
       <file>TFM-ML-01-memoria-referencia.bcf</file>
     </requires>
     <requires type="editable">
-      <file>TFM-ML-referencias.bib</file>
+      <file>../01-bibliografia/TFM-ML-referencias.bib</file>
     </requires>
   </external>
 </requests>

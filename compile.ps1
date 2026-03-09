@@ -1,7 +1,7 @@
 # Script de compilación TFM Mario Lourido
 # Secuencia: pdflatex -> biber -> pdflatex -> pdflatex
 
-$DOC_NAME = "TFM-ML-01-memoria-referencia"
+$DOC_NAME = "02-memoria/TFM-ML-01-memoria-referencia"
 
 Write-Host "Iniciando compilación de $DOC_NAME..." -ForegroundColor Cyan
 
@@ -9,19 +9,19 @@ $total = Measure-Command {
 
     # Pasada 1: pdflatex
     Write-Host "[1/4] pdflatex..." -ForegroundColor Yellow
-    & pdflatex.exe -interaction=nonstopmode "$DOC_NAME.tex"
+    & pdflatex.exe -interaction=nonstopmode -include-directory="02-memoria" "$DOC_NAME.tex"
 
     # Pasada 2: biber
     Write-Host "[2/4] biber..." -ForegroundColor Yellow
-    & biber.exe "$DOC_NAME"
+    & biber.exe --input-directory "02-memoria" "$([System.IO.Path]::GetFileName($DOC_NAME))"
 
     # Pasada 3: pdflatex
     Write-Host "[3/4] pdflatex..." -ForegroundColor Yellow
-    & pdflatex.exe -interaction=nonstopmode "$DOC_NAME.tex"
+    & pdflatex.exe -interaction=nonstopmode -include-directory="02-memoria" "$DOC_NAME.tex"
 
     # Pasada 4: pdflatex (referencias cruzadas finales)
     Write-Host "[4/4] pdflatex..." -ForegroundColor Yellow
-    & pdflatex.exe -interaction=nonstopmode "$DOC_NAME.tex"
+    & pdflatex.exe -interaction=nonstopmode -include-directory="02-memoria" "$DOC_NAME.tex"
 
 }
 

@@ -1,9 +1,9 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'TFM-ML-01-memoria-referencia.blg'
-[99] biber-MSWIN64:342> INFO - === 
-[136] Biber.pm:421> INFO - Reading 'TFM-ML-01-memoria-referencia.bcf'
-[248] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[266] bbl.pm:676> INFO - Writing 'TFM-ML-01-memoria-referencia.bbl' with encoding 'UTF-8'
-[266] bbl.pm:779> INFO - Output to TFM-ML-01-memoria-referencia.bbl
-[267] Biber.pm:132> WARN - The file 'TFM-ML-01-memoria-referencia.bcf' does not contain any citations!
-[267] Biber.pm:134> INFO - WARNINGS: 1
+[108] biber-MSWIN64:342> INFO - === 
+[149] Biber.pm:421> INFO - Reading 'TFM-ML-01-memoria-referencia.bcf'
+[264] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[281] bbl.pm:676> INFO - Writing 'TFM-ML-01-memoria-referencia.bbl' with encoding 'UTF-8'
+[281] bbl.pm:779> INFO - Output to TFM-ML-01-memoria-referencia.bbl
+[281] Biber.pm:132> WARN - The file 'TFM-ML-01-memoria-referencia.bcf' does not contain any citations!
+[281] Biber.pm:134> INFO - WARNINGS: 1

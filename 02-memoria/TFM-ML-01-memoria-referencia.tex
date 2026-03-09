@@ -21,13 +21,13 @@
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{enumitem}
-% \usepackage{tcolorbox}  % DESACTIVADO en modo redacción — reactivar para versión final impresa
+\usepackage{tcolorbox}  % DESACTIVADO en modo redacción — reactivar para versión final impresa
 \usepackage{hyperref}
 \usepackage[style=apa, backend=biber]{biblatex}
 \usepackage{titlesec}
 
 % --- BIBLIOGRAFÍA ---
-\addbibresource{TFM-ML-referencias.bib}
+\addbibresource{../01-bibliografia/TFM-ML-referencias.bib}
 
 % --- ENTORNOS ESPECIALES (versión ligera para compilación rápida) ---
 % NOTA: tcolorbox comentado durante redacción activa. Reactivar para versión final de impresión.
@@ -82,24 +82,58 @@
 \section{Introducción}
 
 \subsection{Presentación del proyecto}
-\begin{pendiente}
-\end{pendiente}
+
+Este trabajo es el Trabajo Fin de Máster del Máster en Ingeniería en Diseño Industrial de la Escuela Universitaria de Diseño Industrial (EUDI) de la Universidade da Coruña, en la especialidad de Automoción, Movilidad y Transporte. Título: \textit{Nuevas propuestas de Movilidad Total: Sistemas de Transporte Continuo}. Directores: D.~Pablo José Fernández Galdo y Dr.~Rodrigo Martínez Rodríguez.
+
+El proyecto es una investigación estratégica sobre la viabilidad de un sistema de transporte público continuo (24/7) en ciudades europeas con horizonte 2040+. No consiste en el diseño de un producto físico ---vehículo, interfaz o infraestructura--- sino en una propuesta conceptual de sistema de servicio.
+
+El nivel de intervención es táctico: el TFM genera un marco conceptual y metodológico que permite a futuros equipos de diseño ---en TFGs o proyectos profesionales--- ejecutar soluciones concretas dentro de cada vertical identificada.
 
 \subsection{Motivación y justificación}
-\begin{pendiente}
-\end{pendiente}
+
+El punto de partida es un desajuste estructural: la demanda social de movilidad nocturna ---segura, fiable e integrada--- no encuentra respuesta en la oferta actual, que sigue siendo fragmentada, percibida como insegura y, en su mayor parte, tecnológicamente inmadura.
+
+Este desajuste se articula en tres dimensiones o verticales que justifican el estudio de forma independiente y conjunta. La vertical~A constata el déficit crónico de transporte público nocturno urbano en la mayoría de ciudades europeas: los servicios se reducen o desaparecen en horas nocturnas precisamente cuando una parte relevante de la población ---trabajadores nocturnos, usuarios de ocio, viajeros en tránsito--- más los necesita.
+
+\begin{claimU}
+La vertical~B documenta el renacimiento de los trenes nocturnos en Europa ---liderado por operadores como ÖBB Nightjet y SNCF Intercités de Nuit--- frente a la ausencia prácticamente total de España en este modo de transporte. Los datos de demanda y de nuevas rutas programadas hasta 2030 están siendo actualizados: \fuentependiente{informe o nota de prensa de la Comisión Europea o Railteam con cifras de pasajeros y rutas nocturnas activas en Europa, 2023--2024}.
+\end{claimU}
+
+La vertical~C identifica los avances en conducción autónoma de nivel~L3 y~L4 como una ventana de oportunidad para la operación nocturna: los sistemas autónomos no sufren fatiga y pueden operar con mayor regularidad en condiciones de baja densidad de tráfico. No obstante, la madurez tecnológica real en entorno nocturno urbano sigue siendo objeto de debate.
+
+No existe, hasta donde alcanza la revisión bibliográfica realizada, un análisis integrado desde el diseño industrial que conecte estas tres dimensiones bajo un marco de sistema de servicio continuo. Ese hueco es el que este TFM pretende ocupar.
 
 \subsection{Objetivos}
-\begin{pendiente}
-\end{pendiente}
+
+El \textbf{objetivo general} es evaluar la viabilidad estratégica de un sistema de transporte público continuo (24/7) para ciudades europeas, identificando las condiciones técnicas, sociales y de modelo de negocio que lo harían posible en el horizonte 2040+.
+
+Los \textbf{objetivos específicos} son:
+\begin{enumerate}[label=\arabic*., leftmargin=*, noitemsep]
+  \item Analizar el estado del arte en las tres verticales: transporte nocturno urbano, trenes nocturnos interurbanos y conducción autónoma nocturna.
+  \item Identificar perfiles de usuario y necesidades no cubiertas por la oferta actual en cada vertical.
+  \item Proponer un concepto sistémico de servicio con un modelo de negocio híbrido (B2C + B2B + B2G) que integre las verticales viables.
+  \item Generar un marco de diseño que sirva de base para futuros TFGs o proyectos de ejecución orientados a soluciones concretas dentro del sistema.
+\end{enumerate}
 
 \subsection{Alcance y limitaciones}
-\begin{pendiente}
-\end{pendiente}
+
+El TFM se circunscribe a la \textbf{investigación estratégica y a la propuesta conceptual}. Quedan fuera del alcance el diseño detallado de productos ---vehículos, aplicaciones, infraestructura---, la implementación operativa y el prototipado funcional de cualquier elemento del sistema.
+
+El \textbf{ámbito geográfico} son las ciudades europeas, con casos de referencia internacionales cuando resulten pertinentes para el análisis comparativo.
+
+Las tres verticales se mantienen abiertas durante la fase de investigación. Si alguna de ellas resulta estratégicamente inviable a la luz de los datos recabados, se descartará del concepto final con justificación documentada, sin que ello invalide el marco general del trabajo.
+
+En cuanto a las \textbf{limitaciones}, el trabajo se ha desarrollado en aproximadamente tres meses de tiempo efectivo, compatibilizados con empleo y con las asignaturas del máster. El modelo de negocio incorporado procede de la asignatura de Emprendimiento del máster y se toma como base editable, no como resultado vinculante. El acceso a datos operativos nocturnos ---frecuencias reales, tasas de ocupación, incidentes--- ha resultado limitado, lo que ha condicionado la profundidad del análisis cuantitativo.
 
 \subsection{Metodología}
-\begin{pendiente}
-\end{pendiente}
+
+El enfoque metodológico es el \textbf{análisis estratégico aplicado al diseño industrial}: no sigue un protocolo de investigación doctoral ni implementa íntegramente métodos como el ViP (\textit{Vision in Product Design}), sino que combina herramientas de distinta procedencia en función de la pregunta que responde cada fase del trabajo.
+
+Las herramientas de aplicación confirmada son: análisis PESTEL del contexto de movilidad nocturna en Europa; \textit{stakeholder mapping} por matriz Poder-Interés; despliegue de la función de calidad (QFD); \textit{benchmarking} de sistemas existentes en las tres verticales; \textit{Business Model Canvas}; priorización MoSCoW de requisitos; \textit{User-Centered Design} para la identificación de perfiles y necesidades; matriz de afirmaciones-evidencia (\textit{Supported} / \textit{Contested} / \textit{Undetermined}); y análisis DAFO por vertical.
+
+Como herramientas de incorporación posible ---condicionada a su desarrollo en las asignaturas del máster en curso--- se consideran: ViP parcial, análisis CMF (\textit{Color, Material \& Finish}), niveles de lectura semiótica de Peirce y fases de \textit{Design Thinking}.
+
+Cada afirmación factual de la memoria incluye dato, fuente y año. Cuando no existe fuente verificada disponible en el momento de la redacción, el claim se marca explícitamente como pendiente mediante los entornos de control metodológico del documento.
 
 \subsection{Estructura de la memoria}
 \begin{pendiente}
@@ -288,6 +322,16 @@
 % ============================================================
 % BIBLIOGRAFÍA
 % ============================================================
+
+% --- CAPÍTULOS ---
+\input{TFM-ML-cap01-introduccion}
+\input{TFM-ML-cap02-marco-contextual}
+\input{TFM-ML-cap03-usuario-mercado}
+\input{TFM-ML-cap04-analisis-estrategico}
+\input{TFM-ML-cap05-estrategias-diseno}
+\input{TFM-ML-cap06-propuesta-sistema}
+\input{TFM-ML-cap07-evaluacion}
+\input{TFM-ML-cap08-conclusiones}
 
 \printbibliography
 
