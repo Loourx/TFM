@@ -1,29 +1,237 @@
-% !TEX root = TFM-ML-01-memoria-referencia.tex
-\section{Contexto: el problema y el caso Ferrol}\label{sec:contexto}
+% TFM-ML-cap02-marco-contextual.tex
+% Capítulo 02 — Marco Contextual
+% Autor: Mario Lourido Regueira
+% Scope: v4 — Corredor CHUF–Ferrol, horizonte 2035
+% Última revisión: 2026-03-09
+% Estado: PARCIALMENTE REDACTADO — §2.1 y §2.2 completadas
+%         §2.3–2.5 (PESTEL) y §2.6 (Stakeholders) pendientes
 
-\subsection{El vacío de transporte nocturno en Europa}\label{sec:contexto-europeo}
+
+% ============================================================
+% 2.1 LA CIUDAD DE 24 HORAS: EL PROBLEMA DE FONDO
+% ============================================================
+
+\subsection{La ciudad de 24 horas: el problema de fondo}
+\label{sec:ciudad-24h}
+
+Las ciudades europeas funcionan las veinticuatro horas del día. Los
+hospitales no cierran, las cadenas de distribución no se detienen, los
+hoteles no apagan sus luces. Sin embargo, los sistemas de transporte
+público que conectan a sus trabajadores con sus lugares de trabajo sí lo
+hacen, de forma sistemática, durante las horas de menor rentabilidad
+comercial: la madrugada.
+
+Esta discontinuidad no es un accidente de diseño. Responde a una lógica
+económica que prima la eficiencia de red sobre la cobertura de necesidades:
+a partir de cierta hora, la demanda cae por debajo del umbral de rentabilidad
+del servicio convencional y el operador retira los vehículos. El resultado
+es un vacío de entre cuatro y seis horas en el que los trabajadores de turno
+nocturno deben resolver su movilidad por medios propios ---vehículo
+privado, taxi o, en los casos más vulnerables, a pie.
+
+\begin{claimS}
+Ese vacío se concentra típicamente entre la 01:00 y las 05:00~h
+\parencite{Plyushteva2020}. A principios de 2019, 26 de las 28 capitales de
+la Unión Europea contaban con alguna forma de transporte público nocturno,
+aunque con frecuencias y coberturas muy reducidas respecto al servicio diurno
+\parencite{Plyushteva2020}. Las ciudades no capitales ---y especialmente
+aquellas de menos de 150.000~habitantes--- quedan en su mayor parte fuera
+de este dato: sus redes nocturnas son, cuando existen, meramente testimoniales.
+\end{claimS}
+
+El vacío nocturno no es un problema homogéneo. Afecta de forma diferenciada
+según tres variables: el perfil del trabajador (turno fijo o rotativo,
+distancia al centro de trabajo, nivel de renta), el contexto geográfico
+(ciudad grande con red nocturna deficiente frente a ciudad media sin red
+alguna) y el género (la percepción de inseguridad nocturna actúa como
+barrera adicional para las mujeres, que constituyen la mayoría del empleo
+sanitario nocturno). El diseño del servicio propuesto en este trabajo trata
+las tres variables de forma explícita.
+
+
+% ============================================================
+% 2.2 EL PROBLEMA Y EL CASO FERROL
+% ============================================================
+
+\subsection{El problema y el caso Ferrol}
+\label{sec:problema-ferrol}
+
+\subsubsection{Definición del problema}
+\label{sec:definicion-problema}
+
+El problema que este trabajo aborda puede formularse con precisión:
+\textit{el personal sanitario de turno nocturno en ciudades europeas de
+tamaño medio carece de transporte público fiable, seguro y económicamente
+accesible durante la franja de vacío del servicio (aproximadamente
+22:00--06:00~h), lo que impone costes económicos, de seguridad percibida
+y de calidad de vida desproporcionados sobre un colectivo mayoritariamente
+femenino.}
+
+Cada uno de los elementos de esta formulación tiene soporte empírico:
+
+\begin{claimS}
+\textbf{Coste económico.} En ausencia de transporte público, los
+trabajadores nocturnos dependen del taxi o del vehículo privado, con el
+gasto asociado. Estudios de caso documentan que empleadores del sector
+de hostelería asumen gastos de transporte nocturno en taxi para su personal
+por falta de alternativa \parencite{Plyushteva2020}.
+\end{claimS}
+
+\begin{claimS}
+\textbf{Impacto en satisfacción y retención laboral.} Los trabajadores
+de turno presentan una probabilidad 1,321 veces inferior de reportar
+satisfacción laboral respecto a trabajadores sin turno
+\parencite{ShiftWork2025}. Aunque la literatura no cuantifica de forma
+aislada el impacto del transporte nocturno sobre el abandono laboral en
+sanidad, el proyecto europeo \textsc{meteor} identifica las posibilidades
+de transporte como uno de los factores clave en las estrategias de
+retención hospitalaria \parencite{METEOR2025}.
+\end{claimS}
+
+\begin{claimS}
+\textbf{Dimensión de género.} Las mujeres presentan una probabilidad un
+10\% superior a la de los hombres de sentirse inseguras en el metro, y un
+6\% superior en autobús \parencite{AitBihiOuali2020}. El 75\% de las
+mujeres encuestadas modifica su ruta al desplazarse de noche respecto al
+día \parencite{URBACT2025Gender}. Dado que el 78\% del empleo sanitario en
+la UE es femenino \parencite{Eurostat2020Health}, esta barrera afecta
+desproporcionadamente al colectivo usuario del servicio propuesto.
+\end{claimS}
+
+\subsubsection{Por qué las ciudades medias}
+\label{sec:ciudades-medias}
+
+El problema del vacío nocturno afecta a todas las ciudades europeas, pero
+se manifiesta con mayor severidad en las de tamaño medio. Las grandes
+metrópolis ---Londres, París, Madrid, Berlín--- han desarrollado redes de
+transporte nocturno relativamente consolidadas, impulsadas por economías de
+escala y por una demanda suficientemente concentrada como para justificar
+el coste del servicio. Las ciudades de 50.000--150.000~habitantes no tienen
+esa escala: la demanda es real pero dispersa, y los modelos de servicio
+convencionales no son rentables a esa escala.
+
+\begin{claimS}
+Esta es precisamente la lógica que fundamentó el diseño de los proyectos
+europeos de transporte autónomo: el proyecto \textsc{avenue} se diseñó
+explícitamente para operar en \textit{áreas de demanda baja a media}
+\parencite{Moreau2023}. El shuttle autónomo no es una solución pensada para
+sustituir al metro de una metrópolis: es una solución estructuralmente
+adecuada para corredores de demanda predecible y baja, donde el operador
+convencional no tiene incentivos para operar.
+\end{claimS}
+
+La consecuencia de esto es que el argumento de este trabajo no es que las
+ciudades medias estén ignoradas por la innovación en movilidad ---de hecho,
+proyectos como \textsc{show} incluyeron ciudades pequeñas como Trikala
+(Grecia) o Linköping (Suecia) \parencite{SHOW2024Legacy}---. El argumento
+es que el shuttle autónomo \emph{resuelve} estructuralmente el problema de
+rentabilidad que hace inviable el transporte nocturno convencional a esa
+escala, y que Ferrol es un caso de diseño representativo y replicable de
+ese nicho.
+
+\subsubsection{El corredor CHUF--Ferrol como caso de estudio}
+\label{sec:caso-ferrol}
+
+Ferrol es una ciudad gallega de aproximadamente 65.000~habitantes
+\fuentependiente{INE, padrón municipal, año a verificar} situada en el
+noroeste de España. El Complexo Hospitalario Universitario de Ferrol
+(\textsc{chuf}), referencia sanitaria para una población de más de
+150.000~habitantes en el área de influencia de la comarca de Ferrolterra,
+se ubica en el barrio de A~Cabana, en la periferia de la ciudad
+\fuentependiente{SERGAS / Xunta de Galicia, dirección y ficha del centro}.
+
+El corredor \textsc{chuf}--zonas residenciales de Ferrol presenta las
+características que definen el nicho al que se dirige el servicio propuesto:
+
+\begin{itemize}[noitemsep]
+  \item Hospital periférico desconectado del tejido residencial principal.
+  \item Personal sanitario con turnos nocturnos de entrada y salida a horas
+        sin cobertura de transporte público
+        \fuentependiente{Verificar con horarios oficiales operadores
+        Ferrol y convenio colectivo sanidad Galicia}.
+  \item Fuerza laboral mayoritariamente femenina en el colectivo de
+        enfermería y auxiliares, alineada con los datos europeos de
+        feminización del sector \parencite{Eurostat2020Health}.
+  \item Escala de ciudad media: demanda predecible y concentrada en
+        horarios de cambio de turno, pero insuficiente para un servicio
+        de autobús nocturno convencional rentable.
+\end{itemize}
+
+\begin{notametod}
+Los datos específicos del caso Ferrol ---número exacto de trabajadores del
+\textsc{chuf} en turno nocturno, horarios de cambio de turno, distribución
+geográfica del personal, cobertura real de transporte público en la franja
+nocturna--- estaban en proceso de verificación durante la redacción de esta
+memoria. Se marcan con el indicador \fuentependiente{} en cada aparición y
+se actualizarán cuando estén disponibles a partir de fuentes primarias
+(INE, \textsc{sergas}, operadores de transporte, convenio colectivo).
+Los claims verificados de la literatura europea se usan como marco de
+referencia para construir el perfil de usuario con datos empíricos de
+terceros hasta que los datos locales estén disponibles.
+\end{notametod}
+
+La elección de Ferrol como caso de estudio obedece a tres razones: es el
+contexto laboral y de vida del autor, lo que facilita el acceso a
+información primaria; es un caso genuinamente representativo del nicho
+descrito y no un caso excepcional que requiera justificación adicional; y
+su escala reducida hace el análisis manejable en el tiempo disponible sin
+comprometer la validez del modelo, que se escala explícitamente en las
+conclusiones del trabajo.
+
+
+% ============================================================
+% SECCIONES PENDIENTES (cap02)
+% ============================================================
+
+\subsection{Análisis PESTEL}
+\label{sec:pestel}
+
+\subsubsection{Político}
 \begin{pendiente}
-%% INSERTAR: vacio-transporte-nocturno
+Marco regulatorio europeo de vehículos autónomos: Reglamento UE 2019/2144,
+\textit{regulatory sandboxes} 2026, estado de la normativa española (DGT).
 \end{pendiente}
 
-\subsection{La conducción autónoma como solución viable: estado del arte}\label{sec:conduccion-autonoma}
+\subsubsection{Económico}
 \begin{pendiente}
-%% INSERTAR: estado-arte-sae-l4
+Coste de operación de shuttles autónomos vs transporte nocturno convencional.
+Modelos de financiación PPP en proyectos SHOW/AVENUE.
+Impacto económico del vacío nocturno en trabajadores y empleadores.
 \end{pendiente}
 
-\subsection{Análisis PESTEL}\label{sec:pestel}
+\subsubsection{Social}
 \begin{pendiente}
-%% INSERTAR: pestel
+Demografía del empleo nocturno sanitario. Brecha de género en movilidad
+nocturna. Exclusión social por falta de transporte.
 \end{pendiente}
 
-\subsection{Caso de estudio: Ferrol}\label{sec:caso-ferrol}
+\subsubsection{Tecnológico}
 \begin{pendiente}
-%% INSERTAR: caso-ferrol
-%% PENDIENTE-FERROL: todos los datos de esta sección requieren verificación con INE/SERGAS/operadores
+Estado de madurez SAE L4 en Europa. Pilotos SHOW, AVENUE, ULTIMO.
+Horizonte comercial 2026 (ULTIMO) y 2030--2040 (SHOW).
+Limitaciones técnicas: ODD nocturno, mapas HD, supervisión remota.
 \end{pendiente}
 
-\subsection{Mapa de stakeholders}\label{sec:stakeholders}
+\subsubsection{Ecológico}
 \begin{pendiente}
-%% INSERTAR: stakeholder-map
-%% FIGURA: fig:stakeholder-map
+Electrificación de flotas de transporte público autónomo.
+Emisiones evitadas respecto al vehículo privado nocturno.
+\end{pendiente}
+
+\subsubsection{Legal}
+\begin{pendiente}
+Responsabilidad civil en accidentes con vehículos autónomos (UE).
+Normativa laboral de transporte nocturno (Directiva tiempo de trabajo).
+Marco legal español: DGT, Real Decreto 1284/2023 o normativa vigente.
+\end{pendiente}
+
+\subsection{Mapa de stakeholders}
+\label{sec:stakeholders}
+
+\begin{pendiente}
+Actores del ecosistema: operadores de transporte (Concello Ferrol, Xunta,
+operadores privados), \textsc{sergas}, fabricantes de shuttles autónomos
+(EasyMile, Navya), reguladores (DGT, Comisión Europea), usuarios
+(personal sanitario \textsc{chuf}), sindicatos sanitarios.
+Matriz Poder--Interés con justificación por cuadrante.
 \end{pendiente}
