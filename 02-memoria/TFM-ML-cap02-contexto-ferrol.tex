@@ -132,51 +132,74 @@ ese nicho.
 \subsubsection{El corredor CHUF--Ferrol como caso de estudio}
 \label{sec:caso-ferrol}
 
-Ferrol es una ciudad gallega de aproximadamente 65.000~habitantes
-\fuentependiente{INE, padrón municipal, año a verificar} situada en el
-noroeste de España. El Complexo Hospitalario Universitario de Ferrol
-(\textsc{chuf}), referencia sanitaria para una población de más de
-150.000~habitantes en el área de influencia de la comarca de Ferrolterra,
-se ubica en el barrio de A~Cabana, en la periferia de la ciudad
-\fuentependiente{SERGAS / Xunta de Galicia, dirección y ficha del centro}.
+Ferrol es un municipio gallego de \num{64358}~habitantes según las cifras de
+población del Instituto Galego de Estatística a 1~de enero de 2024
+\parencite{IGE2024}, situado en el noroeste de España. El \ac{CHUF}, que
+integra los hospitales Arquitecto Marcide, Naval y Profesor Novoa Santos,
+se ubica en la Avenida da Residencia s/n, en el área de A~Cabana, fuera de
+la cuadrícula urbana central de la ciudad \parencite{SERGAS2024memoria}. El
+área sanitaria que el \ac{CHUF} tiene asignada comprende la totalidad de la
+comarca de Ferrolterra y da cobertura a \num{172791}~titulares de Tarjeta
+Individual Sanitaria (\textsc{tis}) según la Memoria 2024 del Servizo Galego
+de Saúde \parencite{SERGAS2024memoria}.
 
-El corredor \textsc{chuf}--zonas residenciales de Ferrol presenta las
+El corredor \ac{CHUF}--zonas residenciales de Ferrol presenta las
 características que definen el nicho al que se dirige el servicio propuesto:
 
-\begin{itemize}[noitemsep]
-  \item Hospital periférico desconectado del tejido residencial principal.
-  \item Personal sanitario con turnos nocturnos de entrada y salida a horas
-        sin cobertura de transporte público
-        \fuentependiente{Verificar con horarios oficiales operadores
-        Ferrol y convenio colectivo sanidad Galicia}.
-  \item Fuerza laboral mayoritariamente femenina en el colectivo de
-        enfermería y auxiliares, alineada con los datos europeos de
-        feminización del sector \parencite{Eurostat2020Health}.
-  \item Escala de ciudad media: demanda predecible y concentrada en
-        horarios de cambio de turno, pero insuficiente para un servicio
-        de autobús nocturno convencional rentable.
+\begin{itemize}
+  \item \textbf{Hospital funcionalmente periférico.} La única línea de autobús
+  urbano que conecta el tejido residencial de Ferrol con los hospitales
+  —la Línea~D del operador Alsaferrol— opera con una frecuencia de un
+  servicio cada sesenta minutos en horario diurno
+  \parencite{Alsaferrol2024lineaD}. Esta frecuencia, baja incluso durante
+  el día, es un indicador directo de la distancia funcional entre el hospital
+  y el núcleo residencial de la ciudad.
+
+  \item \textbf{Vacío de transporte nocturno verificado.} La Línea~D
+  opera su último servicio a las 22:00~h; la Línea~6, que también da
+  acceso al corredor hospitalario, finaliza en torno a las 15:00~h
+  \parencite{Alsaferrol2024horarios}. La Línea~C1 de Renfe Cercanías
+  registra su última llegada a la estación de Ferrol a las 21:48~h y su
+  última salida a las 21:20~h \parencite{RenfeCercaniasFerrol2026}.
+  Ningún servicio de transporte público colectivo opera en la franja
+  comprendida entre las 22:00 y las 06:00~h en el corredor de acceso
+  al \ac{CHUF}.
+
+  \item \textbf{Turnos nocturnos con origen y destino fijos.} El turno de
+  noche en el \ac{CHUF} opera en la franja 22:00--08:00~h, con una
+  duración de diez horas \parencite{CHUF2019guiaresidente}. Los servicios
+  mínimos nocturnos decretados por la Xunta de Galicia para los hospitales
+  Arquitecto Marcide y Novoa Santos fijan un umbral de 63~profesionales
+  de enfermería, 42~técnicos en cuidados auxiliares de enfermería
+  (\textsc{tcae}) y 13~celadores por turno \parencite{XuntaGalicia2025dog}.
+  Estas cifras, correspondientes a los mínimos legales en situación de
+  huelga, constituyen un indicador conservador del volumen de movilidad
+  laboral nocturna generada diariamente por el hospital.
+
+  \item \textbf{Fuerza laboral mayoritariamente femenina.} El colectivo de
+  enfermería y auxiliares que cubre los turnos nocturnos del \ac{CHUF}
+  es coherente con la distribución del empleo sanitario en la \ac{UE},
+  donde el 78\,\% de los trabajadores en ocupaciones de la salud son
+  mujeres \parencite{Eurostat2020Health}. Esta dimensión de género se trata
+  como eje transversal del diseño del servicio (véase la
+  sección~\ref{sec:genero}).
+
+  \item \textbf{Escala de ciudad media.} La demanda generada por los cambios
+  de turno del \ac{CHUF} es predecible y concentrada en horario fijo, pero
+  insuficiente para justificar un servicio de autobús nocturno convencional
+  con los modelos de rentabilidad actuales. Es exactamente la escala para
+  la que los proyectos europeos \textsc{avenue} y \textsc{show}
+  fueron diseñados \parencite{Moreau2023,SHOW2024Legacy}.
 \end{itemize}
 
-\begin{notametod}
-Los datos específicos del caso Ferrol ---número exacto de trabajadores del
-\textsc{chuf} en turno nocturno, horarios de cambio de turno, distribución
-geográfica del personal, cobertura real de transporte público en la franja
-nocturna--- estaban en proceso de verificación durante la redacción de esta
-memoria. Se marcan con el indicador \fuentependiente{} en cada aparición y
-se actualizarán cuando estén disponibles a partir de fuentes primarias
-(INE, \textsc{sergas}, operadores de transporte, convenio colectivo).
-Los claims verificados de la literatura europea se usan como marco de
-referencia para construir el perfil de usuario con datos empíricos de
-terceros hasta que los datos locales estén disponibles.
-\end{notametod}
-
-La elección de Ferrol como caso de estudio obedece a tres razones: es el
-contexto laboral y de vida del autor, lo que facilita el acceso a
-información primaria; es un caso genuinamente representativo del nicho
-descrito y no un caso excepcional que requiera justificación adicional; y
-su escala reducida hace el análisis manejable en el tiempo disponible sin
-comprometer la validez del modelo, que se escala explícitamente en las
-conclusiones del trabajo.
+La elección de Ferrol como caso de estudio obedece a tres razones. Primera:
+es el contexto laboral y de vida del autor, lo que ha facilitado el acceso
+a fuentes primarias locales. Segunda: es un caso genuinamente representativo
+del nicho descrito —ciudad de tamaño medio, hospital periférico, vacío
+nocturno verificado— y no un caso excepcional que requiera justificación
+adicional. Tercera: su escala reducida hace el análisis manejable en el tiempo
+disponible sin comprometer la validez del modelo, que se escala explícitamente
+en el capítulo~\ref{cap:replicabilidad}.
 
 
 % ============================================================

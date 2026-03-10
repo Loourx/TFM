@@ -22,9 +22,12 @@
 \usepackage{multirow}
 \usepackage{array}
 \usepackage{enumitem}
-\usepackage{tcolorbox}  % DESACTIVADO en modo redacción — reactivar para versión final impresa
+% \usepackage{tcolorbox}  % DESACTIVADO en modo redacción — reactivar para versión final impresa
 \usepackage{emptypage}
 \usepackage{afterpage}
+\usepackage{acronym}
+
+\usepackage[style=apa, backend=biber]{biblatex}
 \usepackage[
   hidelinks,
   pdftitle={Nuevas propuestas de Movilidad Total: Sistemas de
@@ -35,11 +38,11 @@
   pdfkeywords={movilidad nocturna, transporte continuo,
     conduccion autonoma, trenes nocturnos, dise\~no industrial}
 ]{hyperref}
-\usepackage[style=numeric-comp, sorting=none, backend=biber]{biblatex}
 \usepackage{titlesec}
 
 % --- BIBLIOGRAFÍA ---
 \addbibresource{../01-bibliografia/TFM-ML-referencias.bib}
+\DeclareFieldFormat{annotation}{}
 
 % --- ENTORNOS ESPECIALES (versión ligera para compilación rápida) ---
 % NOTA: tcolorbox comentado durante redacción activa. Reactivar para versión final de impresión.
@@ -177,6 +180,8 @@ Movilidad Total: Sistemas de Transporte Continuo}
 \fancyhead[R]{\small\textit{Mario Lourido Regueira}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
+
+\input{TFM-ML-acronimos}
 
 % ============================================================
 % BIBLIOGRAFÍA
