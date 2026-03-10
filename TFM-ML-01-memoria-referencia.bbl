@@ -55,53 +55,63 @@
       \verb 10.1016/j.jtrangeo.2020.102894
       \endverb
     \endentry
-    \entry{ShiftWork2025}{article}{}{}
+    \entry{Eurostat2020Health}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=b7b1e314614cf326c6e2b6eba1540682}{%
-           family={TODO},
-           familyi={T\bibinitperiod}}}%
+        {{hash=533195c920679b5848eb14c3f57cc69c}{%
+           family={{Eurostat}},
+           familyi={E\bibinitperiod}}}%
       }
-      \strng{namehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{fullhash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{fullhashraw}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{bibnamehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authorbibnamehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authornamehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authorfullhash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authorfullhashraw}{b7b1e314614cf326c6e2b6eba1540682}
-      \field{extraname}{1}
+      \strng{namehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \strng{bibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorbibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Eurostat Products Statistics Explained}
+      \field{note}{Nivel: ALTA. Dato T4 2019: 14,7M empleados sanidad UE; 78\% mujeres. Fuente institucional primaria. Claim U01.}
+      \field{title}{Majority of health jobs held by women}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
+      \endverb
+      \verb{url}
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
+      \endverb
+    \endentry
+    \entry{INE2025EPA}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=a303d4390a16a468a0c541d209410697}{%
+           family={{Instituto Nacional de Estadística}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a303d4390a16a468a0c541d209410697}
+      \strng{fullhash}{a303d4390a16a468a0c541d209410697}
+      \strng{fullhashraw}{a303d4390a16a468a0c541d209410697}
+      \strng{bibnamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorbibnamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authornamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorfullhash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorfullhashraw}{a303d4390a16a468a0c541d209410697}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{TODO: verificar revista}
-      \field{note}{Nivel: ALTA (pendiente verificar autores y DOI). Dato: shift workers 1,321 veces menos satisfechos que non-shift workers. Claim U05.}
-      \field{title}{Effect of shift work on health and job satisfaction of {European} workers ({EU}-28). {A} cross-sectional and longitudinal study}
+      \field{howpublished}{Nota de prensa INE}
+      \field{note}{Nivel: ALTA. Dato 2024: 11,4\% ocupados España en jornada nocturna; H: 13,7\%, M: 8,8\%. Verificar URL exacta en ine.es. Claim U02.}
+      \field{title}{Encuesta de {Población} {Activa} ({EPA}). Variables de submuestra. {Año} 2024}
       \field{year}{2025}
-    \endentry
-    \entry{METEOR2025}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=b7b1e314614cf326c6e2b6eba1540682}{%
-           family={TODO},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{fullhash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{fullhashraw}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{bibnamehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authorbibnamehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authornamehash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authorfullhash}{b7b1e314614cf326c6e2b6eba1540682}
-      \strng{authorfullhashraw}{b7b1e314614cf326c6e2b6eba1540682}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{TODO: verificar revista}
-      \field{note}{Nivel: MEDIA. Vínculo transporte-retención cualitativo, no cuantificado. Verificar autores completos y revista antes de citar. Claim U04.}
-      \field{title}{Effective strategies for job retention in hospitals: insights from the {EU} {METEOR} project's online toolbox}
-      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.ine.es/prensa/epa_2024_sm.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ine.es/prensa/epa_2024_sm.pdf
+      \endverb
     \endentry
     \entry{AitBihiOuali2020}{article}{}{}
       \name{author}{4}{}{%
@@ -134,8 +144,8 @@
       \strng{authornamehash}{d2014fb623b6b3d57e7dc88b8d18e7ed}
       \strng{authorfullhash}{4a02aae29bba0fef8e5eada32d0a1673}
       \strng{authorfullhashraw}{4a02aae29bba0fef8e5eada32d0a1673}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of the Royal Statistical Society Series {A}: Statistics in Society}
@@ -160,8 +170,8 @@
       \strng{authornamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
       \strng{authorfullhash}{71ea4a51ceefcbc3e3f64118700fa8eb}
       \strng{authorfullhashraw}{71ea4a51ceefcbc3e3f64118700fa8eb}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{URBACT Urban Knowledge Platform}
@@ -173,35 +183,6 @@
       \endverb
       \verb{url}
       \verb https://urbact.eu/articles/five-reasons-why-cities-should-consider-night-when-planning-urban-mobility
-      \endverb
-    \endentry
-    \entry{Eurostat2020Health}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=533195c920679b5848eb14c3f57cc69c}{%
-           family={{Eurostat}},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{fullhash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{fullhashraw}{533195c920679b5848eb14c3f57cc69c}
-      \strng{bibnamehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authorbibnamehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
-      \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Eurostat Products Statistics Explained}
-      \field{note}{Nivel: ALTA. Dato T4 2019: 14,7M empleados sanidad UE; 78\% mujeres. Fuente institucional primaria. Claim U01.}
-      \field{title}{Majority of health jobs held by women}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
-      \endverb
-      \verb{url}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
       \endverb
     \endentry
     \entry{Moreau2023}{article}{}{}
@@ -232,8 +213,8 @@
       \strng{authornamehash}{780c9f045cbd5de1ca17eb30788bd2ba}
       \strng{authorfullhash}{780c9f045cbd5de1ca17eb30788bd2ba}
       \strng{authorfullhashraw}{780c9f045cbd5de1ca17eb30788bd2ba}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Open Research Europe}
@@ -258,8 +239,8 @@
       \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
       \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
       \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{Informe final de diseminación del proyecto SHOW H2020}
@@ -273,7 +254,121 @@
       \verb https://show-project.eu/
       \endverb
     \endentry
+    \entry{SanchezSellero2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=754417eb7cd99aa4d41956582c93ea08}{%
+           family={Sánchez-Sellero},
+           familyi={S\bibinithyphendelim S\bibinitperiod},
+           given={María-Carmen},
+           giveni={M\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=4b37cf50cd06e68d105d4bf0e4343d04}{%
+           family={Sánchez-Sellero},
+           familyi={S\bibinithyphendelim S\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=df835256e7b70ba04bf26be185ddd1c5}{%
+           family={Fernández-Sánchez},
+           familyi={F\bibinithyphendelim S\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ca69310d0b79e7666b56ecdc6733478}
+      \strng{fullhash}{8ca69310d0b79e7666b56ecdc6733478}
+      \strng{fullhashraw}{8ca69310d0b79e7666b56ecdc6733478}
+      \strng{bibnamehash}{8ca69310d0b79e7666b56ecdc6733478}
+      \strng{authorbibnamehash}{8ca69310d0b79e7666b56ecdc6733478}
+      \strng{authornamehash}{8ca69310d0b79e7666b56ecdc6733478}
+      \strng{authorfullhash}{8ca69310d0b79e7666b56ecdc6733478}
+      \strng{authorfullhashraw}{8ca69310d0b79e7666b56ecdc6733478}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Economía Mundial}
+      \field{note}{Nivel: ALTA. Dato: shift workers 1,321 veces menos probabilidades de satisfacción laboral vs non-shift workers. Claim U05.}
+      \field{title}{Effect of shift work on health and job satisfaction of {European} workers ({EU}-28). {A} cross-sectional and longitudinal study}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.33776/EUHU/rem.v71i.8128
+      \endverb
+    \endentry
+    \entry{Szemik2025}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=9167e4dac776c390cf8135e5a6373cb9}{%
+           family={Szemik},
+           familyi={S\bibinitperiod},
+           given={Szymon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=02809fcb4d37f376908d5ed7e5830680}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=1efb592827c98678884457693c2c37ee}{%
+           family={Boone},
+           familyi={B\bibinitperiod},
+           given={Anke},
+           giveni={A\bibinitperiod}}}%
+        {{hash=29c7bebbb57c2fa7a89dfed77a87a975}{%
+           family={Lavreysen},
+           familyi={L\bibinitperiod},
+           given={Olivia},
+           giveni={O\bibinitperiod}}}%
+        {{hash=c1328326fd453134ca2c5e74478ccede}{%
+           family={Godderis},
+           familyi={G\bibinitperiod},
+           given={Lode},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4bdda84a4f06172dd4e1a80fa75d681b}{%
+           family={Maniscalco},
+           familyi={M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6ef378bbe70ddbae3241c12b9b7d466c}{%
+           family={Enea},
+           familyi={E\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fd805142714f482c8bc03c88c659093e}{%
+           family={Barański},
+           familyi={B\bibinitperiod},
+           given={Kamil},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a8e238bafe3e492fa0bf0cc31d90a941}{%
+           family={Matranga},
+           familyi={M\bibinitperiod},
+           given={Domenica},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d824f3d480911015277de13ee7b89173}{%
+           family={Kowalska},
+           familyi={K\bibinitperiod},
+           given={Ma\{l}gorzata},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a314557720879ce7e82f7150564b7d8c}
+      \strng{fullhash}{f9eed6209c4e3c5d693396feea0def30}
+      \strng{fullhashraw}{f9eed6209c4e3c5d693396feea0def30}
+      \strng{bibnamehash}{a314557720879ce7e82f7150564b7d8c}
+      \strng{authorbibnamehash}{a314557720879ce7e82f7150564b7d8c}
+      \strng{authornamehash}{a314557720879ce7e82f7150564b7d8c}
+      \strng{authorfullhash}{f9eed6209c4e3c5d693396feea0def30}
+      \strng{authorfullhashraw}{f9eed6209c4e3c5d693396feea0def30}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BMC Health Services Research}
+      \field{note}{Nivel: MEDIA. Vínculo transporte-retención cualitativo. Transporte citado como factor de incentivo en estrategias de retención hospitalaria. Claim U04.}
+      \field{title}{Effective strategies for job retention in hospitals: insights from the {EU} {METEOR} project's online toolbox}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1186/s12913-025-13742-1
+      \endverb
+    \endentry
   \enddatalist
+  \missing{MartinezRodriguez2024}
 \endrefsection
 \endinput
 

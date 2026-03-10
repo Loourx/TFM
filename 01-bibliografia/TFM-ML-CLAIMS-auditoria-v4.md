@@ -27,7 +27,7 @@
 | C04 | El criterio de selección de ciudades piloto en SHOW fue la preparación tecnológica (CCAM readiness), no el tamaño poblacional | SHOW2024Legacy | 2024 | ALTA | Supported | cap02 §estrategia |
 | C05 | El proyecto ULTIMO (Horizon Europe) prevé operación comercial completa SAE L4 con flotas de mínimo 15 vehículos/sitio en 2026 | Moreau2023 | 2023 | ALTA | Supported | cap02 §pestel-tecnologico |
 | C06 | SHOW estima que la integración generalizada de transporte compartido automatizado requerirá entre 10 y 20 años adicionales (horizonte 2030–2040) | SHOW2024Legacy | 2024 | ALTA | Supported | cap02 §pestel-tecnologico |
-| C07 | SAE J3016: el ODD (Operational Design Domain) puede restringir la operación a luz diurna, excluyendo operación nocturna y en clima adverso | SAE2021J3016 | 2021 | ALTA | Supported | cap02 §pestel-tecnologico |
+| C07 | SAE J3016: el ODD (Operational Design Domain) puede restringir la operación a luz diurna, excluyendo operación nocturna y en clima adverso | SAE_J3016 | 2021 | ALTA | Supported | cap02 §pestel-tecnologico |
 
 ---
 
@@ -40,8 +40,8 @@
 | U01 | En T4 2019, 14,7 millones de personas estaban empleadas en ocupaciones sanitarias en la UE; el 78% eran mujeres | Eurostat2020Health | 2020 | ALTA | Supported | cap01 §1.2 / cap03 §usuario |
 | U02 | En 2024, el 11,4% de los ocupados en España trabajó en jornada nocturna; hombres 13,7%, mujeres 8,8% | INE2025EPA | 2025 | ALTA | Supported | cap03 §usuario |
 | U03 | El 74% del personal de enfermería y partería en el Reino Unido depende de vehículo privado para desplazarse al trabajo | ADRUK2025 | 2025 | ALTA | Supported (matiz: dato UK, no España) | cap03 §usuario |
-| U04 | El transporte es identificado como factor de incentivo para la retención de personal sanitario hospitalario (dato cualitativo, no cuantificado) | METEOR2025 | 2025 | MEDIA | Supported | cap03 §usuario |
-| U05 | Los trabajadores de turno tienen 1,321 veces menos probabilidades de reportar satisfacción laboral frente a trabajadores sin turno | ShiftWork2025 | 2025 | ALTA | Supported | cap03 §usuario |
+| U04 | El transporte es identificado como factor de incentivo para la retención de personal sanitario hospitalario (dato cualitativo, no cuantificado) | Szemik2025 | 2025 | MEDIA | Supported | cap03 §usuario |
+| U05 | Los trabajadores de turno tienen 1,321 veces menos probabilidades de reportar satisfacción laboral frente a trabajadores sin turno | SanchezSellero2025 | 2025 | ALTA | Supported | cap03 §usuario |
 | U06 | 24,8% de los viajeros nocturnos en Sofía viaja por motivos laborales | Plyushteva2020 | 2020 | ALTA | Supported | cap03 §usuario |
 
 ---
