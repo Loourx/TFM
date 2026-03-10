@@ -62,15 +62,15 @@
 
 *Claims sobre el corredor CHUF–Ferrol, datos locales verificables (INE, SERGAS, horarios transporte, demografía). Todos los datos locales parten como `PENDIENTE-FERROL` hasta verificación con fuentes primarias.*
 
-| # | CLAIM | FUENTE PREVISTA | AÑO | NIVEL | ESTADO | SECCIÓN .tex |
-|---|-------|----------------|-----|-------|--------|--------------|
-| F01 | Población de Ferrol: ~65.000 habitantes | INE | — | — | PENDIENTE-FERROL | sec:caso-ferrol |
-| F02 | El CHUF está ubicado en A Cabana, periferia de Ferrol | SERGAS / Xunta de Galicia | — | — | PENDIENTE-FERROL | sec:caso-ferrol |
-| F03 | Distancia CHUF (A Cabana) – centro Ferrol: ~5 km | Verificar con cartografía oficial | — | — | PENDIENTE-FERROL | sec:caso-ferrol |
-| F04 | No hay servicio de autobús urbano o Renfe Cercanías en la franja 22:00–06:00 en el corredor CHUF–residencial | Horarios oficiales operadores | — | — | PENDIENTE-FERROL | sec:caso-ferrol |
-| F05 | Número de trabajadores del CHUF en turno nocturno | SERGAS / memoria anual CHUF | — | — | PENDIENTE-FERROL | sec:perfil-usuario |
-| F06 | Distribución de género del personal sanitario del CHUF | SERGAS / Eurostat | — | — | PENDIENTE-FERROL | sec:perfil-usuario |
-| F07 | Horarios de cambio de turno en el CHUF (entrada/salida noche) | Entrevistas informales / convenio colectivo sanidad Galicia | — | — | PENDIENTE-FERROL | sec:perfil-usuario |
+| # | CLAIM | CLAVE .bib | AÑO | NIVEL | ESTADO | SECCIÓN .tex |
+|---|-------|-----------|-----|-------|--------|--------------|
+| F01 | La población del municipio de Ferrol es de aproximadamente 64.358 habitantes (IGE 2024) | IGE2024 | 2024 | MEDIA | Supported | sec:caso-ferrol |
+| F02 | El CHUF da cobertura a una población de aproximadamente 173.000 (172.791 TIS) | SERGAS2024memoria | 2024 | ALTA | Contested | sec:caso-ferrol |
+| F03 | La distancia CHUF–centro se define funcionalmente por la frecuencia de la línea D (60 min) | Alsaferrol2024lineaD | 2024 | BAJA | Undetermined | sec:caso-ferrol |
+| F04 | No existe servicio de transporte público en el corredor CHUF–residencial en la franja 22:00–06:00 | Alsaferrol2024horarios, RenfeCercaniasFerrol2026, ConcelloFerrol2021pmus | 2024-2026 | ALTA/MEDIA | Supported | sec:caso-ferrol |
+| F05 | La plantilla de Atención Especializada del CHUF es de aproximadamente 1.647 trabajadores (dato 2019) | CHUF2019guiaresidente | 2019 | MEDIA | Supported | sec:perfil-usuario |
+| F06 | El turno de noche en el CHUF opera en la franja 22:00–08:00 h | CHUF2019guiaresidente, XuntaGalicia2025dog | 2019-2025 | ALTA | Supported | sec:perfil-usuario |
+| F07 | Los servicios mínimos nocturnos huelga 2025 fijan 63 enfermeros/as, 42 TCAEs y 13 celadores por turno | XuntaGalicia2025dog | 2025 | ALTA | Supported | sec:perfil-usuario |
 
 > **Nota:** Los valores F01–F07 son estimaciones provisionales para estructurar el trabajo. No pueden citarse en el `.tex` hasta tener fuente verificada.
 

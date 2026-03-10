@@ -22,20 +22,20 @@ con horizonte de implementación en 2035.
 
 El trabajo se desarrolla desde la perspectiva del diseño industrial aplicado
 al diseño de servicio. El artefacto resultante no es un vehículo ni una
-aplicación, sino un sistema de servicio: sus outputs son un
+aplicación, sino un sistema de servicio: sus recursos finales son un
 \textit{service blueprint} (mapa de servicio), un \textit{journey map}
 (mapa de experiencia de usuario), los principios de diseño del espacio
 interior del shuttle y un modelo de replicabilidad a corredores europeos
 análogos.
 
 El usuario principal del servicio es el personal sanitario de turno nocturno
-del \textsc{chuf} ---enfermería, auxiliares de enfermería y celadores--- un
+del \textsc{chuf} (enfermería, auxiliares de enfermería y celadores) un
 colectivo mayoritariamente femenino que trabaja en una instalación periférica
 sin cobertura de transporte público regular en horario nocturno. Este perfil
-no es excepcional: es representativo de decenas de ciudades europeas de
-tamaño medio con hospital periférico y vacío de transporte nocturno.
+ es representativo de decenas de ciudades europeas de
+tamaño medio con hospital periférico y con deficiencias en el transporte nocturno.
 Ferrol actúa aquí como laboratorio de diseño; el modelo de servicio generado
-es el output transferible.
+es el podría ser transferible a otras ciudades homólogas.
 
 Lo que este trabajo \emph{no} es: no es el diseño de ingeniería del
 vehículo, no es el desarrollo de una aplicación funcional, no es un plan
@@ -54,8 +54,8 @@ de esos desarrollos posteriores.
 \begin{claimS}
 El vacío nocturno en las redes de transporte público europeas ocurre
 típicamente entre la 01:00 y las 05:00~h \parencite{Plyushteva2020}.
-Durante esa franja, los trabajadores de turno de madrugada ---sanitarios,
-personal de hostelería, operarios de logística, trabajadores de manufactura---
+Durante esa franja, los trabajadores de turno de madrugada (sanitarios,
+personal de hostelería, operarios de logística, trabajadores de manufactura)
 quedan sin alternativa de transporte colectivo, independientemente de la
 ciudad en la que residan. A principios de 2019, 26 de las 28 capitales de la
 Unión Europea contaban con alguna forma de servicio nocturno
@@ -74,9 +74,9 @@ género significativa: el 13,7\% de los hombres frente al 8,8\% de las
 mujeres \parencite{INE2025EPA}.
 \end{claimS}
 
-La combinación de estos dos factores ---vacío nocturno en el transporte
+La combinación de estos dos factores (vacío nocturno en el transporte
 público y fuerza laboral mayoritariamente femenina trabajando en turno de
-noche--- define un problema de diseño con una dimensión de género que este
+noche) define un problema de diseño que este
 trabajo trata como eje transversal. 
 
 \begin{claimS}
@@ -86,14 +86,12 @@ inseguras en el metro, y un 6\% superior en autobús
 \parencite{AitBihiOuali2020}. El 75\% de las mujeres encuestadas modifica
 su ruta al desplazarse de noche respecto al día, y solo el 2\% declara
 sentirse completamente segura viajando en horario nocturno
-\parencite{URBACT2025Gender}. Un servicio de shuttle autónomo con corredor
-fijo, horario sincronizado y espacio diseñado con perspectiva de género
-es una respuesta directa a estas barreras.
+\parencite{URBACT2025Gender}.
 \end{claimS}
 
 \begin{claimS}
 Desde el lado tecnológico, los proyectos europeos financiados con fondos
-H2020 han demostrado la viabilidad operativa de los shuttles autónomos
+H2020 han demostrado la viabilidad operativa de shuttles autónomos
 SAE~L4 en entornos urbanos reales. El proyecto \textsc{avenue} (2018--2022)
 desplegó servicios regulares en 10 emplazamientos europeos, de los cuales
 cuatro mantienen operación comercial tras el fin de la financiación
@@ -119,7 +117,7 @@ residenciales, es un caso representativo y replicable de ese nicho.
 \label{sec:objetivos}
 
 El \textbf{objetivo general} de este trabajo es diseñar el concepto de
-servicio de un shuttle autónomo SAE~L4 para el transporte nocturno de
+servicio autónomo para el transporte nocturno de
 trabajadores de turno en el corredor \textsc{chuf}--Ferrol, con horizonte
 2035, como caso de estudio de un modelo de servicio replicable en ciudades
 europeas de tamaño medio.
@@ -130,15 +128,15 @@ Los \textbf{objetivos específicos} son:
   \item Analizar el vacío de transporte nocturno para trabajadores esenciales
         en ciudades europeas de tamaño medio y documentar su impacto en la
         calidad de vida y la retención laboral.
-  \item Construir el perfil del usuario principal ---personal sanitario de
-        turno nocturno del \textsc{chuf}--- a partir de datos empíricos de
+  \item Construir el perfil del usuario principal (personal sanitario de
+        turno nocturno del \textsc{chuf}) a partir de datos empíricos de
         la literatura y datos locales verificados del corredor Ferrol.
-  \item Evaluar el estado de madurez de los shuttles autónomos SAE~L4 en
+  \item Evaluar el estado de madurez de los shuttles autónomos en
         Europa, con especial atención a los pilotos \textsc{avenue} y
         \textsc{show}, y su adecuación operativa al corredor propuesto.
   \item Diseñar el concepto de servicio completo: \textit{service blueprint},
         \textit{journey map} y principios de diseño del espacio interior del
-        shuttle con perspectiva de género.
+        shuttle.
   \item Argumentar la transferibilidad del modelo de servicio a corredores
         europeos análogos: ciudades de 50.000--150.000 habitantes con
         hospital periférico y franja sin cobertura de transporte nocturno.
@@ -163,26 +161,25 @@ regulatoria de la tecnología SAE~L4 para entornos urbanos
 \parencite{Moreau2023, SHOW2024Legacy}.
 
 \textbf{Quedan fuera del alcance:}
-\begin{itemize}[noitemsep]
+\begin{itemize}
   \item El diseño de ingeniería del vehículo (carrocería, tren de potencia,
         sistemas de percepción).
   \item El desarrollo de una aplicación funcional o interfaz codificada.
   \item El análisis financiero de detalle (cuenta de resultados, flujo
         de caja).
   \item La implementación operativa del servicio.
-  \item Las verticales de transporte nocturno urbano convencional y trenes
-        nocturnos interurbanos, que se utilizan únicamente como marco
+  \item Las verticales de transporte nocturno urbano convencional, que se utilizan únicamente como marco
         contextual.
 \end{itemize}
 
-Las principales \textbf{limitaciones} del trabajo son dos. Primera: los
-datos locales del caso Ferrol ---número de trabajadores nocturnos del
-\textsc{chuf}, horarios de cambio de turno, cobertura real de transporte
-público--- estaban en proceso de verificación durante la redacción de esta
-memoria; las secciones afectadas se señalan explícitamente. Segunda: el
-trabajo se ha desarrollado en un plazo efectivo de aproximadamente tres
-meses, de forma simultánea con la actividad profesional del autor y las
-asignaturas del máster.
+Las \textbf{limitaciones} del trabajo son de naturaleza metodológica y de
+alcance. Primero, el trabajo se apoya en un caso de estudio único: las
+conclusiones sobre replicabilidad se argumentan por analogía estructural
+con corredores europeos comparables, pero no se validan empíricamente sobre
+múltiples casos. Por último, el horizonte 2035 implica que el concepto de servicio es prospectivo: la
+tecnología \textsc{sae}~L4 no opera de manera madura comercialmente en Europa en la fecha
+de redacción, y las proyecciones de limitaciones regulatoria y tecnológica
+están sujetas a incertidumbre inherente.
 
 
 % ============================================================
