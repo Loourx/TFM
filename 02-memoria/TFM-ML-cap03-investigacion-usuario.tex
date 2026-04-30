@@ -1,21 +1,243 @@
 % !TEX root = TFM-ML-01-memoria-referencia.tex
 \section{Investigación de usuario}\label{sec:investigacion-usuario}
 
-\subsection{Perfil del trabajador de turno nocturno}\label{sec:perfil-usuario}
-\begin{pendiente}
-%% INSERTAR: perfil-trabajador-nocturno
-\end{pendiente}
+\subsection{Diseño y metodología de la encuesta primaria}
+\label{sec:metodologia-encuesta}
 
-\subsection{Usuario primario: personal sanitario nocturno del CHUF}\label{sec:usuario-chuf}
-\begin{pendiente}
-%% INSERTAR: usuario-primario-chuf
-%% PENDIENTE-FERROL: horarios de turno, zonas residenciales, alternativas de movilidad actuales
-\end{pendiente}
+La investigación primaria de este trabajo consiste en
+una encuesta dirigida a trabajadores sanitarios de turno
+nocturno en hospitales de la provincia de A~Coruña,
+diseñada y administrada por el autor en el marco del
+presente TFM. A continuación se describe su ficha técnica
+y las decisiones metodológicas que la sustentan.
 
-\subsection{Seguridad percibida y perspectiva de género}\label{sec:seguridad-genero}
-\begin{pendiente}
-%% INSERTAR: seguridad-percibida-genero
-\end{pendiente}
+\subsubsection{Ficha técnica}
+\label{sec:ficha-tecnica}
+
+\begin{itemize}
+  \item \textbf{Universo:} Personal sanitario que trabaja
+    o ha trabajado en turno de noche en hospitales de la
+    provincia de A~Coruña.
+  \item \textbf{Muestra válida:} 167~respuestas.
+  \item \textbf{Período de recogida:} Marzo de 2026.
+  \item \textbf{Instrumento:} Cuestionario estructurado
+    de 25~ítems, organizado en seis bloques temáticos:
+    perfil y demografía, patrón de desplazamiento, vacío
+    de transporte público, carga del desplazamiento,
+    impacto laboral, y fatiga y seguridad.
+  \item \textbf{Distribución:} Canal digital. Difusión
+    a través de redes profesionales del sector sanitario.
+  \item \textbf{Análisis cuantitativo:} Microsoft Excel
+    y JASP. Estadística descriptiva con frecuencias
+    absolutas, porcentajes e índices de gravedad por ítem.
+  \item \textbf{Análisis cualitativo:} 46~respuestas
+    abiertas codificadas en 8~códigos temáticos mediante
+    análisis de contenido inductivo.
+\end{itemize}
+
+\subsubsection{Limitaciones metodológicas}
+\label{sec:limitaciones-encuesta}
+
+La muestra es de conveniencia y no probabilística.
+Los resultados no son extrapolables estadísticamente al
+conjunto del personal sanitario nocturno de la provincia,
+pero son suficientes para identificar patrones y
+fundamentar criterios de diseño. La distribución digital
+introduce un sesgo de autoselección que no puede
+cuantificarse con los datos disponibles
+\cite{LouridoRegueira2026}.
+
+\subsection{Perfil del usuario primario: personal sanitario nocturno}
+\label{sec:perfil-usuario}
+
+El perfil que se presenta a continuación se construye
+íntegramente desde los datos de la encuesta propia.
+La literatura europea se utiliza como marco de
+contextualización, no como fuente del perfil.
+
+\subsubsection{Categoría profesional}
+\label{sec:categoria-profesional}
+
+El colectivo mayoritario es el de enfermería, que
+representa el 56{,}9\,\% de la muestra (95 de~167).
+El segundo grupo es el de auxiliares de enfermería
+(TCAE), con el 21{,}0\,\% (35 de~167). Ambos colectivos
+suman el 77{,}9\,\% del total. Los médicos residentes
+o adjuntos representan el 15{,}0\,\% (25 de~167),
+y los celadores el 4{,}8\,\% (8 de~167)
+\cite{LouridoRegueira2026}.
+
+\subsubsection{Régimen de turno y noches al mes}
+\label{sec:regimen-turno}
+
+El 81{,}4\,\% de los encuestados (136 de~167) trabaja
+en régimen de turno rotatorio con noches. El 49{,}1\,\%
+(82 de~167) trabaja entre 5 y~8 noches al mes, y el
+47{,}9\,\% (80 de~167) entre 1 y~4 noches. Solo el
+2{,}9\,\% supera las 8~noches mensuales
+\cite{LouridoRegueira2026}.
+
+\subsubsection{Zona de residencia}
+\label{sec:zona-residencia}
+
+El 38{,}9\,\% de los encuestados (65 de~167) reside en
+un municipio distinto al del hospital. El 32{,}9\,\%
+(55 de~167) reside en el centro urbano de la misma
+ciudad. El 17{,}9\,\% (30 de~167) reside en zona rural,
+y el 10{,}2\,\% (17 de~167) en un barrio periférico de
+la misma ciudad. El 49{,}1\,\% reside, por tanto, fuera
+del entorno urbano inmediato del hospital
+\cite{LouridoRegueira2026}.
+
+\subsubsection{Género y edad}
+\label{sec:genero-edad}
+
+El 91{,}0\,\% de la muestra se identifica como mujer
+(152 de~167). El 7{,}8\,\% se identifica como hombre
+(13 de~167). El rango de edad predominante es el de
+46--55~años, con el 34{,}7\,\% (58 de~167), seguido
+de los rangos 26--35~años (21{,}0\,\%) y 36--45~años
+(20{,}4\,\%) \cite{LouridoRegueira2026}.
+
+\subsubsection{Hospital de referencia}
+\label{sec:hospital-referencia}
+
+El 44{,}3\,\% de los encuestados (74 de~167) trabaja
+en el CHUF --- Complexo Hospitalario Universitario de
+Ferrol. El 27{,}5\,\% (46 de~167) trabaja en el CHUAC
+de A~Coruña, y el 20{,}4\,\% (34 de~167) en el CHUS
+de Santiago de Compostela. El CHUF es el hospital con
+mayor representación en la muestra y el caso de estudio
+principal del trabajo \cite{LouridoRegueira2026}.
+
+\subsection{Hallazgos cuantitativos: barreras de movilidad documentadas}
+\label{sec:hallazgos-cuantitativos}
+
+Los seis bloques del cuestionario arrojan los siguientes
+resultados sobre las barreras de movilidad nocturna
+del personal sanitario encuestado.
+
+\subsubsection{Patrón de desplazamiento actual}
+\label{sec:patron-desplazamiento}
+
+El vehículo privado es el modo de transporte principal
+tanto para ir al hospital como para volver. La dependencia
+del vehículo propio en la franja nocturna refleja la
+ausencia de alternativas, no necesariamente una preferencia
+modal \cite{LouridoRegueira2026}.
+
+\subsubsection{Vacío de transporte público}
+\label{sec:vacio-tp}
+
+El 52{,}1\,\% de los encuestados (87 de~167) carece de
+cobertura fiable de transporte público en la franja
+de su turno nocturno: 39 declaran no tener servicio,
+y 48 declaran no saber si existe. El 47{,}3\,\%
+(79 de~167) no encuentra transporte público disponible
+\emph{varias veces a la semana}. El 30{,}5\,\%
+(51 de~167) identifica la falta de transporte público
+como el cambio prioritario único en su desplazamiento
+\cite{LouridoRegueira2026}.
+
+\subsubsection{Carga del desplazamiento}
+\label{sec:carga-desplazamiento}
+
+Las dificultades de aparcamiento afectan al 61{,}1\,\%
+de los encuestados (102 de~167) con una frecuencia de
+\emph{varias veces a la semana}. El índice de gravedad
+de este ítem es de 60{,}9 sobre~100. El 26{,}9\,\%
+(45 de~167) señala el aparcamiento garantizado como
+el cambio prioritario único \cite{LouridoRegueira2026}.
+
+\subsubsection{Impacto laboral}
+\label{sec:impacto-laboral}
+
+Los problemas de transporte nocturno tienen consecuencias
+laborales concretas y cuantificables. El 6{,}6\,\% de los
+encuestados (11 de~167) ha rechazado o evitado al menos
+un turno de noche por dificultades de desplazamiento.
+El 22{,}8\,\% (38 de~167) ha llegado tarde al turno de
+noche por la misma causa al menos una vez. En total,
+el 25{,}7\,\% de la muestra (43 de~167) ha experimentado
+al menos uno de estos dos impactos laborales directos
+\cite{LouridoRegueira2026}.
+
+\subsubsection{Fatiga al volante}
+\label{sec:fatiga-volante}
+
+El 52{,}7\,\% de los encuestados (88 de~167) declara
+conducir con sueño o fatiga \emph{varias veces a la
+semana}. El índice de gravedad de este ítem es de
+60{,}2 sobre~100, el más alto de los ítems de problema
+del cuestionario \cite{LouridoRegueira2026}.
+
+\subsection{Hallazgos cualitativos: análisis de respuestas abiertas}
+\label{sec:hallazgos-cualitativos}
+
+El cuestionario incluía una pregunta abierta opcional al
+final. 46 de los 167 encuestados respondieron, lo que
+representa una tasa de respuesta cualitativa del 27{,}5\,\%.
+Las respuestas fueron codificadas por el autor en
+8~códigos temáticos mediante análisis de contenido
+inductivo \cite{LouridoRegueira2026}.
+
+\subsubsection{Patrones de co-ocurrencia}
+\label{sec:patrones-coocurrencia}
+
+21 de las 46~respuestas abiertas (45{,}7\,\%) combinan
+dos o más problemas simultáneos. Este patrón de
+co-ocurrencia indica que las barreras de movilidad
+nocturna no son independientes: la falta de transporte
+público, la fatiga y el coste del aparcamiento se
+experimentan de forma simultánea y se refuerzan
+mutuamente \cite{LouridoRegueira2026}.
+
+\subsubsection{Propuesta espontánea de servicio}
+\label{sec:propuesta-espontanea}
+
+Una respuesta, codificada como T8, formula espontáneamente
+la demanda de un servicio de shuttle coordinado por la
+institución sanitaria, sin que el cuestionario lo indujera
+ni sugiriera:
+
+\begin{quote}
+«Estaría bien que a los trabajadores de hospitales se nos
+pusiera un transporte para llevarnos al hospital y
+recogernos en un punto y de ahí para casa.»
+\hfill\textit{\cite{LouridoRegueira2026}}
+\end{quote}
+
+Esta respuesta es significativa no por su frecuencia ---
+aparece una sola vez --- sino porque formula de forma
+autónoma un modelo de servicio que coincide con la
+hipótesis de trabajo de este proyecto. Su valor radica
+en que no es inducida \cite{LouridoRegueira2026}.
+
+\subsection{Perspectiva de género: brecha en el riesgo de fatiga al volante}
+\label{sec:perspectiva-genero}
+
+El cruce de los datos de fatiga al volante por género
+revela una brecha estadísticamente relevante que tiene
+implicaciones directas para el diseño del servicio.
+
+El 90{,}8\,\% de las mujeres de la muestra (138 de~152)
+presentan riesgo de fatiga al volante con una frecuencia
+igual o superior a \emph{varias veces al mes}. En el
+caso de los hombres, ese porcentaje es del 53{,}8\,\%
+(7 de~13) \cite{LouridoRegueira2026}.
+
+La muestra es 91{,}0\,\% femenina (152 de~167). Esto
+significa que el colectivo que más necesita una alternativa
+al vehículo privado nocturno es, de forma abrumadora,
+el mismo que compone la mayor parte de la plantilla
+sanitaria nocturna. La perspectiva de género no es un
+eje añadido al análisis: emerge directamente de los datos.
+
+Un servicio de movilidad nocturna para este colectivo
+debe contemplar la seguridad percibida como criterio
+de diseño de primer orden, dado que el 91\,\% de
+sus usuarias potenciales son mujeres que viajan solas
+en franja nocturna \cite{LouridoRegueira2026}.
 
 \subsection{Benchmarking de pilotos de vehículos autónomos compartidos}\label{sec:benchmarking-av}
 \begin{pendiente}
