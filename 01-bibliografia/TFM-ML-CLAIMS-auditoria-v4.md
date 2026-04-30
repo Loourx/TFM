@@ -64,10 +64,10 @@
 
 | # | CLAIM | CLAVE .bib | AÑO | NIVEL | ESTADO | SECCIÓN .tex |
 |---|-------|-----------|-----|-------|--------|--------------|
-| F01 | La población del municipio de Ferrol es de aproximadamente 64.358 habitantes (IGE 2024) | IGE2024 | 2024 | MEDIA | Supported | sec:caso-ferrol |
-| F02 | El CHUF da cobertura a una población de aproximadamente 173.000 (172.791 TIS) | SERGAS2024memoria | 2024 | ALTA | Contested | sec:caso-ferrol |
-| F03 | La distancia CHUF–centro se define funcionalmente por la frecuencia de la línea D (60 min) | Alsaferrol2024lineaD | 2024 | BAJA | Undetermined | sec:caso-ferrol |
-| F04 | No existe servicio de transporte público en el corredor CHUF–residencial en la franja 22:00–06:00 | Alsaferrol2024horarios, RenfeCercaniasFerrol2026, ConcelloFerrol2021pmus | 2024-2026 | ALTA/MEDIA | Supported | sec:caso-ferrol |
+| F01 | Población de Ferrol: 64.218 hab. (1 enero 2024) | INE2024Ferrol | 2024 | ALTA | Supported | sec:caso-ferrol |
+| F02 | CHUF: Avda. de la Residencia s/n, Ferrol. Ubicación periférica verificada. Referencia a parroquia A Cabana eliminada por no verificable. | Sanidad2024CHUF | 2024 | MEDIA | Supported | sec:caso-ferrol |
+| F03 | Distancia CHUF–centro Ferrol: ~2–4 km / ~10–15 min en coche | — | — | BAJA | Undetermined | sec:caso-ferrol |
+| F04 | Sin servicio TP nocturno regular 22:00–06:00 en corredor CHUF–centro. Verificado por ausencia en portales oficiales del Concello de Ferrol y operador de transporte urbano. | — | — | MEDIA | Supported | sec:caso-ferrol |
 | F05 | La plantilla de Atención Especializada del CHUF es de aproximadamente 1.647 trabajadores (dato 2019) | CHUF2019guiaresidente | 2019 | MEDIA | Supported | sec:perfil-usuario |
 | F06 | El turno de noche en el CHUF opera en la franja 22:00–08:00 h | CHUF2019guiaresidente, XuntaGalicia2025dog | 2019-2025 | ALTA | Supported | sec:perfil-usuario |
 | F07 | Los servicios mínimos nocturnos huelga 2025 fijan 63 enfermeros/as, 42 TCAEs y 13 celadores por turno | XuntaGalicia2025dog | 2025 | ALTA | Supported | sec:perfil-usuario |
