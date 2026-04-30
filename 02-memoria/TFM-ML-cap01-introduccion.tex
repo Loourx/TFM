@@ -1,8 +1,8 @@
 % TFM-ML-cap01-introduccion.tex
 % Capítulo 01 — Introducción
 % Autor: Mario Lourido Regueira
-% Scope: v4 — Corredor CHUF–Ferrol, horizonte 2035
-% Última revisión: 2026-03-09
+% Scope: v5 — Corredor CHUF–Ferrol, horizonte variable
+% Última revisión: 2026-04-30
 % Estado: REDACTADO — pendiente revisión directores
 
 
@@ -13,19 +13,14 @@
 \subsection{Presentación del proyecto}
 \label{sec:presentacion}
 
-Este trabajo de fin de máster propone el concepto de servicio de un shuttle
-autónomo de nivel SAE~L4 para el transporte nocturno de trabajadores de turno
-en el corredor del Complexo Hospitalario Universitario de Ferrol
-(\textsc{chuf}, A~Cabana) hacia las zonas residenciales de la ciudad,
-operando en la franja horaria comprendida entre las 22:00 y las 06:00~h,
-con horizonte de implementación en 2035.
+Este trabajo de fin de máster propone el concepto de servicio de movilidad nocturna para el transporte nocturno de trabajadores de turno en el corredor del Complexo Hospitalario Universitario de Ferrol (\textsc{chuf}, A~Cabana) hacia las zonas residenciales de la ciudad, operando en la franja horaria comprendida entre las 22:00 y las 06:00~h; el horizonte temporal se determina en función de la tecnología seleccionada en la fase de diseño.
 
 El trabajo se desarrolla desde la perspectiva del diseño industrial aplicado
 al diseño de servicio. El artefacto resultante no es un vehículo ni una
 aplicación, sino un sistema de servicio: sus recursos finales son un
 \textit{service blueprint} (mapa de servicio), un \textit{journey map}
 (mapa de experiencia de usuario), los principios de diseño del espacio
-interior del shuttle y un modelo de replicabilidad a corredores europeos
+interior del servicio y un modelo de replicabilidad a corredores europeos
 análogos.
 
 El usuario principal del servicio es el personal sanitario de turno nocturno
@@ -52,15 +47,17 @@ de esos desarrollos posteriores.
 \label{sec:motivacion}
 
 \begin{claimS}
-El vacío nocturno en las redes de transporte público europeas ocurre
-típicamente entre la 01:00 y las 05:00~h \parencite{Plyushteva2020}.
-Durante esa franja, los trabajadores de turno de madrugada (sanitarios,
-personal de hostelería, operarios de logística, trabajadores de manufactura)
-quedan sin alternativa de transporte colectivo, independientemente de la
-ciudad en la que residan. A principios de 2019, 26 de las 28 capitales de la
-Unión Europea contaban con alguna forma de servicio nocturno
-\parencite{Plyushteva2020}; sin embargo, la cobertura en ciudades no
-capitales y de tamaño medio era, y sigue siendo, residual.
+El trabajo a turnos afecta a una fracción significativa de la fuerza
+laboral europea: el 21\,\% de los trabajadores de la UE-28 trabaja en
+turno, y el 48,8\,\% de ese colectivo lo hace en turnos rotativos o
+alternos que incluyen la noche \cite{SanchezSellero2025}. Entre los
+colectivos que expresan con mayor frecuencia la necesidad de movilidad
+nocturna fiable se encuentran los trabajadores sanitarios, el personal
+de limpieza y mantenimiento y los empleados de hostelería: sectores que
+operan en instalaciones periféricas durante la franja horaria en que el
+transporte colectivo ha cesado \cite{URBACT2025Gender}. Para todos
+ellos, la ausencia de servicio nocturno no es una carencia puntual sino
+un coste estructural que se repite cada jornada.
 \end{claimS}
 
 \begin{claimS}
@@ -90,6 +87,14 @@ sentirse completamente segura viajando en horario nocturno
 \end{claimS}
 
 \begin{claimS}
+El patrón no es exclusivo de grandes metrópolis. En Braga (Portugal,
+aproximadamente 200.000 habitantes), el servicio de autobús urbano
+finaliza a medianoche; la propia operadora estudia adaptar los horarios
+para los trabajadores del hospital local que residen en zonas suburbanas
+sin cobertura posterior \cite{dAntonio2024}. La escala del problema en
+ciudades medias es documentable y replicable: no se trata de un déficit
+excepcional sino de un patrón estructural que se repite en corredores
+hospitalarios periféricos en distintos países europeos.
 Desde el lado tecnológico, los proyectos europeos financiados con fondos
 H2020 han demostrado la viabilidad operativa de shuttles autónomos
 SAE~L4 en entornos urbanos reales. El proyecto \textsc{avenue} (2018--2022)
@@ -102,8 +107,7 @@ para operar en zonas de demanda baja a media \parencite{Moreau2023}:
 exactamente el perfil de una ciudad como Ferrol.
 \end{claimS}
 
-El argumento central de este trabajo es que el shuttle autónomo no es una
-solución pensada para metrópolis: es estructuralmente adecuado para corredores
+El argumento central de este trabajo es que el servicio de movilidad nocturna no es una solución pensada para metrópolis: es estructuralmente adecuado para corredores
 de demanda predecible y baja, donde el transporte nocturno convencional
 resulta inviable económicamente. Ferrol, con su corredor \textsc{chuf}--zonas
 residenciales, es un caso representativo y replicable de ese nicho.
@@ -116,11 +120,7 @@ residenciales, es un caso representativo y replicable de ese nicho.
 \subsection{Objetivos}
 \label{sec:objetivos}
 
-El \textbf{objetivo general} de este trabajo es diseñar el concepto de
-servicio autónomo para el transporte nocturno de
-trabajadores de turno en el corredor \textsc{chuf}--Ferrol, con horizonte
-2035, como caso de estudio de un modelo de servicio replicable en ciudades
-europeas de tamaño medio.
+El \textbf{objetivo general} de este trabajo es diseñar un concepto de servicio de movilidad nocturna para trabajadores sanitarios en el corredor CHUF–Ferrol, fundamentado en evidencia empírica propia, y extraer de él un modelo de servicio transferible a ciudades europeas con perfil análogo.
 
 Los \textbf{objetivos específicos} son:
 
@@ -128,15 +128,11 @@ Los \textbf{objetivos específicos} son:
   \item Analizar el vacío de transporte nocturno para trabajadores esenciales
         en ciudades europeas de tamaño medio y documentar su impacto en la
         calidad de vida y la retención laboral.
-  \item Construir el perfil del usuario principal (personal sanitario de
-        turno nocturno del \textsc{chuf}) a partir de datos empíricos de
-        la literatura y datos locales verificados del corredor Ferrol.
-  \item Evaluar el estado de madurez de los shuttles autónomos en
-        Europa, con especial atención a los pilotos \textsc{avenue} y
-        \textsc{show}, y su adecuación operativa al corredor propuesto.
+  \item Construir el perfil del usuario principal (personal sanitario de turno nocturno del \textsc{chuf}) a partir de los datos primarios de la encuesta propia (n=167), con literatura europea como marco de contextualización.
+  \item Documentar empíricamente las barreras de movilidad nocturna del personal sanitario del CHUF mediante encuesta propia (n=167).
   \item Diseñar el concepto de servicio completo: \textit{service blueprint},
         \textit{journey map} y principios de diseño del espacio interior del
-        shuttle.
+        servicio.
   \item Argumentar la transferibilidad del modelo de servicio a corredores
         europeos análogos: ciudades de 50.000--150.000 habitantes con
         hospital periférico y franja sin cobertura de transporte nocturno.
@@ -155,10 +151,7 @@ conceptual}. El ámbito geográfico es doble: el corredor \textsc{chuf}--Ferrol
 como caso de estudio, y las ciudades europeas de tamaño medio como ámbito
 del modelo replicable.
 
-El horizonte temporal es \textbf{2035}, anclado en los datos actuales de
-operación de los pilotos europeos y en las proyecciones de madurez
-regulatoria de la tecnología SAE~L4 para entornos urbanos
-\parencite{Moreau2023, SHOW2024Legacy}.
+El horizonte temporal se determina en función de la tecnología seleccionada en la fase de diseño, fundamentándose en los datos actuales de operación de servicios nocturnos y en las proyecciones de madurez de las soluciones candidatas.
 
 \textbf{Quedan fuera del alcance:}
 \begin{itemize}
@@ -176,10 +169,7 @@ Las \textbf{limitaciones} del trabajo son de naturaleza metodológica y de
 alcance. Primero, el trabajo se apoya en un caso de estudio único: las
 conclusiones sobre replicabilidad se argumentan por analogía estructural
 con corredores europeos comparables, pero no se validan empíricamente sobre
-múltiples casos. Por último, el horizonte 2035 implica que el concepto de servicio es prospectivo: la
-tecnología \textsc{sae}~L4 no opera de manera madura comercialmente en Europa en la fecha
-de redacción, y las proyecciones de limitaciones regulatoria y tecnológica
-están sujetas a incertidumbre inherente.
+múltiples casos. Por último, el horizonte temporal se determina en función de la tecnología seleccionada en la fase de diseño, lo que implica que el concepto de servicio es prospectivo: la tecnología seleccionada puede no operar de manera madura comercialmente en Europa en la fecha de redacción, y las proyecciones de limitaciones regulatorias y tecnológicas están sujetas a incertidumbre inherente.
 
 
 % ============================================================
@@ -198,16 +188,12 @@ que el usuario informa y el diseñador decide \parencite{MartinezRodriguez2024}.
 Las \textbf{herramientas de aplicación confirmada} son:
 
 \begin{itemize}[noitemsep]
-  \item Análisis \textsc{pestel} del entorno de la conducción autónoma
-        nocturna en Europa.
-  \item \textit{Stakeholder mapping} por matriz Poder--Interés: actores
-        del ecosistema de movilidad autónoma y transporte nocturno en
-        el contexto del corredor Ferrol.
+  \item Análisis \textsc{pestel} de la movilidad nocturna en Europa.
+  \item \textit{Stakeholder mapping} por matriz Poder--Interés: actores del ecosistema de movilidad nocturna en el contexto del corredor Ferrol.
   \item Despliegue de la función de calidad (\textsc{qfd}): traducción
         de necesidades del usuario en requisitos del servicio y del
         espacio interior.
-  \item \textit{Benchmarking} de pilotos europeos de vehículos autónomos
-        compartidos y servicios de transporte nocturno análogos.
+  \item \textit{Benchmarking} de servicios de movilidad nocturna en corredores análogos.
   \item \textit{Service blueprint}: mapa completo del servicio en el
         corredor \textsc{chuf}--Ferrol (acciones del usuario,
         \textit{frontstage}, \textit{backstage}, procesos de soporte).
@@ -234,33 +220,20 @@ externa verificable, con autor, año y \textsc{doi} o \textsc{url}.
 \subsection{Estructura de la memoria}
 \label{sec:estructura}
 
-La memoria se organiza en ocho capítulos.
+La memoria se organiza en nueve capítulos.
 
-El \textbf{capítulo 2} establece el marco contextual: el análisis
-\textsc{pestel} del entorno de la conducción autónoma nocturna en Europa
-y el mapa de \textit{stakeholders} del ecosistema. Es el capítulo que
-sitúa el problema en su dimensión política, tecnológica y social.
+El \textbf{capítulo 2} establece el marco contextual: el análisis \textsc{pestel} de la movilidad nocturna en Europa y el mapa de \textit{stakeholders} del ecosistema. Es el capítulo que sitúa el problema en su dimensión política, económica y social.
 
-El \textbf{capítulo 3} contiene la investigación de usuario y mercado:
-los perfiles de usuario construidos a partir de datos empíricos, el
-\textit{benchmarking} de los pilotos europeos y la vigilancia tecnológica
-sobre el estado de madurez de los shuttles SAE~L4.
+El \textbf{capítulo 3} contiene la investigación de usuario: los perfiles de usuario construidos a partir de datos primarios de la encuesta propia, el análisis cuantitativo y cualitativo de hallazgos y el \textit{benchmarking} de servicios de movilidad nocturna.
 
-El \textbf{capítulo 4} recoge las estrategias de diseño: la traducción
-de la investigación en requisitos mediante \textsc{qfd} y \textsc{moscow},
-el análisis \textsc{dafo} del sistema y la toma de decisiones de concepto
-con justificación documentada.
+El \textbf{capítulo 4} recoge los criterios de diseño del servicio: los insights de diseño derivados de la investigación, la traducción en requisitos mediante \textsc{qfd} y \textsc{moscow} y la definición de los valores del servicio.
 
-El \textbf{capítulo 5} desarrolla el concepto de sistema: el
-\textit{service blueprint}, el \textit{journey map}, los principios de
-diseño del espacio interior, el modelo de negocio y la argumentación de
-replicabilidad a corredores europeos análogos.
+El \textbf{capítulo 5} desarrolla la propuesta de servicio: la evaluación de candidatos y selección justificada, el \textit{service blueprint}, el \textit{journey map}, los principios de diseño del espacio del servicio y el modelo de negocio conceptual.
 
-El \textbf{capítulo 6} evalúa el concepto: el pliego de condiciones,
-la matriz de afirmaciones--evidencia y el análisis de viabilidad y riesgos.
+El \textbf{capítulo 6} define el modelo de replicabilidad: el análisis de representatividad de Ferrol y los parámetros del modelo transferible a corredores europeos análogos.
 
-El \textbf{capítulo 7} recoge las conclusiones: síntesis de hallazgos,
-limitaciones del trabajo y líneas futuras.
+El \textbf{capítulo 7} presenta la evaluación del proyecto: el pliego de condiciones, la matriz de afirmaciones--evidencia y el análisis de viabilidad y riesgos.
 
-El \textbf{capítulo 8} detalla el presupuesto del proyecto como ejercicio
-de cuantificación del coste real del trabajo de diseño.
+El \textbf{capítulo 8} recoge las conclusiones: síntesis de hallazgos, limitaciones del trabajo y líneas futuras.
+
+El \textbf{capítulo 9} detalla el presupuesto del proyecto como ejercicio de cuantificación del coste real del trabajo de diseño.
