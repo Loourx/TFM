@@ -1,18 +1,18 @@
 % TFM-ML-cap02-marco-contextual.tex
 % Capítulo 02 — Marco Contextual
 % Autor: Mario Lourido Regueira
-% Scope: v4 — Corredor CHUF–Ferrol, horizonte 2035
-% Última revisión: 2026-03-09
-% Estado: PARCIALMENTE REDACTADO — §2.1 y §2.2 completadas
-%         §2.3–2.5 (PESTEL) y §2.6 (Stakeholders) pendientes
+% Scope: v5 — Corredor CHUF–Ferrol, horizonte variable
+% Última revisión: 2026-04-30
+% Estado: REDACTADO — §2.1, §2.2 y §2.3 alineados con v5
+%         §2.4–2.5 (Caso Ferrol y Stakeholders) en espera de verificación
 
 
 % ============================================================
-% 2.1 LA CIUDAD DE 24 HORAS: EL PROBLEMA DE FONDO
+% 2.1 EL VACÍO DE TRANSPORTE NOCTURNO EN EUROPA
 % ============================================================
 
-\subsection{La ciudad de 24 horas: el problema de fondo}
-\label{sec:ciudad-24h}
+\subsection{El vacío de transporte nocturno en Europa}
+\label{sec:vacio-nocturno}
 
 Las ciudades europeas funcionan las veinticuatro horas del día. Los
 hospitales no cierran, las cadenas de distribución no se detienen, los
@@ -50,203 +50,329 @@ las tres variables de forma explícita.
 
 
 % ============================================================
-% 2.2 EL PROBLEMA Y EL CASO FERROL
+% 2.2 PANORAMA DE SOLUCIONES DE MOVILIDAD NOCTURNA
 % ============================================================
 
-\subsection{El problema y el caso Ferrol}
-\label{sec:problema-ferrol}
+\subsection{Panorama de soluciones de movilidad nocturna: modelos operativos existentes}
+\label{sec:panorama-soluciones}
 
-\subsubsection{Definición del problema}
-\label{sec:definicion-problema}
+Antes de formular ninguna propuesta, es necesario describir
+qué soluciones existen para cubrir vacíos de transporte
+nocturno en corredores de demanda concentrada. Esta sección
+presenta los modelos operativos documentados en la
+literatura y en experiencias europeas. Ninguno se selecciona
+aquí: la evaluación frente a los criterios de diseño
+se realiza en el capítulo~\ref{cap:propuesta}.
 
-El problema que este trabajo aborda puede formularse con precisión:
-\textit{el personal sanitario de turno nocturno en ciudades europeas de
-tamaño medio carece de transporte público fiable, seguro y económicamente
-accesible durante la franja de vacío del servicio (aproximadamente
-22:00--06:00~h), lo que impone costes económicos, de seguridad percibida
-y de calidad de vida desproporcionados sobre un colectivo mayoritariamente
-femenino.}
+\subsubsection{Transporte público convencional ampliado}
+\label{sec:sol-tp-convencional}
 
-Cada uno de los elementos de esta formulación tiene soporte empírico:
+La extensión de horarios de líneas de autobús o tren
+existentes es la solución más habitual para cubrir
+parcialmente la franja nocturna. Su viabilidad depende
+de la existencia de demanda suficiente para justificar
+el coste operativo. En ciudades de menos de 150.000
+habitantes, la demanda nocturna dispersa raramente
+alcanza el umbral de rentabilidad de una línea regular
+\fuentependiente{referencia sobre umbrales de demanda
+en transporte nocturno urbano}.
 
-\begin{claimS}
-\textbf{Coste económico.} En ausencia de transporte público, los
-trabajadores nocturnos dependen del taxi o del vehículo privado, con el
-gasto asociado. Estudios de caso documentan que empleadores del sector
-de hostelería asumen gastos de transporte nocturno en taxi para su personal
-por falta de alternativa \parencite{Plyushteva2020}.
-\end{claimS}
+\subsubsection{Transporte a demanda (DRT)}
+\label{sec:sol-drt}
 
-\begin{claimS}
-\textbf{Impacto en satisfacción y retención laboral.} Los trabajadores
-de turno presentan una probabilidad 1,321 veces inferior de reportar
-satisfacción laboral respecto a trabajadores sin turno
-\parencite{SanchezSellero2025}. Aunque la literatura no cuantifica de forma
-aislada el impacto del transporte nocturno sobre el abandono laboral en
-sanidad, el proyecto europeo \textsc{Szemik2025} identifica las posibilidades
-de transporte como uno de los factores clave en las estrategias de
-retención hospitalaria \parencite{Szemik2025}.
-\end{claimS}
+El \emph{Demand Responsive Transport} (DRT) adapta rutas
+y horarios a las solicitudes de los usuarios en tiempo
+real o con reserva anticipada. Reduce el coste por
+kilómetro en contextos de baja densidad de demanda y
+permite cubrir la franja nocturna sin la rigidez de
+una línea fija. Varias ciudades europeas de tamaño medio
+han implementado DRT nocturno con resultados variables
+según el modelo de financiación y la tasa de adopción
+\fuentependiente{referencia sobre implementaciones DRT
+nocturno en ciudades medias europeas}.
 
-\begin{claimS}
-\textbf{Dimensión de género.} Las mujeres presentan una probabilidad un
-10\% superior a la de los hombres de sentirse inseguras en el metro, y un
-6\% superior en autobús \parencite{AitBihiOuali2020}. El 75\% de las
-mujeres encuestadas modifica su ruta al desplazarse de noche respecto al
-día \parencite{URBACT2025Gender}. Dado que el 78\% del empleo sanitario en
-la UE es femenino \parencite{Eurostat2020Health}, esta barrera afecta
-desproporcionadamente al colectivo usuario del servicio propuesto.
-\end{claimS}
+\subsubsection{Shuttle con conductor en corredor fijo}
+\label{sec:sol-shuttle-conductor}
 
-\subsubsection{Por qué las ciudades medias}
-\label{sec:ciudades-medias}
+Un shuttle de capacidad reducida (8--20 plazas) operando
+en un corredor fijo y con horarios sincronizados con
+un generador de demanda concentrada (hospital, polígono
+industrial, campus logístico) es una solución de baja
+complejidad tecnológica y alta adaptabilidad. No requiere
+infraestructura específica ni marco regulatorio especial.
+Su coste operativo está determinado principalmente por
+el salario del conductor y la amortización del vehículo
+\fuentependiente{referencia sobre modelos de shuttle
+institucional en entorno sanitario o similar}.
 
-El problema del vacío nocturno afecta a todas las ciudades europeas, pero
-se manifiesta con mayor severidad en las de tamaño medio. Las grandes
-metrópolis (Londres, París, Madrid, Berlín) han desarrollado redes de
-transporte nocturno relativamente consolidadas, impulsadas por economías de
-escala y por una demanda suficientemente concentrada como para justificar
-el coste del servicio. Las ciudades de 50.000--150.000~habitantes no tienen
-esa escala: la demanda es real pero dispersa, y los modelos de servicio
-convencionales no son rentables a esa escala.
+\subsubsection{Vehículo autónomo en corredor fijo}
+\label{sec:sol-av}
 
-\begin{claimS}
-Esta es precisamente la lógica que fundamentó el diseño de los proyectos
-europeos de transporte autónomo: el proyecto \textsc{avenue} se diseñó
-explícitamente para operar en \textit{áreas de demanda baja a media}
-\parencite{Moreau2023}. El servicio propuesta en este proyecto no es una solución pensada para
-sustituir al metro de una metrópolis, sino que es una solución estructuralmente
-adecuada para corredores de demanda predecible y baja, donde el operador
-convencional no tiene incentivos para operar.
-\end{claimS}
+Los vehículos autónomos de nivel SAE~L4 operando en
+corredor definido y geofenced eliminan el coste del
+conductor a largo plazo y permiten operación continua
+sin límites de jornada laboral. Los pilotos europeos
+más relevantes en entorno urbano (SHOW H2020, AVENUE H2020)
+han demostrado viabilidad técnica en condiciones
+controladas, con tasas de aceptación de usuario variables
+según el contexto y la franja horaria
+\fuentependiente{referencia SHOW H2020 o AVENUE H2020}.
+Las limitaciones actuales incluyen la madurez regulatoria,
+el rendimiento en condiciones meteorológicas adversas
+y el coste de la infraestructura de mapeo previo.
 
-En consecuencia, el argumento de este trabajo no es que las
-ciudades medias estén ignoradas por la innovación en movilidad (de hecho,
-proyectos como \textsc{show} incluyeron ciudades pequeñas como Trikala
-(Grecia) o Linköping (Suecia) \parencite{SHOW2024Legacy}). El argumento
-es que el servicio propuesto \emph{resuelve} estructuralmente el problema de
-rentabilidad que hace inviable el transporte nocturno convencional a esa
-escala, y que Ferrol es un caso de diseño representativo y replicable de
-ese nicho.
+\subsubsection{Ride-hailing y acuerdos institucionales}
+\label{sec:sol-ridehailing}
 
-\subsubsection{El corredor CHUF--Ferrol como caso de estudio}
-\label{sec:caso-ferrol}
+Las plataformas de \emph{ride-hailing} (VTC, taxi) y los
+acuerdos de transporte institucional entre el empleador
+y un operador externo representan soluciones de implantación
+rápida sin necesidad de flota propia. Su coste por viaje
+es generalmente superior al de un servicio de línea, pero
+puede ser asumido total o parcialmente por la institución
+empleadora como beneficio social \fuentependiente{referencia
+sobre modelos de transporte institucional para personal
+sanitario}.
 
-Ferrol es un municipio gallego situado en el noroeste de España de \num{64358}~habitantes según las cifras de
-población del Instituto Galego de Estatística a 1~de enero de 2024
-\parencite{IGE2024}. El \ac{CHUF}, que
-integra los hospitales Arquitecto Marcide, Naval y Profesor Novoa Santos,
-se ubica en la Avenida da Residencia s/n, en el área de A~Cabana, fuera de
-la cuadrícula urbana central de la ciudad \parencite{SERGAS2024memoria}. El
-área sanitaria que el \ac{CHUF} tiene asignada comprende la totalidad de la
-comarca de Ferrolterra y da cobertura a \num{172791}~titulares de Tarjeta
-Individual Sanitaria (\textsc{tis}) según la Memoria 2024 del Servizo Galego
-de Saúde \parencite{SERGAS2024memoria}.
+\subsubsection{Síntesis comparativa}
+\label{sec:sol-sintesis}
 
-El corredor \ac{CHUF}--zonas residenciales de Ferrol presenta las
-características que definen el nicho al que se dirige el servicio propuesto:
-
-\begin{itemize}
-  \item \textbf{Hospital funcionalmente periférico.} La única línea de autobús
-  urbano que conecta el tejido residencial de Ferrol con los hospitales
-  —la Línea~D del operador Alsaferrol— opera con una frecuencia de un
-  servicio cada sesenta minutos en horario diurno
-  \parencite{Alsaferrol2024lineaD}. Esta frecuencia, baja incluso durante
-  el día, es un indicador directo de la distancia funcional entre el hospital
-  y el núcleo residencial de la ciudad.
-
-  \item \textbf{Vacío de transporte nocturno.} La Línea~D
-  opera su último servicio a las 22:00~h; la Línea~6, que también da
-  acceso al corredor hospitalario, finaliza en torno a las 15:00~h
-  \parencite{Alsaferrol2024horarios}. La Línea~C1 de Renfe Cercanías
-  registra su última llegada a la estación de Ferrol a las 21:48~h y su
-  última salida a las 21:20~h \parencite{RenfeCercaniasFerrol2026}.
-  Además esta última opción de cercanías (bajar en la estación de El Alto (Narón)) impone una caminata de 15 a 20 minutos
-  entre la estación y el hospital, lo que la hace aún menos atractiva para trabajadores
-  Ningún servicio de transporte público colectivo opera en la franja
-  comprendida entre las 22:00 y las 06:00~h en el corredor de acceso
-  al \ac{CHUF}.
-
-  \item \textbf{Turnos nocturnos con origen y destino fijos.} El turno de
-  noche en el \ac{CHUF} opera en la franja 22:00--08:00~h, con una
-  duración de diez horas \parencite{CHUF2019guiaresidente}. Los servicios
-  mínimos nocturnos decretados por la Xunta de Galicia para los hospitales
-  Arquitecto Marcide y Novoa Santos fijan un umbral de 63~profesionales
-  de enfermería, 42~técnicos en cuidados auxiliares de enfermería
-  (\textsc{tcae}) y 13~celadores por turno \parencite{XuntaGalicia2025dog}.
-  Estas cifras, correspondientes a los mínimos legales en situación de
-  huelga, constituyen un indicador bastante conservador del volumen de movilidad
-  laboral nocturna generada diariamente por el hospital.
-
-  \item \textbf{Fuerza laboral mayoritariamente femenina.} El colectivo de
-  enfermería y auxiliares que cubre los turnos nocturnos del \ac{CHUF}
-  es coherente con la distribución del empleo sanitario en la \ac{UE},
-  donde el 78\,\% de los trabajadores en ocupaciones de la salud son
-  mujeres \parencite{Eurostat2020Health}. Esta dimensión de género se trata
-  como eje transversal del diseño del servicio.
-
-  \item \textbf{Escala de ciudad media.} La demanda generada por los cambios
-  de turno del \ac{CHUF} es predecible y concentrada en horario fijo, pero
-  insuficiente para justificar un servicio de autobús nocturno convencional
-  con los modelos de rentabilidad actuales. Es exactamente la escala para
-  la que los proyectos europeos \textsc{avenue} y \textsc{show}
-  fueron diseñados \parencite{Moreau2023,SHOW2024Legacy}.
-\end{itemize}
-
-La elección de Ferrol como caso de estudio obedece a tres razones. Primera:
-es mi contexto laboral y de residencia, lo que ha facilitado el acceso
-a fuentes primarias locales. Segunda: es un caso genuinamente representativo
-del nicho descrito —ciudad de tamaño medio, hospital periférico, vacío
-nocturno verificado— y no un caso excepcional que requiera justificación
-adicional. Tercera: su escala reducida hace el análisis manejable en el tiempo
-disponible sin comprometer la validez del modelo, que se escala explícitamente
-en el capítulo~\ref{cap:replicabilidad}.
+Cada modelo presenta un perfil distinto de coste, madurez,
+complejidad de implantación y cobertura de los criterios
+de diseño que se establecerán en el capítulo~\ref{cap:criterios}.
+La evaluación sistemática de estos candidatos frente a
+dichos criterios se realiza en §\ref{sec:evaluacion-candidatos}.
 
 
 % ============================================================
 % SECCIONES PENDIENTES (cap02)
 % ============================================================
 
-\subsection{Análisis PESTEL}
+% ============================================================
+%  §2.3 ANÁLISIS PESTEL
+%  Archivo: TFM-ML-cap02-marco-contextual.tex
+%  Estado: primera redacción — pendiente revisión Mario
+%  Claves .bib verificadas en sesión 2026-03-13
+% ============================================================
+
+\subsection{Análisis PESTEL: macroentorno de la movilidad nocturna en ciudades medias europeas}
 \label{sec:pestel}
 
-\subsubsection{Político}
-\begin{pendiente}
-Marco regulatorio europeo de vehículos autónomos: Reglamento UE 2019/2144,
-\textit{regulatory sandboxes} 2026, estado de la normativa española (DGT).
-\end{pendiente}
+El análisis PESTEL permite enmarcar las condiciones de viabilidad del
+servicio propuesto más allá del corredor concreto de Ferrol. Se analiza
+el macroentorno de la movilidad nocturna en Europa a lo largo de seis dimensiones, con énfasis en los factores que determinan si las soluciones de transporte pueden operar de forma sostenida en ciudades de tamaño medio con vacíos de transporte nocturno documentados.
 
-\subsubsection{Económico}
-\begin{pendiente}
-Coste de operación de shuttles autónomos vs transporte nocturno convencional.
-Modelos de financiación PPP en proyectos SHOW/AVENUE.
-Impacto económico del vacío nocturno en trabajadores y empleadores.
-\end{pendiente}
+% ------------------------------------------------------------------
+\subsubsection{Dimensión política}
+\label{sec:pestel-politica}
 
-\subsubsection{Social}
-\begin{pendiente}
-Demografía del empleo nocturno sanitario. Brecha de género en movilidad
-nocturna. Exclusión social por falta de transporte.
-\end{pendiente}
+El marco regulatorio europeo para la conducción automatizada ha alcanzado
+un grado de madurez institucional que convierte el horizonte 2035 en
+plausible. El Reglamento de Ejecución~(UE) 2022/1426 de la Comisión
+estableció por primera vez los procedimientos uniformes y las
+especificaciones técnicas para la homologación de tipo del sistema de
+conducción automatizada~(ADS) de vehículos totalmente automatizados,
+fijando las condiciones bajo las cuales los fabricantes pueden obtener
+homologación en la Unión~\parencite{RegUE20221426}. Este marco fue
+actualizado en marzo de 2026 mediante el Reglamento de Ejecución~(UE)
+2026/481, cuyo preámbulo reconoce explícitamente que los avances
+tecnológicos y regulatorios acumulados desde 2022 hacen posible el
+despliegue a gran escala de vehículos totalmente
+automatizados~\parencite{RegUE20262026481}. La actualización es
+significativa: supone que la UE deja de tratar el vehículo autónomo como
+un objeto de regulación experimental para integrarlo en el sistema de
+homologación ordinario.
 
-\subsubsection{Tecnológico}
-\begin{pendiente}
-Estado de madurez SAE L4 en Europa. Pilotos SHOW, AVENUE, ULTIMO.
-Horizonte comercial 2026 (ULTIMO) y 2030--2040 (SHOW).
-Limitaciones técnicas: ODD nocturno, mapas HD, supervisión remota.
-\end{pendiente}
+En el plano nacional, la Dirección General de Tráfico articula el
+programa marco~ES-AV como instrumento de autorización de pruebas de
+vehículos automatizados en España, proporcionando el vínculo operativo
+entre el reglamento europeo y los actores del ecosistema en
+territorio~español~\parencite{DGTESAV2026}. En paralelo, la iniciativa
+URBACT \textit{Cities After Dark} visibiliza la movilidad nocturna como
+objeto de política pública municipal, abriendo la vía para que las
+ciudades de tamaño medio incorporen la franja nocturna en sus Planes de
+Movilidad Urbana Sostenible~(SUMP)~\parencite{URBACT2025Gender}. Ambos
+instrumentos (europeo y local) convergen en el tipo de servicio que este
+proyecto propone: operación en corredor fijo, entorno regulado y demanda
+concentrada y predecible. Este marco regulatorio es relevante si la solución
+seleccionada en la fase de diseño implica niveles de automatización que lo requieran.
 
-\subsubsection{Ecológico}
-\begin{pendiente}
-Electrificación de flotas de transporte público autónomo.
-Emisiones evitadas respecto al vehículo privado nocturno.
-\end{pendiente}
+% ------------------------------------------------------------------
+\subsubsection{Dimensión económica}
+\label{sec:pestel-economica}
 
-\subsubsection{Legal}
+La economía del shuttle autónomo nocturno presenta una estructura de
+costes con barreras iniciales elevadas y ventajas comparativas
+crecientes respecto a las alternativas actuales. El cartografiado de alta
+definición~(HD~Maps) necesario para la operación de un ADS en entorno
+urbano supone entre 5.000 y 25.000~euros por kilómetro de carretera
+mapeada, dependiendo de la densidad del entorno y la resolución
+requerida~\parencite{Moreau2023}. Para un corredor de entre
+cinco y ocho kilómetros como el del corredor~CHUF, este coste es
+perfectamente absorbible dentro del presupuesto de un proyecto piloto,
+precisamente porque la extensión reducida del corredor es una ventaja
+estructural del modelo que este TFM propone.
+
+La demanda latente existe y tiene un coste de oportunidad medible. El
+estudio de~\textcite{PlyushetvaBoussauw2020} sobre trabajadores de turno
+nocturno en Sofía documenta que un empleador del sector llegaba a asumir
+más de 2.000~levs mensuales (+-1020€) en taxis nocturnos para garantizar la
+asistencia del personal, cifra que evidencia que la disposición a pagar
+(tanto por parte de empleadores como de instituciones) es una práctica documentada. 
+La disposición a pagar de los usuarios
+finales es igualmente relevante: estudios de aceptación del vehículo
+autónomo compartido apuntan a que los usuarios de transporte público en
+entorno urbano asignan valor monetario significativo a las prestaciones
+de~L4, especialmente cuando la percepción de seguridad nocturna es baja
+\parencite{Gavanas2024}. La implicación para el diseño del servicio es que
+el modelo no necesita competir en precio con el transporte público diurno,
+sino con el taxi nocturno (comparación que mejora sustancialmente la
+ecuación de valor).
+
+% ------------------------------------------------------------------
+\subsubsection{Dimensión social}
+\label{sec:pestel-social}
+
+La dimensión social del servicio está determinada por dos realidades que
+se superponen: la composición de género del colectivo objetivo y la
+percepción diferencial de seguridad nocturna. El empleo en el sector
+sanitario y de trabajo social en la Unión Europea es mayoritariamente
+femenino: según datos de Eurostat correspondientes al tercer trimestre
+de~2021, el~78\% de los trabajadores de este sector son
+mujeres~\parencite{Eurostat2022health}. Esta cifra es un dato estructural: 
+cualquier servicio diseñado para el personal
+sanitario nocturno tiene a las mujeres como usuaria principal, lo que
+convierte la perspectiva de género en un requisito de diseño.
+
+La percepción de seguridad nocturna a su vez muestra una brecha de género
+cuantificada. \textcite{PlyushetvaBoussauw2020} midieron en Sofía que
+los hombres valoraban su seguridad nocturna en 5,82 sobre~10 frente a
+4,42 de las mujeres, diferencia que se traduce directamente en menor
+disposición a utilizar el transporte público durante la franja nocturna y
+en mayor dependencia de alternativas privadas de mayor coste. El diseño
+del espacio interior del shuttle, su iluminación y sus mecanismos de
+comunicación~eHMI deben responder a esta percepción diferencial, poniendola en valor.
+En cuanto a la aceptación social de la tecnología autónoma en
+sí, los pilotos del proyecto~SHOW muestran resultados favorables: los
+usuarios de transporte público valoraron su experiencia en el shuttle
+autónomo por encima de~7 en una escala~Likert de~9
+puntos~\parencite{SHOW2024Legacy}, lo que indica que la barrera de
+aceptación tecnológica es superable cuando el servicio se articula en
+torno a necesidades reales de movilidad.
+
+% ------------------------------------------------------------------
+\subsubsection{Dimensión tecnológica}
+\label{sec:pestel-tecnologica}
+
+La dimensión tecnológica del macroentorno incluye tanto las soluciones de transporte convencional (digitalización de la gestión de flota, plataformas DRT) como las tecnologías emergentes de automatización del vehículo. Estas últimas se describen como factor del entorno, no como solución predeterminada.
+
+La tecnología de conducción automatizada a nivel SAE~L4 existe en forma
+de prototipo operativo, pero su despliegue comercial estable plantea
+retos técnicos no resueltos que los propios pilotos europeos han
+documentado. La operación nocturna introduce condiciones adversas
+específicas: los pilotos del proyecto~SHOW identificaron en el municipio
+de~Les~Mureaux~(Francia) que la iluminación deficiente genera puntos
+ciegos para los sistemas de percepción del vehículo y obliga a solicitar
+asistencia operativa externa con una frecuencia significativamente mayor
+que en condiciones
+diurnas~\parencite{SHOW2024Legacy}. En la misma línea, el
+mantenimiento inadecuado de las marcas viales (una realidad habitual en
+entornos periféricos como el corredor~CHUF) dificulta la detección por
+cámara de los bordes de carril~\parencite{SHOWd812020}. Los mapas de alta
+definición~(HD~Maps) utilizados por los sistemas ADS requieren una
+precisión inferior a~10~cm para garantizar la localización
+~\parencite{SHOWd812020}, lo que implica que cualquier cambio
+en la vía (obra, repintado, nuevo obstáculo) debe reflejarse en tiempo
+real en los mapas del sistema.
+
+La madurez tecnológica general para el despliegue comercial a gran escala
+no ha llegado aún en la actualidad inmediata (2026). \textcite{KonstantasAVENUE2023lessons} concluye en los
+materiales de lecciones aprendidas del proyecto~AVENUE~H2020 que no se
+esperan despliegues a gran escala de transporte autónomo durante al menos
+cinco años desde el cierre del proyecto en~2022, lo que sitúa ese umbral
+en torno a~2027–2028. Este horizonte no invalida el modelo propuesto para
+2035: el corredor de Ferrol se plantea
+como operación en entorno acotado y controlado, precisamente el formato
+que los~\textit{stakeholders} del sector contemplan como viable en el
+próximo decenio~\parencite{DibaGore2025}. El accidente del~Digibus en
+Austria en agosto de~2023, que derivó en la revocación temporal del
+permiso de pruebas, ilustra que los sistemas de supervisión remota y los
+protocolos de intervención de emergencia son esenciales y
+constitutivos dentro del
+servicio~\parencite{SHOW2024Legacy}.
+
+% ------------------------------------------------------------------
+\subsubsection{Dimensión ecológica}
+\label{sec:pestel-ecologica}
+
+La operación de un shuttle eléctrico compartido en franja nocturna encaja
+directamente en el marco del Pacto Verde Europeo, cuyo objetivo de
+neutralidad climática para~2050 exige una transformación profunda del
+modelo de movilidad urbana~\parencite{UITP2024}. El punto de partida no
+es neutro: el transporte colectivo ya es intrínsecamente más eficiente
+que el vehículo privado (el autobús duplica la eficiencia energética por
+viajero-kilómetro del automóvil, y el ferrocarril la cuadriplica), ventaja que se acumula 
+cuando la comparación se hace respecto al taxi
+nocturno individual, alternativa modal predominante en ausencia de
+servicio público nocturno~\parencite{UITP2024}. Los pilotos del proyecto
+SHOW operan con flotas~100\% eléctricas~\parencite{SHOWd812020}, lo que
+demuestra que la integración de la propulsión eléctrica en el shuttle
+autónomo urbano es una opción técnica ya validada
+en entorno de piloto. Para un corredor corto y de trayecto predecible
+como el de~CHUF, la electrificación plena de la flota no enfrenta
+limitaciones de autonomía de batería y permite planificar la recarga
+sincronizada con los períodos de baja demanda entre cambios de turno.
+
+% ------------------------------------------------------------------
+\subsubsection{Dimensión legal}
+\label{sec:pestel-legal}
+
+El principal vacío regulatorio que afecta a la viabilidad del servicio
+propuesto no es la homologación del vehículo (resuelta en términos
+generales por el Reglamento~2022/1426 y su actualización de~2026) sino
+la asignación de responsabilidad civil en caso de accidente. La literatura
+especializada coincide en señalar que no existe un marco legal
+comprehensivo en la~UE que resuelva con claridad a quién corresponde la
+responsabilidad en un siniestro protagonizado por un vehículo autónomo:
+¿al fabricante del sistema~ADS, al operador del servicio o al propietario
+del vehículo?~\parencite{HafizAlKhafagy2025}. La Directiva~(UE)~2024/2853
+sobre responsabilidad por productos defectuosos moderniza el régimen
+existente extendiendo el concepto de «producto defectuoso» al
+software~y~a~la~inteligencia~artificial~\parencite{DirectivaUE20242853},
+lo que abre la vía para imputar responsabilidad al fabricante del~ADS en
+caso de fallo del sistema. Sin embargo, la retirada de la propuesta de
+Directiva de Responsabilidad en materia de~IA en~2025 por falta de
+consenso político confirma que el marco de responsabilidad civil para
+escenarios complejos de conducción automatizada sigue sin estar
+armonizado en el conjunto de la~Unión.
+
+En paralelo, el marco laboral europeo ofrece una palanca regulatoria en
+favor del servicio propuesto: la Directiva~2003/88/CE establece
+protecciones específicas para los trabajadores nocturnos, reconociendo el
+carácter estructuralmente más oneroso de la jornada
+nocturna~\parencite{Directiva200388CE}. Esta protección normativa
+refuerza el argumento de que las instituciones públicas (SERGAS, Concello
+de~Ferrol, Xunta de~Galicia) tienen fundamento legal para priorizar la
+movilidad del personal de turno nocturno dentro de sus políticas de
+bienestar laboral. La figura de las Obligaciones de Servicio
+Público~(OSP) en el transporte colectivo permite estructurar el servicio
+con garantías de viabilidad económica aun cuando la demanda nocturna no
+alcance rentabilidad comercial autónoma~\parencite{UITP2024}. En España,
+el programa~ES-AV de la~DGT establece el marco de autorización que
+permite operar pruebas y servicios de vehículos automatizados en vía
+pública bajo condiciones reguladas~\parencite{DGTESAV2026}.
+
+\subsection{Caso de estudio: Corredor CHUF--Ferrol}
+\label{sec:caso-ferrol}
+
 \begin{pendiente}
-Responsabilidad civil en accidentes con vehículos autónomos (UE).
-Normativa laboral de transporte nocturno (Directiva tiempo de trabajo).
-Marco legal español: DGT, Real Decreto 1284/2023 o normativa vigente.
+%% INSERTAR: descripcion-corredor-ferrol
+
+Ferrol es un municipio gallego situado en el noroeste de España de 64.218~habitantes según el Padrón Municipal a 1~de enero de 2024 \cite{INE2024Ferrol}.
+
+El \ac{CHUF}, que integra los hospitales Arquitecto Marcide, Naval y Profesor Novoa Santos, se ubica en la Avenida de la Residencia s/n, Ferrol \cite{Sanidad2024CHUF}, fuera de la cuadrícula urbana central de la ciudad, a una distancia estimada de entre 2 y~4\,km del centro urbano \fuentependiente{verificar con cartografía oficial IDE Galicia o Catastro}.
+
+Las consultas realizadas en los portales oficiales del Concello de Ferrol y del operador de transporte urbano no arrojan ninguna línea nocturna regular en la franja 22:00--06:00 en el corredor hospital--centro.
 \end{pendiente}
 
 \subsection{Mapa de stakeholders}
