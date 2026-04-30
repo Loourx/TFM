@@ -85,6 +85,10 @@
 | M01 | El vacío nocturno en las redes de TP europeas ocurre típicamente entre la 01:00 y las 05:00 h | Plyushteva2020 | 2020 | ALTA | Supported | cap01 §1.2 / cap02 §problema |
 | M02 | A principios de 2019, 26 de las 28 capitales de la UE contaban con algún servicio nocturno; solo Nicosia y Tallin carecían de él | Plyushteva2020 | 2020 | ALTA | Supported | cap02 §problema |
 | M03 | El transporte nocturno convencional no es rentable a la escala de ciudades de demanda baja a media — los shuttles autónomos son la solución estructuralmente adecuada para ese nicho | Moreau2023 + SHOW2024Legacy | 2023/2024 | ALTA | Supported (inferencia analítica apoyada en C03) | cap02 §problema / cap01 §1.2 |
+| BC01 | Demanda nocturna típica ~2 pax/km²·h, muy por debajo del umbral de viabilidad del bus fijo (>200 pax/km²·h) | Estrada2021 | 2021 | ALTA | Supported | sec:panorama-soluciones |
+| BC02 | DRT nocturno en Padua: 19.000 registros en 6 meses, franja 21:00–03:00, financiación pública mixta | Busitalia2019QuiBus | 2019 | MEDIA | Supported | sec:sol-drt |
+| BC03 | Shuttle DRT para personal NHS en Hull: 20 min/8,8 km, app de reserva, financiación pública+hospital | Stagecoach2020Hull | 2020 | MEDIA | Supported | sec:sol-shuttle-conductor |
+| BC04 | MK Connect (DRT nocturno, Milton Keynes): valorado por trabajadores de turno en hospitales locales | K2Centrum2025DRT | 2025 | MEDIA | Supported | sec:sol-drt |
 
 ---
 
