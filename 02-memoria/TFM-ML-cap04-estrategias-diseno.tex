@@ -1,5 +1,126 @@
 % !TEX root = TFM-ML-01-memoria-referencia.tex
-\section{Estrategias de diseño}\label{sec:estrategias}
+\section{Criterios de diseño del servicio}\label{sec:estrategias}
+
+\subsection{Los cinco insights de diseño}
+\label{sec:insights-diseno}
+
+Los insights que se presentan a continuación son el puente entre
+la investigación de usuario (cap.~\ref{cap:investigacion}) y los
+criterios de diseño del servicio (§\ref{sec:qfd}). Cada insight
+se estructura en tres elementos: la tensión usuario–sistema que
+lo origina, el dato cuantitativo o cualitativo que lo respalda,
+y el criterio de diseño que genera. Ningún criterio de diseño
+posterior a este capítulo puede formularse sin que uno de estos
+insights lo respalde.
+
+%% ── INSIGHT 1 ──────────────────────────────────────────────
+
+\subsubsection{Insight 1 — Fatiga al volante como norma}
+\label{sec:insight-1}
+
+\textbf{Tensión:} El sanitario necesita llegar y volver a casa
+de forma segura tras 10--12\,h de turno nocturno. El sistema
+le obliga a conducir en estado de fatiga porque no existe
+alternativa operativa.
+
+\textbf{Dato:} 88 de 167 encuestados (52{,}7\,\%) declaran
+conducir con sueño o fatiga \emph{varias veces a la semana}.
+El índice de gravedad del ítem es 60{,}2 sobre 100
+\cite{LouridoRegueira2026}.
+
+\textbf{Criterio de diseño derivado:} El servicio debe operar
+como transporte de retorno prioritario post-turno. La ventana
+crítica de riesgo es la vuelta a casa al amanecer.
+
+%% ── INSIGHT 2 ──────────────────────────────────────────────
+
+\subsubsection{Insight 2 — Aparcamiento: coste oculto sistémico}
+\label{sec:insight-2}
+
+\textbf{Tensión:} El trabajador necesita dejar el vehículo cerca
+del hospital sin coste ni demora. El sistema le ofrece parking
+de personal insuficiente o una opción privada de aproximadamente
+80\,€/mes sin plaza garantizada.
+
+\textbf{Dato:} 102 de 167 encuestados (61{,}1\,\%) tienen
+dificultades para aparcar \emph{varias veces a la semana}.
+45 de 167 (26{,}9\,\%) identifican el aparcamiento garantizado
+como el cambio prioritario único \cite{LouridoRegueira2026}.
+
+\textbf{Criterio de diseño derivado:} El servicio debe incluir
+nodos de embarque en zonas de aparcamiento libre o seguro,
+eliminando la necesidad de aparcar en el hospital.
+
+%% ── INSIGHT 3 ──────────────────────────────────────────────
+
+\subsubsection{Insight 3 — Transporte público invisible en la franja nocturna}
+\label{sec:insight-3}
+
+\textbf{Tensión:} El sanitario necesita una alternativa al coche
+puntual y sincronizada con sus turnos. El transporte público no
+existe, es desconocido o llega a deshora para el 52{,}1\,\%
+de la muestra.
+
+\textbf{Dato:} 87 de 167 encuestados (52{,}1\,\%) carecen de
+cobertura fiable de transporte público en la franja nocturna
+(39 sin servicio, 48 sin información). 79 de 167 (47{,}3\,\%)
+no encuentran transporte público \emph{varias veces a la semana}.
+51 de 167 (30{,}5\,\%) señalan la falta de transporte público
+como el cambio prioritario \cite{LouridoRegueira2026}.
+
+\textbf{Criterio de diseño derivado:} El servicio debe tener
+horarios fijos vinculados a los cambios de turno (22:00, 00:00,
+07:30), no frecuencias genéricas de red urbana.
+
+%% ── INSIGHT 4 ──────────────────────────────────────────────
+
+\subsubsection{Insight 4 — Demanda espontánea de shuttle}
+\label{sec:insight-4}
+
+\textbf{Tensión:} El sanitario necesita un transporte
+punto a punto gestionado o coordinado por el sistema sanitario.
+Los propios usuarios lo formulan espontáneamente sin que el
+cuestionario lo sugiera.
+
+\textbf{Dato:} 21 de 46 respuestas abiertas (45{,}7\,\%)
+combinan dos o más problemas simultáneos, señal de necesidad
+compuesta. Una respuesta, codificada como T8, propone
+espontáneamente un shuttle de empresa sin que el cuestionario
+lo induzca. 65 de 167 encuestados (38{,}9\,\%) residen en
+un municipio distinto al del hospital \cite{LouridoRegueira2026}.
+
+\begin{quote}
+«Estaría bien que a los trabajadores de hospitales se nos
+pusiera un transporte para llevarnos al hospital y recogernos
+en un punto y de ahí para casa.»
+\hfill\textit{Respuesta abierta, código T8 \cite{LouridoRegueira2026}}
+\end{quote}
+
+\textbf{Criterio de diseño derivado:} El servicio debe
+articularse como transporte punto a punto entre nodos
+periféricos y el hospital, no como extensión de línea urbana.
+
+%% ── INSIGHT 5 ──────────────────────────────────────────────
+
+\subsubsection{Insight 5 — Brecha de género en el riesgo}
+\label{sec:insight-5}
+
+\textbf{Tensión:} Las mujeres sanitarias absorben de forma
+desproporcionada el riesgo de fatiga al volante. El sistema
+impone el mismo riesgo a todos, pero la carga recae
+mayoritariamente sobre las mujeres: el 90{,}8\,\% de ellas
+conduce fatigada con una frecuencia de al menos varias veces
+al mes, frente al 53{,}8\,\% de los hombres.
+
+\textbf{Dato:} 138 de 152 mujeres de la muestra (90{,}8\,\%)
+presentan riesgo de fatiga al volante con frecuencia igual o
+superior a \emph{varias veces al mes}, frente a 7 de 13 hombres
+(53{,}8\,\%). La muestra es 91{,}0\,\% femenina (152 de 167)
+\cite{LouridoRegueira2026}.
+
+\textbf{Criterio de diseño derivado:} El servicio debe
+garantizar accesibilidad y seguridad percibida para usuarias
+que viajan solas en franja nocturna.
 
 \subsection{Requisitos del servicio (QFD)}\label{sec:qfd}
 \begin{pendiente}
