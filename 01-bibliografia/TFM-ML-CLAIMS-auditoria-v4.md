@@ -66,7 +66,7 @@
 |---|-------|-----------|-----|-------|--------|--------------|
 | F01 | Población de Ferrol: 64.218 hab. (1 enero 2024) | INE2024Ferrol | 2024 | ALTA | Supported | sec:caso-ferrol |
 | F02 | CHUF: Avda. de la Residencia s/n, Ferrol. Ubicación periférica verificada. Referencia a parroquia A Cabana eliminada por no verificable. | Sanidad2024CHUF | 2024 | MEDIA | Supported | sec:caso-ferrol |
-| F03 | Distancia CHUF–centro Ferrol: ~2–4 km / ~10–15 min en coche | — | — | BAJA | Undetermined | sec:caso-ferrol |
+| F03 | Distancia CHUF–centro Ferrol (Plaza de Armas): 4,2–5,2 km / 11 min en coche | GoogleMaps2026Ferrol | 2026 | MEDIA | Supported | sec:caso-ferrol |
 | F04 | Sin servicio TP nocturno regular 22:00–06:00 en corredor CHUF–centro. Verificado por ausencia en portales oficiales del Concello de Ferrol y operador de transporte urbano. | — | — | MEDIA | Supported | sec:caso-ferrol |
 | F05 | La plantilla de Atención Especializada del CHUF es de aproximadamente 1.647 trabajadores (dato 2019) | CHUF2019guiaresidente | 2019 | MEDIA | Supported | sec:perfil-usuario |
 | F06 | El turno de noche en el CHUF opera en la franja 22:00–08:00 h | CHUF2019guiaresidente, XuntaGalicia2025dog | 2019-2025 | ALTA | Supported | sec:perfil-usuario |
