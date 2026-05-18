@@ -132,16 +132,249 @@ garantizar accesibilidad y seguridad percibida para usuarias
 que viajan solas en franja nocturna.
 
 \subsection{Requisitos del servicio (QFD)}\label{sec:qfd}
-\begin{pendiente}
-%% INSERTAR: qfd
-%% FIGURA: fig:qfd
-\end{pendiente}
+
+El Despliegue de la Función de Calidad (\textit{Quality Function Deployment},
+QFD) traduce las necesidades del usuario en requisitos técnicos del servicio.
+Su estructura matricial permite priorizar los parámetros de diseño en función
+de su capacidad para satisfacer las necesidades de mayor peso relativo y,
+simultáneamente, evaluar la posición competitiva del servicio propuesto
+frente a las alternativas existentes en el corredor.
+
+\subsubsection{Estructura de la matriz}
+\label{sec:qfd-estructura}
+
+La matriz elaborada incorpora dieciséis requerimientos del cliente (filas)
+extraídos de los cinco insights de diseño (§\ref{sec:insights-diseno}) y
+dieciséis requerimientos funcionales (columnas) que constituyen los
+parámetros técnicos del servicio. Cada requerimiento funcional incluye
+un objetivo de mejora medible.
+
+Los requerimientos del cliente se ponderan en función de la frecuencia e
+intensidad de los problemas registrados en la encuesta. Los cinco con
+mayor peso relativo (8,3\,\% cada uno) son: la regularidad confiable,
+el uso sin reserva previa, la cobertura desde el municipio de origen,
+la viabilidad económica del desplazamiento y el tiempo de descanso real
+tras el turno \parencite{LouridoRegueira2026}.
+
+La evaluación competitiva compara el servicio propuesto frente a cuatro
+operadores de referencia en el corredor: Tranvías de Ferrol, Monbus,
+Renfe Cercanías C-1 y Cabify. Ninguno opera en la franja 22:00--08:00
+de forma específica para personal sanitario, lo que sitúa al servicio
+propuesto en una posición diferencial sin competidor directo
+\parencite{Alsaferrol2024horarios,RenfeCercaniasFerrol2026}.
+
+\subsubsection{Resultados de la matriz}
+\label{sec:qfd-resultados}
+
+El análisis de la importancia técnica relativa identifica cuatro
+requerimientos funcionales con mayor capacidad de satisfacción agregada,
+todos ellos con puntuación máxima de 5,0 o próxima a ella.
+
+En primer lugar, la \textbf{disponibilidad de espacio de espera cubierto
+e iluminado} en los nodos P+R (objetivo: 100\,\% de paradas con cubierta
+e iluminación nocturna) obtiene la mayor puntuación técnica, con incidencia
+directa en los requerimientos de seguridad percibida y espacio de espera
+digno. Este resultado refuerza el criterio derivado del Insight~5: la
+percepción de seguridad en franja nocturna no puede delegarse en el
+vehículo si el espacio de espera previo es inseguro.
+
+En segundo lugar, la \textbf{información en tiempo real del vehículo}
+(objetivo: actualización de posición cada 30\,segundos o menos) resuelve
+de forma transversal los requerimientos de previsibilidad y reducción de
+la incertidumbre en la espera nocturna.
+
+En tercer lugar, la \textbf{capacidad garantizada sin sobreocupación}
+(objetivo: 0\,\% de usuarios sin plaza en la franja crítica post-turno)
+es el parámetro determinante para la regularidad percibida. Un servicio
+con plazas no garantizadas no puede resolver el patrón documentado en
+el Insight~1.
+
+Finalmente, el \textbf{interior confortable para el trayecto post-turno}
+(objetivo: satisfacción igual o superior a 4 sobre 5 en encuesta de
+usuario) responde directamente a la necesidad de descanso activo durante
+el desplazamiento, identificada como componente del riesgo de fatiga
+\parencite{LouridoRegueira2026}.
+
+\begin{figure}[htbp]
+	\centering
+	\fbox{\rule{0pt}{6cm}\rule{0.95\textwidth}{0pt}}
+	% Sustituir por: \includegraphics[width=\textwidth]{../03-graficas/TFM-ML-GFX-qfd.pdf}
+	\caption{Matriz QFD del servicio de movilidad nocturna CHUF--Ferrol.
+		Dieciséis requerimientos del cliente ponderados frente a dieciséis
+		requerimientos funcionales con objetivos medibles. Evaluación competitiva
+		frente a Tranvías de Ferrol, Monbus, Renfe Cercanías C-1 y Cabify.
+		Elaboración propia \parencite{LouridoRegueira2026}.}
+	\label{fig:qfd}
+\end{figure}
+
+Los resultados de la matriz orientan directamente la priorización
+MoSCoW (§\ref{sec:moscow}): los requerimientos funcionales con mayor
+importancia técnica pasan a la categoría \textit{Must~have}, mientras
+que los de importancia media y baja se distribuyen entre
+\textit{Should~have} y \textit{Could~have} en función de su
+viabilidad operativa en el horizonte 2035.
+No compilar. No modificar ningún otro archivo.
 
 \subsection{Priorización MoSCoW}\label{sec:moscow}
-\begin{pendiente}
-%% INSERTAR: moscow
-%% FIGURA: fig:moscow
-\end{pendiente}
+
+La priorización MoSCoW organiza los requerimientos funcionales
+identificados en la matriz QFD (§\ref{sec:qfd}) en cuatro categorías
+según su carácter imprescindible para el funcionamiento del servicio.
+El criterio de clasificación combina el peso relativo obtenido en la
+matriz con la trazabilidad directa a los insights de diseño: un
+requerimiento funcional es \textit{Must~have} si su ausencia impide
+que el servicio resuelva alguno de los cinco problemas documentados
+empíricamente \parencite{LouridoRegueira2026}.
+
+\subsubsection{\textit{Must have} — Imprescindible}
+\label{sec:moscow-must}
+
+Los requerimientos siguientes son condición necesaria del servicio.
+Su ausencia lo invalida como solución al problema documentado.
+
+\begin{itemize}
+
+	\item \textbf{Horario sincronizado con los cambios de turno del CHUF
+	(22:00 y 08:00).} El 52,1\,\% de la muestra carece de transporte
+	público fiable en la franja nocturna \parencite{LouridoRegueira2026}.
+	Un servicio con frecuencia genérica no resuelve esta necesidad.
+	Objetivo: 100\,\% de los cambios de turno cubiertos.
+
+	\item \textbf{Uso sin reserva previa, por horario fijo.}
+	La demanda espontánea de shuttle formulada por los usuarios
+	\parencite{LouridoRegueira2026} implica acceso inmediato, no
+	planificación anticipada. Un sistema de reserva obligatoria
+	reproduce la barrera que el servicio pretende eliminar.
+	Objetivo: 0\,\% de trayectos con reserva obligatoria.
+
+	\item \textbf{Capacidad garantizada en la franja crítica post-turno.}
+	El 52,7\,\% de los encuestados conduce con fatiga varias veces a la
+	semana \parencite{LouridoRegueira2026}. Un servicio con plaza no
+	garantizada obliga al trabajador a mantener el vehículo privado como
+	alternativa, anulando el efecto del servicio.
+	Objetivo: 0\,\% de usuarios sin plaza en la franja 07:30--09:00.
+
+	\item \textbf{Espacio de espera cubierto e iluminado en todos los
+	nodos P+R.} Requerimiento con mayor importancia técnica en la
+	matriz QFD. La percepción de seguridad de las usuarias que viajan
+	solas en franja nocturna \parencite{LouridoRegueira2026} no puede
+	garantizarse únicamente desde el interior del vehículo si el espacio
+	de espera previo es inseguro.
+	Objetivo: 100\,\% de paradas con cubierta e iluminación nocturna.
+
+	\item \textbf{Recorrido directo sin transbordos.}
+	El servicio se articula como transporte punto a punto entre nodos
+	P+R y el hospital \parencite{LouridoRegueira2026}. Un transbordo
+	intermedio añade tiempo, incertidumbre y exposición en franja
+	nocturna, contradiciendo los criterios de los Insights 1 y 5.
+	Objetivo: 0 transbordos en el 100\,\% de los trayectos.
+
+	\item \textbf{Cobertura interurbana hacia los municipios del área.}
+	El 38,9\,\% de los encuestados reside en un municipio distinto al
+	del hospital \parencite{LouridoRegueira2026}. Los nodos P+R deben
+	situarse en los accesos naturales al corredor, no solo en el núcleo
+	urbano de Ferrol. Objetivo: cobertura de al menos el 80\,\% de los
+	municipios de origen de los trabajadores del CHUF.
+
+\end{itemize}
+
+\subsubsection{\textit{Should have} — Necesario para la adopción}
+\label{sec:moscow-should}
+
+Los requerimientos siguientes aumentan significativamente la adopción
+y la calidad del servicio. Su ausencia no invalida la solución, pero
+reduce su eficacia.
+
+\begin{itemize}
+
+	\item \textbf{Interior confortable para el trayecto post-turno.}
+	El trayecto de retorno tras 10--12\,h de turno nocturno es tiempo
+	de descanso activo \parencite{LouridoRegueira2026}. El diseño
+	interior debe facilitarlo, no impedirlo.
+	Objetivo: satisfacción ≥\,4/5 en encuesta de usuario.
+
+	\item \textbf{Información en tiempo real del vehículo.}
+	Reduce la incertidumbre en la espera nocturna y refuerza la
+	percepción de control del usuario sobre su desplazamiento.
+	Objetivo: actualización de posición cada ≤\,30\,segundos.
+
+	\item \textbf{Tarifa plana para personal sanitario.}
+	El coste del desplazamiento nocturno es una barrera documentada
+	\parencite{LouridoRegueira2026}. Una tarifa diferenciada para
+	trabajadores del CHUF actúa como incentivo de adopción y como
+	reconocimiento institucional del servicio.
+	Objetivo: reducción del coste de desplazamiento nocturno en al
+	menos un 70\,\% respecto al taxi.
+
+	\item \textbf{Frecuencia garantizada en festivos y fines de semana.}
+	El 81,4\,\% de la muestra trabaja en régimen rotatorio con noches
+	\parencite{LouridoRegueira2026}, lo que incluye festivos. Un
+	servicio que cesa en días no laborables excluye a la mayoría de
+	los usuarios en sus noches de mayor necesidad.
+	Objetivo: 100\,\% de servicios operativos en festivos.
+
+\end{itemize}
+
+\subsubsection{\textit{Could have} — Valor diferencial}
+\label{sec:moscow-could}
+
+Los requerimientos siguientes aportan valor añadido y refuerzan
+la identidad del servicio, pero no son críticos para su viabilidad
+en la fase inicial de implantación.
+
+\begin{itemize}
+
+	\item \textbf{Identidad visual reconocible entre los trabajadores
+	del CHUF.} Contribuye a la adopción y al sentimiento de
+	pertenencia al servicio. No resuelve el problema de transporte
+	pero refuerza su sostenibilidad social.
+	Objetivo: reconocimiento de marca ≥\,80\,\% entre la plantilla.
+
+	\item \textbf{Reducción de emisiones respecto al vehículo privado.}
+	El vehículo eléctrico autónomo como candidato tecnológico preferente
+	implica esta ventaja de forma inherente \parencite{SHOW2024}.
+	Objetivo: reducción de emisiones ≥\,50\,\% respecto al coche
+	particular.
+
+	\item \textbf{Canal de aviso de incidencias en tiempo real.}
+	Mejora la experiencia ante interrupciones del servicio y reduce
+	la ansiedad asociada a la dependencia de un único medio de
+	transporte nocturno.
+	Objetivo: notificación en menos de 2\,minutos desde la detección.
+
+\end{itemize}
+
+\subsubsection{\textit{Won't have} — Fuera del alcance}
+\label{sec:moscow-wont}
+
+Los requerimientos siguientes quedan explícitamente fuera del
+alcance del servicio en el horizonte de diseño 2035.
+
+\begin{itemize}
+
+	\item \textbf{Transporte puerta a puerta al domicilio de cada
+	trabajador.} Operativamente inviable: la dispersión residencial
+	de la plantilla hace imposible un servicio de recogida individual
+	que sea puntual y económicamente sostenible. El servicio conecta
+	nodos P+R con el hospital, no domicilios con el hospital.
+
+	\item \textbf{Cobertura del 100\,\% de los municipios del área
+	sanitaria desde el primer día.} La implantación progresiva por
+	corredores de mayor demanda es la estrategia operativa coherente
+	con el modelo P+R. La cobertura total es un objetivo de escala,
+	no de diseño inicial.
+
+\end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+	\fbox{\rule{0pt}{5cm}\rule{0.95\textwidth}{0pt}}
+	% Sustituir por: \includegraphics[width=\textwidth]{../03-graficas/TFM-ML-GFX-moscow.pdf}
+	\caption{Priorización MoSCoW de los requerimientos funcionales
+		del servicio de movilidad nocturna CHUF--Ferrol. Elaboración
+		propia a partir de los resultados de la matriz QFD.}
+	\label{fig:moscow}
+\end{figure}
 
 \subsection{Valores del servicio}\label{sec:valores}
 \begin{pendiente}
