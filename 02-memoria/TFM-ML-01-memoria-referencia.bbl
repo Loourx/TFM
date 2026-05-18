@@ -129,7 +129,7 @@
       \verb https://www.fsitaliane.it/content/fsitaliane/en/media/news/2019/10/28/busitalia-veneto-awarded-for-the-night-bus-service-in-padua.html
       \endverb
     \endentry
-    \entry{RegUE20221426}{misc}{}{}
+    \entry{CE_Movilidad2020}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
            family={{Comisión Europea}},
@@ -144,6 +144,40 @@
       \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
       \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
       \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA}
+      \field{howpublished}{Comunicación de la Comisión, COM(2020) 789 final}
+      \field{month}{12}
+      \field{title}{Estrategia de movilidad sostenible e inteligente: Encauzar el transporte europeo de cara al futuro}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=COM:2020:789:FIN
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=COM:2020:789:FIN
+      \endverb
+    \endentry
+    \entry{RegUE20221426}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
+           family={{Comisión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhashraw}{51964341e4da002e0362675417e1ad23}
+      \strng{bibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorbibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -176,7 +210,7 @@
       \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
       \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
       \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -1069,6 +1103,41 @@
       \verb 10.33776/EUHU/rem.v71i.8128
       \endverb
     \endentry
+    \entry{SERGAS2024memoria}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b90b20d1eef3edc7845181c23978ea29}{%
+           family={{Servizo Galego de Saúde}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Xunta de Galicia}%
+      }
+      \strng{namehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{fullhash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{fullhashraw}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{bibnamehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authorbibnamehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authornamehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authorfullhash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authorfullhashraw}{b90b20d1eef3edc7845181c23978ea29}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA. Población asignada al Área Sanitaria de Ferrol: 172.791 TIS (Tarjetas Individuales Sanitarias) en 2024.}
+      \field{title}{Área Sanitaria de Ferrol. Memoria 2024}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \endverb
+      \verb{url}
+      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \endverb
+    \endentry
     \entry{SHOWd812020}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
@@ -1242,6 +1311,42 @@
       \verb https://www.uitp.org/publications/%20local-public-transport-in-the-eu/
       \endverb
     \endentry
+    \entry{URBACTNight2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71ea4a51ceefcbc3e3f64118700fa8eb}{%
+           family={{URBACT}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {European Commission / URBACT Programme}%
+      }
+      \strng{namehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{fullhash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{fullhashraw}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{bibnamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authorbibnamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authornamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authorfullhash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authorfullhashraw}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA --- Programa oficial Comisión Europea}
+      \field{title}{Cities After Dark in 10 Steps}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+      \verb{url}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+    \endentry
     \entry{URBACT2025Gender}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=71ea4a51ceefcbc3e3f64118700fa8eb}{%
@@ -1256,6 +1361,7 @@
       \strng{authornamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
       \strng{authorfullhash}{71ea4a51ceefcbc3e3f64118700fa8eb}
       \strng{authorfullhashraw}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \field{extraname}{2}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
@@ -1386,7 +1492,7 @@
       \verb https://www.fsitaliane.it/content/fsitaliane/en/media/news/2019/10/28/busitalia-veneto-awarded-for-the-night-bus-service-in-padua.html
       \endverb
     \endentry
-    \entry{RegUE20221426}{misc}{}{}
+    \entry{CE_Movilidad2020}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
            family={{Comisión Europea}},
@@ -1401,6 +1507,40 @@
       \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
       \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
       \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA}
+      \field{howpublished}{Comunicación de la Comisión, COM(2020) 789 final}
+      \field{month}{12}
+      \field{title}{Estrategia de movilidad sostenible e inteligente: Encauzar el transporte europeo de cara al futuro}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=COM:2020:789:FIN
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=COM:2020:789:FIN
+      \endverb
+    \endentry
+    \entry{RegUE20221426}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
+           family={{Comisión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhashraw}{51964341e4da002e0362675417e1ad23}
+      \strng{bibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorbibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -1433,7 +1573,7 @@
       \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
       \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
       \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -2326,6 +2466,41 @@
       \verb 10.33776/EUHU/rem.v71i.8128
       \endverb
     \endentry
+    \entry{SERGAS2024memoria}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b90b20d1eef3edc7845181c23978ea29}{%
+           family={{Servizo Galego de Saúde}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Xunta de Galicia}%
+      }
+      \strng{namehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{fullhash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{fullhashraw}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{bibnamehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authorbibnamehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authornamehash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authorfullhash}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{authorfullhashraw}{b90b20d1eef3edc7845181c23978ea29}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA. Población asignada al Área Sanitaria de Ferrol: 172.791 TIS (Tarjetas Individuales Sanitarias) en 2024.}
+      \field{title}{Área Sanitaria de Ferrol. Memoria 2024}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \endverb
+      \verb{url}
+      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \endverb
+    \endentry
     \entry{SHOWd812020}{report}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
@@ -2499,6 +2674,42 @@
       \verb https://www.uitp.org/publications/%20local-public-transport-in-the-eu/
       \endverb
     \endentry
+    \entry{URBACTNight2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71ea4a51ceefcbc3e3f64118700fa8eb}{%
+           family={{URBACT}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {European Commission / URBACT Programme}%
+      }
+      \strng{namehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{fullhash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{fullhashraw}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{bibnamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authorbibnamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authornamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authorfullhash}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \strng{authorfullhashraw}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \field{extraname}{1}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA --- Programa oficial Comisión Europea}
+      \field{title}{Cities After Dark in 10 Steps}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+      \verb{url}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+    \endentry
     \entry{URBACT2025Gender}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=71ea4a51ceefcbc3e3f64118700fa8eb}{%
@@ -2513,6 +2724,7 @@
       \strng{authornamehash}{71ea4a51ceefcbc3e3f64118700fa8eb}
       \strng{authorfullhash}{71ea4a51ceefcbc3e3f64118700fa8eb}
       \strng{authorfullhashraw}{71ea4a51ceefcbc3e3f64118700fa8eb}
+      \field{extraname}{2}
       \field{sortinit}{U}
       \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
       \field{extradatescope}{labelyear}
