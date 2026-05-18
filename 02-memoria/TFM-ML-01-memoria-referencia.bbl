@@ -87,10 +87,8 @@
       \strng{authornamehash}{5c7ede4fc8cb22e40a40150661db87e8}
       \strng{authorfullhash}{5c7ede4fc8cb22e40a40150661db87e8}
       \strng{authorfullhashraw}{5c7ede4fc8cb22e40a40150661db87e8}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -100,47 +98,52 @@
       \field{title}{Horarios Línea D y Línea 6. Corredor hospitalario Ferrol}
       \field{year}{2024}
     \endentry
-    \entry{Alsaferrol2024lineaD}{misc}{}{}
+    \entry{Busitalia2019QuiBus}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5c7ede4fc8cb22e40a40150661db87e8}{%
-           family={{Alsaferrol}},
-           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=5f724cea1059ba381918eed95070f26f}{%
+           family={{Busitalia Veneto}},
+           familyi={B\bibinitperiod}}}%
       }
-      \strng{namehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{fullhash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{fullhashraw}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{bibnamehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authorbibnamehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authornamehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authorfullhash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authorfullhashraw}{5c7ede4fc8cb22e40a40150661db87e8}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
+      \strng{namehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{fullhash}{5f724cea1059ba381918eed95070f26f}
+      \strng{fullhashraw}{5f724cea1059ba381918eed95070f26f}
+      \strng{bibnamehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authorbibnamehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authornamehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authorfullhash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authorfullhashraw}{5f724cea1059ba381918eed95070f26f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: MEDIA. Frecuencia: un servicio cada 60 minutos en horario diurno. Último servicio a las 22:00 h. Fuente: cuadro de horarios del operador, año de publicación no indicado en el documento.}
-      \field{title}{Línea D: Canido--Hospital Novoa Santos / Hospital Naval. Horarios y frecuencias}
-      \field{year}{2024}
+      \field{note}{Nivel de confianza: MEDIA. Fuente: nota de prensa corporativa del operador. DRT nocturno en ciudad media europea (Padua, \approx 210.000~hab.): 19.000 registros en 6~meses, valoración 4{,}7/5, franja 21:00--03:00.}
+      \field{title}{Busitalia {Veneto} awarded for the {Night Bus} service in {Padua}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.fsitaliane.it/content/fsitaliane/en/media/news/2019/10/28/busitalia-veneto-awarded-for-the-night-bus-service-in-padua.html
+      \endverb
+      \verb{url}
+      \verb https://www.fsitaliane.it/content/fsitaliane/en/media/news/2019/10/28/busitalia-veneto-awarded-for-the-night-bus-service-in-padua.html
+      \endverb
     \endentry
-    \entry{CHUF2019guiaresidente}{misc}{}{}
+    \entry{RegUE20221426}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=23ba3b65adb6ea30f30459509b99d10b}{%
-           family={{Complexo Hospitalario Universitario de Ferrol}},
+        {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
+           family={{Comisión Europea}},
            familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{fullhash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{fullhashraw}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{bibnamehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authorbibnamehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authornamehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authorfullhash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authorfullhashraw}{23ba3b65adb6ea30f30459509b99d10b}
+      \strng{namehash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhashraw}{51964341e4da002e0362675417e1ad23}
+      \strng{bibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorbibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -148,9 +151,216 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: MEDIA. Plantilla total Atención Especializada: 1.647 trabajadores. Turno de noche de matronas: 22:00--08:00 h (10 h). Dato de plantilla no actualizado desde 2019 en fuentes disponibles.}
-      \field{title}{Guía do Residente 2019}
-      \field{year}{2019}
+      \field{annotation}{Nivel: ALTA --- legislación primaria UE, fuente EUR-Lex. Marco de homologación de tipo ADS para vehículos totalmente automatizados. Cubre claim P01.}
+      \field{note}{Diario Oficial de la {Unión Europea}, L~221, 26.8.2022, pp.~1--195}
+      \field{title}{Reglamento de Ejecución ({UE}) 2022/1426 de la {Comisión} de 5 de agosto de 2022 por el que se establecen normas para la aplicación del {Reglamento} ({UE}) 2019/2144 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada ({ADS}) de los vehículos totalmente automatizados}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/ES/ TXT/?uri=CELEX:32022R1426
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/ES/%20TXT/?uri=CELEX:32022R1426
+      \endverb
+    \endentry
+    \entry{RegUE20262026481}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
+           family={{Comisión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhashraw}{51964341e4da002e0362675417e1ad23}
+      \strng{bibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorbibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA --- legislación primaria UE. Modifica 2022/1426 para habilitar despliegue a gran escala de vehículos totalmente automatizados. Cubre P02.}
+      \field{note}{Diario Oficial de la {Unión Europea}, L~2026/80314, 3.3.2026}
+      \field{title}{Reglamento de Ejecución ({UE}) 2026/481 de la {Comisión} de 3 de marzo de 2026 que modifica el {Reglamento} de Ejecución ({UE}) 2022/1426 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada de los vehículos totalmente automatizados}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.boe.es/buscar/doc.php? id=DOUE-L-2026-80314
+      \endverb
+      \verb{url}
+      \verb https://www.boe.es/buscar/doc.php?%20id=DOUE-L-2026-80314
+      \endverb
+    \endentry
+    \entry{dAntonio2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9cc0fbf4fe68762b59f9c71a87c2e60c}{%
+           family={d'Antonio},
+           familyi={d\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {URBACT}%
+      }
+      \strng{namehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{fullhash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{fullhashraw}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{bibnamehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authorbibnamehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authornamehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authorfullhash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authorfullhashraw}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{note}{Red cofinanciada por la Unión Europea. Nivel: ALTA}
+      \field{title}{Cities After Dark: Baseline Study and Network Roadmap}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+      \verb{url}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+    \endentry
+    \entry{DibaGore2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bc1963116e5c970c28b0c77a240f6b89}{%
+           family={Diba},
+           familyi={D\bibinitperiod},
+           given={Damilola\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=471fd80d0274d9269831b3aa9a8189c0}{%
+           family={Gore},
+           familyi={G\bibinitperiod},
+           given={Nachiket},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4780bd561e5825737fd055bda940c7e}{%
+           family={Pulugurtha},
+           familyi={P\bibinitperiod},
+           given={Srinivas\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fe79ba6e0878566172f3d0dba5ab11d3}
+      \strng{fullhash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{fullhashraw}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{bibnamehash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{authorbibnamehash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{authornamehash}{fe79ba6e0878566172f3d0dba5ab11d3}
+      \strng{authorfullhash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{authorfullhashraw}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: MEDIA --- DOI verificado; cita textual exacta sobre secciones específicas no confirmada verbatim sin acceso PDF completo. Usar con atribución al argumento general, no como cita directa. Cubre claim T05.}
+      \field{journaltitle}{Future Transportation}
+      \field{number}{1}
+      \field{title}{Integrating Autonomous Shuttles: Insights, Challenges, and Strategic Solutions from Practitioners and Industry Experts' Perceptions}
+      \field{volume}{5}
+      \field{year}{2025}
+      \field{pages}{9}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/futuretransp5010009
+      \endverb
+    \endentry
+    \entry{DGTESAV2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd1963bc6a3c07a7309752da3ee7f11b}{%
+           family={{Dirección General de Tráfico}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{fullhash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{fullhashraw}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{bibnamehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authorbibnamehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authornamehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authorfullhash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authorfullhashraw}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — fuente institucional primaria DGT. Cubre claims P03 y L03 (PESTEL Político y Legal)}
+      \field{title}{Programa Marco {ES-AV}: Marco de autorización de pruebas de vehículos automatizados en {España}}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/ vehiculos-automatizados/
+      \endverb
+      \verb{url}
+      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/%20vehiculos-automatizados/
+      \endverb
+    \endentry
+    \entry{Estrada2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e9326497c9898b67b6a60535176e559e}{%
+           family={Estrada},
+           familyi={E\bibinitperiod},
+           given={Miquel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc37b3ecb45207a51b04ab975b7a46a2}{%
+           family={Salanova},
+           familyi={S\bibinitperiod},
+           given={Josep\bibnamedelima Maria},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eb10130d07278a966f23271636aa126}{%
+           family={Medina-Tapia},
+           familyi={M\bibinithyphendelim T\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d289eba2aac261d2acd66894ce0a6b7e}{%
+           family={Robusté},
+           familyi={R\bibinitperiod},
+           given={Francesc},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{51793b0418c1fda5c50fc4472d45d709}
+      \strng{fullhash}{d325655e47786fb5aff802165e6592e4}
+      \strng{fullhashraw}{d325655e47786fb5aff802165e6592e4}
+      \strng{bibnamehash}{d325655e47786fb5aff802165e6592e4}
+      \strng{authorbibnamehash}{d325655e47786fb5aff802165e6592e4}
+      \strng{authornamehash}{51793b0418c1fda5c50fc4472d45d709}
+      \strng{authorfullhash}{d325655e47786fb5aff802165e6592e4}
+      \strng{authorfullhashraw}{d325655e47786fb5aff802165e6592e4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Letters}
+      \field{note}{Nivel de confianza: ALTA. Umbral operativo: bus fijo viable a partir de >200~pax/km²·h; demanda nocturna típica \approx 2~pax/km²·h, por debajo del umbral de eficiencia del bus fijo.}
+      \field{title}{Operational cost and user performance analysis of on-demand bus and taxi systems}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1080/19427867.2020.1861507
+      \endverb
     \endentry
     \entry{Eurostat2020Health}{misc}{}{}
       \name{author}{1}{}{%
@@ -166,6 +376,7 @@
       \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
       \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
       \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \field{extraname}{1}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -184,20 +395,180 @@
       \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
       \endverb
     \endentry
-    \entry{IGE2024}{misc}{}{}
+    \entry{Eurostat2022health}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b6f0d0feef4dd8c19ff43982b74f3658}{%
-           family={{Instituto Galego de Estatística}},
+        {{un=0,uniquepart=base,hash=533195c920679b5848eb14c3f57cc69c}{%
+           family={{Eurostat}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \strng{bibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorbibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — estadística oficial Eurostat. Dato: 78\% mujeres en salud y trabajo social UE, Q3 2021. Cubre claim S02 (PESTEL Social)}
+      \field{title}{Jobs with the highest share of women in {Q3} 2021}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/ w/DDN-20220307-1
+      \endverb
+      \verb{url}
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/%20w/DDN-20220307-1
+      \endverb
+    \endentry
+    \entry{Gavanas2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3a360c619b8e34e4d712054c65d680fb}{%
+           family={Gavanas},
+           familyi={G\bibinitperiod},
+           given={Nikolaos},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b14a2c05b78ee3eb026df78f1f8ec8ec}{%
+           family={Anastasiadou},
+           familyi={A\bibinitperiod},
+           given={Konstantina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76bb6ec050b86e84309faaa023752c52}{%
+           family={Nathanail},
+           familyi={N\bibinitperiod},
+           given={Eftihia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ca4d5bbad419f3892dd00fa3fee470a}{%
+           family={Basbas},
+           familyi={B\bibinitperiod},
+           given={Socrates},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99b32344da74d5a8072f053e7f49df8b}
+      \strng{fullhash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{fullhashraw}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{bibnamehash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{authorbibnamehash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{authornamehash}{99b32344da74d5a8072f053e7f49df8b}
+      \strng{authorfullhash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{authorfullhashraw}{9234497805709c26ec9f8b390a40dfa6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA}
+      \field{journaltitle}{Land}
+      \field{number}{11}
+      \field{title}{Transport policy pathways for autonomous road vehicles to promote sustainable urban development in the {European Union}: {A} multicriteria analysis}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.3390/land13111807
+      \endverb
+    \endentry
+    \entry{GoogleMaps2026Ferrol}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=addefca19981affa2ff560e5262683de}{%
+           family={{Google Maps}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{addefca19981affa2ff560e5262683de}
+      \strng{fullhash}{addefca19981affa2ff560e5262683de}
+      \strng{fullhashraw}{addefca19981affa2ff560e5262683de}
+      \strng{bibnamehash}{addefca19981affa2ff560e5262683de}
+      \strng{authorbibnamehash}{addefca19981affa2ff560e5262683de}
+      \strng{authornamehash}{addefca19981affa2ff560e5262683de}
+      \strng{authorfullhash}{addefca19981affa2ff560e5262683de}
+      \strng{authorfullhashraw}{addefca19981affa2ff560e5262683de}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consulta realizada por el autor en abril de 2026. Ruta principal: 4{,}2~km, 11~minutos. Ruta alternativa: 5{,}2~km, 11~minutos. Nivel de confianza: MEDIA.}
+      \field{title}{Ruta por carretera: {Hospital Arquitecto Marcide} ({CHUF}) -- {Plaza de Armas}, {Ferrol}}
+      \field{year}{2026}
+    \endentry
+    \entry{HafizAlKhafagy2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=123fd773852e8efea3992e08d993fb3a}{%
+           family={Hafiz},
+           familyi={H\bibinitperiod},
+           given={Daniyar},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44770ac43443694277497e0a7846e65c}{%
+           family={AlKhafagy},
+           familyi={A\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb8f847b54570046c8e7ef9919e82183}{%
+           family={Zohdy},
+           familyi={Z\bibinitperiod},
+           given={Ismail},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53c27b226a56dc0608e441fcd63d23bd}
+      \strng{fullhash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{fullhashraw}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{bibnamehash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{authorbibnamehash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{authornamehash}{53c27b226a56dc0608e441fcd63d23bd}
+      \strng{authorfullhash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{authorfullhashraw}{324c77cb65dfeb08674744332db3b0fd}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: MEDIA --- revisión sistemática. EC01 DESCARTADO como claim factual (ratio 7--11 vehículos y 87--94\% emisiones: origen Greenblatt \& Shaheen 2015, contexto EE.UU.). Usar únicamente para claim L01 (marco legal AV). Cubre claim L01.}
+      \field{journaltitle}{World Electric Vehicle Journal}
+      \field{number}{9}
+      \field{title}{Autonomous Public Transport: Evolution, Benefits, and Challenges in the Future of Urban Mobility}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{pages}{482}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/wevj16090482
+      \endverb
+    \endentry
+    \entry{INE2024Ferrol}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a303d4390a16a468a0c541d209410697}{%
+           family={{Instituto Nacional de Estadística}},
            familyi={I\bibinitperiod}}}%
       }
-      \strng{namehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{fullhash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{fullhashraw}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{bibnamehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authorbibnamehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authornamehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authorfullhash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authorfullhashraw}{b6f0d0feef4dd8c19ff43982b74f3658}
+      \strng{namehash}{a303d4390a16a468a0c541d209410697}
+      \strng{fullhash}{a303d4390a16a468a0c541d209410697}
+      \strng{fullhashraw}{a303d4390a16a468a0c541d209410697}
+      \strng{bibnamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorbibnamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authornamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorfullhash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorfullhashraw}{a303d4390a16a468a0c541d209410697}
+      \field{extraname}{1}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -205,14 +576,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: MEDIA. Cifra provisional IGE a 1/1/2024: 64.358 habitantes. Pendiente cruce con dato oficial INE Padrón (URL: https://www.ine.es/jaxiT3/Tabla.htm?L=0&t=29005)}
-      \field{title}{Cifras de poboación. Municipio de Ferrol}
+      \field{note}{Dato referido a 1 de enero de 2024. Nivel de confianza: ALTA}
+      \field{title}{Cifras oficiales de población de los municipios españoles: Revisión del Padrón Municipal 2024. Municipio de Ferrol (código 15036)}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.ige.gal/igebdt/esq.jsp?ruta=verTabla.jsp?OP=1&B=1&M=&COD=2621&R=9912[2024]&C=0[0]&F=&S=&SCF=
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
       \endverb
       \verb{url}
-      \verb https://www.ige.gal/igebdt/esq.jsp?ruta=verTabla.jsp?OP=1&B=1&M=&COD=2621&R=9912[2024]&C=0[0]&F=&S=&SCF=
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
       \endverb
     \endentry
     \entry{INE2025EPA}{misc}{}{}
@@ -229,6 +600,7 @@
       \strng{authornamehash}{a303d4390a16a468a0c541d209410697}
       \strng{authorfullhash}{a303d4390a16a468a0c541d209410697}
       \strng{authorfullhashraw}{a303d4390a16a468a0c541d209410697}
+      \field{extraname}{2}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -247,29 +619,23 @@
       \verb https://www.ine.es/prensa/epa_2024_sm.pdf
       \endverb
     \endentry
-    \entry{Moreau2023}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=149049ccd9a801aacab4323fc9c51420}{%
-           family={Konstantas},
-           familyi={K\bibinitperiod},
-           given={Dimitri},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8e59912215e2960d747acc2d630a4360}{%
-           family={Fournier},
-           familyi={F\bibinitperiod},
-           given={Guy},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
+    \entry{K2Centrum2025DRT}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b83eccc79613548b6754463c85f61c85}{%
+           family={{K2 -- Swedish Knowledge Centre for Public Transport}},
+           familyi={K\bibinitperiod}}}%
       }
-      \strng{namehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{fullhash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{fullhashraw}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{bibnamehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authorbibnamehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authornamehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authorfullhash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authorfullhashraw}{e9a57bbfe3e5b5ba6758e940530ca5a5}
+      \list{institution}{1}{%
+        {K2 -- Nationellt Kunskapscentrum för Kollektivtrafik}%
+      }
+      \strng{namehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{fullhash}{b83eccc79613548b6754463c85f61c85}
+      \strng{fullhashraw}{b83eccc79613548b6754463c85f61c85}
+      \strng{bibnamehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authorbibnamehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authornamehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authorfullhash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authorfullhashraw}{b83eccc79613548b6754463c85f61c85}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -277,16 +643,123 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Proyecto AVENUE / ULTIMO H2020. Publicado en plataforma CE Open Research Europe. Claims C01, C03, C05. NOTA: verificar si existe segunda versión con DOI .15416.2 — pueden ser dos papers distintos del mismo consorcio.}
-      \field{journaltitle}{Open Research Europe}
-      \field{title}{Fully automated public transportation mobility: the hidden challenges for a commercial deployment}
-      \field{volume}{3}
-      \field{year}{2023}
-      \field{pages}{71}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.12688/openreseurope.15751.1
+      \field{note}{Nivel de confianza: MEDIA. Informe técnico. Documenta el caso MK~Connect (Milton Keynes): DRT nocturno hasta las 02:00, valorado explícitamente por trabajadores de turno en hospitales locales. Financiación pública integrada.}
+      \field{title}{Mapping of {Demand Responsive Transport} ({DRT}) services in {Europe}}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.k2centrum.se/wp-content/uploads/2025/06/387189-DRT-International-Review-K2-WP-2025_9.pdf
       \endverb
+      \verb{url}
+      \verb https://www.k2centrum.se/wp-content/uploads/2025/06/387189-DRT-International-Review-K2-WP-2025_9.pdf
+      \endverb
+    \endentry
+    \entry{KonstantasAVENUE2023lessons}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=149049ccd9a801aacab4323fc9c51420}{%
+           family={Konstantas},
+           familyi={K\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{fullhash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{fullhashraw}{149049ccd9a801aacab4323fc9c51420}
+      \strng{bibnamehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authorbibnamehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authornamehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authorfullhash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authorfullhashraw}{149049ccd9a801aacab4323fc9c51420}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA --- materiales oficiales post-proyecto AVENUE H2020. Cubre claim T04: ausencia de despliegues a gran escala en horizonte 5 años.}
+      \field{note}{Materiales de lecciones aprendidas post-proyecto {AVENUE} {H2020} (2018--2022). Presentación final del consorcio.}
+      \field{title}{Lessons from the {AVENUE} project}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.connectedautomateddriving.eu/wp-content/ uploads/2023/03/AVENUE_project.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.connectedautomateddriving.eu/wp-content/%20uploads/2023/03/AVENUE_project.pdf
+      \endverb
+    \endentry
+    \entry{AVENUE2023}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=149049ccd9a801aacab4323fc9c51420}{%
+           family={Konstantas},
+           familyi={K\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49f2ea9d3f8e51700d6d4752941d6261}{%
+           family={Fournier},
+           familyi={F\bibinitperiod},
+           given={Gauthier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {H2020 AVENUE Project (GA 769033)}%
+      }
+      \strng{namehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{fullhash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{fullhashraw}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{bibnamehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authorbibnamehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authornamehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authorfullhash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authorfullhashraw}{b239ebf22f7c147997cadcd79595e59a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA --- Deliverable oficial H2020}
+      \field{title}{Fully automated public transportation mobility: the hidden challenges for a commercial deployment}
+      \field{type}{techreport}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://cordis.europa.eu/project/id/769033
+      \endverb
+      \verb{url}
+      \verb https://cordis.europa.eu/project/id/769033
+      \endverb
+    \endentry
+    \entry{LouridoRegueira2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=48bbf835791b6e71b406b86c6bbe2084}{%
+           family={Lourido\bibnamedelima Regueira},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{fullhash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{fullhashraw}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{bibnamehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authorbibnamehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authornamehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authorfullhash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authorfullhashraw}{48bbf835791b6e71b406b86c6bbe2084}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datos primarios no publicados. Universidade da Coruña. Nivel de confianza: ALTA}
+      \field{title}{Encuesta sobre movilidad nocturna en trabajadores sanitarios de la provincia de {A Coruña}}
+      \field{year}{2026}
     \endentry
     \entry{MartinezRodriguez2024}{misc}{}{}
       \name{author}{1}{}{%
@@ -329,6 +802,153 @@
       \verb https://www.experimenta.es/diseno-en-serio/la-columna-de-rodrigo-martinez-el-usuario-en-su-sitio/
       \endverb
     \endentry
+    \entry{Sanidad2024CHUF}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e5fb97a20b85fef8fc35587efe66226}{%
+           family={{Ministerio de Sanidad}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{fullhash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{fullhashraw}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{bibnamehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authorbibnamehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authornamehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authorfullhash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authorfullhashraw}{4e5fb97a20b85fef8fc35587efe66226}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dirección oficial: Avenida de la Residencia s/n, 15405 Ferrol. La atribución a la parroquia de A Cabana no está confirmada por esta fuente y no se usa en la memoria. Nivel de confianza: MEDIA}
+      \field{title}{Registro de Centros del {SNS}: Complexo Hospitalario Universitario de Ferrol}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \endverb
+      \verb{url}
+      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \endverb
+    \endentry
+    \entry{Directiva200388CE}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=27d02fe93caf215fca87ad41af654eb5}{%
+           family={{Parlamento Europeo}},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9fbe7cb6b5fc01dda7aedd3628d268c5}{%
+           family={{Consejo de la Unión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{bibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorbibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authornamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — legislación primaria UE vigente. Cubre claim L02 (derechos trabajadores nocturnos)}
+      \field{journaltitle}{Diario Oficial de la Unión Europea}
+      \field{title}{Directiva 2003/88/{CE} del {Parlamento Europeo} y del {Consejo} relativa a determinados aspectos de la ordenación del tiempo de trabajo}
+      \field{volume}{L 299}
+      \field{year}{2003}
+      \field{pages}{9\bibrangedash 19}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/ ?uri=CELEX\%3A32003L0088
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/%20?uri=CELEX%5C%3A32003L0088
+      \endverb
+    \endentry
+    \entry{DirectivaUE20242853}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=27d02fe93caf215fca87ad41af654eb5}{%
+           family={{Parlamento Europeo}},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9fbe7cb6b5fc01dda7aedd3628d268c5}{%
+           family={{Consejo de la Unión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{bibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorbibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authornamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA --- legislación primaria UE. Moderniza responsabilidad por productos defectuosos incluyendo software e IA. Complementa claim L01. Transposición: diciembre 2026.}
+      \field{title}{Directiva ({UE}) 2024/2853 del {Parlamento Europeo} y del {Consejo} sobre responsabilidad por productos defectuosos}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/ TXT/?uri=CELEX:32024L2853
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/%20TXT/?uri=CELEX:32024L2853
+      \endverb
+    \endentry
+    \entry{PlyushetvaBoussauw2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=386914c8bd95bb125163f3e6e37b8880}{%
+           family={Plyushteva},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=050d92bbccaa78c3f518e780249d142c}{%
+           family={Boussauw},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{fullhash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{fullhashraw}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{bibnamehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authorbibnamehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authornamehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authorfullhash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authorfullhashraw}{13a0ede6ca464da60f60cbc828eba055}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA}
+      \field{journaltitle}{Transport Policy}
+      \field{title}{Does night-time public transport contribute to inclusive night mobility? {Exploring} {Sofia's} night bus network from a gender perspective}
+      \field{volume}{87}
+      \field{year}{2020}
+      \field{pages}{41\bibrangedash 50}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.tranpol.2020.01.002
+      \endverb
+    \endentry
     \entry{Plyushteva2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=65d0c8617d1686724f7d7a39f808d68d}{%
@@ -352,11 +972,12 @@
       \strng{authornamehash}{5b3f22c401c7d11454386f3bca575806}
       \strng{authorfullhash}{5b3f22c401c7d11454386f3bca575806}
       \strng{authorfullhashraw}{5b3f22c401c7d11454386f3bca575806}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA. Fuente primaria peer-reviewed. Dato night gap 01:00--05:00 y cobertura 26/28 capitales UE. Claims M01, M02, U06.}
@@ -448,23 +1069,24 @@
       \verb 10.33776/EUHU/rem.v71i.8128
       \endverb
     \endentry
-    \entry{SERGAS2024memoria}{report}{}{}
+    \entry{SHOWd812020}{report}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b90b20d1eef3edc7845181c23978ea29}{%
-           family={{Servizo Galego de Saúde}},
+        {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
+           family={{SHOW Consortium}},
            familyi={S\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {Xunta de Galicia}%
+        {SHOW Project — Horizon 2020, Grant Agreement 875530}%
       }
-      \strng{namehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{fullhash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{fullhashraw}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{bibnamehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authorbibnamehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authornamehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authorfullhash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authorfullhashraw}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{namehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \strng{bibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorbibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -472,14 +1094,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Población asignada al Área Sanitaria de Ferrol: 172.791 TIS (Tarjetas Individuales Sanitarias) en 2024.}
-      \field{title}{Área Sanitaria de Ferrol. Memoria 2024}
-      \field{year}{2024}
+      \field{annotation}{Nivel: ALTA — deliverable técnico H2020 verificable. Cubre claims T02, T06 (sensórica, HD Maps) y EC02 (flota 100\% electrificada)}
+      \field{title}{Pilot experimental plans, {KPI}s definition and impact assessment framework for pre-demo evaluation}
+      \field{type}{Deliverable D8.1}
+      \field{year}{2020}
       \verb{urlraw}
-      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \verb https://show-project.eu/deliverables/
       \endverb
       \verb{url}
-      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \verb https://show-project.eu/deliverables/
       \endverb
     \endentry
     \entry{SHOW2024Legacy}{misc}{}{}
@@ -496,8 +1119,10 @@
       \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
       \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
       \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -514,79 +1139,57 @@
       \verb https://show-project.eu/
       \endverb
     \endentry
-    \entry{Szemik2025}{article}{}{}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=9167e4dac776c390cf8135e5a6373cb9}{%
-           family={Szemik},
-           familyi={S\bibinitperiod},
-           given={Szymon},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=02809fcb4d37f376908d5ed7e5830680}{%
-           family={Winter},
-           familyi={W\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=1efb592827c98678884457693c2c37ee}{%
-           family={Boone},
-           familyi={B\bibinitperiod},
-           given={Anke},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=29c7bebbb57c2fa7a89dfed77a87a975}{%
-           family={Lavreysen},
-           familyi={L\bibinitperiod},
-           given={Olivia},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c1328326fd453134ca2c5e74478ccede}{%
-           family={Godderis},
-           familyi={G\bibinitperiod},
-           given={Lode},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4bdda84a4f06172dd4e1a80fa75d681b}{%
-           family={Maniscalco},
-           familyi={M\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ef378bbe70ddbae3241c12b9b7d466c}{%
-           family={Enea},
-           familyi={E\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cac1329bd0ecceee6178b1bffffa3504}{%
-           family={Baranski},
-           familyi={B\bibinitperiod},
-           given={Kamil},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a8e238bafe3e492fa0bf0cc31d90a941}{%
-           family={Matranga},
-           familyi={M\bibinitperiod},
-           given={Domenica},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3c788fa11e4c9ce7b3260807c7e072ca}{%
-           family={Kowalska},
-           familyi={K\bibinitperiod},
-           given={Malgorzata},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
+    \entry{SHOW2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
+           family={{SHOW Consortium}},
+           familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{a314557720879ce7e82f7150564b7d8c}
-      \strng{fullhash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{fullhashraw}{781c70bef169b3f224a49d4b120485e7}
-      \strng{bibnamehash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{authorbibnamehash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{authornamehash}{a314557720879ce7e82f7150564b7d8c}
-      \strng{authorfullhash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{authorfullhashraw}{781c70bef169b3f224a49d4b120485e7}
+      \list{institution}{1}{%
+        {H2020 SHOW Project (GA 875530) / UITP}%
+      }
+      \strng{namehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \strng{bibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorbibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA --- Deliverable oficial H2020}
+      \field{title}{SHared automation Operating models for Worldwide adoption: SHOW Final Results}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://show-project.eu
+      \endverb
+      \verb{url}
+      \verb https://show-project.eu
+      \endverb
+    \endentry
+    \entry{Stagecoach2020Hull}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c36822a2b35639cc75e8d7085d72094}{%
+           family={{Stagecoach Solutions}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{fullhash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{fullhashraw}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{bibnamehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authorbibnamehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authornamehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authorfullhash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authorfullhashraw}{4c36822a2b35639cc75e8d7085d72094}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -594,16 +1197,49 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel de confianza: MEDIA. Transporte citado como factor de incentivo en retención hospitalaria --- vínculo cualitativo, no dato primario de movilidad. Claim U04.}
-      \field{journaltitle}{BMC Health Services Research}
-      \field{number}{1}
-      \field{title}{Effective strategies for job retention in hospitals: insights from the {EU} {METEOR} project's online toolbox}
-      \field{volume}{25}
-      \field{year}{2025}
-      \field{pages}{1567}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1186/s12913-025-13742-1
+      \field{note}{Nivel de confianza: MEDIA. Fuente: caso de estudio del operador. Shuttle DRT para personal sanitario del Hull University Teaching Hospitals {NHS} Trust ({Reino Unido}): trayecto medio 20~min / 8{,}8~km; financiación pública mixta (Ayuntamiento de Hull + {NHS}).}
+      \field{title}{Demand responsive shuttles for key workers}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.stagecoachsolutions.com/success-story-ondemand
+      \endverb
+      \verb{url}
+      \verb https://www.stagecoachsolutions.com/success-story-ondemand
+      \endverb
+    \endentry
+    \entry{UITP2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=513a5108bcc879ca4eb22d9d0a8f674c}{%
+           family={{Union Internationale des Transports Publics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UITP — Union Internationale des Transports Publics}%
+      }
+      \strng{namehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{fullhash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{fullhashraw}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{bibnamehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authorbibnamehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authornamehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authorfullhash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authorfullhashraw}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — informe sectorial de referencia. Cubre claims EC03 (Green Deal 2050), EC04 (eficiencia modal bus/rail vs coche) y L04 (PSO/OSP en ciudades medias)}
+      \field{title}{Local public transport in the {EU}}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.uitp.org/publications/ local-public-transport-in-the-eu/
+      \endverb
+      \verb{url}
+      \verb https://www.uitp.org/publications/%20local-public-transport-in-the-eu/
       \endverb
     \endentry
     \entry{URBACT2025Gender}{misc}{}{}
@@ -637,31 +1273,6 @@
       \verb{url}
       \verb https://urbact.eu/articles/five-reasons-why-cities-should-consider-night-when-planning-urban-mobility
       \endverb
-    \endentry
-    \entry{XuntaGalicia2025dog}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d2d1d3f7e265d9ba241783ebca77c144}{%
-           family={{Xunta de Galicia}},
-           familyi={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{fullhash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{fullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{bibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authorbibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authornamehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authorfullhash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authorfullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
-      \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Servicios mínimos nocturnos decretados: 63 enfermeros/as, 42 TCAEs, 13 celadores por turno de noche en hospitales Arquitecto Marcide y Novoa Santos. Turno de noche implícito: 22:00--08:00 h.}
-      \field{title}{Resolución de servizos mínimos para a folga no \ac{CHUF}. Diario Oficial de Galicia, núm. 198}
-      \field{year}{2025}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -733,10 +1344,8 @@
       \strng{authornamehash}{5c7ede4fc8cb22e40a40150661db87e8}
       \strng{authorfullhash}{5c7ede4fc8cb22e40a40150661db87e8}
       \strng{authorfullhashraw}{5c7ede4fc8cb22e40a40150661db87e8}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -746,47 +1355,52 @@
       \field{title}{Horarios Línea D y Línea 6. Corredor hospitalario Ferrol}
       \field{year}{2024}
     \endentry
-    \entry{Alsaferrol2024lineaD}{misc}{}{}
+    \entry{Busitalia2019QuiBus}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5c7ede4fc8cb22e40a40150661db87e8}{%
-           family={{Alsaferrol}},
-           familyi={A\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=5f724cea1059ba381918eed95070f26f}{%
+           family={{Busitalia Veneto}},
+           familyi={B\bibinitperiod}}}%
       }
-      \strng{namehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{fullhash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{fullhashraw}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{bibnamehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authorbibnamehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authornamehash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authorfullhash}{5c7ede4fc8cb22e40a40150661db87e8}
-      \strng{authorfullhashraw}{5c7ede4fc8cb22e40a40150661db87e8}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradate}{2}
+      \strng{namehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{fullhash}{5f724cea1059ba381918eed95070f26f}
+      \strng{fullhashraw}{5f724cea1059ba381918eed95070f26f}
+      \strng{bibnamehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authorbibnamehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authornamehash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authorfullhash}{5f724cea1059ba381918eed95070f26f}
+      \strng{authorfullhashraw}{5f724cea1059ba381918eed95070f26f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: MEDIA. Frecuencia: un servicio cada 60 minutos en horario diurno. Último servicio a las 22:00 h. Fuente: cuadro de horarios del operador, año de publicación no indicado en el documento.}
-      \field{title}{Línea D: Canido--Hospital Novoa Santos / Hospital Naval. Horarios y frecuencias}
-      \field{year}{2024}
+      \field{note}{Nivel de confianza: MEDIA. Fuente: nota de prensa corporativa del operador. DRT nocturno en ciudad media europea (Padua, \approx 210.000~hab.): 19.000 registros en 6~meses, valoración 4{,}7/5, franja 21:00--03:00.}
+      \field{title}{Busitalia {Veneto} awarded for the {Night Bus} service in {Padua}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.fsitaliane.it/content/fsitaliane/en/media/news/2019/10/28/busitalia-veneto-awarded-for-the-night-bus-service-in-padua.html
+      \endverb
+      \verb{url}
+      \verb https://www.fsitaliane.it/content/fsitaliane/en/media/news/2019/10/28/busitalia-veneto-awarded-for-the-night-bus-service-in-padua.html
+      \endverb
     \endentry
-    \entry{CHUF2019guiaresidente}{misc}{}{}
+    \entry{RegUE20221426}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=23ba3b65adb6ea30f30459509b99d10b}{%
-           family={{Complexo Hospitalario Universitario de Ferrol}},
+        {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
+           family={{Comisión Europea}},
            familyi={C\bibinitperiod}}}%
       }
-      \strng{namehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{fullhash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{fullhashraw}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{bibnamehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authorbibnamehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authornamehash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authorfullhash}{23ba3b65adb6ea30f30459509b99d10b}
-      \strng{authorfullhashraw}{23ba3b65adb6ea30f30459509b99d10b}
+      \strng{namehash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhashraw}{51964341e4da002e0362675417e1ad23}
+      \strng{bibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorbibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -794,9 +1408,216 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: MEDIA. Plantilla total Atención Especializada: 1.647 trabajadores. Turno de noche de matronas: 22:00--08:00 h (10 h). Dato de plantilla no actualizado desde 2019 en fuentes disponibles.}
-      \field{title}{Guía do Residente 2019}
-      \field{year}{2019}
+      \field{annotation}{Nivel: ALTA --- legislación primaria UE, fuente EUR-Lex. Marco de homologación de tipo ADS para vehículos totalmente automatizados. Cubre claim P01.}
+      \field{note}{Diario Oficial de la {Unión Europea}, L~221, 26.8.2022, pp.~1--195}
+      \field{title}{Reglamento de Ejecución ({UE}) 2022/1426 de la {Comisión} de 5 de agosto de 2022 por el que se establecen normas para la aplicación del {Reglamento} ({UE}) 2019/2144 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada ({ADS}) de los vehículos totalmente automatizados}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/ES/ TXT/?uri=CELEX:32022R1426
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/ES/%20TXT/?uri=CELEX:32022R1426
+      \endverb
+    \endentry
+    \entry{RegUE20262026481}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=51964341e4da002e0362675417e1ad23}{%
+           family={{Comisión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{fullhashraw}{51964341e4da002e0362675417e1ad23}
+      \strng{bibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorbibnamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authornamehash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhash}{51964341e4da002e0362675417e1ad23}
+      \strng{authorfullhashraw}{51964341e4da002e0362675417e1ad23}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA --- legislación primaria UE. Modifica 2022/1426 para habilitar despliegue a gran escala de vehículos totalmente automatizados. Cubre P02.}
+      \field{note}{Diario Oficial de la {Unión Europea}, L~2026/80314, 3.3.2026}
+      \field{title}{Reglamento de Ejecución ({UE}) 2026/481 de la {Comisión} de 3 de marzo de 2026 que modifica el {Reglamento} de Ejecución ({UE}) 2022/1426 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada de los vehículos totalmente automatizados}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.boe.es/buscar/doc.php? id=DOUE-L-2026-80314
+      \endverb
+      \verb{url}
+      \verb https://www.boe.es/buscar/doc.php?%20id=DOUE-L-2026-80314
+      \endverb
+    \endentry
+    \entry{dAntonio2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9cc0fbf4fe68762b59f9c71a87c2e60c}{%
+           family={d'Antonio},
+           familyi={d\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {URBACT}%
+      }
+      \strng{namehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{fullhash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{fullhashraw}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{bibnamehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authorbibnamehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authornamehash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authorfullhash}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \strng{authorfullhashraw}{9cc0fbf4fe68762b59f9c71a87c2e60c}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{note}{Red cofinanciada por la Unión Europea. Nivel: ALTA}
+      \field{title}{Cities After Dark: Baseline Study and Network Roadmap}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+      \verb{url}
+      \verb https://urbact.eu/cities-after-dark
+      \endverb
+    \endentry
+    \entry{DibaGore2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=bc1963116e5c970c28b0c77a240f6b89}{%
+           family={Diba},
+           familyi={D\bibinitperiod},
+           given={Damilola\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=471fd80d0274d9269831b3aa9a8189c0}{%
+           family={Gore},
+           familyi={G\bibinitperiod},
+           given={Nachiket},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f4780bd561e5825737fd055bda940c7e}{%
+           family={Pulugurtha},
+           familyi={P\bibinitperiod},
+           given={Srinivas\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fe79ba6e0878566172f3d0dba5ab11d3}
+      \strng{fullhash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{fullhashraw}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{bibnamehash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{authorbibnamehash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{authornamehash}{fe79ba6e0878566172f3d0dba5ab11d3}
+      \strng{authorfullhash}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \strng{authorfullhashraw}{a3eed069e4c9f86ac5f9b017c312fddc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: MEDIA --- DOI verificado; cita textual exacta sobre secciones específicas no confirmada verbatim sin acceso PDF completo. Usar con atribución al argumento general, no como cita directa. Cubre claim T05.}
+      \field{journaltitle}{Future Transportation}
+      \field{number}{1}
+      \field{title}{Integrating Autonomous Shuttles: Insights, Challenges, and Strategic Solutions from Practitioners and Industry Experts' Perceptions}
+      \field{volume}{5}
+      \field{year}{2025}
+      \field{pages}{9}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/futuretransp5010009
+      \endverb
+    \endentry
+    \entry{DGTESAV2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dd1963bc6a3c07a7309752da3ee7f11b}{%
+           family={{Dirección General de Tráfico}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{fullhash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{fullhashraw}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{bibnamehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authorbibnamehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authornamehash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authorfullhash}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \strng{authorfullhashraw}{dd1963bc6a3c07a7309752da3ee7f11b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — fuente institucional primaria DGT. Cubre claims P03 y L03 (PESTEL Político y Legal)}
+      \field{title}{Programa Marco {ES-AV}: Marco de autorización de pruebas de vehículos automatizados en {España}}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/ vehiculos-automatizados/
+      \endverb
+      \verb{url}
+      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/%20vehiculos-automatizados/
+      \endverb
+    \endentry
+    \entry{Estrada2021}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e9326497c9898b67b6a60535176e559e}{%
+           family={Estrada},
+           familyi={E\bibinitperiod},
+           given={Miquel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bc37b3ecb45207a51b04ab975b7a46a2}{%
+           family={Salanova},
+           familyi={S\bibinitperiod},
+           given={Josep\bibnamedelima Maria},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0eb10130d07278a966f23271636aa126}{%
+           family={Medina-Tapia},
+           familyi={M\bibinithyphendelim T\bibinitperiod},
+           given={Marcos},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d289eba2aac261d2acd66894ce0a6b7e}{%
+           family={Robusté},
+           familyi={R\bibinitperiod},
+           given={Francesc},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{51793b0418c1fda5c50fc4472d45d709}
+      \strng{fullhash}{d325655e47786fb5aff802165e6592e4}
+      \strng{fullhashraw}{d325655e47786fb5aff802165e6592e4}
+      \strng{bibnamehash}{d325655e47786fb5aff802165e6592e4}
+      \strng{authorbibnamehash}{d325655e47786fb5aff802165e6592e4}
+      \strng{authornamehash}{51793b0418c1fda5c50fc4472d45d709}
+      \strng{authorfullhash}{d325655e47786fb5aff802165e6592e4}
+      \strng{authorfullhashraw}{d325655e47786fb5aff802165e6592e4}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transportation Letters}
+      \field{note}{Nivel de confianza: ALTA. Umbral operativo: bus fijo viable a partir de >200~pax/km²·h; demanda nocturna típica \approx 2~pax/km²·h, por debajo del umbral de eficiencia del bus fijo.}
+      \field{title}{Operational cost and user performance analysis of on-demand bus and taxi systems}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1080/19427867.2020.1861507
+      \endverb
     \endentry
     \entry{Eurostat2020Health}{misc}{}{}
       \name{author}{1}{}{%
@@ -812,6 +1633,7 @@
       \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
       \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
       \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \field{extraname}{1}
       \field{sortinit}{E}
       \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
       \field{extradatescope}{labelyear}
@@ -830,20 +1652,180 @@
       \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
       \endverb
     \endentry
-    \entry{IGE2024}{misc}{}{}
+    \entry{Eurostat2022health}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b6f0d0feef4dd8c19ff43982b74f3658}{%
-           family={{Instituto Galego de Estatística}},
+        {{un=0,uniquepart=base,hash=533195c920679b5848eb14c3f57cc69c}{%
+           family={{Eurostat}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \strng{bibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorbibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhashraw}{533195c920679b5848eb14c3f57cc69c}
+      \field{extraname}{2}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — estadística oficial Eurostat. Dato: 78\% mujeres en salud y trabajo social UE, Q3 2021. Cubre claim S02 (PESTEL Social)}
+      \field{title}{Jobs with the highest share of women in {Q3} 2021}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/ w/DDN-20220307-1
+      \endverb
+      \verb{url}
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/%20w/DDN-20220307-1
+      \endverb
+    \endentry
+    \entry{Gavanas2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3a360c619b8e34e4d712054c65d680fb}{%
+           family={Gavanas},
+           familyi={G\bibinitperiod},
+           given={Nikolaos},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b14a2c05b78ee3eb026df78f1f8ec8ec}{%
+           family={Anastasiadou},
+           familyi={A\bibinitperiod},
+           given={Konstantina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76bb6ec050b86e84309faaa023752c52}{%
+           family={Nathanail},
+           familyi={N\bibinitperiod},
+           given={Eftihia},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ca4d5bbad419f3892dd00fa3fee470a}{%
+           family={Basbas},
+           familyi={B\bibinitperiod},
+           given={Socrates},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99b32344da74d5a8072f053e7f49df8b}
+      \strng{fullhash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{fullhashraw}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{bibnamehash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{authorbibnamehash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{authornamehash}{99b32344da74d5a8072f053e7f49df8b}
+      \strng{authorfullhash}{9234497805709c26ec9f8b390a40dfa6}
+      \strng{authorfullhashraw}{9234497805709c26ec9f8b390a40dfa6}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA}
+      \field{journaltitle}{Land}
+      \field{number}{11}
+      \field{title}{Transport policy pathways for autonomous road vehicles to promote sustainable urban development in the {European Union}: {A} multicriteria analysis}
+      \field{volume}{13}
+      \field{year}{2024}
+      \field{pages}{1\bibrangedash 24}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.3390/land13111807
+      \endverb
+    \endentry
+    \entry{GoogleMaps2026Ferrol}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=addefca19981affa2ff560e5262683de}{%
+           family={{Google Maps}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{addefca19981affa2ff560e5262683de}
+      \strng{fullhash}{addefca19981affa2ff560e5262683de}
+      \strng{fullhashraw}{addefca19981affa2ff560e5262683de}
+      \strng{bibnamehash}{addefca19981affa2ff560e5262683de}
+      \strng{authorbibnamehash}{addefca19981affa2ff560e5262683de}
+      \strng{authornamehash}{addefca19981affa2ff560e5262683de}
+      \strng{authorfullhash}{addefca19981affa2ff560e5262683de}
+      \strng{authorfullhashraw}{addefca19981affa2ff560e5262683de}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consulta realizada por el autor en abril de 2026. Ruta principal: 4{,}2~km, 11~minutos. Ruta alternativa: 5{,}2~km, 11~minutos. Nivel de confianza: MEDIA.}
+      \field{title}{Ruta por carretera: {Hospital Arquitecto Marcide} ({CHUF}) -- {Plaza de Armas}, {Ferrol}}
+      \field{year}{2026}
+    \endentry
+    \entry{HafizAlKhafagy2025}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=123fd773852e8efea3992e08d993fb3a}{%
+           family={Hafiz},
+           familyi={H\bibinitperiod},
+           given={Daniyar},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44770ac43443694277497e0a7846e65c}{%
+           family={AlKhafagy},
+           familyi={A\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb8f847b54570046c8e7ef9919e82183}{%
+           family={Zohdy},
+           familyi={Z\bibinitperiod},
+           given={Ismail},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53c27b226a56dc0608e441fcd63d23bd}
+      \strng{fullhash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{fullhashraw}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{bibnamehash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{authorbibnamehash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{authornamehash}{53c27b226a56dc0608e441fcd63d23bd}
+      \strng{authorfullhash}{324c77cb65dfeb08674744332db3b0fd}
+      \strng{authorfullhashraw}{324c77cb65dfeb08674744332db3b0fd}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: MEDIA --- revisión sistemática. EC01 DESCARTADO como claim factual (ratio 7--11 vehículos y 87--94\% emisiones: origen Greenblatt \& Shaheen 2015, contexto EE.UU.). Usar únicamente para claim L01 (marco legal AV). Cubre claim L01.}
+      \field{journaltitle}{World Electric Vehicle Journal}
+      \field{number}{9}
+      \field{title}{Autonomous Public Transport: Evolution, Benefits, and Challenges in the Future of Urban Mobility}
+      \field{volume}{16}
+      \field{year}{2025}
+      \field{pages}{482}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/wevj16090482
+      \endverb
+    \endentry
+    \entry{INE2024Ferrol}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a303d4390a16a468a0c541d209410697}{%
+           family={{Instituto Nacional de Estadística}},
            familyi={I\bibinitperiod}}}%
       }
-      \strng{namehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{fullhash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{fullhashraw}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{bibnamehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authorbibnamehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authornamehash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authorfullhash}{b6f0d0feef4dd8c19ff43982b74f3658}
-      \strng{authorfullhashraw}{b6f0d0feef4dd8c19ff43982b74f3658}
+      \strng{namehash}{a303d4390a16a468a0c541d209410697}
+      \strng{fullhash}{a303d4390a16a468a0c541d209410697}
+      \strng{fullhashraw}{a303d4390a16a468a0c541d209410697}
+      \strng{bibnamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorbibnamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authornamehash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorfullhash}{a303d4390a16a468a0c541d209410697}
+      \strng{authorfullhashraw}{a303d4390a16a468a0c541d209410697}
+      \field{extraname}{1}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -851,14 +1833,14 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: MEDIA. Cifra provisional IGE a 1/1/2024: 64.358 habitantes. Pendiente cruce con dato oficial INE Padrón (URL: https://www.ine.es/jaxiT3/Tabla.htm?L=0&t=29005)}
-      \field{title}{Cifras de poboación. Municipio de Ferrol}
+      \field{note}{Dato referido a 1 de enero de 2024. Nivel de confianza: ALTA}
+      \field{title}{Cifras oficiales de población de los municipios españoles: Revisión del Padrón Municipal 2024. Municipio de Ferrol (código 15036)}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.ige.gal/igebdt/esq.jsp?ruta=verTabla.jsp?OP=1&B=1&M=&COD=2621&R=9912[2024]&C=0[0]&F=&S=&SCF=
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
       \endverb
       \verb{url}
-      \verb https://www.ige.gal/igebdt/esq.jsp?ruta=verTabla.jsp?OP=1&B=1&M=&COD=2621&R=9912[2024]&C=0[0]&F=&S=&SCF=
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
       \endverb
     \endentry
     \entry{INE2025EPA}{misc}{}{}
@@ -875,6 +1857,7 @@
       \strng{authornamehash}{a303d4390a16a468a0c541d209410697}
       \strng{authorfullhash}{a303d4390a16a468a0c541d209410697}
       \strng{authorfullhashraw}{a303d4390a16a468a0c541d209410697}
+      \field{extraname}{2}
       \field{sortinit}{I}
       \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
       \field{extradatescope}{labelyear}
@@ -893,29 +1876,23 @@
       \verb https://www.ine.es/prensa/epa_2024_sm.pdf
       \endverb
     \endentry
-    \entry{Moreau2023}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=149049ccd9a801aacab4323fc9c51420}{%
-           family={Konstantas},
-           familyi={K\bibinitperiod},
-           given={Dimitri},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8e59912215e2960d747acc2d630a4360}{%
-           family={Fournier},
-           familyi={F\bibinitperiod},
-           given={Guy},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
+    \entry{K2Centrum2025DRT}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b83eccc79613548b6754463c85f61c85}{%
+           family={{K2 -- Swedish Knowledge Centre for Public Transport}},
+           familyi={K\bibinitperiod}}}%
       }
-      \strng{namehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{fullhash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{fullhashraw}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{bibnamehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authorbibnamehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authornamehash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authorfullhash}{e9a57bbfe3e5b5ba6758e940530ca5a5}
-      \strng{authorfullhashraw}{e9a57bbfe3e5b5ba6758e940530ca5a5}
+      \list{institution}{1}{%
+        {K2 -- Nationellt Kunskapscentrum för Kollektivtrafik}%
+      }
+      \strng{namehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{fullhash}{b83eccc79613548b6754463c85f61c85}
+      \strng{fullhashraw}{b83eccc79613548b6754463c85f61c85}
+      \strng{bibnamehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authorbibnamehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authornamehash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authorfullhash}{b83eccc79613548b6754463c85f61c85}
+      \strng{authorfullhashraw}{b83eccc79613548b6754463c85f61c85}
       \field{sortinit}{K}
       \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
@@ -923,16 +1900,123 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Proyecto AVENUE / ULTIMO H2020. Publicado en plataforma CE Open Research Europe. Claims C01, C03, C05. NOTA: verificar si existe segunda versión con DOI .15416.2 — pueden ser dos papers distintos del mismo consorcio.}
-      \field{journaltitle}{Open Research Europe}
-      \field{title}{Fully automated public transportation mobility: the hidden challenges for a commercial deployment}
-      \field{volume}{3}
-      \field{year}{2023}
-      \field{pages}{71}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.12688/openreseurope.15751.1
+      \field{note}{Nivel de confianza: MEDIA. Informe técnico. Documenta el caso MK~Connect (Milton Keynes): DRT nocturno hasta las 02:00, valorado explícitamente por trabajadores de turno en hospitales locales. Financiación pública integrada.}
+      \field{title}{Mapping of {Demand Responsive Transport} ({DRT}) services in {Europe}}
+      \field{type}{techreport}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.k2centrum.se/wp-content/uploads/2025/06/387189-DRT-International-Review-K2-WP-2025_9.pdf
       \endverb
+      \verb{url}
+      \verb https://www.k2centrum.se/wp-content/uploads/2025/06/387189-DRT-International-Review-K2-WP-2025_9.pdf
+      \endverb
+    \endentry
+    \entry{KonstantasAVENUE2023lessons}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=149049ccd9a801aacab4323fc9c51420}{%
+           family={Konstantas},
+           familyi={K\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{fullhash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{fullhashraw}{149049ccd9a801aacab4323fc9c51420}
+      \strng{bibnamehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authorbibnamehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authornamehash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authorfullhash}{149049ccd9a801aacab4323fc9c51420}
+      \strng{authorfullhashraw}{149049ccd9a801aacab4323fc9c51420}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA --- materiales oficiales post-proyecto AVENUE H2020. Cubre claim T04: ausencia de despliegues a gran escala en horizonte 5 años.}
+      \field{note}{Materiales de lecciones aprendidas post-proyecto {AVENUE} {H2020} (2018--2022). Presentación final del consorcio.}
+      \field{title}{Lessons from the {AVENUE} project}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.connectedautomateddriving.eu/wp-content/ uploads/2023/03/AVENUE_project.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.connectedautomateddriving.eu/wp-content/%20uploads/2023/03/AVENUE_project.pdf
+      \endverb
+    \endentry
+    \entry{AVENUE2023}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=149049ccd9a801aacab4323fc9c51420}{%
+           family={Konstantas},
+           familyi={K\bibinitperiod},
+           given={Dimitri},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49f2ea9d3f8e51700d6d4752941d6261}{%
+           family={Fournier},
+           familyi={F\bibinitperiod},
+           given={Gauthier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {H2020 AVENUE Project (GA 769033)}%
+      }
+      \strng{namehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{fullhash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{fullhashraw}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{bibnamehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authorbibnamehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authornamehash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authorfullhash}{b239ebf22f7c147997cadcd79595e59a}
+      \strng{authorfullhashraw}{b239ebf22f7c147997cadcd79595e59a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA --- Deliverable oficial H2020}
+      \field{title}{Fully automated public transportation mobility: the hidden challenges for a commercial deployment}
+      \field{type}{techreport}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://cordis.europa.eu/project/id/769033
+      \endverb
+      \verb{url}
+      \verb https://cordis.europa.eu/project/id/769033
+      \endverb
+    \endentry
+    \entry{LouridoRegueira2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=48bbf835791b6e71b406b86c6bbe2084}{%
+           family={Lourido\bibnamedelima Regueira},
+           familyi={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{fullhash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{fullhashraw}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{bibnamehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authorbibnamehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authornamehash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authorfullhash}{48bbf835791b6e71b406b86c6bbe2084}
+      \strng{authorfullhashraw}{48bbf835791b6e71b406b86c6bbe2084}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Datos primarios no publicados. Universidade da Coruña. Nivel de confianza: ALTA}
+      \field{title}{Encuesta sobre movilidad nocturna en trabajadores sanitarios de la provincia de {A Coruña}}
+      \field{year}{2026}
     \endentry
     \entry{MartinezRodriguez2024}{misc}{}{}
       \name{author}{1}{}{%
@@ -975,6 +2059,153 @@
       \verb https://www.experimenta.es/diseno-en-serio/la-columna-de-rodrigo-martinez-el-usuario-en-su-sitio/
       \endverb
     \endentry
+    \entry{Sanidad2024CHUF}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e5fb97a20b85fef8fc35587efe66226}{%
+           family={{Ministerio de Sanidad}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{fullhash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{fullhashraw}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{bibnamehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authorbibnamehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authornamehash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authorfullhash}{4e5fb97a20b85fef8fc35587efe66226}
+      \strng{authorfullhashraw}{4e5fb97a20b85fef8fc35587efe66226}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Dirección oficial: Avenida de la Residencia s/n, 15405 Ferrol. La atribución a la parroquia de A Cabana no está confirmada por esta fuente y no se usa en la memoria. Nivel de confianza: MEDIA}
+      \field{title}{Registro de Centros del {SNS}: Complexo Hospitalario Universitario de Ferrol}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \endverb
+      \verb{url}
+      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \endverb
+    \endentry
+    \entry{Directiva200388CE}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=27d02fe93caf215fca87ad41af654eb5}{%
+           family={{Parlamento Europeo}},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9fbe7cb6b5fc01dda7aedd3628d268c5}{%
+           family={{Consejo de la Unión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{bibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorbibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authornamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — legislación primaria UE vigente. Cubre claim L02 (derechos trabajadores nocturnos)}
+      \field{journaltitle}{Diario Oficial de la Unión Europea}
+      \field{title}{Directiva 2003/88/{CE} del {Parlamento Europeo} y del {Consejo} relativa a determinados aspectos de la ordenación del tiempo de trabajo}
+      \field{volume}{L 299}
+      \field{year}{2003}
+      \field{pages}{9\bibrangedash 19}
+      \range{pages}{11}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/ ?uri=CELEX\%3A32003L0088
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/%20?uri=CELEX%5C%3A32003L0088
+      \endverb
+    \endentry
+    \entry{DirectivaUE20242853}{misc}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=27d02fe93caf215fca87ad41af654eb5}{%
+           family={{Parlamento Europeo}},
+           familyi={P\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=9fbe7cb6b5fc01dda7aedd3628d268c5}{%
+           family={{Consejo de la Unión Europea}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{fullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{bibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorbibnamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authornamehash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhash}{d45113a9042b5e03b4864d7e8401607d}
+      \strng{authorfullhashraw}{d45113a9042b5e03b4864d7e8401607d}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA --- legislación primaria UE. Moderniza responsabilidad por productos defectuosos incluyendo software e IA. Complementa claim L01. Transposición: diciembre 2026.}
+      \field{title}{Directiva ({UE}) 2024/2853 del {Parlamento Europeo} y del {Consejo} sobre responsabilidad por productos defectuosos}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/legal-content/EN/ TXT/?uri=CELEX:32024L2853
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/legal-content/EN/%20TXT/?uri=CELEX:32024L2853
+      \endverb
+    \endentry
+    \entry{PlyushetvaBoussauw2020}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=386914c8bd95bb125163f3e6e37b8880}{%
+           family={Plyushteva},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=050d92bbccaa78c3f518e780249d142c}{%
+           family={Boussauw},
+           familyi={B\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{fullhash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{fullhashraw}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{bibnamehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authorbibnamehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authornamehash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authorfullhash}{13a0ede6ca464da60f60cbc828eba055}
+      \strng{authorfullhashraw}{13a0ede6ca464da60f60cbc828eba055}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA}
+      \field{journaltitle}{Transport Policy}
+      \field{title}{Does night-time public transport contribute to inclusive night mobility? {Exploring} {Sofia's} night bus network from a gender perspective}
+      \field{volume}{87}
+      \field{year}{2020}
+      \field{pages}{41\bibrangedash 50}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.tranpol.2020.01.002
+      \endverb
+    \endentry
     \entry{Plyushteva2020}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=65d0c8617d1686724f7d7a39f808d68d}{%
@@ -998,11 +2229,12 @@
       \strng{authornamehash}{5b3f22c401c7d11454386f3bca575806}
       \strng{authorfullhash}{5b3f22c401c7d11454386f3bca575806}
       \strng{authorfullhashraw}{5b3f22c401c7d11454386f3bca575806}
+      \field{extraname}{2}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA. Fuente primaria peer-reviewed. Dato night gap 01:00--05:00 y cobertura 26/28 capitales UE. Claims M01, M02, U06.}
@@ -1094,23 +2326,24 @@
       \verb 10.33776/EUHU/rem.v71i.8128
       \endverb
     \endentry
-    \entry{SERGAS2024memoria}{report}{}{}
+    \entry{SHOWd812020}{report}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b90b20d1eef3edc7845181c23978ea29}{%
-           family={{Servizo Galego de Saúde}},
+        {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
+           family={{SHOW Consortium}},
            familyi={S\bibinitperiod}}}%
       }
       \list{institution}{1}{%
-        {Xunta de Galicia}%
+        {SHOW Project — Horizon 2020, Grant Agreement 875530}%
       }
-      \strng{namehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{fullhash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{fullhashraw}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{bibnamehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authorbibnamehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authornamehash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authorfullhash}{b90b20d1eef3edc7845181c23978ea29}
-      \strng{authorfullhashraw}{b90b20d1eef3edc7845181c23978ea29}
+      \strng{namehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \strng{bibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorbibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \field{extraname}{1}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1118,14 +2351,15 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Población asignada al Área Sanitaria de Ferrol: 172.791 TIS (Tarjetas Individuales Sanitarias) en 2024.}
-      \field{title}{Área Sanitaria de Ferrol. Memoria 2024}
-      \field{year}{2024}
+      \field{annotation}{Nivel: ALTA — deliverable técnico H2020 verificable. Cubre claims T02, T06 (sensórica, HD Maps) y EC02 (flota 100\% electrificada)}
+      \field{title}{Pilot experimental plans, {KPI}s definition and impact assessment framework for pre-demo evaluation}
+      \field{type}{Deliverable D8.1}
+      \field{year}{2020}
       \verb{urlraw}
-      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \verb https://show-project.eu/deliverables/
       \endverb
       \verb{url}
-      \verb https://ferrol.sergas.gal/DAnosaorganizacion/47/%C3%81REA%20SANITARIA%20DE%20FERROL%20MEMORIA%202024.pdf
+      \verb https://show-project.eu/deliverables/
       \endverb
     \endentry
     \entry{SHOW2024Legacy}{misc}{}{}
@@ -1142,8 +2376,10 @@
       \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
       \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
       \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1160,79 +2396,57 @@
       \verb https://show-project.eu/
       \endverb
     \endentry
-    \entry{Szemik2025}{article}{}{}
-      \name{author}{10}{}{%
-        {{un=0,uniquepart=base,hash=9167e4dac776c390cf8135e5a6373cb9}{%
-           family={Szemik},
-           familyi={S\bibinitperiod},
-           given={Szymon},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=02809fcb4d37f376908d5ed7e5830680}{%
-           family={Winter},
-           familyi={W\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=1efb592827c98678884457693c2c37ee}{%
-           family={Boone},
-           familyi={B\bibinitperiod},
-           given={Anke},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=29c7bebbb57c2fa7a89dfed77a87a975}{%
-           family={Lavreysen},
-           familyi={L\bibinitperiod},
-           given={Olivia},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c1328326fd453134ca2c5e74478ccede}{%
-           family={Godderis},
-           familyi={G\bibinitperiod},
-           given={Lode},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4bdda84a4f06172dd4e1a80fa75d681b}{%
-           family={Maniscalco},
-           familyi={M\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6ef378bbe70ddbae3241c12b9b7d466c}{%
-           family={Enea},
-           familyi={E\bibinitperiod},
-           given={Marco},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=cac1329bd0ecceee6178b1bffffa3504}{%
-           family={Baranski},
-           familyi={B\bibinitperiod},
-           given={Kamil},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a8e238bafe3e492fa0bf0cc31d90a941}{%
-           family={Matranga},
-           familyi={M\bibinitperiod},
-           given={Domenica},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3c788fa11e4c9ce7b3260807c7e072ca}{%
-           family={Kowalska},
-           familyi={K\bibinitperiod},
-           given={Malgorzata},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
+    \entry{SHOW2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
+           family={{SHOW Consortium}},
+           familyi={S\bibinitperiod}}}%
       }
-      \strng{namehash}{a314557720879ce7e82f7150564b7d8c}
-      \strng{fullhash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{fullhashraw}{781c70bef169b3f224a49d4b120485e7}
-      \strng{bibnamehash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{authorbibnamehash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{authornamehash}{a314557720879ce7e82f7150564b7d8c}
-      \strng{authorfullhash}{781c70bef169b3f224a49d4b120485e7}
-      \strng{authorfullhashraw}{781c70bef169b3f224a49d4b120485e7}
+      \list{institution}{1}{%
+        {H2020 SHOW Project (GA 875530) / UITP}%
+      }
+      \strng{namehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{fullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \strng{bibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorbibnamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
+      \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Nivel: ALTA --- Deliverable oficial H2020}
+      \field{title}{SHared automation Operating models for Worldwide adoption: SHOW Final Results}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://show-project.eu
+      \endverb
+      \verb{url}
+      \verb https://show-project.eu
+      \endverb
+    \endentry
+    \entry{Stagecoach2020Hull}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4c36822a2b35639cc75e8d7085d72094}{%
+           family={{Stagecoach Solutions}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{fullhash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{fullhashraw}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{bibnamehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authorbibnamehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authornamehash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authorfullhash}{4c36822a2b35639cc75e8d7085d72094}
+      \strng{authorfullhashraw}{4c36822a2b35639cc75e8d7085d72094}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1240,16 +2454,49 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{Nivel de confianza: MEDIA. Transporte citado como factor de incentivo en retención hospitalaria --- vínculo cualitativo, no dato primario de movilidad. Claim U04.}
-      \field{journaltitle}{BMC Health Services Research}
-      \field{number}{1}
-      \field{title}{Effective strategies for job retention in hospitals: insights from the {EU} {METEOR} project's online toolbox}
-      \field{volume}{25}
-      \field{year}{2025}
-      \field{pages}{1567}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1186/s12913-025-13742-1
+      \field{note}{Nivel de confianza: MEDIA. Fuente: caso de estudio del operador. Shuttle DRT para personal sanitario del Hull University Teaching Hospitals {NHS} Trust ({Reino Unido}): trayecto medio 20~min / 8{,}8~km; financiación pública mixta (Ayuntamiento de Hull + {NHS}).}
+      \field{title}{Demand responsive shuttles for key workers}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.stagecoachsolutions.com/success-story-ondemand
+      \endverb
+      \verb{url}
+      \verb https://www.stagecoachsolutions.com/success-story-ondemand
+      \endverb
+    \endentry
+    \entry{UITP2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=513a5108bcc879ca4eb22d9d0a8f674c}{%
+           family={{Union Internationale des Transports Publics}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UITP — Union Internationale des Transports Publics}%
+      }
+      \strng{namehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{fullhash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{fullhashraw}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{bibnamehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authorbibnamehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authornamehash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authorfullhash}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \strng{authorfullhashraw}{513a5108bcc879ca4eb22d9d0a8f674c}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA — informe sectorial de referencia. Cubre claims EC03 (Green Deal 2050), EC04 (eficiencia modal bus/rail vs coche) y L04 (PSO/OSP en ciudades medias)}
+      \field{title}{Local public transport in the {EU}}
+      \field{type}{techreport}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.uitp.org/publications/ local-public-transport-in-the-eu/
+      \endverb
+      \verb{url}
+      \verb https://www.uitp.org/publications/%20local-public-transport-in-the-eu/
       \endverb
     \endentry
     \entry{URBACT2025Gender}{misc}{}{}
@@ -1283,31 +2530,6 @@
       \verb{url}
       \verb https://urbact.eu/articles/five-reasons-why-cities-should-consider-night-when-planning-urban-mobility
       \endverb
-    \endentry
-    \entry{XuntaGalicia2025dog}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d2d1d3f7e265d9ba241783ebca77c144}{%
-           family={{Xunta de Galicia}},
-           familyi={X\bibinitperiod}}}%
-      }
-      \strng{namehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{fullhash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{fullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{bibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authorbibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authornamehash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authorfullhash}{d2d1d3f7e265d9ba241783ebca77c144}
-      \strng{authorfullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
-      \field{sortinit}{X}
-      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Servicios mínimos nocturnos decretados: 63 enfermeros/as, 42 TCAEs, 13 celadores por turno de noche en hospitales Arquitecto Marcide y Novoa Santos. Turno de noche implícito: 22:00--08:00 h.}
-      \field{title}{Resolución de servizos mínimos para a folga no \ac{CHUF}. Diario Oficial de Galicia, núm. 198}
-      \field{year}{2025}
     \endentry
   \enddatalist
 \endrefsection

@@ -1,17 +1,19 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'TFM-ML-01-memoria-referencia.blg'
-[119] biber-MSWIN64:342> INFO - === 
-[163] Biber.pm:421> INFO - Reading 'TFM-ML-01-memoria-referencia.bcf'
-[291] Biber.pm:1002> INFO - Found 17 citekeys in bib section 0
-[312] Biber.pm:4487> INFO - Processing section 0
-[324] Biber.pm:4678> INFO - Looking for bibtex file '../01-bibliografia/TFM-ML-referencias.bib' for section 0
-[383] bibtex.pm:1713> INFO - LaTeX decoding ...
-[414] bibtex.pm:1519> INFO - Found BibTeX data source '../01-bibliografia/TFM-ML-referencias.bib'
-[516] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[516] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[516] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[549] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[550] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[550] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[570] bbl.pm:676> INFO - Writing 'TFM-ML-01-memoria-referencia.bbl' with encoding 'UTF-8'
-[587] bbl.pm:779> INFO - Output to TFM-ML-01-memoria-referencia.bbl
+[104] biber-MSWIN64:342> INFO - === 
+[143] Biber.pm:421> INFO - Reading 'TFM-ML-01-memoria-referencia.bcf'
+[272] Biber.pm:1002> INFO - Found 34 citekeys in bib section 0
+[291] Biber.pm:4487> INFO - Processing section 0
+[303] Biber.pm:4678> INFO - Looking for bibtex file '../01-bibliografia/TFM-ML-referencias.bib' for section 0
+[356] bibtex.pm:1713> INFO - LaTeX decoding ...
+[406] bibtex.pm:1519> INFO - Found BibTeX data source '../01-bibliografia/TFM-ML-referencias.bib'
+[573] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[573] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[573] Biber.pm:4307> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[636] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[636] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[636] Biber.pm:4307> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[673] bbl.pm:676> INFO - Writing 'TFM-ML-01-memoria-referencia.bbl' with encoding 'UTF-8'
+[707] bbl.pm:779> INFO - Output to TFM-ML-01-memoria-referencia.bbl
+[707] Biber.pm:132> WARN - BibTeX subsystem: C:\Users\M\AppData\Local\Temp\biber_tmp_nWu9\5d3118353a736a7066a6a4cfe95843fc_22608.utf8, line 695, warning: possible runaway string started at line 694
+[708] Biber.pm:134> INFO - WARNINGS: 1
