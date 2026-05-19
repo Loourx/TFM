@@ -14,7 +14,7 @@ $total = Measure-Command {
 
     # Pasada 1: pdflatex -synctex=1
     Write-Host "[1/4] pdflatex -synctex=1..." -ForegroundColor Yellow
-    & pdflatex -synctex=1.exe -synctex=1 -interaction=nonstopmode "$DOC_NAME.tex"
+    & pdflatex.exe -synctex=1 -interaction=nonstopmode "$DOC_NAME.tex"
 
     # Pasada 2: biber
     Write-Host "[2/4] biber..." -ForegroundColor Yellow
@@ -22,11 +22,11 @@ $total = Measure-Command {
 
     # Pasada 3: pdflatex -synctex=1
     Write-Host "[3/4] pdflatex -synctex=1..." -ForegroundColor Yellow
-    & pdflatex -synctex=1.exe -synctex=1 -interaction=nonstopmode "$DOC_NAME.tex"
+    & pdflatex.exe -synctex=1 -interaction=nonstopmode "$DOC_NAME.tex"
 
     # Pasada 4: pdflatex -synctex=1 (referencias cruzadas finales)
     Write-Host "[4/4] pdflatex -synctex=1..." -ForegroundColor Yellow
-    & pdflatex -synctex=1.exe -synctex=1 -interaction=nonstopmode "$DOC_NAME.tex"
+    & pdflatex.exe -synctex=1 -interaction=nonstopmode "$DOC_NAME.tex"
 
     Pop-Location
 }
