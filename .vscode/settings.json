@@ -49,5 +49,11 @@
   "latex-workshop.latex.clean.method": "glob",
 
   "latex-workshop.message.error.show": true,
-  "latex-workshop.message.warning.show": false
+  "latex-workshop.message.warning.show": false,
+  "chat.tools.terminal.autoApprove": {
+    "/^powershell\\.exe -ExecutionPolicy Bypass -File compile\\.ps1$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
 }
