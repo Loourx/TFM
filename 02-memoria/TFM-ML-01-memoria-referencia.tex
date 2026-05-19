@@ -45,6 +45,18 @@
 \addbibresource{../01-bibliografia/TFM-ML-referencias.bib}
 \DeclareFieldFormat{annotation}{}
 
+% --- PATCH: hipervínculo en cita completa (Autor, Año), no solo en el año ---
+% biblatex-apa por defecto solo envuelve el año en \bibhyperref.
+% Este patch envuelve autor + delimitador + año en un único hipervínculo.
+%\makeatletter
+%\renewbibmacro*{cite}{%
+%  \printtext[bibhyperref]{%
+%    \usebibmacro{cite:label}%
+%    \setunit{\printdelim{nameyeardelim}}%
+%    \usebibmacro{cite:labeldate+extradate}%
+%    \usebibmacro{cite:reinit}}}
+%\makeatother
+%
 % --- ENTORNOS ESPECIALES (versión ligera para compilación rápida) ---
 % NOTA: tcolorbox comentado durante redacción activa. Reactivar para versión final de impresión.
 \newenvironment{pendiente}
@@ -101,8 +113,8 @@ Movilidad Total: Sistemas de Transporte Continuo}
 \vspace{3cm}
 
 {\LARGE\bfseries
-  Nuevas propuestas de Movilidad Total:\\[10pt]
-  Sistemas de Transporte Continuo
+  Nuevas propuestas de Movilidad Nocturna\\[10pt]
+   para personal sanitario
 }
 
 \vspace{1.5cm}
