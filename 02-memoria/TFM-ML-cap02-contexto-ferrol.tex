@@ -31,10 +31,10 @@ privado, taxi o, en los casos más vulnerables, a pie).
 
 \begin{claimS}
 Ese vacío se concentra típicamente entre la 01:00 y las 05:00~h
-\parencite{Plyushteva2020}. A principios de 2019, 26 de las 28 capitales de
+\parencite{PlyushetvaBoussauw2020}. A principios de 2019, 26 de las 28 capitales de
 la Unión Europea contaban con alguna forma de transporte público nocturno,
 aunque con frecuencias y coberturas muy reducidas respecto al servicio diurno
-\parencite{Plyushteva2020}. Las ciudades no capitales (y especialmente
+\parencite{PlyushetvaBoussauw2020}. Las ciudades no capitales (y especialmente
 aquellas de menos de 150.000~habitantes) quedan en su mayor parte fuera
 de este dato: sus redes nocturnas son, cuando existen, meramente testimoniales.
 \end{claimS}
@@ -200,7 +200,7 @@ Los servicios de transporte nocturno en ciudades medias operan en un
 contexto económico estructuralmente adverso: la demanda nocturna
 raramente alcanza el umbral de rentabilidad comercial del transporte
 convencional, lo que obliga a retirar el servicio o a recurrir a
-financiación pública para sostenerlo~\parencite{EstradaSalanova2021}.
+financiación pública para sostenerlo~\parencite{Estrada2021}.
 El modelo de financiación es, por tanto, una variable determinante
 con independencia de la solución técnica adoptada. Entre los factores
 de coste relevantes para soluciones basadas en automatización figura
@@ -361,29 +361,109 @@ el programa~ES-AV de la~DGT establece el marco de autorización que
 permite operar pruebas y servicios de vehículos automatizados en vía
 pública bajo condiciones reguladas~\parencite{DGTESAV2026}.
 
-\subsection{Caso de estudio: Corredor CHUF--Ferrol}
+\subsection{Caso de estudio: corredor CHUF--Ferrol}
 \label{sec:caso-ferrol}
 
-\begin{pendiente}
-%% INSERTAR: descripcion-corredor-ferrol
+Ferrol es un municipio gallego de \num{64358}~habitantes
+\parencite{INE2024Ferrol} situado en el extremo noroeste de la
+Península Ibérica, con una estructura urbana dispersa y una red de
+transporte público históricamente orientada a la franja diurna. El
+Complexo Hospitalario Universitario de Ferrol (CHUF) concentra la
+actividad sanitaria de referencia del Área Sanitaria de Ferrol y se
+ubica en el polígono de A~Cabana, en la periferia occidental del
+municipio \parencite{Sanidad2024CHUF}, a una distancia estimada de entre
+4,2 y 5,2\,km del centro urbano por las vías de acceso habituales
+\parencite{GoogleMaps2026Ferrol}.
 
-Ferrol es un municipio gallego situado en el noroeste de España de 64.218~habitantes según el Padrón Municipal a 1~de enero de 2024 \parencite{INE2024Ferrol}.
+La franja comprendida entre las 22:00 y las 06:00~h carece de servicio
+de transporte público regular en el corredor CHUF--zonas residenciales
+\parencite{Alsaferrol2024horarios,RenfeCercaniasFerrol2026}. Los cambios
+de turno del personal sanitario se producen a las 22:00 y las 08:00~h
+\parencite{XuntaGalicia2025dog}, coincidiendo con la franja de mayor
+vacío de oferta y con el periodo de mayor riesgo de fatiga al volante
+documentado en la encuesta primaria \parencite{LouridoRegueira2026}. El
+44,3\,\% de la muestra (74/167~respuestas válidas) presta servicio en el
+CHUF, lo que sitúa este corredor como el de mayor concentración de
+demanda insatisfecha del estudio \parencite{LouridoRegueira2026}.
 
-El \ac{CHUF}, que integra los hospitales Arquitecto Marcide, Naval y Profesor Novoa Santos, se ubica en la Avenida de la Residencia s/n, Ferrol \parencite{Sanidad2024CHUF}, fuera de la cuadrícula urbana central de la ciudad, a una distancia por carretera de entre 4{,}2 y
-  5{,}2~km del centro urbano (Plaza de Armas),
-  con un tiempo de trayecto de aproximadamente
-  11~minutos en condiciones normales de tráfico
-  \parencite{GoogleMaps2026Ferrol}.
+Ferrol actúa en este trabajo como laboratorio de diseño representativo
+de un nicho sistemáticamente desatendido en Europa: ciudades de entre
+50.000 y 150.000~habitantes con un hospital de referencia en
+localización periférica y un vacío de transporte nocturno estructural.
+El modelo de servicio generado desde este caso está explícitamente
+concebido para ser transferible a corredores análogos; su capacidad de
+replicabilidad se desarrolla en el capítulo~\ref{cap:replicabilidad}.
 
-Las consultas realizadas en los portales oficiales del Concello de Ferrol y del operador de transporte urbano no arrojan ninguna línea nocturna regular en la franja 22:00--06:00 en el corredor hospital--centro.
-\end{pendiente}
 
 \subsection{Mapa de stakeholders}
 \label{sec:stakeholders}
 
-\begin{pendiente}
-Actores del ecosistema: operadores de transporte (Concello Ferrol, Xunta,
-operadores privados), \textsc{sergas}, proveedores del servicio de transporte (según tecnología y modelo de operación seleccionados en la fase de diseño), reguladores (DGT, Comisión Europea), usuarios
-(personal sanitario \textsc{chuf}), sindicatos sanitarios.
-Matriz Poder--Interés con justificación por cuadrante.
-\end{pendiente}
+El mapa de stakeholders identifica a los actores con capacidad de
+influir en el servicio de movilidad nocturna o de verse afectados por
+él. La herramienta utilizada es la matriz Poder--Interés
+\parencite{Mendelow1991}, que organiza a los actores en cuatro cuadrantes según su nivel de poder
+sobre el proyecto y su grado de interés en su desarrollo. La
+figura~\ref{fig:stakeholder-map} muestra la distribución resultante.
+
+\begin{figure}[htbp]
+  \centering
+  \fbox{\rule{0pt}{8cm}\rule{0.95\textwidth}{0pt}}
+  % Sustituir por:
+  % \includegraphics[width=\textwidth]{../03-graficas/TFM-ML-GFX-stakeholders.pdf}
+  \caption{Mapa de stakeholders del servicio de movilidad nocturna
+    CHUF--Ferrol. Matriz Poder--Interés. Elaboración propia.}
+  \label{fig:stakeholder-map}
+\end{figure}
+
+\subsubsection{Gestionar minuciosamente (alto poder -- alto interés)}
+
+Los actores de este cuadrante tienen la capacidad de bloquear o
+habilitar el servicio y un interés directo en su resultado. La
+\textbf{Xunta de Galicia / SERGAS} es el actor de mayor peso: gestiona
+el CHUF, define los convenios de turnicidad del personal sanitario
+\parencite{XuntaGalicia2025dog} y concentra la autoridad sobre la oferta
+de transporte sanitario institucional. El \textbf{Concello de Ferrol}
+ostenta la competencia sobre el transporte urbano y la planificación del
+espacio viario; sin su habilitación, ningún nodo de embarque puede
+activarse en suelo municipal. La \textbf{Comisión Europea} actúa como
+habilitador regulatorio y financiero: el marco de los programas Horizon
+Europe ---proyectos AVENUE y SHOW--- establece los requisitos técnicos y
+de seguridad para la operación de vehículos de alta automatización en
+entorno urbano \parencite{AVENUE2023,SHOW2024Legacy}. La \textbf{Dirección
+General de Tráfico} define el marco normativo estatal para la circulación
+de vehículos autónomos y tiene capacidad de bloqueo regulatorio.
+
+\subsubsection{Tener satisfechos (alto poder -- bajo interés)}
+
+Los operadores de transporte existentes en el corredor ---Tranvías de
+Ferrol, Monbus y Renfe Cercanías C-1--- poseen concesiones vigentes y
+capacidad de influencia sobre la introducción de nuevos operadores, pero
+su interés en la franja nocturna es bajo: ninguno opera en ella de forma
+regular \parencite{Alsaferrol2024horarios,RenfeCercaniasFerrol2026}. El
+\textbf{Ministerio de Transportes y Movilidad Sostenible} es relevante
+en términos de regulación y cofinanciación, aunque su implicación directa
+en servicios de escala local es limitada.
+
+\subsubsection{Mantener informados (bajo poder -- alto interés)}
+
+El \textbf{personal sanitario del CHUF} ---perfil primario de diseño---
+concentra el interés más alto de todos los actores identificados: son los
+usuarios del servicio y los beneficiarios directos de su operación.
+Como colectivo disperso, sin embargo, su poder institucional individual
+es bajo; su capacidad de presión se canaliza a través de los
+\textbf{sindicatos sanitarios} (SATSE, CESM, CIG-Saúde), que actúan como
+portavoces organizados de sus condiciones laborales y de movilidad. Las
+\textbf{asociaciones de vecinos} de los principales municipios de
+residencia de los trabajadores (Narón, Fene, As Pías, Caranza) completan
+este cuadrante: conocen el problema desde la experiencia cotidiana pero
+carecen de capacidad ejecutiva directa sobre el servicio.
+
+\subsubsection{Monitorizar (bajo poder -- bajo interés)}
+
+Los \textbf{proveedores de tecnologías de movilidad} tienen un interés
+potencial en la fase de implementación del servicio, pero en el horizonte
+actual de diseño conceptual su influencia es mínima. La
+\textbf{ciudadanía general de Ferrol} y los \textbf{medios de
+comunicación locales} se ubican en este cuadrante como actores de bajo
+poder directo pero relevantes para la aceptación social del servicio en
+fase de despliegue.
