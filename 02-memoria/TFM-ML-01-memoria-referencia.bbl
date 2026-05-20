@@ -190,10 +190,10 @@
       \field{title}{Reglamento de Ejecución ({UE}) 2022/1426 de la {Comisión} de 5 de agosto de 2022 por el que se establecen normas para la aplicación del {Reglamento} ({UE}) 2019/2144 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada ({ADS}) de los vehículos totalmente automatizados}
       \field{year}{2022}
       \verb{urlraw}
-      \verb https://eur-lex.europa.eu/legal-content/ES/ TXT/?uri=CELEX:32022R1426
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022R1426
       \endverb
       \verb{url}
-      \verb https://eur-lex.europa.eu/legal-content/ES/%20TXT/?uri=CELEX:32022R1426
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022R1426
       \endverb
     \endentry
     \entry{RegUE20262026481}{misc}{}{}
@@ -223,10 +223,10 @@
       \field{title}{Reglamento de Ejecución ({UE}) 2026/481 de la {Comisión} de 3 de marzo de 2026 que modifica el {Reglamento} de Ejecución ({UE}) 2022/1426 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada de los vehículos totalmente automatizados}
       \field{year}{2026}
       \verb{urlraw}
-      \verb https://www.boe.es/buscar/doc.php? id=DOUE-L-2026-80314
+      \verb https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-80314
       \endverb
       \verb{url}
-      \verb https://www.boe.es/buscar/doc.php?%20id=DOUE-L-2026-80314
+      \verb https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-80314
       \endverb
     \endentry
     \entry{dAntonio2024}{report}{}{}
@@ -261,10 +261,10 @@
       \field{title}{Cities After Dark: Baseline Study and Network Roadmap}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/sites/default/files/2024-05/Cities%20After%20Dark%20-%20Baseline%20Study.pdf
       \endverb
       \verb{url}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/sites/default/files/2024-05/Cities%20After%20Dark%20-%20Baseline%20Study.pdf
       \endverb
     \endentry
     \entry{DibaGore2025}{article}{}{}
@@ -340,10 +340,10 @@
       \field{title}{Programa Marco {ES-AV}: Marco de autorización de pruebas de vehículos automatizados en {España}}
       \field{year}{2026}
       \verb{urlraw}
-      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/ vehiculos-automatizados/
+      \verb https://www.dgt.es/muevete-con-seguridad/vehiculos-seguros/conduccion-automatizada/vehiculos-de-conduccion-automatizada/vehiculos-de-conduccion-automatizada/
       \endverb
       \verb{url}
-      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/%20vehiculos-automatizados/
+      \verb https://www.dgt.es/muevete-con-seguridad/vehiculos-seguros/conduccion-automatizada/vehiculos-de-conduccion-automatizada/vehiculos-de-conduccion-automatizada/
       \endverb
     \endentry
     \entry{Estrada2021}{article}{}{}
@@ -423,10 +423,10 @@
       \field{title}{Majority of health jobs held by women}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20210308-1
       \endverb
       \verb{url}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20210308-1
       \endverb
     \endentry
     \entry{Eurostat2022health}{misc}{}{}
@@ -455,10 +455,10 @@
       \field{title}{Jobs with the highest share of women in {Q3} 2021}
       \field{year}{2022}
       \verb{urlraw}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/ w/DDN-20220307-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20220304-1
       \endverb
       \verb{url}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/%20w/DDN-20220307-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20220304-1
       \endverb
     \endentry
     \entry{Gavanas2024}{article}{}{}
@@ -614,10 +614,10 @@
       \field{title}{Cifras oficiales de población de los municipios españoles: Revisión del Padrón Municipal 2024. Municipio de Ferrol (código 15036)}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005&L=0
       \endverb
       \verb{url}
-      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005&L=0
       \endverb
     \endentry
     \entry{INE2025EPA}{misc}{}{}
@@ -647,10 +647,10 @@
       \field{title}{Encuesta de {Población} {Activa} ({EPA}). Variables de submuestra. {Año} 2024}
       \field{year}{2025}
       \verb{urlraw}
-      \verb https://www.ine.es/prensa/epa_2024_sm.pdf
+      \verb https://www.ine.es/dyngs/Prensa/vsEPA2024.pdf
       \endverb
       \verb{url}
-      \verb https://www.ine.es/prensa/epa_2024_sm.pdf
+      \verb https://www.ine.es/dyngs/Prensa/vsEPA2024.pdf
       \endverb
     \endentry
     \entry{K2Centrum2025DRT}{report}{}{}
@@ -717,10 +717,10 @@
       \field{title}{Lessons from the {AVENUE} project}
       \field{year}{2023}
       \verb{urlraw}
-      \verb https://www.connectedautomateddriving.eu/wp-content/ uploads/2023/03/AVENUE_project.pdf
+      \verb https://h2020-avenue.eu/wp-content/uploads/2023/03/AVENUE_project.pdf
       \endverb
       \verb{url}
-      \verb https://www.connectedautomateddriving.eu/wp-content/%20uploads/2023/03/AVENUE_project.pdf
+      \verb https://h2020-avenue.eu/wp-content/uploads/2023/03/AVENUE_project.pdf
       \endverb
     \endentry
     \entry{AVENUE2023}{report}{}{}
@@ -836,6 +836,38 @@
       \verb https://www.experimenta.es/diseno-en-serio/la-columna-de-rodrigo-martinez-el-usuario-en-su-sitio/
       \endverb
     \endentry
+    \entry{Mendelow1991}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c15437f57ccf9ac61ca45f7940b0f5e}{%
+           family={Mendelow},
+           familyi={M\bibinitperiod},
+           given={Aubrey\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{fullhash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{fullhashraw}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{bibnamehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authorbibnamehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authornamehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authorfullhash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authorfullhashraw}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2nd International Conference on Information Systems}
+      \field{note}{Nivel: MEDIA. Documento original de difícil acceso; citado por consenso académico en literatura de gestión estratégica}
+      \field{title}{Stakeholder mapping}
+      \field{year}{1991}
+    \endentry
     \entry{Sanidad2024CHUF}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4e5fb97a20b85fef8fc35587efe66226}{%
@@ -861,10 +893,10 @@
       \field{title}{Registro de Centros del {SNS}: Complexo Hospitalario Universitario de Ferrol}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \verb https://www.sanidad.gob.es/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
       \endverb
       \verb{url}
-      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \verb https://www.sanidad.gob.es/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
       \endverb
     \endentry
     \entry{Directiva200388CE}{misc}{}{}
@@ -900,10 +932,10 @@
       \field{pages}{9\bibrangedash 19}
       \range{pages}{11}
       \verb{urlraw}
-      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/ ?uri=CELEX\%3A32003L0088
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0088
       \endverb
       \verb{url}
-      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/%20?uri=CELEX%5C%3A32003L0088
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0088
       \endverb
     \endentry
     \entry{DirectivaUE20242853}{misc}{}{}
@@ -935,10 +967,10 @@
       \field{title}{Directiva ({UE}) 2024/2853 del {Parlamento Europeo} y del {Consejo} sobre responsabilidad por productos defectuosos}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://eur-lex.europa.eu/legal-content/EN/ TXT/?uri=CELEX:32024L2853
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L2853
       \endverb
       \verb{url}
-      \verb https://eur-lex.europa.eu/legal-content/EN/%20TXT/?uri=CELEX:32024L2853
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L2853
       \endverb
     \endentry
     \entry{PlyushetvaBoussauw2020}{article}{}{}
@@ -964,12 +996,11 @@
       \strng{authornamehash}{13a0ede6ca464da60f60cbc828eba055}
       \strng{authorfullhash}{13a0ede6ca464da60f60cbc828eba055}
       \strng{authorfullhashraw}{13a0ede6ca464da60f60cbc828eba055}
-      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA}
@@ -981,48 +1012,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1016/j.tranpol.2020.01.002
-      \endverb
-    \endentry
-    \entry{Plyushteva2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=65d0c8617d1686724f7d7a39f808d68d}{%
-           family={Plyushteva},
-           familyi={P\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3786ef52b0727203ff2132ccde2b9c33}{%
-           family={Boussauw},
-           familyi={B\bibinitperiod},
-           given={Kobe},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{fullhash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{fullhashraw}{5b3f22c401c7d11454386f3bca575806}
-      \strng{bibnamehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authorbibnamehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authornamehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authorfullhash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authorfullhashraw}{5b3f22c401c7d11454386f3bca575806}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Fuente primaria peer-reviewed. Dato night gap 01:00--05:00 y cobertura 26/28 capitales UE. Claims M01, M02, U06.}
-      \field{journaltitle}{Journal of Transport Geography}
-      \field{title}{Does night-time public transport contribute to inclusive night mobility? {Exploring} {Sofia's} night bus network from a gender perspective}
-      \field{volume}{89}
-      \field{year}{2020}
-      \field{pages}{102894}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.jtrangeo.2020.102894
       \endverb
     \endentry
     \entry{RenfeCercaniasFerrol2026}{misc}{}{}
@@ -1165,13 +1154,13 @@
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA — deliverable técnico H2020 verificable. Cubre claims T02, T06 (sensórica, HD Maps) y EC02 (flota 100\% electrificada)}
       \field{title}{Pilot experimental plans, {KPI}s definition and impact assessment framework for pre-demo evaluation}
-      \field{type}{Deliverable D8.1}
+      \field{type}{Deliverable D9.2}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://show-project.eu/deliverables/
+      \verb https://show-project.eu/media/deliverables/
       \endverb
       \verb{url}
-      \verb https://show-project.eu/deliverables/
+      \verb https://show-project.eu/media/deliverables/
       \endverb
     \endentry
     \entry{SHOW2024Legacy}{misc}{}{}
@@ -1191,7 +1180,6 @@
       \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -1199,6 +1187,7 @@
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA. Informe oficial del consorcio. Proyecto finalizado 30 septiembre 2024. Dato: más de 72 vehículos, 22 ciudades. Claims C02, C04, C06.}
       \field{howpublished}{Informe final de diseminación del proyecto SHOW H2020}
+      \field{note}{{Para resultados de impacto global del proyecto, véase también D13.3: https://show-project.eu/wp-content/uploads/2024/11/D13.3-SHOW-impact-assessment-on-society.pdf}}
       \field{title}{{{SHared}} automation {{Operating}} models for {{Worldwide}} adoption: Driving the future of mobility: key findings, impact, and legacy}
       \field{year}{2024}
       \verb{urlraw}
@@ -1206,43 +1195,6 @@
       \endverb
       \verb{url}
       \verb https://show-project.eu/
-      \endverb
-    \endentry
-    \entry{SHOW2024}{report}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
-           family={{SHOW Consortium}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {H2020 SHOW Project (GA 875530) / UITP}%
-      }
-      \strng{namehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{fullhash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{fullhashraw}{a791b24cb6aceff133672a2c0566547a}
-      \strng{bibnamehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authorbibnamehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
-      \field{extraname}{3}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Nivel: ALTA --- Deliverable oficial H2020}
-      \field{title}{SHared automation Operating models for Worldwide adoption: SHOW Final Results}
-      \field{type}{techreport}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://show-project.eu
-      \endverb
-      \verb{url}
-      \verb https://show-project.eu
       \endverb
     \endentry
     \entry{Stagecoach2020Hull}{misc}{}{}
@@ -1341,10 +1293,10 @@
       \field{type}{techreport}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/cities-after-dark-10-steps-handbook-help-cities-unlock-power-night
       \endverb
       \verb{url}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/cities-after-dark-10-steps-handbook-help-cities-unlock-power-night
       \endverb
     \endentry
     \entry{URBACT2025Gender}{misc}{}{}
@@ -1379,6 +1331,31 @@
       \verb{url}
       \verb https://urbact.eu/articles/five-reasons-why-cities-should-consider-night-when-planning-urban-mobility
       \endverb
+    \endentry
+    \entry{XuntaGalicia2025dog}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2d1d3f7e265d9ba241783ebca77c144}{%
+           family={{Xunta de Galicia}},
+           familyi={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{fullhash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{fullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{bibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authorbibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authornamehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authorfullhash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authorfullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA. Servicios mínimos nocturnos decretados: 63 enfermeros/as, 42 TCAEs, 13 celadores por turno de noche en hospitales Arquitecto Marcide y Novoa Santos. Turno de noche implícito: 22:00--08:00 h.}
+      \field{title}{Resolución de servizos mínimos para a folga no CHUF. Diario Oficial de Galicia, núm. 198}
+      \field{year}{2025}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
@@ -1553,10 +1530,10 @@
       \field{title}{Reglamento de Ejecución ({UE}) 2022/1426 de la {Comisión} de 5 de agosto de 2022 por el que se establecen normas para la aplicación del {Reglamento} ({UE}) 2019/2144 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada ({ADS}) de los vehículos totalmente automatizados}
       \field{year}{2022}
       \verb{urlraw}
-      \verb https://eur-lex.europa.eu/legal-content/ES/ TXT/?uri=CELEX:32022R1426
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022R1426
       \endverb
       \verb{url}
-      \verb https://eur-lex.europa.eu/legal-content/ES/%20TXT/?uri=CELEX:32022R1426
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32022R1426
       \endverb
     \endentry
     \entry{RegUE20262026481}{misc}{}{}
@@ -1586,10 +1563,10 @@
       \field{title}{Reglamento de Ejecución ({UE}) 2026/481 de la {Comisión} de 3 de marzo de 2026 que modifica el {Reglamento} de Ejecución ({UE}) 2022/1426 en cuanto a los procedimientos uniformes y las especificaciones técnicas para la homologación de tipo del sistema de conducción automatizada de los vehículos totalmente automatizados}
       \field{year}{2026}
       \verb{urlraw}
-      \verb https://www.boe.es/buscar/doc.php? id=DOUE-L-2026-80314
+      \verb https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-80314
       \endverb
       \verb{url}
-      \verb https://www.boe.es/buscar/doc.php?%20id=DOUE-L-2026-80314
+      \verb https://www.boe.es/buscar/doc.php?id=DOUE-L-2026-80314
       \endverb
     \endentry
     \entry{dAntonio2024}{report}{}{}
@@ -1624,10 +1601,10 @@
       \field{title}{Cities After Dark: Baseline Study and Network Roadmap}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/sites/default/files/2024-05/Cities%20After%20Dark%20-%20Baseline%20Study.pdf
       \endverb
       \verb{url}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/sites/default/files/2024-05/Cities%20After%20Dark%20-%20Baseline%20Study.pdf
       \endverb
     \endentry
     \entry{DibaGore2025}{article}{}{}
@@ -1703,10 +1680,10 @@
       \field{title}{Programa Marco {ES-AV}: Marco de autorización de pruebas de vehículos automatizados en {España}}
       \field{year}{2026}
       \verb{urlraw}
-      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/ vehiculos-automatizados/
+      \verb https://www.dgt.es/muevete-con-seguridad/vehiculos-seguros/conduccion-automatizada/vehiculos-de-conduccion-automatizada/vehiculos-de-conduccion-automatizada/
       \endverb
       \verb{url}
-      \verb https://www.dgt.es/inicio/la-dgt/que-hacemos/%20vehiculos-automatizados/
+      \verb https://www.dgt.es/muevete-con-seguridad/vehiculos-seguros/conduccion-automatizada/vehiculos-de-conduccion-automatizada/vehiculos-de-conduccion-automatizada/
       \endverb
     \endentry
     \entry{Estrada2021}{article}{}{}
@@ -1786,10 +1763,10 @@
       \field{title}{Majority of health jobs held by women}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20210308-1
       \endverb
       \verb{url}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/w/DDN-20200309-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20210308-1
       \endverb
     \endentry
     \entry{Eurostat2022health}{misc}{}{}
@@ -1818,10 +1795,10 @@
       \field{title}{Jobs with the highest share of women in {Q3} 2021}
       \field{year}{2022}
       \verb{urlraw}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/ w/DDN-20220307-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20220304-1
       \endverb
       \verb{url}
-      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/%20w/DDN-20220307-1
+      \verb https://ec.europa.eu/eurostat/web/products-eurostat-news/-/edn-20220304-1
       \endverb
     \endentry
     \entry{Gavanas2024}{article}{}{}
@@ -1977,10 +1954,10 @@
       \field{title}{Cifras oficiales de población de los municipios españoles: Revisión del Padrón Municipal 2024. Municipio de Ferrol (código 15036)}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005&L=0
       \endverb
       \verb{url}
-      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005
+      \verb https://www.ine.es/jaxiT3/Tabla.htm?t=29005&L=0
       \endverb
     \endentry
     \entry{INE2025EPA}{misc}{}{}
@@ -2010,10 +1987,10 @@
       \field{title}{Encuesta de {Población} {Activa} ({EPA}). Variables de submuestra. {Año} 2024}
       \field{year}{2025}
       \verb{urlraw}
-      \verb https://www.ine.es/prensa/epa_2024_sm.pdf
+      \verb https://www.ine.es/dyngs/Prensa/vsEPA2024.pdf
       \endverb
       \verb{url}
-      \verb https://www.ine.es/prensa/epa_2024_sm.pdf
+      \verb https://www.ine.es/dyngs/Prensa/vsEPA2024.pdf
       \endverb
     \endentry
     \entry{K2Centrum2025DRT}{report}{}{}
@@ -2080,10 +2057,10 @@
       \field{title}{Lessons from the {AVENUE} project}
       \field{year}{2023}
       \verb{urlraw}
-      \verb https://www.connectedautomateddriving.eu/wp-content/ uploads/2023/03/AVENUE_project.pdf
+      \verb https://h2020-avenue.eu/wp-content/uploads/2023/03/AVENUE_project.pdf
       \endverb
       \verb{url}
-      \verb https://www.connectedautomateddriving.eu/wp-content/%20uploads/2023/03/AVENUE_project.pdf
+      \verb https://h2020-avenue.eu/wp-content/uploads/2023/03/AVENUE_project.pdf
       \endverb
     \endentry
     \entry{AVENUE2023}{report}{}{}
@@ -2199,6 +2176,38 @@
       \verb https://www.experimenta.es/diseno-en-serio/la-columna-de-rodrigo-martinez-el-usuario-en-su-sitio/
       \endverb
     \endentry
+    \entry{Mendelow1991}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c15437f57ccf9ac61ca45f7940b0f5e}{%
+           family={Mendelow},
+           familyi={M\bibinitperiod},
+           given={Aubrey\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{fullhash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{fullhashraw}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{bibnamehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authorbibnamehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authornamehash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authorfullhash}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \strng{authorfullhashraw}{5c15437f57ccf9ac61ca45f7940b0f5e}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 2nd International Conference on Information Systems}
+      \field{note}{Nivel: MEDIA. Documento original de difícil acceso; citado por consenso académico en literatura de gestión estratégica}
+      \field{title}{Stakeholder mapping}
+      \field{year}{1991}
+    \endentry
     \entry{Sanidad2024CHUF}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=4e5fb97a20b85fef8fc35587efe66226}{%
@@ -2224,10 +2233,10 @@
       \field{title}{Registro de Centros del {SNS}: Complexo Hospitalario Universitario de Ferrol}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \verb https://www.sanidad.gob.es/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
       \endverb
       \verb{url}
-      \verb https://www.sanidad.gob.es/va/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
+      \verb https://www.sanidad.gob.es/ciudadanos/centros.do?metodo=realizarDetalle&tipo=hospital&numero=150130
       \endverb
     \endentry
     \entry{Directiva200388CE}{misc}{}{}
@@ -2263,10 +2272,10 @@
       \field{pages}{9\bibrangedash 19}
       \range{pages}{11}
       \verb{urlraw}
-      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/ ?uri=CELEX\%3A32003L0088
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0088
       \endverb
       \verb{url}
-      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/%20?uri=CELEX%5C%3A32003L0088
+      \verb https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32003L0088
       \endverb
     \endentry
     \entry{DirectivaUE20242853}{misc}{}{}
@@ -2298,10 +2307,10 @@
       \field{title}{Directiva ({UE}) 2024/2853 del {Parlamento Europeo} y del {Consejo} sobre responsabilidad por productos defectuosos}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://eur-lex.europa.eu/legal-content/EN/ TXT/?uri=CELEX:32024L2853
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L2853
       \endverb
       \verb{url}
-      \verb https://eur-lex.europa.eu/legal-content/EN/%20TXT/?uri=CELEX:32024L2853
+      \verb https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024L2853
       \endverb
     \endentry
     \entry{PlyushetvaBoussauw2020}{article}{}{}
@@ -2327,12 +2336,11 @@
       \strng{authornamehash}{13a0ede6ca464da60f60cbc828eba055}
       \strng{authorfullhash}{13a0ede6ca464da60f60cbc828eba055}
       \strng{authorfullhashraw}{13a0ede6ca464da60f60cbc828eba055}
-      \field{extraname}{1}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA}
@@ -2344,48 +2352,6 @@
       \range{pages}{10}
       \verb{doi}
       \verb 10.1016/j.tranpol.2020.01.002
-      \endverb
-    \endentry
-    \entry{Plyushteva2020}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=65d0c8617d1686724f7d7a39f808d68d}{%
-           family={Plyushteva},
-           familyi={P\bibinitperiod},
-           given={Anna},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3786ef52b0727203ff2132ccde2b9c33}{%
-           family={Boussauw},
-           familyi={B\bibinitperiod},
-           given={Kobe},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{fullhash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{fullhashraw}{5b3f22c401c7d11454386f3bca575806}
-      \strng{bibnamehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authorbibnamehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authornamehash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authorfullhash}{5b3f22c401c7d11454386f3bca575806}
-      \strng{authorfullhashraw}{5b3f22c401c7d11454386f3bca575806}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{annotation}{Nivel: ALTA. Fuente primaria peer-reviewed. Dato night gap 01:00--05:00 y cobertura 26/28 capitales UE. Claims M01, M02, U06.}
-      \field{journaltitle}{Journal of Transport Geography}
-      \field{title}{Does night-time public transport contribute to inclusive night mobility? {Exploring} {Sofia's} night bus network from a gender perspective}
-      \field{volume}{89}
-      \field{year}{2020}
-      \field{pages}{102894}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.jtrangeo.2020.102894
       \endverb
     \endentry
     \entry{RenfeCercaniasFerrol2026}{misc}{}{}
@@ -2528,13 +2494,13 @@
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA — deliverable técnico H2020 verificable. Cubre claims T02, T06 (sensórica, HD Maps) y EC02 (flota 100\% electrificada)}
       \field{title}{Pilot experimental plans, {KPI}s definition and impact assessment framework for pre-demo evaluation}
-      \field{type}{Deliverable D8.1}
+      \field{type}{Deliverable D9.2}
       \field{year}{2020}
       \verb{urlraw}
-      \verb https://show-project.eu/deliverables/
+      \verb https://show-project.eu/media/deliverables/
       \endverb
       \verb{url}
-      \verb https://show-project.eu/deliverables/
+      \verb https://show-project.eu/media/deliverables/
       \endverb
     \endentry
     \entry{SHOW2024Legacy}{misc}{}{}
@@ -2554,7 +2520,6 @@
       \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
@@ -2562,6 +2527,7 @@
       \field{labeltitlesource}{title}
       \field{annotation}{Nivel: ALTA. Informe oficial del consorcio. Proyecto finalizado 30 septiembre 2024. Dato: más de 72 vehículos, 22 ciudades. Claims C02, C04, C06.}
       \field{howpublished}{Informe final de diseminación del proyecto SHOW H2020}
+      \field{note}{{Para resultados de impacto global del proyecto, véase también D13.3: https://show-project.eu/wp-content/uploads/2024/11/D13.3-SHOW-impact-assessment-on-society.pdf}}
       \field{title}{{{SHared}} automation {{Operating}} models for {{Worldwide}} adoption: Driving the future of mobility: key findings, impact, and legacy}
       \field{year}{2024}
       \verb{urlraw}
@@ -2569,43 +2535,6 @@
       \endverb
       \verb{url}
       \verb https://show-project.eu/
-      \endverb
-    \endentry
-    \entry{SHOW2024}{report}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a791b24cb6aceff133672a2c0566547a}{%
-           family={{SHOW Consortium}},
-           familyi={S\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {H2020 SHOW Project (GA 875530) / UITP}%
-      }
-      \strng{namehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{fullhash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{fullhashraw}{a791b24cb6aceff133672a2c0566547a}
-      \strng{bibnamehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authorbibnamehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authornamehash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authorfullhash}{a791b24cb6aceff133672a2c0566547a}
-      \strng{authorfullhashraw}{a791b24cb6aceff133672a2c0566547a}
-      \field{extraname}{3}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Nivel: ALTA --- Deliverable oficial H2020}
-      \field{title}{SHared automation Operating models for Worldwide adoption: SHOW Final Results}
-      \field{type}{techreport}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://show-project.eu
-      \endverb
-      \verb{url}
-      \verb https://show-project.eu
       \endverb
     \endentry
     \entry{Stagecoach2020Hull}{misc}{}{}
@@ -2704,10 +2633,10 @@
       \field{type}{techreport}
       \field{year}{2024}
       \verb{urlraw}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/cities-after-dark-10-steps-handbook-help-cities-unlock-power-night
       \endverb
       \verb{url}
-      \verb https://urbact.eu/cities-after-dark
+      \verb https://urbact.eu/cities-after-dark-10-steps-handbook-help-cities-unlock-power-night
       \endverb
     \endentry
     \entry{URBACT2025Gender}{misc}{}{}
@@ -2743,8 +2672,32 @@
       \verb https://urbact.eu/articles/five-reasons-why-cities-should-consider-night-when-planning-urban-mobility
       \endverb
     \endentry
+    \entry{XuntaGalicia2025dog}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d2d1d3f7e265d9ba241783ebca77c144}{%
+           family={{Xunta de Galicia}},
+           familyi={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{fullhash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{fullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{bibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authorbibnamehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authornamehash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authorfullhash}{d2d1d3f7e265d9ba241783ebca77c144}
+      \strng{authorfullhashraw}{d2d1d3f7e265d9ba241783ebca77c144}
+      \field{sortinit}{X}
+      \field{sortinithash}{1965c258adceecf23ce3d67b05113442}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{Nivel: ALTA. Servicios mínimos nocturnos decretados: 63 enfermeros/as, 42 TCAEs, 13 celadores por turno de noche en hospitales Arquitecto Marcide y Novoa Santos. Turno de noche implícito: 22:00--08:00 h.}
+      \field{title}{Resolución de servizos mínimos para a folga no CHUF. Diario Oficial de Galicia, núm. 198}
+      \field{year}{2025}
+    \endentry
   \enddatalist
-  \missing{EstradaSalanova2021}
 \endrefsection
 \endinput
 

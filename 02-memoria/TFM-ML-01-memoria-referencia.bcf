@@ -3082,8 +3082,8 @@
     <bcf:citekey order="9" intorder="1">SHOW2024Legacy</bcf:citekey>
     <bcf:citekey order="10" intorder="1">AVENUE2023</bcf:citekey>
     <bcf:citekey order="11" intorder="1">MartinezRodriguez2024</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Plyushteva2020</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Plyushteva2020</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">PlyushetvaBoussauw2020</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">PlyushetvaBoussauw2020</bcf:citekey>
     <bcf:citekey order="14" intorder="1">Estrada2021</bcf:citekey>
     <bcf:citekey order="15" intorder="1">Busitalia2019QuiBus</bcf:citekey>
     <bcf:citekey order="15" intorder="2">K2Centrum2025DRT</bcf:citekey>
@@ -3095,7 +3095,7 @@
     <bcf:citekey order="20" intorder="1">RegUE20262026481</bcf:citekey>
     <bcf:citekey order="21" intorder="1">DGTESAV2026</bcf:citekey>
     <bcf:citekey order="22" intorder="1">URBACT2025Gender</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">EstradaSalanova2021</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">Estrada2021</bcf:citekey>
     <bcf:citekey order="24" intorder="1">AVENUE2023</bcf:citekey>
     <bcf:citekey order="25" intorder="1">PlyushetvaBoussauw2020</bcf:citekey>
     <bcf:citekey order="26" intorder="1">PlyushetvaBoussauw2020</bcf:citekey>
@@ -3122,14 +3122,17 @@
     <bcf:citekey order="47" intorder="1">INE2024Ferrol</bcf:citekey>
     <bcf:citekey order="48" intorder="1">Sanidad2024CHUF</bcf:citekey>
     <bcf:citekey order="49" intorder="1">GoogleMaps2026Ferrol</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Alsaferrol2024horarios</bcf:citekey>
+    <bcf:citekey order="50" intorder="2">RenfeCercaniasFerrol2026</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">XuntaGalicia2025dog</bcf:citekey>
     <bcf:citekey order="52" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="53" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">Mendelow1991</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">XuntaGalicia2025dog</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">AVENUE2023</bcf:citekey>
+    <bcf:citekey order="56" intorder="2">SHOW2024Legacy</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">Alsaferrol2024horarios</bcf:citekey>
+    <bcf:citekey order="57" intorder="2">RenfeCercaniasFerrol2026</bcf:citekey>
     <bcf:citekey order="58" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="59" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="60" intorder="1">LouridoRegueira2026</bcf:citekey>
@@ -3140,32 +3143,31 @@
     <bcf:citekey order="65" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="66" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="67" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">Estrada2021</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">Estrada2021</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">Estrada2021</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">Busitalia2019QuiBus</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">Busitalia2019QuiBus</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">Stagecoach2020Hull</bcf:citekey>
-    <bcf:citekey order="74" intorder="1">Stagecoach2020Hull</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">K2Centrum2025DRT</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">K2Centrum2025DRT</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="74" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">Estrada2021</bcf:citekey>
     <bcf:citekey order="77" intorder="1">Estrada2021</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">Busitalia2019QuiBus</bcf:citekey>
-    <bcf:citekey order="78" intorder="2">K2Centrum2025DRT</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">Stagecoach2020Hull</bcf:citekey>
-    <bcf:citekey order="79" intorder="2">Busitalia2019QuiBus</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">K2Centrum2025DRT</bcf:citekey>
-    <bcf:citekey order="80" intorder="2">Stagecoach2020Hull</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">Alsaferrol2024horarios</bcf:citekey>
-    <bcf:citekey order="89" intorder="2">RenfeCercaniasFerrol2026</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">Estrada2021</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">Busitalia2019QuiBus</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">Busitalia2019QuiBus</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">Stagecoach2020Hull</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">Stagecoach2020Hull</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">K2Centrum2025DRT</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">K2Centrum2025DRT</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">Estrada2021</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">Busitalia2019QuiBus</bcf:citekey>
+    <bcf:citekey order="86" intorder="2">K2Centrum2025DRT</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">Stagecoach2020Hull</bcf:citekey>
+    <bcf:citekey order="87" intorder="2">Busitalia2019QuiBus</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">K2Centrum2025DRT</bcf:citekey>
+    <bcf:citekey order="88" intorder="2">Stagecoach2020Hull</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="90" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="91" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="92" intorder="1">LouridoRegueira2026</bcf:citekey>
@@ -3173,30 +3175,39 @@
     <bcf:citekey order="94" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="95" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="96" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="97" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">Alsaferrol2024horarios</bcf:citekey>
+    <bcf:citekey order="97" intorder="2">RenfeCercaniasFerrol2026</bcf:citekey>
     <bcf:citekey order="98" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="99" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="100" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="101" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="102" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">SHOW2024</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="104" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="105" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="106" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">CE_Movilidad2020</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="108" intorder="1">LouridoRegueira2026</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">Alsaferrol2024horarios</bcf:citekey>
-    <bcf:citekey order="109" intorder="2">RenfeCercaniasFerrol2026</bcf:citekey>
-    <bcf:citekey order="110" intorder="1">AVENUE2023</bcf:citekey>
-    <bcf:citekey order="110" intorder="2">SHOW2024</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">URBACTNight2024</bcf:citekey>
-    <bcf:citekey order="112" intorder="1">SHOW2024</bcf:citekey>
-    <bcf:citekey order="113" intorder="1">RegUE20262026481</bcf:citekey>
-    <bcf:citekey order="114" intorder="1">SERGAS2024memoria</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">SHOW2024Legacy</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">LouridoRegueira2026</bcf:citekey>
     <bcf:citekey order="115" intorder="1">CE_Movilidad2020</bcf:citekey>
-    <bcf:citekey order="116" intorder="1">URBACTNight2024</bcf:citekey>
-    <bcf:citekey order="117" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="117" intorder="1">Alsaferrol2024horarios</bcf:citekey>
+    <bcf:citekey order="117" intorder="2">RenfeCercaniasFerrol2026</bcf:citekey>
     <bcf:citekey order="118" intorder="1">AVENUE2023</bcf:citekey>
+    <bcf:citekey order="118" intorder="2">SHOW2024Legacy</bcf:citekey>
+    <bcf:citekey order="119" intorder="1">URBACTNight2024</bcf:citekey>
+    <bcf:citekey order="120" intorder="1">SHOW2024Legacy</bcf:citekey>
+    <bcf:citekey order="121" intorder="1">RegUE20262026481</bcf:citekey>
+    <bcf:citekey order="122" intorder="1">SERGAS2024memoria</bcf:citekey>
+    <bcf:citekey order="123" intorder="1">CE_Movilidad2020</bcf:citekey>
+    <bcf:citekey order="124" intorder="1">URBACTNight2024</bcf:citekey>
+    <bcf:citekey order="125" intorder="1">LouridoRegueira2026</bcf:citekey>
+    <bcf:citekey order="126" intorder="1">AVENUE2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
