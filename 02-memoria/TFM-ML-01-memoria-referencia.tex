@@ -17,6 +17,7 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{booktabs}
+\usepackage{siunitx}
 \usepackage{tabularx}
 \usepackage{longtable}
 \usepackage{multirow}
@@ -87,7 +88,7 @@
 \onehalfspacing
 
 \title{TFM: Nuevas propuestas de
-Movilidad Total: Sistemas de Transporte Continuo}
+Movilidad Nocturna para Personal Sanitario · CHUF--Ferrol}
 \author{Mario Lourido Regueira}
 \date{\today}
 
@@ -189,7 +190,7 @@ Movilidad Total: Sistemas de Transporte Continuo}
 % Configuración de cabecera/pie para el cuerpo del documento
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\textit{Sistemas de Transporte Continuo}}
+\fancyhead[L]{\small\textit{Movilidad Nocturna · Personal Sanitario}}
 \fancyhead[R]{\small\textit{Mario Lourido Regueira}}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
@@ -202,15 +203,19 @@ Movilidad Total: Sistemas de Transporte Continuo}
 
 % --- CAPÍTULOS ---
 \section{Introducción}
+% -- BLOQUE 1: Fase de información y análisis -----------
 \input{TFM-ML-cap01-introduccion}
-\input{TFM-ML-cap02-contexto-ferrol}
+\input{TFM-ML-cap02-marco-contextual}
 \input{TFM-ML-cap03-investigacion-usuario}
-\input{TFM-ML-cap04-estrategias-diseno}
-\input{TFM-ML-cap05-concepto-servicio}
-\input{TFM-ML-cap06-modelo-replicabilidad}
-\input{TFM-ML-cap07-evaluacion}
-\input{TFM-ML-cap08-conclusiones}
-\input{TFM-ML-cap09-presupuesto}
+\input{TFM-ML-cap04-mercado-tendencias}
+\input{TFM-ML-cap05-insights}
+% -- BLOQUE 2: Estrategias y ADN del concepto ----------
+\input{TFM-ML-cap06-estrategias-diseno}
+\input{TFM-ML-cap07-adn-concepto}
+% -- BLOQUE 3: Evaluación y cierre ---------------------
+\input{TFM-ML-cap08-evaluacion}
+\input{TFM-ML-cap09-conclusiones}
+\input{TFM-ML-cap10-presupuesto}
 
 \printbibliography
 
