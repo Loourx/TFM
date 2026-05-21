@@ -16,14 +16,15 @@
 | Cap | Archivo | Estado |
 |-----|---------|--------|
 | 01 | TFM-ML-cap01-introduccion.tex | ✅ Redactado |
-| 02 | TFM-ML-cap02-contexto-ferrol.tex | ✅ Redactado |
+| 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado |
 | 03 | TFM-ML-cap03-investigacion-usuario.tex | ✅ Redactado |
-| 04 | TFM-ML-cap04-estrategias-diseno.tex | ✅ Redactado |
-| 05 | TFM-ML-cap05-concepto-servicio.tex | 🔴 Pendiente |
-| 06 | TFM-ML-cap06-modelo-replicabilidad.tex | 🔴 Pendiente |
-| 07 | TFM-ML-cap07-evaluacion.tex | 🔴 Pendiente |
-| 08 | TFM-ML-cap08-conclusiones.tex | 🔴 Pendiente |
-| 09 | TFM-ML-cap09-presupuesto.tex | 🔴 Pendiente |
+| 04 | TFM-ML-cap04-mercado-tendencias.tex | 🔴 Pendiente (Esqueleto) |
+| 05 | TFM-ML-cap05-insights.tex | 🔴 Pendiente (Esqueleto) |
+| 06 | TFM-ML-cap06-estrategias-diseno.tex | ✅ Redactado |
+| 07 | TFM-ML-cap07-adn-concepto.tex | 🔴 Pendiente (Esqueleto) |
+| 08 | TFM-ML-cap08-evaluacion.tex | 🔴 Pendiente (Esqueleto) |
+| 09 | TFM-ML-cap09-conclusiones.tex | 🔴 Pendiente (Esqueleto) |
+| 10 | TFM-ML-cap10-presupuesto.tex | 🔴 Pendiente (Esqueleto) |
 
 ---
 

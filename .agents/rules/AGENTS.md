@@ -20,105 +20,84 @@ de 50.000–150.000 hab. con hospital periférico y vacío de transporte nocturn
 
 ## ESTRUCTURA DE ARCHIVOS
 
-```
-TFM-Mario-Lourido/
-├── 00-proyecto/
-│   ├── AGENTS.md                              ← ESTE ARCHIVO (contexto IDE)
-│   ├── TFM-ML-00-Project-Rules-v4.md          ← reglas del proyecto
-│   └── TFM-ML-02-workflow-operativo.md        ← flujo Claude + LaTeX + InDesign
-│
-├── 01-bibliografia/
-│   ├── TFM-ML-referencias.bib                 ← ÚNICA fuente de verdad bibliográfica
-│   └── TFM-ML-CLAIMS-auditoria-v4.md          ← tabla de claims verificados
-│
-├── 02-memoria/
-│   ├── memoria.tex                            ← archivo maestro (solo \input y preámbulo)
-│   ├── TFM-ML-cap01-introduccion.tex
-│   ├── TFM-ML-cap02-contexto-ferrol.tex
-│   ├── TFM-ML-cap03-investigacion-usuario.tex
-│   ├── TFM-ML-cap04-estrategias-diseno.tex
-│   ├── TFM-ML-cap05-concepto-servicio.tex
-│   ├── TFM-ML-cap06-modelo-replicabilidad.tex
-│   ├── TFM-ML-cap07-evaluacion.tex
-│   ├── TFM-ML-cap08-conclusiones.tex
-│   └── TFM-ML-cap09-presupuesto.tex
-│
-├── 03-graficas/
-│   └── TFM-ML-GFX-[descripcion-kebab].svg
-│
-└── 04-referencia/
-    └── [PDFs de referencia — no son fuentes citables directamente]
-```
+- Archivo principal: 02-memoria/TFM-ML-01-memoria-referencia.tex
+- Bibliografía: 01-bibliografia/TFM-ML-referencias.bib
+- Auditoría de claims: 01-bibliografia/TFM-ML-CLAIMS-auditoria-v5.md
+- Gráficas SVG: 03-graficas/
+
+### Capítulos activos (3 bloques, 10 capítulos)
+
+BLOQUE 1 — Fase de información y análisis
+  cap01  02-memoria/TFM-ML-cap01-introduccion.tex          (activo, 247 líneas)
+  cap02  02-memoria/TFM-ML-cap02-marco-contextual.tex      (activo, 469 líneas)
+  cap03  02-memoria/TFM-ML-cap03-investigacion-usuario.tex (activo, 396 líneas)
+  cap04  02-memoria/TFM-ML-cap04-mercado-tendencias.tex    (esqueleto, pendiente)
+  cap05  02-memoria/TFM-ML-cap05-insights.tex              (esqueleto, pendiente migración desde cap06)
+
+BLOQUE 2 — Estrategias y ADN del concepto
+  cap06  02-memoria/TFM-ML-cap06-estrategias-diseno.tex    (activo, 587 líneas)
+  cap07  02-memoria/TFM-ML-cap07-adn-concepto.tex          (esqueleto, pendiente)
+
+BLOQUE 3 — Evaluación y cierre
+  cap08  02-memoria/TFM-ML-cap08-evaluacion.tex            (esqueleto, pendiente)
+  cap09  02-memoria/TFM-ML-cap09-conclusiones.tex          (esqueleto, pendiente)
+  cap10  02-memoria/TFM-ML-cap10-presupuesto.tex           (esqueleto, pendiente)
+
+### Archivados (no editar)
+  02-memoria/archiv/   — versiones anteriores y capítulos eliminados
+
+### Input order en main .tex
+  \input{TFM-ML-cap01-introduccion}
+  \input{TFM-ML-cap02-marco-contextual}
+  \input{TFM-ML-cap03-investigacion-usuario}
+  \input{TFM-ML-cap04-mercado-tendencias}
+  \input{TFM-ML-cap05-insights}
+  \input{TFM-ML-cap06-estrategias-diseno}
+  \input{TFM-ML-cap07-adn-concepto}
+  \input{TFM-ML-cap08-evaluacion}
+  \input{TFM-ML-cap09-conclusiones}
+  \input{TFM-ML-cap10-presupuesto}
 
 ---
 
 ## ARQUITECTURA DEL .tex MAESTRO
 
-El archivo `memoria.tex` contiene SOLO el preámbulo y los `\input`. Nunca contiene texto de memoria.
-Estructura obligatoria:
+El archivo `TFM-ML-01-memoria-referencia.tex` contiene el preámbulo y los `\input`. Nunca contiene texto de memoria.
+Estructura obligatoria de inputs:
 
 ```latex
-% ============================================================
-% PREÁMBULO
-% ============================================================
-\documentclass[12pt, a4paper]{article}
-
-% Paquetes esenciales
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
-\usepackage[style=apa, backend=biber]{biblatex}
-\addbibresource{../01-bibliografia/TFM-ML-referencias.bib}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{geometry}
-\usepackage{fancyhdr}
-\usepackage{enumitem}
-\usepackage{booktabs}
-\usepackage{svg}          % para incluir SVG directamente si se prefiere
-\usepackage{xcolor}
-
-% ============================================================
-% DOCUMENTO
-% ============================================================
-\begin{document}
-
-% Portada
-% Páginas preliminares (roman)
-% Índice
-
-% Capítulos (árabe)
+\section{Introducción}
+% -- BLOQUE 1: Fase de información y análisis -----------
 \input{TFM-ML-cap01-introduccion}
-\input{TFM-ML-cap02-contexto-ferrol}
+\input{TFM-ML-cap02-marco-contextual}
 \input{TFM-ML-cap03-investigacion-usuario}
-\input{TFM-ML-cap04-estrategias-diseno}
-\input{TFM-ML-cap05-concepto-servicio}
-\input{TFM-ML-cap06-modelo-replicabilidad}
-\input{TFM-ML-cap07-evaluacion}
-\input{TFM-ML-cap08-conclusiones}
-\input{TFM-ML-cap09-presupuesto}
-
-\printbibliography
-
-% Anexos
-\end{document}
+\input{TFM-ML-cap04-mercado-tendencias}
+\input{TFM-ML-cap05-insights}
+% -- BLOQUE 2: Estrategias y ADN del concepto ----------
+\input{TFM-ML-cap06-estrategias-diseno}
+\input{TFM-ML-cap07-adn-concepto}
+% -- BLOQUE 3: Evaluación y cierre ---------------------
+\input{TFM-ML-cap08-evaluacion}
+\input{TFM-ML-cap09-conclusiones}
+\input{TFM-ML-cap10-presupuesto}
 ```
 
 ---
 
-## ÍNDICE DE LA MEMORIA v4 (referencia de estructura)
+## ÍNDICE DE LA MEMORIA v5 (referencia de estructura de 10 capítulos)
 
 | Cap. | Archivo .tex | Título | Estado |
 |------|-------------|--------|--------|
-| 1 | cap01-introduccion | Introducción | Por redactar |
-| 2 | cap02-contexto-ferrol | Contexto: el problema y el caso Ferrol | Por redactar |
-| 3 | cap03-investigacion-usuario | Investigación de usuario | Por redactar |
-| 4 | cap04-estrategias-diseno | Estrategias de diseño | Por redactar |
-| 5 | cap05-concepto-servicio | Concepto de servicio | Por redactar |
-| 6 | cap06-modelo-replicabilidad | Modelo de replicabilidad | Por redactar |
-| 7 | cap07-evaluacion | Evaluación | Por redactar |
-| 8 | cap08-conclusiones | Conclusiones | Por redactar |
-| 9 | cap09-presupuesto | Presupuesto del proyecto | Por redactar |
+| 1 | cap01-introduccion | Introducción | ✅ Redactado |
+| 2 | cap02-marco-contextual | Marco contextual y caso Ferrol | ✅ Redactado |
+| 3 | cap03-investigacion-usuario | Investigación de usuario | ✅ Redactado |
+| 4 | cap04-mercado-tendencias | Mercado y tendencias | 🔴 Pendiente (Esqueleto) |
+| 5 | cap05-insights | Insights | 🔴 Pendiente (Esqueleto) |
+| 6 | cap06-estrategias-diseno | Criterios de diseño del servicio | ✅ Redactado |
+| 7 | cap07-adn-concepto | Concepto de servicio | 🔴 Pendiente (Esqueleto) |
+| 8 | cap08-evaluacion | Evaluación | 🔴 Pendiente (Esqueleto) |
+| 9 | cap09-conclusiones | Conclusiones | 🔴 Pendiente (Esqueleto) |
+| 10 | cap10-presupuesto | Presupuesto del proyecto | 🔴 Pendiente (Esqueleto) |
 
 ---
 
