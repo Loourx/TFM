@@ -1,23 +1,174 @@
 % !TEX root = TFM-ML-01-memoria-referencia.tex
 \section{Evaluación}\label{sec:evaluacion}\label{cap:replicabilidad}
 
-\subsection{Pliego de condiciones del servicio}\label{sec:pliego}
+\subsection{DAFO del servicio propuesto}\label{sec:dafo}
+
+El análisis DAFO evalúa el concepto de servicio propuesto desde
+dos dimensiones: la interna (fortalezas y debilidades del propio
+sistema de movilidad diseñado) y la externa (oportunidades y
+amenazas del contexto en el que opera el corredor CHUF--Ferrol).
+
+\subsubsection{Fortalezas}
+\label{sec:dafo-fortalezas}
+
+\begin{itemize}
+
+	\item \textbf{Demanda empíricamente documentada.} El servicio
+	parte de una encuesta primaria (n\,=\,167) que cuantifica la
+	necesidad con precisión: frecuencia, perfil de usuario, barreras
+	actuales y demanda espontánea de solución
+	\parencite{LouridoRegueira2026}. Ningún competidor actual en
+	el corredor tiene este nivel de conocimiento del usuario.
+
+	\item \textbf{Posición diferencial sin competencia directa.}
+	Ningún operador existente (Tranvías de Ferrol, Monbus, Renfe
+	Cercanías C-1 ni Cabify) ofrece servicio específico para
+	personal sanitario en la franja 22:00--08:00
+	\parencite{Alsaferrol2024horarios,RenfeCercaniasFerrol2026}.
+
+	\item \textbf{Precedente europeo operativo.} El modelo P+R
+	más lanzadera autónoma está en funcionamiento real en el
+	campus hospitalario Belle-Idée de Ginebra y en el CHU de
+	Rennes \parencite{AVENUE2023,SHOW2024Legacy}. El servicio no es
+	una hipótesis: es una arquitectura probada en contexto
+	hospitalario europeo.
+
+	\item \textbf{Argumento de replicabilidad.} Ferrol encaja
+	en el perfil de ciudad media europea (50.000--150.000 hab.)
+	con hospital periférico y vacío de transporte nocturno
+	\parencite{URBACTNight2024}. El modelo diseñado es
+	transferible a corredores análogos, lo que amplía su
+	valor estratégico más allá del caso local.
+
+\end{itemize}
+
+\subsubsection{Debilidades}
+\label{sec:dafo-debilidades}
+
+\begin{itemize}
+
+	\item \textbf{Brecha tecnológica nocturna.} Ningún piloto
+	documentado de vehículo autónomo SAE~L4 opera en franja
+	nocturna plena a 2026 \parencite{SHOW2024Legacy}. La iluminación
+	deficiente interrumpe la operación de los sensores. El
+	horizonte 2035 de este TFM cubre esta brecha, pero introduce
+	incertidumbre sobre la madurez tecnológica real en la
+	fecha de implantación.
+
+	\item \textbf{Infraestructura P+R inexistente.} Los nodos
+	de aparcamiento disuasorio en los accesos al CHUF no
+	existen actualmente. Su construcción requiere inversión
+	pública previa e implica coordinación entre el Concello
+	de Ferrol, la Xunta y el SERGAS.
+
+	\item \textbf{Dependencia de un único corredor.} El modelo
+	está diseñado para el corredor CHUF--Ferrol. Su eficacia
+	depende de que la demanda esté suficientemente concentrada
+	en ese eje. Si la dispersión residencial de los trabajadores
+	es mayor de lo estimado, la rentabilidad operativa se reduce.
+
+	\item \textbf{Ausencia de modelo de negocio cerrado.}
+	El TFM propone una exploración de valor conceptual, no un
+	plan financiero. La sostenibilidad económica del servicio
+	requiere validación con actores institucionales que
+	quedan fuera del alcance de este trabajo.
+
+\end{itemize}
+
+\subsubsection{Oportunidades}
+\label{sec:dafo-oportunidades}
+
+\begin{itemize}
+
+	\item \textbf{Marco regulatorio europeo favorable.}
+	El Reglamento (UE) 2026/481 habilita el despliegue a
+	gran escala de vehículos totalmente automatizados
+	\parencite{RegUE20262026481}. La ventana regulatoria
+	para 2035 es la más abierta de la historia reciente
+	en movilidad autónoma.
+
+	\item \textbf{SERGAS como financiador potencial.}
+	El sistema sanitario gallego tiene interés directo en
+	la retención de personal nocturno \parencite{SERGAS2024memoria}.
+	Un servicio de transporte específico puede encuadrarse
+	como beneficio social en el convenio colectivo o como
+	gasto de infraestructura sanitaria.
+
+	\item \textbf{Agenda europea de movilidad sostenible.}
+	La Estrategia de Movilidad Sostenible e Inteligente
+	de la Comisión Europea \parencite{CE_Movilidad2020}
+	y los fondos de cohesión territorial crean un contexto
+	favorable para proyectos de transporte nocturno en
+	ciudades medias.
+
+	\item \textbf{Replicabilidad como factor de escala.}
+	Si el modelo funciona en Ferrol, puede transferirse a
+	ciudades análogas europeas \parencite{URBACTNight2024},
+	lo que abre la posibilidad de financiación supramunicipal
+	o de consorcio de ciudades.
+
+\end{itemize}
+
+\subsubsection{Amenazas}
+\label{sec:dafo-amenazas}
+
+\begin{itemize}
+
+	\item \textbf{Dependencia de voluntad institucional.}
+	El servicio requiere la coordinación activa de al menos
+	tres administraciones (SERGAS, Xunta, Concello de Ferrol).
+	La fragmentación competencial es el principal riesgo
+	de bloqueo no tecnológico.
+
+	\item \textbf{Hábito consolidado del vehículo privado.}
+	El modo de transporte dominante en la muestra es el
+	vehículo propio \parencite{LouridoRegueira2026}. El
+	cambio de comportamiento modal requiere incentivos
+	sostenidos y tiempo de adopción que el servicio debe
+	anticipar en su diseño.
+
+	\item \textbf{Riesgo de lock-in tecnológico.} Los
+	pilotos AVENUE documentan dependencia total de las
+	APIs propietarias de los fabricantes de vehículos
+	autónomos \parencite{AVENUE2023}. La elección del
+	proveedor tecnológico tiene implicaciones de
+	sostenibilidad a largo plazo que superan el alcance
+	de este TFM.
+
+	\item \textbf{Volatilidad del marco tecnológico.}
+	El horizonte 2035 introduce incertidumbre sobre qué
+	tecnología estará disponible y a qué coste. Una
+	apuesta excesivamente específica en la solución
+	técnica puede quedar obsoleta antes de la implantación.
+
+\end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+	\fbox{\rule{0pt}{7cm}\rule{0.95\textwidth}{0pt}}
+	% Sustituir por: \includegraphics[width=\textwidth]{../03-graficas/TFM-ML-GFX-dafo.pdf}
+	\caption{Análisis DAFO del servicio de movilidad nocturna
+		propuesto para el corredor CHUF--Ferrol. Elaboración propia.}
+	\label{fig:dafo}
+\end{figure}
+
+
+\subsection{Pliego de condiciones del servicio}
+\label{sec:pliego}
 \begin{pendiente}
-%% INSERTAR: pliego-condiciones
 \end{pendiente}
 
-\subsection{Matriz de afirmaciones-evidencia}\label{sec:evidence-matrix}
+\subsection{Matriz de afirmaciones-evidencia}
+\label{sec:matriz-evidencia}
 \begin{pendiente}
-%% INSERTAR: evidence-matrix
-%% FIGURA: fig:evidence-matrix
 \end{pendiente}
 
-\subsection{Valor diferencial del concepto}\label{sec:valor-diferencial}
+\subsection{Valor diferencial del concepto}
+\label{sec:valor-diferencial}
 \begin{pendiente}
-%% INSERTAR: valor-diferencial
 \end{pendiente}
 
-\subsection{Viabilidad y riesgos}\label{sec:viabilidad-riesgos}
+\subsection{Viabilidad y riesgos}
+\label{sec:viabilidad}
 \begin{pendiente}
-%% INSERTAR: viabilidad-riesgos
 \end{pendiente}
