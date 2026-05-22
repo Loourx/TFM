@@ -1,59 +1,56 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 22/05/2026*
+*Última actualización: 22/05/2026 (Auditoría Integral Realizada)*
 
 ---
 
 ## COMPILACIÓN
-- Estado: ✅ PDF limpio — 49 páginas — 22/05/2026
-- Warnings activos: `undefined references` (capítulos vacíos cap05–09, esperado)
-- Comando: compile.ps1 desde 02-memoria/
+- Estado: ✅ PDF limpio y consolidado — 49 páginas — 22/05/2026
+- Warnings activos: `undefined references` en referencias cruzadas entre capítulos en desarrollo (esperado)
+- Comando: `powershell -ExecutionPolicy Bypass -File .\compile.ps1` desde la raíz
 
 ---
 
-## CAPÍTULOS
+## CAPÍTULOS (ESTADO REAL DE REDACCIÓN)
 
-| Cap | Archivo | Estado |
-|-----|---------|--------|
-| 01 | TFM-ML-cap01-introduccion.tex | ✅ Redactado |
-| 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado |
-| 03 | TFM-ML-cap03-investigacion-usuario.tex | ✅ Redactado |
-| 04 | TFM-ML-cap04-mercado-tendencias.tex | ✅ Redactado |
-| 05 | TFM-ML-cap05-insights.tex | 🔴 Pendiente (Esqueleto) |
-| 06 | TFM-ML-cap06-estrategias-diseno.tex | ✅ Redactado |
-| 07 | TFM-ML-cap07-adn-concepto.tex | 🔴 Pendiente (Esqueleto) |
-| 08 | TFM-ML-cap08-evaluacion.tex | 🔴 Pendiente (Esqueleto) |
-| 09 | TFM-ML-cap09-conclusiones.tex | 🔴 Pendiente (Esqueleto) |
-| 10 | TFM-ML-cap10-presupuesto.tex | 🔴 Pendiente (Esqueleto) |
+| Cap | Archivo | Estado Real | Detalles de Contenido |
+|-----|---------|-------------|-----------------------|
+| 01 | TFM-ML-cap01-introduccion.tex | ✅ Redactado | Primera redacción completa (Intro, estructura y marco). Pendiente revisión de directores. |
+| 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado | Primera redacción completa (Contexto europeo, estado AV L4, PESTEL, caso Ferrol y Stakeholders). |
+| 03 | TFM-ML-cap03-investigacion-usuario.tex | ⚠️ Parcialmente redactado | Ficha técnica, metodología, cuantitativo, cualitativo y género listos. **PENDIENTE: §3.6 Mapa de empatía** (bloque `pendiente`). |
+| 04 | TFM-ML-cap04-mercado-tendencias.tex | ✅ Redactado | Redacción académica al 100% (Benchmarking de pilotos y Análisis de Tendencias PEST completo sin comentarios). |
+| 05 | TFM-ML-cap05-insights.tex | ✅ Redactado | Redacción completada al 100%. Contiene los 5 insights de diseño estructurados con tensión, dato, observación y criterios. |
+| 06 | TFM-ML-cap06-estrategias-diseno.tex | ⚠️ Parcialmente redactado | QFD, MoSCoW y Valores del servicio listos. **PENDIENTE: §6.4 Grado de innovación del servicio** (bloque `pendiente`). |
+| 07 | TFM-ML-cap07-adn-concepto.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente` (Blueprint, Journey Map, Touchpoints, Espacio interior). |
+| 08 | TFM-ML-cap08-evaluacion.tex | ⚠️ Parcialmente redactado | **REDACTADO: §8.1 Análisis DAFO completo** (Fortalezas, Debilidades, Oportunidades y Amenazas). **PENDIENTE: Pliego, Matriz de evidencia y Viabilidad**. |
+| 09 | TFM-ML-cap09-conclusiones.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente` (Hallazgos, contribución, limitaciones, líneas futuras). |
+| 10 | TFM-ML-cap10-presupuesto.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente`. |
 
 ---
 
 ## BIBLIOGRAFÍA
-- Archivo: TFM-ML-referencias.bib
-- Entradas totales: 62 claves
-- Última entrada añadida: Autodesk2026 (confirmada presencia en .bib)
+- Archivo: `01-bibliografia/TFM-ML-referencias.bib`
+- Entradas totales: **62 claves**
+- Incorporaciones de esta sesión: `iF2026`, `WGSNFutureConsumer2026`, `TrendHunter2026`, `Autodesk2026` (validadas y enlazadas al Capítulo 4).
 
 ---
 
 ## AUDITORÍA DE CLAIMS (v5.0)
-- Total: 46 claims
-- Supported: 36
-- PENDIENTE-FERROL: 7 (F01–F07 — NO entran en .tex hasta verificar)
-- Sin verificar: 3 (género + contexto europeo)
+- Total: **46 claims**
+- Supported: **35** | Media: **2** | Pendientes: **9** (6 Ferrol verificados + 1 Ferrol bloqueado + 2 abstractos)
+- **Estado Caso Ferrol (F01–F07)**: ¡Gran progreso! **6 de los 7 claims de Ferrol están VERIFICADOS y en estado `Supported`** (`F01` población, `F02` ubicación CHUF, `F03` distancias, `F04` horarios Alsa/Renfe, `F05` servicios mínimos y `F07` turnos).
+- **Restricción Activa**: El claim **`F06` (Distribución de género de la plantilla CHUF)** es el único que permanece bloqueado como `PENDIENTE-FERROL` y no puede insertarse en el `.tex` hasta obtener datos oficiales del SERGAS.
 
 ---
 
-## PRÓXIMA ACCIÓN
-Iniciar redacción del Capítulo 05 (Insights) a partir del esqueleto actual, estructurando los hallazgos y cruzándolos con los requisitos del servicio del Capítulo 04.
+## PRÓXIMAS ACCIONES (PLAN DE SPRINT)
+1. **Completar Cap 03**: Redactar la subsección §3.6 (Mapa de empatía) para cerrar la fase de usuario.
+2. **Completar Cap 06**: Redactar la subsección §6.4 (Grado de innovación del servicio) para cerrar los criterios.
+3. **Desarrollar Cap 07 (ADN del Concepto)**: Iniciar la redacción y diseño del Blueprint y el Journey Map.
+4. **Completar Cap 08 (Evaluación)**: Desarrollar el Pliego del servicio, la Matriz de evidencia y la Viabilidad.
 
-## CAPÍTULO ACTIVO
-Ninguno (Capítulo 04 finalizado con éxito).
-
-## ARCHIVOS MODIFICADOS EN ÚLTIMA SESIÓN
-- [01-bibliografia/TFM-ML-referencias.bib](01-bibliografia/TFM-ML-referencias.bib) (Añadidas entradas TrendHunter2026, Autodesk2026, iF2026, WGSNFutureConsumer2026)
-- [02-memoria/TFM-ML-cap04-mercado-tendencias.tex](02-memoria/TFM-ML-cap04-mercado-tendencias.tex) (Completada sección de tendencias §4.3 y limpieza de comentarios)
-- [00-proyecto/TFM-ML-PROJECT-STATUS.md](00-proyecto/TFM-ML-PROJECT-STATUS.md) (Actualizado status general de compilación y capítulos)
+---
 
 ## ADVERTENCIAS ABIERTAS
-- 7 claims PENDIENTE-FERROL bloqueados hasta verificación INE/SERGAS/EMT.
-- Capítulos cap05 y cap07–10 contienen solo marcadores \begin{pendiente}.
+- Únicamente el claim local `F06` permanece bloqueado por falta de datos oficiales del SERGAS.
+- Los capítulos 7, 9 y 10 constan únicamente de esqueletos estructurados con entornos `pendiente`.
