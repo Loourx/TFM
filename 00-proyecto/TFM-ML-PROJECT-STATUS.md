@@ -1,11 +1,11 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 20/05/2026*
+*Última actualización: 22/05/2026*
 
 ---
 
 ## COMPILACIÓN
-- Estado: ✅ PDF limpio — 44 páginas — 20/05/2026
+- Estado: ✅ PDF limpio — 49 páginas — 22/05/2026
 - Warnings activos: `undefined references` (capítulos vacíos cap05–09, esperado)
 - Comando: compile.ps1 desde 02-memoria/
 
@@ -18,7 +18,7 @@
 | 01 | TFM-ML-cap01-introduccion.tex | ✅ Redactado |
 | 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado |
 | 03 | TFM-ML-cap03-investigacion-usuario.tex | ✅ Redactado |
-| 04 | TFM-ML-cap04-mercado-tendencias.tex | 🔴 Pendiente (Esqueleto) |
+| 04 | TFM-ML-cap04-mercado-tendencias.tex | ✅ Redactado |
 | 05 | TFM-ML-cap05-insights.tex | 🔴 Pendiente (Esqueleto) |
 | 06 | TFM-ML-cap06-estrategias-diseno.tex | ✅ Redactado |
 | 07 | TFM-ML-cap07-adn-concepto.tex | 🔴 Pendiente (Esqueleto) |
@@ -30,8 +30,8 @@
 
 ## BIBLIOGRAFÍA
 - Archivo: TFM-ML-referencias.bib
-- Entradas totales: 58 claves
-- Última entrada añadida: LouridoRegueira2026 (confirmada presencia en .bib)
+- Entradas totales: 62 claves
+- Última entrada añadida: Autodesk2026 (confirmada presencia en .bib)
 
 ---
 
@@ -44,16 +44,16 @@
 ---
 
 ## PRÓXIMA ACCIÓN
-Definir estrategia de redacción para el Capítulo 05 basado en tecnología SAE L4.
+Iniciar redacción del Capítulo 05 (Insights) a partir del esqueleto actual, estructurando los hallazgos y cruzándolos con los requisitos del servicio del Capítulo 04.
 
 ## CAPÍTULO ACTIVO
-Ninguno (Fase de auditoría y configuración de entorno finalizada).
+Ninguno (Capítulo 04 finalizado con éxito).
 
 ## ARCHIVOS MODIFICADOS EN ÚLTIMA SESIÓN
-- [00-proyecto/TFM-ML-PROJECT-STATUS.md](00-proyecto/TFM-ML-PROJECT-STATUS.md) (Creado)
-- [.agents/skills/exit/SKILL.md](.agents/skills/exit/SKILL.md) (Creado)
-- [01-bibliografia/TFM-ML-referencias.bib](01-bibliografia/TFM-ML-referencias.bib) (Auditoría de claves)
+- [01-bibliografia/TFM-ML-referencias.bib](01-bibliografia/TFM-ML-referencias.bib) (Añadidas entradas TrendHunter2026, Autodesk2026, iF2026, WGSNFutureConsumer2026)
+- [02-memoria/TFM-ML-cap04-mercado-tendencias.tex](02-memoria/TFM-ML-cap04-mercado-tendencias.tex) (Completada sección de tendencias §4.3 y limpieza de comentarios)
+- [00-proyecto/TFM-ML-PROJECT-STATUS.md](00-proyecto/TFM-ML-PROJECT-STATUS.md) (Actualizado status general de compilación y capítulos)
 
 ## ADVERTENCIAS ABIERTAS
 - 7 claims PENDIENTE-FERROL bloqueados hasta verificación INE/SERGAS/EMT.
-- Capítulos cap05–09 contienen solo marcadores \begin{pendiente}.
+- Capítulos cap05 y cap07–10 contienen solo marcadores \begin{pendiente}.
