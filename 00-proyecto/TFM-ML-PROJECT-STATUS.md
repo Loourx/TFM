@@ -22,7 +22,7 @@
 | 05 | TFM-ML-cap05-insights.tex | ✅ Redactado | Redacción completada al 100%. Contiene los 5 insights de diseño estructurados con tensión, dato, observación y criterios. |
 | 06 | TFM-ML-cap06-estrategias-diseno.tex | ⚠️ Parcialmente redactado | QFD, MoSCoW y Valores del servicio listos. **PENDIENTE: §6.4 Grado de innovación del servicio** (bloque `pendiente`). |
 | 07 | TFM-ML-cap07-adn-concepto.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente` (Blueprint, Journey Map, Touchpoints, Espacio interior). |
-| 08 | TFM-ML-cap08-evaluacion.tex | ⚠️ Parcialmente redactado | **REDACTADO: §8.1 Análisis DAFO completo** (Fortalezas, Debilidades, Oportunidades y Amenazas). **PENDIENTE: Pliego, Matriz de evidencia y Viabilidad**. |
+| 08 | TFM-ML-cap08-evaluacion.tex | ⚠️ Parcialmente redactado | **REDACTADO: §8.1 Pliego de condiciones del servicio y §8.2 Análisis DAFO**. **PENDIENTE: §8.3 Matriz de evidencia, §8.4 Valor diferencial y §8.5 Viabilidad** (bloques `pendiente`). |
 | 09 | TFM-ML-cap09-conclusiones.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente` (Hallazgos, contribución, limitaciones, líneas futuras). |
 | 10 | TFM-ML-cap10-presupuesto.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente`. |
 
@@ -47,7 +47,7 @@
 1. **Completar Cap 03**: Redactar la subsección §3.6 (Mapa de empatía) para cerrar la fase de usuario.
 2. **Completar Cap 06**: Redactar la subsección §6.4 (Grado de innovación del servicio) para cerrar los criterios.
 3. **Desarrollar Cap 07 (ADN del Concepto)**: Iniciar la redacción y diseño del Blueprint y el Journey Map.
-4. **Completar Cap 08 (Evaluación)**: Desarrollar el Pliego del servicio, la Matriz de evidencia y la Viabilidad.
+4. **Completar Cap 08 (Evaluación)**: Desarrollar la Matriz de evidencia, el Valor diferencial y la Viabilidad.
 
 ---
 

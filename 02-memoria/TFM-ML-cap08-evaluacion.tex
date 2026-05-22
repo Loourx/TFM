@@ -1,6 +1,256 @@
 % !TEX root = TFM-ML-01-memoria-referencia.tex
 \section{Evaluación}\label{sec:evaluacion}\label{cap:replicabilidad}
 
+%% ══════════════════════════════════════════════════════
+%% §8.1 — PLIEGO DE CONDICIONES DEL SERVICIO
+%% Estado: REDACTADO
+%% Trazabilidad: insights (cap05) → QFD (cap06) → aquí → matriz §8.2
+%% ══════════════════════════════════════════════════════
+
+\subsection{Pliego de condiciones del servicio de movilidad nocturna}
+\label{sec:pliego}
+
+El presente pliego de condiciones establece el marco de requerimientos
+que debe satisfacer el concepto de servicio de movilidad nocturna para
+trabajadores sanitarios del corredor \acs{CHUF}--Ferrol. Actúa como
+documento de síntesis estratégica: formaliza las exigencias derivadas
+de la investigación de usuario y los criterios de diseño, y establece
+los ejes con los que se evaluará la propuesta en la sección~\ref{sec:matriz-evidencia}.
+
+%% ── 8.1.1 OBJETO DEL ENCARGO ──────────────────────────
+
+\subsubsection{Objeto del encargo}
+\label{sec:pliego-objeto}
+
+El presente pliego tiene por objeto establecer los requerimientos para
+el diseño de un \textbf{sistema de movilidad nocturna} orientado a
+resolver el vacío de cobertura de transporte público para trabajadores
+sanitarios a turnos en el corredor \acs{CHUF}--Ferrol, en la franja
+horaria de 22:00 a 08:00\,h.
+
+El servicio se articula como una red de nodos de aparcamiento
+disuasorio (\emph{Park \& Ride}) conectados al hospital mediante una
+lanzadera colectiva, sincronizada con los cambios de turno y diseñada
+desde las necesidades del usuario sanitario nocturno.
+
+El encargo se formula en el marco del Trabajo Fin de Máster en
+Ingeniería en Diseño Industrial (EUDI, Universidade da Coruña),
+Especialidad Automoción, Movilidad y Transporte. El alumno adopta
+el rol de Promotor--Diseñador, estableciendo las reglas desde la
+investigación empírica y evaluando la propuesta resultante contra
+dichas reglas.
+
+%% ── 8.1.2 DOCUMENTACIÓN DE REFERENCIA ────────────────
+
+\subsubsection{Documentación de referencia obligatoria}
+\label{sec:pliego-documentacion}
+
+La propuesta debe fundamentarse estrictamente en los siguientes
+análisis previos, desarrollados en los capítulos anteriores de
+esta memoria:
+
+\begin{itemize}
+  \item Análisis \acs{PESTEL} del macroentorno europeo de movilidad
+        nocturna (§\,\ref{sec:pestel}).
+  \item Caso de estudio Ferrol y mapa de stakeholders
+        (§\,\ref{sec:caso-ferrol}--\ref{sec:stakeholders}).
+  \item Benchmarking de pilotos europeos de movilidad autónoma en
+        entorno hospitalario (§\,\ref{sec:benchmarking}).
+  \item Perfiles de usuario y vulnerabilidades detectadas, construidos
+        sobre encuesta primaria $n = 167$
+        (§\,\ref{sec:perfil-usuario}).
+  \item Los cinco insights de diseño validados, con especial atención
+        a la fatiga al volante post-turno y la brecha de género en el
+        riesgo nocturno (§\,\ref{sec:insights-diseno}).
+  \item Criterios de diseño sintetizados mediante \acs{QFD} y
+        priorización \acs{MoSCoW} (§\,\ref{sec:qfd}--\ref{sec:moscow}).
+\end{itemize}
+
+%% ── 8.1.3 PERFIL DEL USUARIO OBJETIVO ────────────────
+
+\subsubsection{Perfil del usuario objetivo}
+\label{sec:pliego-usuario}
+
+El \textbf{perfil primario de diseño} es el personal de enfermería y
+\acs{TCAE} con turno nocturno fijo (22:00--08:00\,h), mujer en el
+91{,}0\,\% de los casos, con patrón de salida sincronizado por planta
+y mayor concentración numérica en la muestra
+\parencite{LouridoRegueira2026}.
+
+El \textbf{perfil secundario} corresponde al personal médico en régimen
+de guardia de atención continuada (15:00--08:00\,h o 24\,h en festivo),
+con horarios variables y menor volumen en la muestra.
+
+El servicio se diseña para el perfil primario. La flota y los nodos
+\acs{PR} se dimensionan a partir de este perfil. El servicio
+\textbf{no} opera en modalidad puerta a puerta: conecta nodos de
+aparcamiento periférico con el hospital, no domicilios con el hospital.
+
+%% ── 8.1.4 ESPECIFICACIONES DEL SERVICIO ──────────────
+
+\subsubsection{Especificaciones del servicio}
+\label{sec:pliego-especificaciones}
+
+Las especificaciones siguientes se derivan directamente de los insights
+de diseño (cap.~\ref{cap:insights}). Ninguna especificación puede
+formularse sin que un insight o dato verificado la respalde.
+
+\begin{description}
+  \item[E1 — Operación en franja 22:00--08:00\,h.]
+        El servicio opera exclusivamente durante la franja de mayor
+        riesgo de fatiga al volante post-turno, sin cobertura diurna.
+        \emph{Fuente: Insight~1 + Insight~3.}
+
+  \item[E2 — Nodos de embarque en zonas de aparcamiento libre o seguro.]
+        Los puntos de acceso al servicio se ubican en zonas donde el
+        trabajador puede dejar el vehículo sin coste ni demora,
+        eliminando la necesidad de aparcar en el recinto hospitalario.
+        \emph{Fuente: Insight~2.}
+
+  \item[E3 — Sincronización con cambios de turno.]
+        Los horarios de servicio se vinculan a los cambios de turno
+        principales (22:00, 00:00 y 07:30\,h), no a frecuencias
+        genéricas de red urbana.
+        \emph{Fuente: Insight~3 + perfil primario.}
+
+  \item[E4 — Modelo punto a punto: nodo P\&R → hospital.]
+        El servicio conecta nodos periféricos con el \acs{CHUF}, no
+        actúa como extensión de línea urbana ni como servicio
+        puerta a puerta.
+        \emph{Fuente: Insight~4.}
+
+  \item[E5 — Seguridad percibida para usuarias que viajan solas en
+        franja nocturna.]
+        El diseño del vehículo, los nodos de espera y los touchpoints
+        garantizan la accesibilidad y la seguridad percibida para la
+        usuaria principal, que viaja sola de noche en el 91{,}0\,\%
+        de los casos.
+        \emph{Fuente: Insight~5.}
+
+  \item[E6 — Mínimo esfuerzo cognitivo post-turno.]
+        La reserva, la espera y el embarque deben requerir el mínimo
+        esfuerzo cognitivo posible de una persona en estado de fatiga
+        tras 10--12\,h de turno nocturno.
+        \emph{Fuente: Insight~1.}
+
+  \item[E7 — Replicabilidad a corredores análogos.]
+        El modelo de servicio debe ser transferible a ciudades europeas
+        de 50.000--150.000 habitantes con hospital periférico y vacío
+        de transporte nocturno.
+        \emph{Fuente: argumento de replicabilidad (cap.~\ref{cap:replicabilidad}).}
+\end{description}
+
+%% ── 8.1.5 CRITERIOS DE EVALUACIÓN PONDERADOS ─────────
+
+\subsubsection{Criterios de evaluación de la propuesta}
+\label{sec:pliego-criterios}
+
+La propuesta de servicio resultante se evalúa contra tres ejes
+estratégicos. Cada eje tiene asignado un peso porcentual que
+refleja la prioridad metodológica derivada de la investigación
+de usuario. La evaluación detallada se desarrolla en la matriz
+de afirmaciones--evidencia (§\,\ref{sec:matriz-evidencia}).
+
+\paragraph{CE1 — Seguridad percibida y experiencia de usuario (40\,\%)}
+
+Evalúa en qué medida el diseño responde a las fricciones emocionales
+documentadas: reducción del riesgo de fatiga al volante post-turno y
+garantía de seguridad percibida para usuarias que viajan solas en
+franja nocturna. Abarca el diseño del espacio interior, los nodos de
+espera y la interacción con el sistema.
+\emph{Especificaciones evaluadas: E5, E6.}
+
+\paragraph{CE2 — Eficiencia logística y diferencial frente al modelo actual (30\,\%)}
+
+Evalúa la coherencia operativa del servicio: sincronización con los
+cambios de turno, eliminación del coste oculto del aparcamiento y
+diferencial respecto al transporte público existente en la franja
+nocturna.
+\emph{Especificaciones evaluadas: E1, E2, E3, E4.}
+
+\paragraph{CE3 — Viabilidad técnica, operativa y replicabilidad (30\,\%)}
+
+Evalúa la factibilidad de operación del servicio en el corredor
+\acs{CHUF}--Ferrol, su integración en el ecosistema de actores
+(\acs{SERGAS}, Concello, operadores de transporte) y la
+transferibilidad del modelo a corredores análogos en Europa.
+\emph{Especificaciones evaluadas: E7 + compatibilidad stakeholders.}
+
+%% ── 8.1.6 ENTREGABLES DEL PROYECTO ───────────────────
+
+\subsubsection{Entregables del proyecto}
+\label{sec:pliego-entregables}
+
+Se requieren los siguientes entregables de diseño de servicio,
+desarrollados en el cap.~\ref{cap:concepto}:
+
+\begin{itemize}
+  \item \emph{Service Blueprint} completo de la operation del servicio.
+  \item \emph{Journey Map} de la usuaria primaria (enfermera/\acs{TCAE},
+        turno 22:00--08:00\,h).
+  \item Diseño de \emph{touchpoints} del servicio (reserva, espera,
+        embarque y desembarque).
+  \item Principios de diseño del espacio interior y de la interfaz
+        hombre-máquina (\acs{HMI}).
+  \item Modelo de negocio conceptual (\emph{Business Model Canvas}).
+\end{itemize}
+
+%% ── 8.1.7 MARCO NORMATIVO Y CONDICIONES DEL SERVICIO ─
+
+\subsubsection{Marco normativo y condiciones del servicio}
+\label{sec:pliego-normativa}
+
+El diseño del servicio debe ser compatible con el marco normativo
+vigente en materia de transporte de viajeros, accesibilidad y
+protección de datos:
+
+\begin{itemize}
+  \item \textbf{Reglamento (UE) n.\textsuperscript{o} 181/2011} del
+        Parlamento Europeo y del Consejo, de 16 de febrero de 2011,
+        sobre derechos de los viajeros de autobús y autocar. Aplica
+        en materia de no discriminación, accesibilidad para personas
+        con discapacidad o movilidad reducida, e información al
+        usuario.
+  \item \textbf{Real Decreto 1544/2007}, de 23 de noviembre, por el
+        que se regulan las condiciones básicas de accesibilidad y no
+        discriminación para el acceso y utilización de los modos de
+        transporte para personas con discapacidad (modificado por
+        RD\,537/2019 y RD\,193/2023).
+  \item \textbf{Reglamento Delegado (UE) 2024/490} de la Comisión,
+        de 29 de noviembre de 2023, sobre suministro de servicios de
+        información sobre desplazamientos multimodales. Cubre
+        explícitamente los servicios de «autobús lanzadera» y
+        «transporte público a la demanda».
+  \item \textbf{Directiva (UE) 2023/2661} del Parlamento Europeo
+        y del Consejo, de 22 de noviembre de 2023, que modifica
+        la Directiva 2010/40/UE sobre Sistemas de Transporte
+        Inteligentes (STI), marco legal aplicable a la movilidad
+        automatizada.
+  \item \textbf{Recomendación (UE) 2023/550} de la Comisión, de
+        8 de marzo de 2023, sobre planes de movilidad urbana
+        sostenible. Establece que los municipios incluyan movilidad
+        compartida nocturna en sus planes de movilidad.
+  \item \textbf{Reglamento (UE) 2016/679} (RGPD), sobre protección
+        de datos de carácter personal. Aplica al tratamiento de datos
+        de reserva y uso del servicio por parte de los usuarios.
+\end{itemize}
+
+%% ── 8.1.8 PLAZOS ──────────────────────────────────────
+
+\subsubsection{Plazos}
+\label{sec:pliego-plazos}
+
+El presente pliego regula el horizonte de diseño del proyecto, no el
+horizonte de implementación del servicio. Este último se declara en
+el alcance del \acs{TFM} (§\,\ref{sec:alcance}).
+
+El desarrollo completo del concepto de servicio —desde el cierre de
+los criterios de diseño hasta la entrega de los entregables listados
+en §\,\ref{sec:pliego-entregables}— se enmarca en el calendario del
+\acs{TFM}, con fecha de entrega en junio de 2026. La estimación de
+horas de desarrollo se recoge en el capítulo de presupuesto
+(cap.~\ref{cap:presupuesto}).
+
 \subsection{DAFO del servicio propuesto}\label{sec:dafo}
 
 El análisis DAFO evalúa el concepto de servicio propuesto desde
@@ -153,10 +403,7 @@ amenazas del contexto en el que opera el corredor CHUF--Ferrol).
 \end{figure}
 
 
-\subsection{Pliego de condiciones del servicio}
-\label{sec:pliego}
-\begin{pendiente}
-\end{pendiente}
+
 
 \subsection{Matriz de afirmaciones-evidencia}
 \label{sec:matriz-evidencia}
