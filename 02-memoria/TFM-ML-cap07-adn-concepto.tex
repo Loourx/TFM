@@ -3,38 +3,475 @@
 
 \subsection{Descripción del concepto}
 \label{sec:descripcion-concepto}
-\begin{pendiente}
-\end{pendiente}
 
-\subsection{Arquitectura del servicio P+R}
-\label{sec:arquitectura-pr}
-\begin{pendiente}
-\end{pendiente}
+El servicio propuesto cubre el vacío de transporte público en la
+franja 22:00--08:00 para el personal sanitario de turno nocturno
+en el corredor \acs{CHUF}--Ferrol. Su premisa de diseño es una
+sola: quien acaba de trabajar doce horas no debe conducir para
+llegar a casa.
+
+El servicio se articula sobre tres principios no negociables,
+derivados directamente de la investigación primaria. Primero,
+la sincronización con el turno: el transporte sale cuando sale
+el trabajador, no cuando conviene a la red. Segundo, la ausencia
+de fricción cognitiva: acceso por suscripción mensual, sin
+decisión de gasto en el momento del viaje. Tercero, la seguridad
+percibida como requisito de diseño: el 90,8\,\% de las mujeres
+de la muestra presenta riesgo de fatiga al volante en franja
+nocturna; el servicio debe ser la alternativa más segura, no solo
+la más conveniente~\parencite{LouridoRegueira2026}.
+
+El modelo de gobernanza implica al \acs{CHUF} o al \acs{SERGAS}
+como socio operativo: conocen los turnos, la variabilidad de
+salida por planta y las excepciones. Sin ese socio, la
+sincronización no es posible.
 
 \subsection{Evaluación de candidatos tecnológicos}
 \label{sec:evaluacion-candidatos}
-\begin{pendiente}
-\end{pendiente}
 
-\subsection{Service blueprint}
+Los cuatro modelos de servicio descritos en
+§\ref{sec:panorama-soluciones} se evalúan frente a los cinco
+criterios de mayor peso relativo del~\acs{QFD}
+(§\ref{sec:qfd}): regularidad confiable, uso sin reserva previa,
+cobertura desde el municipio de origen, viabilidad económica del
+desplazamiento y tiempo de descanso real tras el turno
+\parencite{LouridoRegueira2026}. Se añade un sexto criterio
+transversal: seguridad percibida para usuarias que viajan solas
+en franja nocturna, derivado del Insight~5
+(§\ref{sec:insight-5}). La escala utilizada es: \textbf{+}~cumple,
+\textbf{$\circ$}~cumple parcialmente, \textbf{-}~no cumple.
+
+\begin{table}[htbp]
+\centering
+\caption{Evaluación de candidatos frente a criterios de diseño.
+  Elaboración propia a partir de \parencite{LouridoRegueira2026,
+  AVENUE2023, SHOW2024Legacy, Estrada2021,
+  K2Centrum2025DRT, Stagecoach2020Hull}.}
+\label{tab:evaluacion-candidatos}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Criterio} &
+\textbf{Línea nocturna} &
+\textbf{DRT} &
+\textbf{Ride-hailing} &
+\textbf{AV corredor fijo} \\
+\midrule
+Regularidad confiable &
+  $\circ$ & $\circ$ & + & + \\
+Sin reserva previa &
+  + & - & $\circ$ & + \\
+Cobertura municipio origen &
+  - & + & + & + \\
+Viabilidad económica &
+  - & $\circ$ & - & + \\
+Descanso real post-turno &
+  - & $\circ$ & + & + \\
+Seguridad percibida nocturna &
+  - & $\circ$ & + & + \\
+\midrule
+\textbf{Total (+)} &
+  1 & 1 & 4 & 6 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+La extensión de línea nocturna convencional obtiene el peor
+resultado: su estructura de red fija no permite cobertura desde
+municipios externos ni sincronización con cambios de turno, y su
+rentabilidad en franja nocturna es estructuralmente negativa
+\parencite{Estrada2021}. El~\acs{DRT} mejora la cobertura
+geográfica pero requiere reserva previa, requisito que la encuesta
+clasifica como Must~Have en negativo: el 52,7\,\% de la muestra
+conduce fatigada y no puede asumir fricción cognitiva adicional
+post-turno~\parencite{LouridoRegueira2026}. El ride-hailing
+institucional cubre cuatro criterios pero su coste por viaje es
+estructuralmente inasumible a escala: el precedente de Sofía
+documenta más de 1.020~€ mensuales por empleador en desplazamientos
+nocturnos en taxi~\parencite{PlyushetvaBoussauw2020}.
+
+El vehículo autónomo SAE~L4 en corredor fijo es el único candidato
+que cubre los seis criterios. La operación en corredor geofenciado
+elimina el coste del conductor a largo plazo, permite horarios
+fijos sincronizados con los turnos sin reserva previa y habilita
+el diseño del espacio interior desde criterios de seguridad
+percibida. Los pilotos europeos validan esta arquitectura en
+contexto hospitalario: el~\acs{CHU} de~Rennes y el campus
+Belle-Idée de~Ginebra operan modelos equivalentes con resultados
+documentados de aceptación superiores a~7 sobre~9 en escala
+Likert~\parencite{SHOW2024Legacy, AVENUE2023}. La brecha de
+madurez en operación nocturna plena (TRL~4--5 a 2026) justifica
+el horizonte 2035 como condición de implantación, no como
+limitación del modelo.
+
+La tecnología seleccionada es, por tanto, el vehículo autónomo
+eléctrico SAE~L4 en corredor fijo. La arquitectura del servicio
+que instrumenta esta selección se desarrolla en la sección
+siguiente.
+
+\subsection{Arquitectura del servicio}
+\label{sec:arquitectura-pr}
+
+La arquitectura del servicio instrumenta la selección realizada
+en~§\ref{sec:evaluacion-candidatos}: vehículo autónomo eléctrico
+SAE~L4 en corredor fijo, con nodos de aparcamiento disuasorio
+en los accesos al \acs{CHUF}.
+
+\subsubsection{Nodos de embarque (Park \& Ride)}
+
+Los trabajadores que residen en municipios externos a Ferrol
+(38,9\,\% de la muestra) o en barrios periféricos
+(10,2\,\%)~\parencite{LouridoRegueira2026} no pueden ser
+recogidos en su domicilio: el servicio no es puerta a puerta.
+Los nodos de embarque se sitúan en zonas de aparcamiento libre
+o de bajo coste próximas a los ejes de acceso al corredor, de
+forma que el trabajador deja el coche fuera del radio de
+saturación del hospital y completa el trayecto en la lanzadera.
+La localización definitiva de los nodos requiere análisis
+cartográfico con datos de flujo de origen-destino del personal
+del \acs{CHUF}, fuera del alcance de este trabajo.
+
+\subsubsection{Lanzadera en corredor fijo}
+
+La lanzadera opera en el corredor entre los nodos de embarque
+y el \acs{CHUF} (4,2--5,2~km)~\parencite{SERGASFerrol2025}.
+Los horarios están fijados sobre los cambios de turno
+documentados: salida del hospital a las 08:00 y llegada al
+hospital a las 22:00~\parencite{XuntaGalicia2025dog}. La
+operación en corredor geofenciado y de trayecto predecible
+elimina las principales limitaciones de los pilotos SAE~L4 en
+entorno urbano abierto y permite planificar la recarga de flota
+sincronizada con los periodos de baja demanda entre turnos.
+
+\subsubsection{Modelo de acceso}
+
+El acceso al servicio se estructura mediante suscripción mensual
+(bono), eliminando la decisión de gasto en el momento del viaje.
+Esta preferencia la expresa espontáneamente la Participante~1:
+«Que fuera un bono de pagar X dinero al mes» (entrevista
+semiestructurada, 22~de mayo de 2026). El coste del bono se
+plantea como beneficio social cofinanciado entre el \acs{SERGAS}
+y el trabajador, comparable en valor a la alternativa que
+sustituye: el aparcamiento hospitalario de pago (~80~€/mes,
+dato encuesta~\parencite{LouridoRegueira2026}).
+
+\subsection{Service Blueprint}
 \label{sec:service-blueprint}
-\begin{pendiente}
-\end{pendiente}
+
+El Service Blueprint mapea la operativa completa del servicio
+de movilidad nocturna~CHUF--Ferrol in cuatro capas: las acciones
+del usuario, el frontstage (interacciones visibles), el backstage
+(operaciones invisibles) y los procesos de soporte. Su punto de
+partida es la secuencia de acciones del usuario primario
+(enfermera/\acs{TCAE}, turno 22:00--08:00), derivada del Journey
+Map (§\ref{sec:journey-map}).
+
+\begin{figure}[htbp]
+  \centering
+  \fbox{\rule{0pt}{12cm}\rule{0.95\textwidth}{0pt}}
+  % Sustituir por:
+  % \includegraphics[width=\textwidth]{../03-graficas/TFM-ML-GFX-blueprint.pdf}
+  \caption{Service Blueprint del servicio de movilidad nocturna
+    \acs{CHUF}--Ferrol. Elaboración propia.}
+  \label{fig:blueprint}
+\end{figure}
+
+\subsubsection{Acciones del usuario}
+
+La secuencia comprende ocho pasos: (1)~llegada al nodo de embarque
+en coche propio y aparcamiento; (2)~espera de la lanzadera
+(máximo 15~minutos, criterio Must~Have del \acs{QFD}); (3)~validación
+del bono y embarque; (4)~trayecto a bordo hasta el~\acs{CHUF};
+(5)~desembarque e inicio del turno; (6)~espera post-turno en el área
+de embarque del~\acs{CHUF}; (7)~trayecto de vuelta a bordo; y
+(8)~desembarque en el nodo y recuperación del vehículo propio.
+
+\subsubsection{Frontstage}
+
+Las interacciones visibles para el usuario incluyen: la señalización
+del nodo de embarque y el panel de información en tiempo real
+(hora de llegada de la lanzadera, ocupación disponible); el exterior
+del vehículo y su sistema de comunicación~eHMI (señales de estado,
+apertura de puertas, indicación de inicio de marcha); el espacio
+interior (iluminación, asientos, sistema de comunicación de
+emergencia a bordo); y el canal de validación del bono (tarjeta o
+aplicación móvil).
+
+\subsubsection{Backstage}
+
+Las operaciones invisibles para el usuario son: la supervisión
+remota del vehículo por un operador (requisito normativo durante
+el periodo SAE~L4~\parencite{AVENUE2023}); la sincronización
+automática del horario de la lanzadera con el sistema de turnos
+del~\acs{CHUF}; la gestión de incidencias técnicas; y la
+planificación de la recarga de flota en los periodos entre
+cambios de turno.
+
+\subsubsection{Procesos de soporte}
+
+Los sistemas de fondo que sostienen la operación son: el software
+de conducción autónoma y los mapas de alta definición del
+corredor~\parencite{SHOWd812020}; el contrato de gobernanza entre
+el operador del servicio y el~\acs{SERGAS}/\acs{CHUF}; el marco
+de autorización~ES-AV de la~\acs{DGT}~\parencite{DGTESAV2026};
+el sistema de suscripción y facturación del bono mensual; y la
+infraestructura de recarga eléctrica en el nodo del~\acs{CHUF}.
+
+Los momentos de mayor tensión para el usuario (momentos de la
+verdad) se concentran en dos puntos: la espera nocturna en el
+nodo de embarque, donde la seguridad percibida es el factor
+crítico, y la comunicación del vehículo autónomo mediante~eHMI,
+donde la legibilidad del estado del sistema determina la
+confianza en el servicio. Ambos momentos se abordan en el
+diseño de touchpoints (§\ref{sec:touchpoints}) y en los
+principios de diseño del espacio interior
+(§\ref{sec:espacio-interior}).
 
 \subsection{Journey map del usuario principal}
 \label{sec:journey-map}
-\begin{pendiente}
-\end{pendiente}
+
+El Journey Map representa la experiencia del usuario
+primario (enfermera/\acs{TCAE}, turno 22:00--08:00) a lo
+largo de las ocho fases del servicio: pre-viaje, espera
+en nodo, embarque, trayecto de ida, llegada al~\acs{CHUF},
+espera post-turno, trayecto de vuelta y llegada al nodo.
+Cada fase se mapea en seis capas: acciones del usuario,
+interacción con el sistema, puntos de contacto, fricciones,
+emociones y oportunidades de diseño
+\parencite{LouridoRegueira2026}.
+
+\begin{figure}[htbp]
+  \centering
+  \fbox{\rule{0pt}{10cm}\rule{0.95\textwidth}{0pt}}
+  % Sustituir por:
+  % \includegraphics[width=\textwidth]{../03-graficas/TFM-ML-GFX-journey-map.pdf}
+  \caption{Journey Map del usuario primario. Enfermera/\acs{TCAE},
+    turno 22:00--08:00, corredor \acs{CHUF}--Ferrol.
+    Elaboración propia a partir de \parencite{LouridoRegueira2026}
+    y entrevista semiestructurada (Participante~1, mayo de 2026).}
+  \label{fig:journey-map}
+\end{figure}
+
+La curva emocional identifica dos momentos de máxima
+tensión: la espera nocturna en el nodo de embarque
+(inseguridad percibida, fase~2) y la espera post-turno
+en el~\acs{CHUF} tras doce horas de trabajo (fatiga
+acumulada, fase~6). Los dos picos de satisfacción se
+producen en el trayecto a bordo, tanto de ida como de
+vuelta: el servicio convierte el desplazamiento en tiempo
+de descanso real. Estos momentos orientan el diseño de
+touchpoints (§\ref{sec:touchpoints}) y los principios
+del espacio interior (§\ref{sec:espacio-interior}).
 
 \subsection{Diseño de touchpoints}
 \label{sec:touchpoints}
-\begin{pendiente}
-\end{pendiente}
+
+Los puntos de contacto del servicio se desarrollan en profundidad
+en aquellos momentos en que la propuesta de valor se juega frente
+al usuario: donde la fricción es extrema o donde el servicio puede
+generar una alegría esencial que ninguna alternativa ofrece. El
+criterio de selección aplica directamente los resultados del
+Journey Map (§\ref{sec:journey-map}) y la priorización del
+\acs{QFD} (§\ref{sec:qfd}).
+
+\subsubsection{TP1 — Nodo de espera nocturno}
+\label{sec:tp1}
+
+\textbf{Canal:} físico (espacio de espera en el nodo P+R).
+\textbf{Insight de referencia:} Insight~5 (brecha de género en el
+riesgo). El 90,8\,\% de las mujeres de la muestra presenta riesgo
+de fatiga al volante en franja nocturna; la espera solitaria en
+exterior es el pico de mayor vulnerabilidad percibida del Journey
+Map~\parencite{LouridoRegueira2026}.
+
+\textbf{Principio de diseño:} El nodo debe reducir activamente la
+percepción de inseguridad, no limitarse a ser funcional. Los
+elementos de diseño prioritarios son: iluminación perimetral de
+alta intensidad en toda la zona de espera; panel de información
+en tiempo real con cuenta atrás hasta la llegada de la lanzadera
+(elimina la incertidumbre de espera); botón de presencia conectado
+al centro de supervisión remota del servicio; y cobertura de red
+garantizada para comunicación del usuario.
+
+\subsubsection{TP2 — Sistema de validación del bono (embarque)}
+\label{sec:tp2}
+
+\textbf{Canal:} digital/físico híbrido (tarjeta NFC o aplicación
+móvil + lector en el acceso al vehículo).
+\textbf{Insight de referencia:} Insight~1 (fatiga al volante como
+norma). El usuario embarca tras esperar en exterior nocturno o
+tras doce horas de turno. El sistema de validación no puede
+añadir fricción cognitiva en ese momento.
+
+\textbf{Principio de diseño:} El sistema debe funcionar a la
+primera en condiciones adversas (frío, guantes, manos mojadas,
+baja iluminación). El bono mensual elimina la decisión de pago
+por viaje~(Participante~1, entrevista semiestructurada, 22~de mayo
+de 2026). El protocolo de fallo debe ser permisivo: ante error
+de lectura, el sistema permite el embarque y registra la
+incidencia; nunca bloquea el acceso.
+
+\subsubsection{TP3 — eHMI de la lanzadera autónoma}
+\label{sec:tp3}
+
+\textbf{Canal:} físico/digital (interfaz externa del vehículo
+autónomo, visible desde el nodo de espera).
+\textbf{Insight de referencia:} Insight~4 (demanda espontánea de
+shuttle). La aceptación del vehículo autónomo depende de que el
+usuario entienda su estado en todo momento. Los pilotos~SHOW
+documentan que la aceptación supera 7 sobre~9 en escala
+Likert cuando el servicio responde a necesidades
+reales~\parencite{SHOW2024Legacy}.
+
+\textbf{Principio de diseño:} El~\acs{eHMI} debe comunicar cuatro
+estados de forma legible desde 10~m de distancia y con baja
+iluminación: en camino, llegando, puerta abierta y en marcha.
+El lenguaje visual debe ser interpretable sin conocimiento previo
+del sistema, priorizando iconografía sobre texto.
+
+\subsubsection{TP4 — Espacio interior de la lanzadera}
+\label{sec:tp4}
+
+\textbf{Canal:} físico (habitáculo del vehículo).
+\textbf{Insight de referencia:} Insight~1 y~5. El trayecto es el
+único momento del ciclo en que el servicio puede convertir el
+desplazamiento en descanso activo. Los picos de satisfacción del
+Journey Map se producen exactamente en las fases de trayecto
+(fases~4 y~7).
+
+\textbf{Principio de diseño:} El espacio interior debe facilitar
+el descanso en trayectos cortos (4,2--5,2~km,
+aproximadamente 10--15~min). Los elementos prioritarios son:
+iluminación regulable de baja temperatura de color para el
+trayecto de vuelta post-turno; asientos con respaldo alto y
+apoyo cervical; nivel de ruido interior reducido; y pantalla de
+información no intrusiva (sin publicidad, sin notificaciones).
+Los principios de diseño del espacio interior se desarrollan
+en detalle en §\ref{sec:espacio-interior}.
 
 \subsection{Principios de diseño del espacio interior}
 \label{sec:espacio-interior}
-\begin{pendiente}
-\end{pendiente}
+
+Los principios de diseño del espacio de la lanzadera y del nodo
+de espera se formulan siguiendo la cadena metodológica: cada
+principio parte de una necesidad documentada en la investigación
+de usuario, define la respuesta de valor del servicio, establece
+su implicación espacial y formula un criterio de diseño abierto
+que orienta sin cerrar la solución~\parencite{LouridoRegueira2026}.
+
+%% ── PRINCIPIO 1 ─────────────────────────────────────────────
+
+\subsubsection{P1 — El trayecto como tiempo de recuperación}
+\label{sec:p1-descanso}
+
+\textbf{Necesidad:} El 52,7\,\% de la muestra conduce con sueño
+o fatiga varias veces a la semana. La fatiga post-turno no
+desaparece al subir a la lanzadera: el sistema de movilidad debe
+no añadir carga~\parencite{LouridoRegueira2026}.
+
+\textbf{Respuesta de valor:} El servicio convierte el trayecto
+en tiempo de recuperación, no en tiempo muerto de desplazamiento.
+
+\textbf{Implicación espacial:} El habitáculo debe reducir la
+estimulación sensorial y permitir el descanso pasivo en
+10--15~minutos de trayecto.
+
+\textbf{Criterio de diseño:} El espacio interior debe minimizar
+los estímulos no solicitados (lumínicos, acústicos, visuales)
+y facilitar una postura de reposo accesible desde el primer
+momento de uso.
+
+%% ── PRINCIPIO 2 ─────────────────────────────────────────────
+
+\subsubsection{P2 — Iluminación diferenciada por dirección del viaje}
+\label{sec:p2-iluminacion}
+
+\textbf{Necesidad:} La lanzadera opera en dos direcciones con
+objetivos biológicos opuestos: el trayecto de ida (22:00) prepara
+para el trabajo; el de vuelta (08:00) facilita la
+desactivación post-turno.
+
+\textbf{Respuesta de valor:} El servicio adapta el entorno
+lumínico al estado fisiológico del usuario en cada dirección.
+
+\textbf{Implicación espacial:} La iluminación interior debe poder
+variar en temperatura de color e intensidad según la franja
+horaria y la dirección del trayecto.
+
+\textbf{Criterio de diseño:} El sistema de iluminación del
+habitáculo debe soportar al menos dos perfiles de uso: uno de
+activación para el trayecto de ida y uno de baja intensidad y
+temperatura cálida para el trayecto de vuelta post-turno.
+
+%% ── PRINCIPIO 3 ─────────────────────────────────────────────
+
+\subsubsection{P3 — Seguridad percibida como parámetro de diseño}
+\label{sec:p3-seguridad}
+
+\textbf{Necesidad:} El 90,8\,\% de las mujeres de la muestra
+presenta riesgo de fatiga al volante con frecuencia igual o
+superior a varias veces al mes, en una muestra 91,0\,\% femenina.
+La inseguridad percibida en espera nocturna solitaria es el
+pico de mayor tensión del Journey Map~\parencite{LouridoRegueira2026}.
+
+\textbf{Respuesta de valor:} El servicio hace visible la presencia
+institucional del sistema en todo momento: el usuario no está solo.
+
+\textbf{Implicación espacial:} El habitáculo y el nodo de espera
+deben comunicar supervisión activa sin crear sensación de
+vigilancia invasiva.
+
+\textbf{Criterio de diseño:} El diseño del espacio interior y del
+nodo debe incluir elements que hagan perceptible la presencia del
+operador remoto del servicio (indicadores de estado activo,
+canal de comunicación accesible) sin requerir acción del usuario
+para activarlos.
+
+%% ── PRINCIPIO 4 ─────────────────────────────────────────────
+
+\subsubsection{P4 — Interacción sin carga cognitiva}
+\label{sec:p4-cognitivo}
+
+\textbf{Necesidad:} El usuario que embarca o desembarca lo hace
+en estado de fatiga avanzada. Cualquier acción que requiera
+lectura, decisión o secuencia de pasos genera fricción en el
+momento de mayor vulnerabilidad.
+
+\textbf{Respuesta de valor:} El servicio elimina toda interacción
+no estrictamente necesaria durante el embarque y el trayecto.
+
+\textbf{Implicación espacial:} La disposición interior debe ser
+autoexplicativa: el usuario debe saber dónde sentarse, cómo
+salir y cómo comunicar una emergencia sin necesidad de
+instrucciones.
+
+\textbf{Criterio de diseño:} El espacio interior debe organizarse
+según una lógica de uso evidente desde la entrada, con un máximo
+de dos acciones posibles para el usuario durante el trayecto:
+sentarse y, si es necesario, activar el canal de emergencia.
+
+%% ── PRINCIPIO 5 ─────────────────────────────────────────────
+
+\subsubsection{P5 — Nodo de espera como extensión del servicio}
+\label{sec:p5-nodo}
+
+\textbf{Necesidad:} La espera en el nodo es el punto de mayor
+vulnerabilidad percibida del Journey Map. El servicio empieza
+antes de que llegue la lanzadera.
+
+\textbf{Respuesta de valor:} El nodo no es una parada de
+autobús; es el primer elemento del servicio con el que el
+usuario interactúa.
+
+\textbf{Implicación espacial:} El espacio de espera debe reducir
+la exposición al entorno exterior nocturno sin crear un recinto
+cerrado que genere sensación de trampa.
+
+\textbf{Criterio de diseño:} El diseño del nodo debe garantizar
+visibilidad hacia el exterior desde dentro del espacio de espera,
+iluminación activa perimetral y acceso visual al panel de
+información del servicio sin necesidad de desplazamiento dentro
+del nodo.
 
 \subsection{Modelo de negocio}
 \label{sec:modelo-negocio}
