@@ -30,8 +30,8 @@
 
 ## BIBLIOGRAFÍA
 - Archivo: `01-bibliografia/TFM-ML-referencias.bib`
-- Entradas totales: **62 claves**
-- Incorporaciones cualitativas (esta sesión): Integración de citas directas de la entrevista semiestructurada (Participante 1, mayo de 2026), registradas de forma no bibliográfica como cita cualitativa según directrices académicas (Anexo A).
+- Entradas totales: **64 claves**
+- Incorporaciones cualitativas: Integración de citas directas de la entrevista semiestructurada (Participante 1, mayo de 2026), registradas de forma no bibliográfica como cita cualitativa según directrices académicas (Anexo A). Nuevas referencias incorporadas para Eurofound (2020) y SERGAS Ferrol (2025).
 
 ---
 
