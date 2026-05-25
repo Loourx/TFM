@@ -39,6 +39,7 @@ Esta skill automatiza el proceso de commit siguiendo las mejores prácticas de i
 - **Commits Atómicos**: No mezclar correcciones de bibliografía con nuevas redacciones de capítulos.
 - **Idioma**: Los mensajes de commit deben estar en castellano o inglés según la preferencia detectada, pero con el prefijo tipo en inglés (`feat`, `fix`, etc.).
 - **Seguridad**: Nunca hacer `git add .` a ciegas. Validar siempre qué se va a añadir.
+- **Estado del Proyecto**: Asegurar que `00-proyecto/TFM-ML-PROJECT-STATUS.md` esté completamente al día antes de realizar el commit. Si se han realizado cambios en capítulos, bibliografía, claims o estructura de archivos, dicho archivo debe actualizarse de forma previa para reflejar fielmente el estado actual antes de commitear.
 
 ## Comandos Útiles para el Agente
 
