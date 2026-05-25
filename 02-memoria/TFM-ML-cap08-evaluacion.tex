@@ -28,10 +28,11 @@ resolver el vacío de cobertura de transporte público para trabajadores
 sanitarios a turnos en el corredor \acs{CHUF}--Ferrol, en la franja
 horaria de 22:00 a 08:00\,h.
 
-El servicio se articula como una red de nodos de aparcamiento
-disuasorio (\emph{Park \& Ride}) conectados al hospital mediante una
-lanzadera colectiva, sincronizada con los cambios de turno y diseñada
-desde las necesidades del usuario sanitario nocturno.
+La arquitectura del servicio (puntos de embarque, modo de captación
+de demanda y tecnología habilitadora) se determina en el
+capítulo~\ref{cap:adn-concepto} tras la evaluación de candidatos
+(§\ref{sec:evaluacion-candidatos}). Los requerimientos que siguen son
+independientes de esa selección.
 
 El encargo se formula en el marco del Trabajo Fin de Máster en
 Ingeniería en Diseño Industrial (EUDI, Universidade da Coruña),
@@ -415,13 +416,192 @@ amenazas del contexto en el que opera el corredor CHUF--Ferrol).
 
 \subsection{Matriz de afirmaciones-evidencia}
 \label{sec:matriz-evidencia}
-\begin{pendiente}
-\end{pendiente}
+
+La matriz evalúa las afirmaciones centrales del proyecto,
+clasificando cada una según su estado de validación
+(Supported / Contested / Undetermined) y el nivel de confianza
+de la evidencia que la respalda (Alta / Media / Baja). Una
+afirmación es Supported solo si existe fuente primaria
+verificable o precedente operativo documentado que la sustente
+de forma directa~\parencite{LouridoRegueira2026}.
+
+\begin{table}[htbp]
+\centering
+\caption{Matriz de afirmaciones-evidencia del proyecto.
+  Elaboración propia.}
+\label{tab:matriz-evidencia}
+\small
+\begin{tabularx}{\textwidth}{p{5.2cm} c c p{4.8cm}}
+\toprule
+\textbf{Afirmación} &
+\textbf{Estado} &
+\textbf{Nivel} &
+\textbf{Evidencia} \\
+\midrule
+
+Existe vacío de transporte público en el corredor
+\acs{CHUF}--Ferrol en franja 22:00--06:00 &
+Supported & Alta &
+Horarios Alsa Ferrol y Renfe Cercanías;
+39/167 encuestados sin servicio
+\parencite{Alsaferrol2024horarios,
+RenfeCercaniasFerrol2026,
+LouridoRegueira2026} \\
+\addlinespace
+
+El 52,7\,\% de la muestra conduce con sueño o fatiga
+varias veces a la semana &
+Supported & Alta &
+Encuesta primaria n=167; índice de gravedad
+60,2/100~\parencite{LouridoRegueira2026} \\
+\addlinespace
+
+La brecha de género en riesgo de fatiga al volante
+justifica un enfoque de diseño diferenciado &
+Supported & Alta &
+90,8\,\% mujeres vs. 53,8\,\% hombres en muestra
+91\,\% femenina~\parencite{LouridoRegueira2026} \\
+\addlinespace
+
+El modelo lanzadera en corredor hospitalario es viable
+en contexto europeo &
+Supported & Alta &
+\acs{CHU} de~Rennes y Belle-Idée~(Ginebra) en operación
+regular~\parencite{SHOW2024Legacy,AVENUE2023} \\
+\addlinespace
+
+La aceptación del shuttle autónomo entre usuarios de
+transporte público es favorable &
+Supported & Media &
+Valoración media $>$7/9 Likert en pilotos SHOW; contexto
+diurno, no nocturno~\parencite{SHOW2024Legacy} \\
+\addlinespace
+
+La operación \acs{SAE}~L4 nocturna es técnicamente viable
+a 2026 &
+Contested & Baja &
+Pilotos SHOW documentan limitaciones de sensórica en baja
+iluminación; brecha TRL~4--5 nocturno~\parencite{SHOW2024Legacy} \\
+\addlinespace
+
+La operación \acs{SAE}~L4 nocturna será viable en el
+horizonte 2035 &
+Undetermined & Media &
+No existe piloto nocturno documentado a esta fecha; el
+horizonte 2035 es una proyección razonada, no un dato
+verificado~\parencite{KonstantasAVENUE2023lessons} \\
+\addlinespace
+
+El acceso por bono mensual es el modelo preferido por
+el usuario &
+Supported & Baja &
+Preferencia expresada por Participante~1 (n=1); no
+generalizable desde una sola entrevista
+(Participante~1, mayo de 2026) \\
+\addlinespace
+
+El servicio es replicable en ciudades europeas de
+50.000--150.000 hab. con hospital periférico &
+Supported & Media &
+Pilotos SHOW en Trikala (81k~hab.), Herford (67k~hab.)
+y Linköping (160k~hab.)~\parencite{SHOW2024Legacy,
+URBACTNight2024} \\
+\addlinespace
+
+El modelo reduce la dependencia del vehículo privado
+en el corredor \acs{CHUF}--Ferrol &
+Undetermined & Baja &
+Afirmación prospectiva; no existe dato operativo local.
+La reducción depende de la tasa de adopción real del
+servicio, fuera del alcance de este trabajo \\
+
+\bottomrule
+\end{tabularx}
+\end{table}
+
+Las afirmaciones en estado Undetermined o con nivel Baja
+no invalidan la propuesta: delimitan con precisión el alcance
+del trabajo. Este proyecto formula un modelo de servicio
+justificado desde la evidencia disponible a 2026; su validación
+operativa requiere un piloto en el corredor real.
 
 \subsection{Valor diferencial del concepto}
 \label{sec:valor-diferencial}
-\begin{pendiente}
-\end{pendiente}
+
+El valor diferencial evalúa el posicionamiento estratégico del
+servicio frente a las alternativas existentes en el corredor,
+no su viabilidad técnica (resuelta en la matriz de evidencia)
+ni sus riesgos operativos (recogidos en el \acs{DAFO}).
+
+\subsubsection{Adecuación a los perfiles de usuario}
+
+El servicio está diseñado para un segmento específico y
+cuantificado: enfermeras y~\acs{TCAE} de turno nocturno fijo
+(22:00--08:00), que representan el 77,9\,\% de la muestra y el
+perfil de mayor concentración numérica en el
+\acs{CHUF}~\parencite{LouridoRegueira2026}. Ninguna de las
+alternativas actuales (autobús urbano, taxi, vehículo propio)
+está diseñada para este perfil: el autobús no opera en la
+franja; el taxi no es asequible a escala mensual; el vehículo
+propio impone la carga de conducción que el servicio elimina.
+El encaje no es parcial: el servicio resuelve los tres
+principales problemas declarados por la muestra de forma
+simultánea (fatiga al volante, aparcamiento y ausencia de
+\acs{TP})~\parencite{LouridoRegueira2026}.
+
+\subsubsection{Originalidad formal y simbólica}
+
+El servicio reencuadra el trayecto nocturno: no es tiempo
+muerto de desplazamiento, es tiempo de recuperación entre
+turnos. Este reencuadre no es retórico; está respaldado por
+el diseño del espacio interior (P1--P5, §\ref{sec:espacio-interior})
+y por el modelo de acceso sin fricción cognitiva. La asociación
+institucional con el \acs{SERGAS} o el \acs{CHUF} como socio
+operativo da al servicio una identidad reconocible y
+diferenciada del ride-hailing genérico: es un beneficio laboral,
+no un sustituto del taxi.
+
+\subsubsection{Claridad estratégica}
+
+El canal de implantación es doble: acuerdo institucional
+\acs{SERGAS}/\acs{CHUF} para la gobernanza operativa y
+suscripción mensual individual para el acceso del usuario.
+Este canal evita la dependencia de una sola parte y distribuye
+la financiación entre institución y usuario. El servicio no
+compite con el transporte público urbano porque ese transporte
+no existe en la franja nocturna del corredor; compite con el
+vehículo privado y el taxi, alternativas frente a las que
+la ecuación de valor del servicio es favorable tanto en coste
+como en seguridad percibida~\parencite{PlyushetvaBoussauw2020}.
+
+\subsubsection{Proyección comercial}
+
+La sostenibilidad económica del servicio descansa sobre tres
+palancas complementarias: la suscripción mensual del usuario
+(coste comparable al aparcamiento hospitalario de pago,
+estimado en~80~€/mes~\parencite{LouridoRegueira2026}); la
+cofinanciación institucional del \acs{SERGAS} en el marco de
+las Obligaciones de Servicio Público~(\acs{OSP})
+\parencite{UITP2024}; y la reducción estructural de costes
+operativos a largo plazo derivada de la eliminación del
+conductor en la solución \acs{SAE}~L4. La replicabilidad del
+modelo a ciudades europeas de 50.000--150.000 hab. con
+hospital periférico amplía el mercado potencial más allá
+del caso Ferrol~\parencite{URBACTNight2024}.
+
+\subsubsection{Encaje con las tendencias del sector}
+
+El servicio se alinea con cuatro tendencias documentadas en
+el análisis \acs{PESTEL} (§\ref{sec:pestel}): la agenda de
+movilidad sostenible de la Comisión Europea~(Green Deal,
+\acs{SUMP})~\parencite{CE_Movilidad2020}; la maduración
+regulatoria del vehículo autónomo en la~\acs{UE}
+(Reglamento~2026/481)~\parencite{RegUE20262026481}; la
+visibilización de la movilidad nocturna como objeto de
+política pública municipal~\parencite{URBACTNight2024}; y
+la presión estructural sobre los sistemas sanitarios europeos
+para retener personal nocturno en un contexto de escasez
+de profesionales~\parencite{Eurofound2020Sectors}.
 
 \subsection{Viabilidad y riesgos}
 \label{sec:viabilidad}
