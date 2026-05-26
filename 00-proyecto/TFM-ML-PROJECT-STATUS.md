@@ -1,6 +1,6 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 26/05/2026 (Registro de figuras externas FIG-EXT-015 a FIG-EXT-031 mediante skill /foto)*
+*Última actualización: 26/05/2026 (Registro de figuras externas FIG-EXT-015 a FIG-EXT-039 y reordenación de Waymo)*
 
 
 ---
@@ -40,7 +40,7 @@
 ## REGISTRO DE FIGURAS EXTERNAS
 - Archivo: `02-memoria/TFM-ML-figuras-externas.tex`
 - Habilidad: Implementado skill `/foto` en `.agents/skills/foto/SKILL.md` para automatizar procedencia en APA 7.
-- Figuras registradas: **31 figuras** (`FIG-07-03` - Ambulancia nocturna exterior, `FIG-EXT-002` a `FIG-EXT-014` - Diversas figuras externas previas y vehículo autónomo Waymo, y `FIG-EXT-015` a `FIG-EXT-031` - 17 nuevas imágenes externas de Unsplash registradas académicamente en APA 7 en esta sesión).
+- Figuras registradas: **39 figuras** (`FIG-EXT-002` a `FIG-EXT-039` de Unsplash y Pipedrive en APA 7).
 
 
 ---
