@@ -1,6 +1,6 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 26/05/2026 (Implementación de registro de figuras externas /foto e integración de FIG-07-03)*
+*Última actualización: 26/05/2026 (Registro de figuras externas FIG-EXT-002, FIG-EXT-003, FIG-EXT-004 y FIG-EXT-005)*
 
 
 ---
@@ -20,7 +20,7 @@
 | 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado | Primera redacción completa (Contexto europeo, estado AV L4, PESTEL, caso Ferrol y Stakeholders). **Evidencia de brecha estructural integrada** (entrevista de mayo de 2026). |
 | 03 | TFM-ML-cap03-investigacion-usuario.tex | ✅ Redactado | Ficha técnica, metodología, cuantitativo, cualitativo y género listos. **Integración cualitativa y Mapa de empatía** finalizados a partir de datos empíricos primarios. |
 | 04 | TFM-ML-cap04-mercado-tendencias.tex | ✅ Redactado | Redacción académica al 100% (Benchmarking de pilotos y Análisis de Tendencias PEST completo sin comentarios). |
-| 05 | TFM-ML-cap05-insights.tex | ✅ Redactado | Redacción completada al 100%. Contiene los 5 insights de diseño estructurados con tensión, dato, observación y criterios. |
+| 05 | TFM-ML-cap05-insights.tex | ✅ Redactado | Redacción completada al 100%. Contiene los 5 insights de diseño structured con tensión, dato, observación y criterios. |
 | 06 | TFM-ML-cap06-estrategias-diseno.tex | ✅ Redactado | QFD, MoSCoW, Valores y **Grado de innovación del servicio** redactados en su totalidad. |
 | 07 | TFM-ML-cap07-adn-concepto.tex | ✅ Redactado | Primera redacción completa al 100% de la propuesta de servicio (Evaluación tecnológica, Arquitectura, Blueprint, Journey Map, Touchpoints, Espacio interior y Modelo de negocio). |
 | 08 | TFM-ML-cap08-evaluacion.tex | ✅ Redactado | Pliego de condiciones, DAFO, Matriz de afirmaciones-evidencia, Valor diferencial y Viabilidad/costes completados. |
@@ -38,8 +38,8 @@
 
 ## REGISTRO DE FIGURAS EXTERNAS
 - Archivo: `02-memoria/TFM-ML-figuras-externas.tex`
-- Habilidad: Implementado skill `/foto` en `00-proyecto/SKILL-foto-antigravity.md` para automatizar procedencia en APA 7.
-- Figuras registradas: **1 figura** (`FIG-07-03` - Ambulancia nocturna exterior por Mathurin Napoly, Unsplash, 2022).
+- Habilidad: Implementado skill `/foto` en `.agents/skills/foto/SKILL.md` para automatizar procedencia en APA 7.
+- Figuras registradas: **5 figuras** (`FIG-07-03` - Ambulancia nocturna exterior, `FIG-EXT-002` - Calle con tráfico de noche, `FIG-EXT-003` - Playa y cuerpo de agua, `FIG-EXT-004` - Banderas ondeando al aire, `FIG-EXT-005` - Persona trabajando en papel azul/blanco).
 
 ---
 
