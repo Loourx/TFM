@@ -1,6 +1,6 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 26/05/2026 (Registro de figura externa FIG-EXT-014)*
+*Última actualización: 26/05/2026 (Refactorización del análisis PESTEL en Cap 2 y actualización de referencias .bib)*
 
 
 ---
@@ -17,7 +17,7 @@
 | Cap | Archivo | Estado Real | Detalles de Contenido |
 |-----|---------|-------------|-----------------------|
 | 01 | TFM-ML-cap01-introduccion.tex | ✅ Redactado | Primera redacción completa (Intro, estructura y marco). Pendiente revisión de directores. |
-| 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado | Primera redacción completa (Contexto europeo, estado AV L4, PESTEL, caso Ferrol y Stakeholders). **Evidencia de brecha estructural integrada** (entrevista de mayo de 2026). |
+| 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado | Primera redacción completa (Contexto europeo, estado AV L4, PESTEL, caso Ferrol y Stakeholders). **Análisis PESTEL completamente refactorizado** de forma neutral (4 familias tecnológicas, Directiva 2019/1161, TEN-T 2024, GDPR, OSP 1370/2007, costes de conducción y fatiga de turno). |
 | 03 | TFM-ML-cap03-investigacion-usuario.tex | ✅ Redactado | Ficha técnica, metodología, cuantitativo, cualitativo y género listos. **Integración cualitativa y Mapa de empatía** finalizados a partir de datos empíricos primarios. |
 | 04 | TFM-ML-cap04-mercado-tendencias.tex | ✅ Redactado | Redacción académica al 100% (Benchmarking de pilotos y Análisis de Tendencias PEST completo sin comentarios). |
 | 05 | TFM-ML-cap05-insights.tex | ✅ Redactado | Redacción completada al 100%. Contiene los 5 insights de diseño structured con tensión, dato, observación y criterios. |
@@ -31,8 +31,9 @@
 
 ## BIBLIOGRAFÍA
 - Archivo: `01-bibliografia/TFM-ML-referencias.bib`
-- Entradas totales: **64 claves**
-- Incorporaciones cualitativas: Integración de citas directas de la entrevista semiestructurada (Participante 1, mayo de 2026), registradas de forma no bibliográfica como cita cualitativa según directrices académicas (Anexo A). Nuevas referencias incorporadas para Eurofound (2020) y SERGAS Ferrol (2025).
+- Entradas totales: **67 claves**
+- Incorporaciones cualitativas: Integración de citas directas de la entrevista de mayo de 2026. **Añadidas 3 referencias normativas europeas clave** para el PESTEL: GDPR (2016/679), Reglamento TEN-T (2024/1679) y Directiva de Vehículos Limpios (2019/1161).
+
 
 ---
 
