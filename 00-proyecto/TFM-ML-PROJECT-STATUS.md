@@ -1,6 +1,6 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 26/05/2026 (Registro de figuras externas FIG-EXT-006 a FIG-EXT-013)*
+*Última actualización: 26/05/2026 (Registro de figura externa FIG-EXT-014)*
 
 
 ---
@@ -39,7 +39,7 @@
 ## REGISTRO DE FIGURAS EXTERNAS
 - Archivo: `02-memoria/TFM-ML-figuras-externas.tex`
 - Habilidad: Implementado skill `/foto` en `.agents/skills/foto/SKILL.md` para automatizar procedencia en APA 7.
-- Figuras registradas: **13 figuras** (`FIG-07-03` - Ambulancia nocturna exterior, `FIG-EXT-002` - Calle con tráfico de noche, `FIG-EXT-003` - Playa y cuerpo de agua, `FIG-EXT-004` - Banderas ondeando al aire, `FIG-EXT-005` - Persona trabajando en papel azul/blanco, `FIG-EXT-006` a `FIG-EXT-013` - Diversas figuras externas asociadas a autobuses, noche y taxi).
+- Figuras registradas: **14 figuras** (`FIG-07-03` - Ambulancia nocturna exterior, `FIG-EXT-002` - Calle con tráfico de noche, `FIG-EXT-003` - Playa y cuerpo de agua, `FIG-EXT-004` - Banderas ondeando al aire, `FIG-EXT-005` - Persona trabajando en papel azul/blanco, `FIG-EXT-006` a `FIG-EXT-013` - Diversas figuras externas asociadas a autobuses, noche y taxi, y `FIG-EXT-014` - Vehículo autónomo de Waymo).
 
 ---
 
