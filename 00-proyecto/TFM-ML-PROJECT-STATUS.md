@@ -1,6 +1,7 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 25/05/2026 (Redacción y consolidación total de Cap 3, 6, 7 y 8)*
+*Última actualización: 26/05/2026 (Estandarización de acrónimos en glosario y reescritura estructural de Cap 03)*
+
 
 ---
 
@@ -52,4 +53,4 @@
 
 ## ADVERTENCIAS ABIERTAS
 - Únicamente el claim local `F06` permanece bloqueado por falta de datos oficiales del SERGAS.
-- Los capítulos 7, 9 y 10 constan únicamente de esqueletos estructurados con entornos `pendiente`.
+- Los capítulos 9 y 10 constan únicamente de esqueletos estructurados con entornos `pendiente`.
