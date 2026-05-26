@@ -83,6 +83,14 @@
 
 \newcommand{\fuentependiente}[1]{\textcolor{red}{[FUENTE PENDIENTE: #1]}}
 
+\newenvironment{registrofiguras}{}{}
+\newcommand{\registrofigura}[4]{%
+  \noindent\textbf{#1} — #2\\[2pt]
+  \noindent\textit{Nota bajo figura:} #3\\[4pt]
+  \noindent\textit{Referencia final:} #4%
+  \bigskip\par
+}
+
 % --- CONFIGURACIÓN ---
 \geometry{left=3cm,right=2.5cm,top=3cm,bottom=3cm}
 \onehalfspacing
@@ -239,6 +247,6 @@ Movilidad Nocturna para Personal Sanitario · CHUF--Ferrol}
 \section*{Anexo D: Registro de horas del proyecto}
 \begin{pendiente}
 \end{pendiente}
-
+\input{TFM-ML-figuras-externas}
 
 \end{document}

@@ -1,12 +1,12 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 26/05/2026 (Estandarización de acrónimos en glosario y reescritura estructural de Cap 03)*
+*Última actualización: 26/05/2026 (Implementación de registro de figuras externas /foto e integración de FIG-07-03)*
 
 
 ---
 
 ## COMPILACIÓN
-- Estado: ✅ PDF limpio y consolidado — 25/05/2026
+- Estado: ✅ PDF limpio y consolidado con registro de figuras externas — 26/05/2026
 - Warnings activos: `undefined references` en referencias cruzadas entre capítulos en desarrollo (esperado)
 - Comando: `powershell -ExecutionPolicy Bypass -File .\compile.ps1` desde la raíz
 
@@ -36,6 +36,13 @@
 
 ---
 
+## REGISTRO DE FIGURAS EXTERNAS
+- Archivo: `02-memoria/TFM-ML-figuras-externas.tex`
+- Habilidad: Implementado skill `/foto` en `00-proyecto/SKILL-foto-antigravity.md` para automatizar procedencia en APA 7.
+- Figuras registradas: **1 figura** (`FIG-07-03` - Ambulancia nocturna exterior por Mathurin Napoly, Unsplash, 2022).
+
+---
+
 ## AUDITORÍA DE CLAIMS (v5.0)
 - Total: **46 claims**
 - Supported: **35** | Media: **2** | Pendientes: **9** (6 Ferrol verificados + 1 Ferrol bloqueado + 2 abstractos)
@@ -54,3 +61,4 @@
 ## ADVERTENCIAS ABIERTAS
 - Únicamente el claim local `F06` permanece bloqueado por falta de datos oficiales del SERGAS.
 - Los capítulos 9 y 10 constan únicamente de esqueletos estructurados con entornos `pendiente`.
+
