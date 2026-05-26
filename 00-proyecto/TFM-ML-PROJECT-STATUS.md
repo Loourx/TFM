@@ -1,6 +1,6 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 26/05/2026 (Refactorización del análisis PESTEL en Cap 2 y actualización de referencias .bib)*
+*Última actualización: 26/05/2026 (Registro de figuras externas FIG-EXT-015 a FIG-EXT-031 mediante skill /foto)*
 
 
 ---
@@ -40,7 +40,8 @@
 ## REGISTRO DE FIGURAS EXTERNAS
 - Archivo: `02-memoria/TFM-ML-figuras-externas.tex`
 - Habilidad: Implementado skill `/foto` en `.agents/skills/foto/SKILL.md` para automatizar procedencia en APA 7.
-- Figuras registradas: **14 figuras** (`FIG-07-03` - Ambulancia nocturna exterior, `FIG-EXT-002` - Calle con tráfico de noche, `FIG-EXT-003` - Playa y cuerpo de agua, `FIG-EXT-004` - Banderas ondeando al aire, `FIG-EXT-005` - Persona trabajando en papel azul/blanco, `FIG-EXT-006` a `FIG-EXT-013` - Diversas figuras externas asociadas a autobuses, noche y taxi, y `FIG-EXT-014` - Vehículo autónomo de Waymo).
+- Figuras registradas: **31 figuras** (`FIG-07-03` - Ambulancia nocturna exterior, `FIG-EXT-002` a `FIG-EXT-014` - Diversas figuras externas previas y vehículo autónomo Waymo, y `FIG-EXT-015` a `FIG-EXT-031` - 17 nuevas imágenes externas de Unsplash registradas académicamente en APA 7 en esta sesión).
+
 
 ---
 
