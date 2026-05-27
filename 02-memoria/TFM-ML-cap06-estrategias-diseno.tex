@@ -2,6 +2,86 @@
 \section{Criterios de diseño del servicio}\label{sec:estrategias}\label{cap:criterios}
 
 
+\subsection{Mapa de stakeholders}
+\label{sec:stakeholders}
+
+Antes de formular los requisitos del servicio, es necesario identificar
+a los actores con capacidad de influir en su viabilidad o de verse
+afectados por su operación. El mapa de stakeholders construido mediante
+la matriz Poder--Interés \parencite{Mendelow1991} integra tanto los
+actores institucionales identificados en el análisis contextual como los
+actores de usuario perfilados en la investigación primaria.
+La figura~\ref{fig:stakeholder-map} muestra la distribución resultante.
+
+\begin{figure}[htbp]
+  \centering
+  \fbox{\rule{0pt}{8cm}\rule{0.95\textwidth}{0pt}}
+  % Sustituir por:
+  % \includegraphics[width=\textwidth]{../03-graficas/TFM-ML-GFX-stakeholders.pdf}
+  \caption{Mapa de stakeholders del servicio de movilidad nocturna
+    CHUF--Ferrol. Matriz Poder--Interés. Elaboración propia.}
+  \label{fig:stakeholder-map}
+\end{figure}
+
+\subsubsection{Gestionar minuciosamente (alto poder -- alto interés)}
+
+Los actores de este cuadrante tienen la capacidad de bloquear o
+habilitar el servicio y un interés directo en su resultado. La
+\textbf{Xunta de Galicia / SERGAS} es el actor de mayor peso: gestiona
+el CHUF, define los convenios de turnicidad del personal sanitario
+\parencite{XuntaGalicia2025dog} y concentra la autoridad sobre la oferta
+de transporte sanitario institucional. El \textbf{Concello de Ferrol}
+ostenta la competencia sobre el transporte urbano y la planificación del
+espacio viario; sin su habilitación, ningún nodo de embarque puede
+activarse en suelo municipal. La \textbf{Comisión Europea} actúa como
+habilitador regulatorio y financiero: define la política europea de
+movilidad sostenible mediante la Estrategia de Movilidad Sostenible e
+Inteligente \parencite{CE_Movilidad2020}, financia proyectos de
+innovación en transporte urbano a través de Horizon Europe y los fondos
+de cohesión territorial, y establece el marco de los Planes de Movilidad
+Urbana Sostenible~(SUMP) que condiciona el acceso a financiación
+estructural para ciudades de tamaño medio como
+Ferrol~\parencite{URBACTNight2024}. La \textbf{Dirección General de
+Tráfico} define el marco normativo estatal para la autorización de nuevos
+modos de transporte en vía pública y tiene capacidad de habilitación o
+bloqueo regulatorio \parencite{DGTESAV2026}.
+
+\subsubsection{Tener satisfechos (alto poder -- bajo interés)}
+
+Los operadores de transporte existentes en el corredor ---Tranvías de
+Ferrol, Monbus y Renfe Cercanías C-1--- poseen concesiones vigentes y
+capacidad de influencia sobre la introducción de nuevos operadores, pero
+su interés en la franja nocturna es bajo: ninguno opera en ella de forma
+regular \parencite{Alsaferrol2024horarios,RenfeCercaniasFerrol2026}. El
+\textbf{Ministerio de Transportes y Movilidad Sostenible} es relevante
+en términos de regulación y cofinanciación, aunque su implicación directa
+en servicios de escala local es limitada.
+
+\subsubsection{Mantener informados (bajo poder -- alto interés)}
+
+El \textbf{personal sanitario del CHUF} ---perfil primario de diseño---
+concentra el interés más alto de todos los actores identificados: son los
+usuarios del servicio y los beneficiarios directos de su operación.
+Como colectivo disperso, sin embargo, su poder institucional individual
+es bajo; su capacidad de presión se canaliza a través de los
+\textbf{sindicatos sanitarios} (SATSE, CESM, CIG-Saúde), que actúan como
+portavoces organizados de sus condiciones laborales y de movilidad. Las
+\textbf{asociaciones de vecinos} de los principales municipios de
+residencia de los trabajadores (Narón, Fene, As Pías, Caranza)
+\parencite{LouridoRegueira2026} completan este cuadrante: conocen el
+problema desde la experiencia cotidiana pero carecen de capacidad
+ejecutiva directa sobre el servicio.
+
+\subsubsection{Monitorizar (bajo poder -- bajo interés)}
+
+Los \textbf{proveedores de tecnologías de movilidad} tienen un interés
+potencial en la fase de implementación del servicio, pero en el horizonte
+actual de diseño conceptual su influencia es mínima. La
+\textbf{ciudadanía general de Ferrol} y los \textbf{medios de
+comunicación locales} se ubican en este cuadrante como actores de bajo
+poder directo pero relevantes para la aceptación social del servicio en
+fase de despliegue.
+
 \subsection{Requisitos del servicio (QFD)}\label{sec:qfd}
 
 El Despliegue de la Función de Calidad (\textit{Quality Function Deployment},
