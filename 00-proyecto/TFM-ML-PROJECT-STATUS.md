@@ -1,6 +1,6 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 26/05/2026 (Registro de figuras externas FIG-EXT-015 a FIG-EXT-039 y reordenación de Waymo)*
+*Última actualización: 27/05/2026 (Migración de Stakeholders a Cap 06, purga de 10 párrafos de tendencias en Cap 04 e integración de la entrevista semiestructurada en Cap 05 y Cap 07)*
 
 
 ---
@@ -17,12 +17,12 @@
 | Cap | Archivo | Estado Real | Detalles de Contenido |
 |-----|---------|-------------|-----------------------|
 | 01 | TFM-ML-cap01-introduccion.tex | ✅ Redactado | Primera redacción completa (Intro, estructura y marco). Pendiente revisión de directores. |
-| 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado | Primera redacción completa (Contexto europeo, estado AV L4, PESTEL, caso Ferrol y Stakeholders). **Análisis PESTEL completamente refactorizado** de forma neutral (4 familias tecnológicas, Directiva 2019/1161, TEN-T 2024, GDPR, OSP 1370/2007, costes de conducción y fatiga de turno). |
+| 02 | TFM-ML-cap02-marco-contextual.tex | ✅ Redactado | Primera redacción completa (Contexto europeo, estado AV L4, PESTEL, caso Ferrol). Se han sustituido citas de la encuesta primaria por literatura sobre fatiga de turno y se ha migrado el Mapa de Stakeholders al Cap 06. |
 | 03 | TFM-ML-cap03-investigacion-usuario.tex | ✅ Redactado | Ficha técnica, metodología, cuantitativo, cualitativo y género listos. **Integración cualitativa y Mapa de empatía** finalizados a partir de datos empíricos primarios. |
-| 04 | TFM-ML-cap04-mercado-tendencias.tex | ✅ Redactado | Redacción académica al 100% (Benchmarking de pilotos y Análisis de Tendencias PEST completo sin comentarios). |
-| 05 | TFM-ML-cap05-insights.tex | ✅ Redactado | Redacción completada al 100%. Contiene los 5 insights de diseño structured con tensión, dato, observación y criterios. |
-| 06 | TFM-ML-cap06-estrategias-diseno.tex | ✅ Redactado | QFD, MoSCoW, Valores y **Grado de innovación del servicio** redactados en su totalidad. |
-| 07 | TFM-ML-cap07-adn-concepto.tex | ✅ Redactado | Primera redacción completa al 100% de la propuesta de servicio (Evaluación tecnológica, Arquitectura, Blueprint, Journey Map, Touchpoints, Espacio interior y Modelo de negocio). |
+| 04 | TFM-ML-cap04-mercado-tendencias.tex | ✅ Redactado | Redacción académica al 100%. Purgados 10 párrafos subjetivos/interpretativos sin cita de las subsecciones de tendencias PEST para dejar solo un análisis empírico limpio. |
+| 05 | TFM-ML-cap05-insights.tex | ✅ Redactado | Redacción completada al 100%. Los Insights 1, 3, 4 y 5 se han enriquecido integrando la evidencia cualitativa de la entrevista semiestructurada (umbral de 15m, variabilidad real de salida, seguridad en parada y demanda de conductores). |
+| 06 | TFM-ML-cap06-estrategias-diseno.tex | ✅ Redactado | QFD, MoSCoW, Valores y **Grado de innovación del servicio** redactados. Incorpora el **Mapa de Stakeholders** migrado desde el Cap 02 antes del QFD. |
+| 07 | TFM-ML-cap07-adn-concepto.tex | ✅ Redactado | Primera redacción completa al 100% de la propuesta de servicio. Se ha integrado el respaldo cualitativo de la entrevista sobre gobernanza hospitalaria en §7.1. |
 | 08 | TFM-ML-cap08-evaluacion.tex | ✅ Redactado | Pliego de condiciones, DAFO, Matriz de afirmaciones-evidencia, Valor diferencial y Viabilidad/costes completados. |
 | 09 | TFM-ML-cap09-conclusiones.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente` (Hallazgos, contribución, limitaciones, líneas futuras). |
 | 10 | TFM-ML-cap10-presupuesto.tex | 🔴 Pendiente (Esqueleto) | Estructura de secciones definida con bloques `pendiente`. |
