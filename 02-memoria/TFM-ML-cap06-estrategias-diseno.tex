@@ -102,10 +102,11 @@ un objetivo de mejora medible.
 
 Los requerimientos del cliente se ponderan en función de la frecuencia e
 intensidad de los problemas registrados en la encuesta. Los cinco con
-mayor peso relativo (8,3\,\% cada uno) son: la regularidad confiable,
-el uso sin reserva previa, la cobertura desde el municipio de origen,
-la viabilidad económica del desplazamiento y el tiempo de descanso real
-tras el turno \parencite{LouridoRegueira2026}.
+mayor peso relativo (8,3\,\% cada uno) son: la seguridad física en el
+trayecto, la viabilidad económica del desplazamiento, la seguridad percibida
+para usuarias que viajan solas en franja nocturna, la cobertura interurbana
+desde el municipio de origen y el acceso desde la zona de residencia mediante
+nodo de intercambio \parencite{LouridoRegueira2026}.
 
 La evaluación competitiva compara el servicio propuesto frente a cuatro
 operadores de referencia en el corredor: Tranvías de Ferrol, Monbus,
@@ -118,33 +119,37 @@ propuesto en una posición diferencial sin competidor directo
 \label{sec:qfd-resultados}
 
 El análisis de la importancia técnica relativa identifica cuatro
-requerimientos funcionales con mayor capacidad de satisfacción agregada,
-todos ellos con puntuación máxima de 5,0 o próxima a ella.
+requerimientos funcionales con mayor capacidad de satisfacción agregada.
 
-En primer lugar, la \textbf{disponibilidad de espacio de espera cubierto
-e iluminado} en los nodos P+R (objetivo: 100\,\% de paradas con cubierta
-e iluminación nocturna) obtiene la mayor puntuación técnica, con incidencia
-directa en los requerimientos de seguridad percibida y espacio de espera
-digno. Este resultado refuerza el criterio derivado del Insight~5: la
-percepción de seguridad en franja nocturna no puede delegarse en el
-vehículo si el espacio de espera previo es inseguro.
+En primer lugar, el \textbf{acceso sin reserva previa} mediante horario
+fijo (objetivo: 0\,\% de trayectos que requieran gestión anticipada)
+obtiene la puntuación técnica más alta de la matriz (5,0), con incidencia
+directa sobre los requerimientos de flexibilidad y uso espontáneo del
+servicio. Un sistema que exija reserva impone una barrera de acceso
+incompatible con la variabilidad de los turnos sanitarios. Trazable a
+Insight~4.
 
-En segundo lugar, la \textbf{información en tiempo real del vehículo}
+En segundo lugar, la \textbf{capacidad garantizada sin sobreocupación}
+(objetivo: 0\,\% de usuarios sin plaza en la franja crítica post-turno)
+comparte la segunda posición técnica (4,6) con el recorrido directo.
+Es el parámetro determinante para la regularidad percibida: si el usuario
+no puede confiar en obtener plaza, mantiene el vehículo propio como
+alternativa de seguridad, lo que anula el efecto sustitución del servicio.
+Trazable a Insight~1.
+
+En tercer lugar, la \textbf{información en tiempo real del vehículo}
 (objetivo: actualización de posición cada 30\,segundos o menos) resuelve
 de forma transversal los requerimientos de previsibilidad y reducción de
-la incertidumbre en la espera nocturna. Trazable a Insight~3.
+la incertidumbre durante la espera nocturna (4,2). Trazable a Insight~3.
 
-En tercer lugar, la \textbf{capacidad garantizada sin sobreocupación}
-(objetivo: 0\,\% de usuarios sin plaza en la franja crítica post-turno)
-es el parámetro determinante para la regularidad percibida. Un servicio
-con plazas no garantizadas no puede resolver el patrón documentado en
-el Insight~1. Trazable a Insight~1.
-
-Finalmente, el \textbf{interior confortable para el trayecto post-turno}
-(objetivo: satisfacción igual o superior a 4 sobre 5 en encuesta de
-usuario) responde directamente a la necesidad de descanso activo durante
-el desplazamiento, identificada como componente del riesgo de fatiga
-\parencite{LouridoRegueira2026}.
+Adicionalmente, la \textbf{disponibilidad de espacio de espera cubierto
+e iluminado} en los nodos P+R (objetivo: 100\,\% de paradas con cubierta
+e iluminación nocturna) presenta una importancia técnica agregada de 3,1,
+por debajo de los tres anteriores, pero constituye el criterio de diseño
+con mayor incidencia específica sobre los requerimientos de seguridad
+percibida para usuarias que viajan solas. La percepción de seguridad en
+franja nocturna no puede delegarse únicamente al vehículo si el espacio
+de espera previo es inseguro. Trazable a Insight~5.
 
 \begin{figure}[htbp]
 	\centering
