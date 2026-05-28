@@ -1,6 +1,6 @@
 # TFM-ML — PROJECT STATUS
 *Pegar al inicio de cada sesión Claude. Actualizar al cerrar.*
-*Última actualización: 27/05/2026 (Registro de figuras externas FIG-EXT-049 y FIG-EXT-050 de Unsplash)*
+*Última actualización: 28/05/2026 (Registro de figuras FIG-EXT-051 a FIG-EXT-065 y actualización de QFD en Cap 06)*
 
 
 ---
@@ -40,7 +40,7 @@
 ## REGISTRO DE FIGURAS EXTERNAS
 - Archivo: `02-memoria/TFM-ML-figuras-externas.tex`
 - Habilidad: Implementado skill `/foto` en `.agents/skills/foto/SKILL.md` para automatizar procedencia en APA 7.
-- Figuras registradas: **50 figuras** (`FIG-EXT-002` a `FIG-EXT-050` de Unsplash, Pixabay y Pipedrive en APA 7).
+- Figuras registradas: **65 figuras** (`FIG-EXT-002` a `FIG-EXT-065` de Unsplash, Pixabay y Pipedrive en APA 7).
 
 
 ---
